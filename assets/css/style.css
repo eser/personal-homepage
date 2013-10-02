@@ -1,0 +1,79 @@
+html, body, #page {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+#page {
+    margin-top: 50px;
+}
+
+#splash {
+    overflow: hidden;
+    height: auto;
+    background-image: url('../images/background.png');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+
+.custom-jumbotron {
+    margin-top: 30px;
+    background-color: rgba(238, 238, 238, 0.4)
+}
+
+.custom-navbar-brand  {
+    padding-right: 20px;
+}
+
+.custom-input-search-button {
+    border-left: 0px;
+}
+
+.custom-navbar {
+  text-shadow: 0 -1px 0 rgba(0,0,0,.15);
+  background-color: #3D4F7C;
+  border-color: #463265;
+  box-shadow: 0 1px 0 rgba(255,255,255,.1);
+}
+
+.custom-navbar .navbar-collapse {
+  border-color: #463265;
+}
+
+.custom-navbar .navbar-brand {
+  color: #fff;
+}
+
+.custom-navbar .navbar-nav > li > a {
+  color: #BFC6E3;
+}
+.custom-navbar .navbar-nav > li > a:hover {
+  color: #FFFFFF;
+}
+
+.custom-navbar .navbar-nav > .active > a,
+.custom-navbar .navbar-nav > .active > a:hover {
+  color: #FFFFFF;
+  background-color: #323665;
+}
+
+.custom-navbar .navbar-nav > .open > a,
+.custom-navbar .navbar-nav > .open > a:hover {
+  color: #FFFFFF;
+  background: none !important;
+}
+
+.custom-navbar .navbar-toggle {
+  border-color: #563d7c;
+}
+
+.custom-navbar .navbar-toggle:hover {
+  background-color: #463265;
+  border-color: #463265;
+}
