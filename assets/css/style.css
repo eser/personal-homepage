@@ -77,3 +77,36 @@ body {
   background-color: #463265;
   border-color: #463265;
 }
+
+.xrow, .xtext {
+    font-size: 14pt;
+    font-family: 'Georgia', times;
+    line-height: 24pt;
+    color: #808080;
+}
+
+.xrow strong, .xtext strong {
+    font-weight: normal;
+    color: #000000;
+}
+
+.xrow {
+    border-bottom: 1px solid #C0C0C0;
+}
+
+.xrow:last-child {
+    border-bottom: 0px;
+}
+
+.xrow .xlabel {
+    text-transform: uppercase;
+    /* font-weight: bold; */
+}
+
+.xrow .xvalue {
+    font-weight: normal;
+}
+
+.vertical-space {
+    margin-bottom: 60px;
+}
