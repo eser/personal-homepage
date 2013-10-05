@@ -11,6 +11,7 @@
 
     <link href="assets/favicon.ico" rel="icon" type="image/x-icon" />
     <link href="assets/css/bootstrap.min.css" rel="stylesheet" media="screen" />
+    <link href="assets/css/fonts.css" rel="stylesheet" media="screen" />
     <link href="assets/css/style.css" rel="stylesheet" media="screen" />
 </head>
 <body>
@@ -42,17 +43,18 @@
                             <li><a href="#about-interests">Interests</a></li>
                         </ul>
                     </li>
+                    <li><a href="#portfolio">Portfolio</a></li>
                     <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Portfolio <b class="caret"></b></a>
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Social Media <b class="caret"></b></a>
                         <ul class="dropdown-menu">
-                            <li><a href="#portfolio-socialmedia">Social Media Profiles</a></li>
-                            <li><a href="#portfolio-projects">Projects</a></li>
+                            <li><a href="#socialmedia-blogposts">Blog Posts</a></li>
+                            <li><a href="#socialmedia-tweets">Latest Tweets</a></li>
                         </ul>
                     </li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
                 
-                <div class="col-sm-3 col-md-3 navbar-right">
+                <div class="col-xs-3 navbar-right">
                     <form id="search-form" action="#" method="GET" class="navbar-form" role="search">
                         <div class="input-group">
                             <input type="text" class="form-control" placeholder="Search" />
@@ -87,12 +89,12 @@
             <div class="container">
                 <div id="about-general" class="row">
                     <div class="col-xs-12">
-                        <h2>General</h2>
+                        <h2 class="xheader">General</h2>
 
                         <!-- General/Personal -->
                         <div class="row vertical-space">
                             <div class="col-xs-2">
-                                <h4><strong><a id="about-general-personal" href="#about-general-personal">Personal</a></strong></h4>
+                                <h4 class="xtitle"><a id="about-general-personal" href="#about-general-personal">Personal</a></h4>
                             </div>
                             <div class="col-xs-10">
                                 <div class="row xrow">
@@ -117,7 +119,7 @@
                         <!-- General/Profiles -->
                         <div class="row vertical-space">
                             <div class="col-xs-2">
-                                <h4><strong><a id="about-general-profiles" href="#about-general-profiles">Profiles</a></strong></h4>
+                                <h4 class="xtitle"><a id="about-general-profiles" href="#about-general-profiles">Profiles</a></h4>
                             </div>
                             <div class="col-xs-10">
                                 <div class="row xrow">
@@ -142,7 +144,7 @@
                         <!-- General/Skills -->
                         <div class="row vertical-space">
                             <div class="col-xs-2">
-                                <h4><strong><a id="about-general-skills" href="#about-general-skills">Skills</a></strong></h4>
+                                <h4 class="xtitle"><a id="about-general-skills" href="#about-general-skills">Skills</a></h4>
                             </div>
                             <div class="col-xs-10 xtext">
                                 Development Team Leadership, Project Process Management, Research
@@ -152,7 +154,7 @@
                         <!-- General/Knowledge -->
                         <div class="row vertical-space">
                             <div class="col-xs-2">
-                                <h4><strong><a id="about-general-knowledge" href="#about-general-knowledge">Knowledge</a></strong></h4>
+                                <h4 class="xtitle"><a id="about-general-knowledge" href="#about-general-knowledge">Knowledge</a></h4>
                             </div>
                             <div class="col-xs-10 xtext">
                                 Disciplines of Software Engineering,
@@ -169,12 +171,12 @@
 
                 <div id="about-education" class="row">
                     <div class="col-xs-12">
-                        <h2>Education</h2>
+                        <h2 class="xheader">Education</h2>
 
                         <!-- Education/Graduate -->
                         <div class="row vertical-space">
                             <div class="col-xs-2">
-                                <h4><strong><a id="about-education-graduate" href="#about-education-graduate">Graduate</a></strong></h4>
+                                <h4 class="xtitle"><a id="about-education-graduate" href="#about-education-graduate">Graduate</a></h4>
                             </div>
                             <div class="col-xs-10 xtext">
                                 <strong>DOĞU AKDENİZ ÜNIVERSİTESİ FEDU INFORMATION AND COMMUNICATION TECHNOLOGY IN EDUCATION MSC (2013-)</strong><br />
@@ -185,7 +187,7 @@
                         <!-- Education/Undergraduate -->
                         <div class="row vertical-space">
                             <div class="col-xs-2">
-                                <h4><strong><a id="about-education-undergraduate" href="#about-education-undergraduate">Undergraduate</a></strong></h4>
+                                <h4 class="xtitle"><a id="about-education-undergraduate" href="#about-education-undergraduate">Undergraduate</a></h4>
                             </div>
                             <div class="col-xs-10 xtext">
                                 <strong>DOĞU AKDENİZ ÜNIVERSİTESİ SCT INFORMATION TECHNOLOGY BSC (2010 – 2012)</strong><br />
@@ -201,12 +203,12 @@
 
                 <div id="about-workexperience" class="row">
                     <div class="col-xs-12">
-                        <h2>Work Experience</h2>
+                        <h2 class="xheader">Work Experience</h2>
 
                         <!-- Work Experience/Senior -->
                         <div class="row vertical-space">
                             <div class="col-xs-2">
-                                <h4><strong><a id="about-workexperience-senior" href="#about-workexperience-senior">Senior</a></strong></h4>
+                                <h4 class="xtitle"><a id="about-workexperience-senior" href="#about-workexperience-senior">Senior</a></h4>
                             </div>
                             <div class="col-xs-10 xtext">
                                 <strong>GOLDSOFT TRADING (JUNE 2012) – FRAMEWORK DEVELOPER – TEAM LEADER</strong><br />
@@ -220,7 +222,7 @@
                         <!-- Work Experience/Medior -->
                         <div class="row vertical-space">
                             <div class="col-xs-2">
-                                <h4><strong><a id="about-workexperience-medior" href="#about-workexperience-medior">Medior</a></strong></h4>
+                                <h4 class="xtitle"><a id="about-workexperience-medior" href="#about-workexperience-medior">Medior</a></h4>
                             </div>
                             <div class="col-xs-10 xtext">
                                 <strong>DEVBIZ (AUGUST 2006 – JANUARY 2007) – SOFTWARE DESIGN ENGINEER</strong><br />
@@ -238,7 +240,7 @@
 
                 <div id="about-certificates" class="row">
                     <div class="col-xs-12">
-                        <h2>Certificates</h2>
+                        <h2 class="xheader">Certificates</h2>
 
                         <!-- Certificates/Senior -->
                         <div class="row vertical-space">
@@ -268,6 +270,9 @@
         </section>
 
         <section id="portfolio">
+        </section>
+
+        <section id="socialmedia">
         </section>
 
         <section id="contact">

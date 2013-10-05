@@ -24,7 +24,8 @@ body {
 
 .custom-jumbotron {
     margin-top: 30px;
-    background-color: rgba(238, 238, 238, 0.4)
+    background-color: rgba(238, 238, 238, 0.4);
+    border-radius: 0px !important;
 }
 
 .custom-navbar-brand  {
@@ -78,9 +79,17 @@ body {
   border-color: #463265;
 }
 
+.xheader {
+    font-family: 'Lato', 'Helvetica', 'Arial', sans-serif;
+}
+
+.xtitle {
+    font-family: 'Lato', 'Helvetica', 'Arial', sans-serif;
+}
+
 .xrow, .xtext {
     font-size: 14pt;
-    font-family: 'Georgia', times;
+    font-family: 'Tinos', 'Georgia', times;
     line-height: 24pt;
     color: #808080;
 }
