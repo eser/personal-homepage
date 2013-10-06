@@ -56,6 +56,7 @@
                     </ul>
 
                     <div class="col-xs-3 navbar-right">
+                    <!--
                         <form id="search-form" action="#" method="GET" class="navbar-form" role="search">
                             <div class="input-group">
                                 <input type="text" class="form-control" placeholder="Search" />
@@ -64,6 +65,7 @@
                                 </div>
                             </div>
                         </form>
+                    -->
                     </div>
                 </div>
             </nav>
@@ -77,7 +79,7 @@
 
                 <!-- Main component for a primary marketing message or call to action -->
                 <div class="jumbotron custom-jumbotron">
-                    <h1>Eser 'Laroux' Özvataf</h1>
+                    <h1>Eser Özvataf</h1>
                     <p>I'm a software design engineer and an MSc student in ICT who lives in Northern Cyprus. This page helps you to access the content I published on web by categorizing them.</p>
                     <p>
                         <a class="btn btn-lg btn-primary" href="http://eserozvataf.wordpress.com/">Visit my blog &raquo;</a>
@@ -104,16 +106,16 @@
                                     </div>
                                     <div class="col-xs-10">
                                         <div class="row xrow">
+                                            <div class="col-xs-4 xlabel">Work Experience:</div>
+                                            <div class="col-xs-8 xvalue">10 Years</div>
+                                        </div>
+                                        <div class="row xrow">
                                             <div class="col-xs-4 xlabel">Birth Place/Year:</div>
                                             <div class="col-xs-8 xvalue">İzmir, Turkey - 1984</div>
                                         </div>
                                         <div class="row xrow">
                                             <div class="col-xs-4 xlabel">Military:</div>
                                             <div class="col-xs-8 xvalue">Completed – TSK (January 2007 – April 2008)</div>
-                                        </div>
-                                        <div class="row xrow">
-                                            <div class="col-xs-4 xlabel">Experience:</div>
-                                            <div class="col-xs-8 xvalue">10 Years</div>
                                         </div>
                                         <div class="row xrow">
                                             <div class="col-xs-4 xlabel">Languages:</div>
@@ -130,10 +132,6 @@
                                         <h4 class="xtitle"><a href="#about-general-profiles" class="xscroll-link">Profiles</a></h4>
                                     </div>
                                     <div class="col-xs-10">
-                                        <div class="row xrow">
-                                            <div class="col-xs-4 xlabel">Projects:</div>
-                                            <div class="col-xs-8 xvalue"><a href="http://eserozvataf.wordpress.com/projects/">http://eserozvataf.wordpress.com/projects/</a></div>
-                                        </div>
                                         <div class="row xrow">
                                             <div class="col-xs-4 xlabel">Blog:</div>
                                             <div class="col-xs-8 xvalue"><a href="http://eserozvataf.wordpress.com/">http://eserozvataf.wordpress.com/</a></div>
