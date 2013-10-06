@@ -347,8 +347,8 @@
                                     </div>
                                     <div class="col-xs-10 xtext">
                                         <div class="p-item" rel="freesoftware">
-                                            <strong>Hasan Sungur Şirketler Grubu – 2013</strong><br />
-                                            Şirketler grubunun ve yine bu grubun bünyesinde bulunan Beylerbeyi Emlak’ın web siteleri.<br />
+                                            <strong>Hasan Sungur Group of Companies – 2013</strong><br />
+                                            Web site development of the group of companies and Beylerbeyi Estate.<br />
                                             <div class="xsubtext">
                                                 <div class="xsmalltag">Freelance</div>
                                                 <div class="xsmalltag">PHP</div>
@@ -363,7 +363,7 @@
 
                                         <div class="p-item" rel="freesoftware">
                                             <strong>(Gizli) – 2013</strong><br />
-                                            Eğitim alanında öğrencilere ait performans ölçümü yapan bir web uygulaması.<br />
+                                            A web application evaluates student performance in education industry.<br />
                                             <div class="xsubtext">
                                                 <div class="xsmalltag">Freelance</div>
                                                 <div class="xsmalltag">PHP</div>
@@ -377,7 +377,7 @@
 
                                         <div class="p-item" rel="freesoftware">
                                             <strong>Interesd – 2013</strong><br />
-                                            Şu anda yapım aşamasında bulunan sosyal aggregator projesi.<br />
+                                            Social aggregator project which is currently in development.<br />
                                             <div class="xsubtext">
                                                 <div class="xsmalltag">Goldsoft</div>
                                                 <div class="xsmalltag">.NET</div>
@@ -397,7 +397,7 @@
 
                                         <div class="p-item" rel="freesoftware">
                                             <strong>Kıbrıssipariş – 2012</strong><br />
-                                            Kıbrıs genelinde online sipariş sitesi.<br />
+                                            Cyprus-wide online food delivery service.<br />
                                             <div class="xsubtext">
                                                 <div class="xsmalltag">Goldsoft</div>
                                                 <div class="xsmalltag">PHP</div>
@@ -413,7 +413,7 @@
 
                                         <div class="p-item" rel="freesoftware">
                                             <strong>Turkiyemdesaglik.com – 2011</strong><br />
-                                            Türkiyedeki klinikleri içeren dizin / rehber hizmeti.<br />
+                                            Dictionary service lists all medical clinics in Turkey.<br />
                                             <div class="xsubtext">
                                                 <div class="xsmalltag">Freelance</div>
                                                 <div class="xsmalltag">PHP</div>
@@ -422,8 +422,8 @@
                                         </div>
 
                                         <div class="p-item" rel="microsoft">
-                                            <strong>Atlasjet InHouse SMS Hizmeti – 2011</strong><br />
-                                            Atlasjet’in kendi datacenter’ında yer alan SMS gateway yazılımı ve aynı network üzerinden SMS hizmetlerini kullandıran yazılımlar.<br />
+                                            <strong>Atlasjet InHouse SMS Service – 2011</strong><br />
+                                            SMS Gateway and connection tools which is located in Atlasjet's own datacenter.<br />
                                             <div class="xsubtext">
                                                 <div class="xsmalltag">CMFNET</div>
                                                 <div class="xsmalltag">.NET</div>
@@ -435,8 +435,8 @@
                                         </div>
 
                                         <div class="p-item" rel="microsoft">
-                                            <strong>DYO Loyalty Projesi – 2010</strong><br />
-                                            DYO ürünlerinin satışı üzerinden SMS aktivasyonuyla puan biriktirilmesini sağlayan yazılım.<br />
+                                            <strong>DYO Loyalty Project – 2010</strong><br />
+                                            Software project allows earning points from DYO product sales via SMS activation.<br />
                                             <div class="xsubtext">
                                                 <div class="xsmalltag">CMFNET</div>
                                                 <div class="xsmalltag">.NET</div>
@@ -449,7 +449,7 @@
 
                                         <div class="p-item" rel="microsoft">
                                             <strong>Turkcell OMS – 2010</strong><br />
-                                            CMFCell’e outsource edilen Outlook Mobile Service hizmeti.<br />
+                                            Turkcell's Outlook Mobile Service outsourced to CMFCell.<br />
                                             <div class="xsubtext">
                                                 <div class="xsmalltag">CMFNET</div>
                                                 <div class="xsmalltag">.NET</div>
@@ -464,7 +464,7 @@
 
                                         <div class="p-item" rel="microsoft">
                                             <strong>CMFCell SMS Gateway – 2009</strong><br />
-                                            Dağıtık mimaride çalışan Turkcell dahil uluslararası operatörlerle çalışan API desteği bulunan mesajlaşma gateway yazılımı.<br />
+                                            API-enabled message gateway software with distributed architecture which interoperates with international operators including Turkcell.<br />
                                             <div class="xsubtext">
                                                 <div class="xsmalltag">CMFNET</div>
                                                 <div class="xsmalltag">.NET</div>
@@ -482,7 +482,7 @@
                                         <div class="more more-pre2009">
                                             <div class="p-item" rel="microsoft">
                                                 <strong>CMFCell Desktop Suite – 2008</strong><br />
-                                                CMFCell Explorer desktop yazılımı yanısıra SMS, MMS, WapPush ve E-mail gönderimi sağlayan Word, Excel, Outlook ve ActiveDirectory add-inleri.<br />
+                                                CMFCell Explorer desktop software supports SMS, MMS, WapPush and E-mail sending. Word, Excel, Outlook, ActiveDirectory add-ins and internal addressbook were the essential parts of this software.<br />
                                                 <div class="xsubtext">
                                                     <div class="xsmalltag">CMFNET</div>
                                                     <div class="xsmalltag">.NET</div>
@@ -495,7 +495,7 @@
 
                                             <div class="p-item" rel="microsoft">
                                                 <strong>devMail.NET – 2006</strong><br />
-                                                Daha sonra Microsoft’un satın aldığı devBiz’in .NET e-mail bileşeni.<br />
+                                                .NET e-mail component by devBiz which is acquired by Microsoft later.<br />
                                                 <div class="xsubtext">
                                                     <div class="xsmalltag">devBiz</div>
                                                     <div class="xsmalltag">.NET</div>
@@ -507,8 +507,8 @@
                                             </div>
 
                                             <div class="p-item" rel="microsoft">
-                                                <strong>Fatih Koleji Eğitim Programı – 2005</strong><br />
-                                                Doğanata Eğitim Kurumları bünyesinde geliştirilen okul sistemi yazılımı.<br />
+                                                <strong>Fatih Koleji School Automation – 2005</strong><br />
+                                                School automation which is developed under the roof of Doğanata Eğitim Kurumları.<br />
                                                 <div class="xsubtext">
                                                     <div class="xsmalltag">ISPro</div>
                                                     <div class="xsmalltag">Visual Basic</div>
@@ -517,8 +517,8 @@
                                             </div>
 
                                             <div class="p-item" rel="others">
-                                                <strong>Dentek İş Takip – 2005</strong><br />
-                                                Diş protezi imalatı esnasındaki iş akışlarını sağlayan yazılım.<br />
+                                                <strong>Dentek Issue Tracker – 2005</strong><br />
+                                                The software organizes issue tracking during the production of tooth protheses.<br />
                                                 <div class="xsubtext">
                                                     <div class="xsmalltag">ISPro</div>
                                                     <div class="xsmalltag">Delphi</div>
@@ -528,7 +528,7 @@
 
                                             <div class="p-item" rel="microsoft">
                                                 <strong>Ispro Mail Configurator – 2005</strong><br />
-                                                ISP müşterileri için Outlook ve Outlook Express konfigurasyon aracı.<br />
+                                                Outlook and Outlook Express configuration tool for ISP customers.<br />
                                                 <div class="xsubtext">
                                                     <div class="xsmalltag">ISPro</div>
                                                     <div class="xsmalltag">.NET</div>
@@ -539,7 +539,7 @@
 
                                             <div class="p-item" rel="freesoftware">
                                                 <strong>Oruçoğlu Otel – 2004</strong><br />
-                                                Otel sitesi için online rezervasyon sistemi ve içerik yönetim sistemi.<br />
+                                                Online booking and content management system for Oruçoğlu Otel.<br />
                                                 <div class="xsubtext">
                                                     <div class="xsmalltag">ISPro</div>
                                                     <div class="xsmalltag">PHP</div>
@@ -549,7 +549,7 @@
 
                                             <div class="p-item" rel="freesoftware">
                                                 <strong>Boomerang – 2004</strong><br />
-                                                Hem ASP hem de PHP üzerinde çalışan içerik yönetim sistemi.<br />
+                                                Content management back-end which designed for both ASP and PHP.<br />
                                                 <div class="xsubtext">
                                                     <div class="xsmalltag">Egebilgi</div>
                                                     <div class="xsmalltag">ASP</div>
@@ -560,7 +560,7 @@
 
                                             <div class="p-item" rel="freesoftware">
                                                 <strong>Egebilgi.net – 2004</strong><br />
-                                                Kosgeb tarafından onay almış kobi portalı ve e-ticaret projesi.<br />
+                                                SME portal and e-trade project which is approved and supported by Kosgeb.<br />
                                                 <div class="xsubtext">
                                                     <div class="xsmalltag">Egebilgi</div>
                                                     <div class="xsmalltag">PHP</div>
@@ -570,7 +570,7 @@
 
                                             <div class="p-item" rel="freesoftware">
                                                 <strong>dsoc – 2002</strong><br />
-                                                Çoklu kullanıcı desteği bulunan blog altyapısı.<br />
+                                                Multi-user blogging back-end.<br />
                                                 <div class="xsubtext">
                                                     <div class="xsmalltag">Freelance</div>
                                                     <div class="xsmalltag">PHP</div>
@@ -581,7 +581,7 @@
 
                                             <div class="p-item" rel="freesoftware">
                                                 <strong>Gozcard – 2000</strong><br />
-                                                Göztepe Spor Kulübü’ne ait sanal post destekli online alışveriş ve loyalty kart projesi.<br />
+                                                Online shopping and Loyalty card project for Göztepe Sport Club.<br />
                                                 <div class="xsubtext">
                                                     <div class="xsmalltag">Freelance</div>
                                                     <div class="xsmalltag">PHP</div>
@@ -591,7 +591,7 @@
 
                                             <div class="p-item" rel="freesoftware">
                                                 <strong>Otolab – 2000</strong><br />
-                                                Araç servisi için online rezervasyon sistemi.<br />
+                                                Online reservation system for car maintenance.<br />
                                                 <div class="xsubtext">
                                                     <div class="xsmalltag">Freelance</div>
                                                     <div class="xsmalltag">PHP</div>
@@ -601,7 +601,7 @@
 
                                             <div class="p-item" rel="microsoft">
                                                 <strong>Turkish Quake Fortress – 1998</strong><br />
-                                                Quake hakkında haber, köşe yazısı ve dosya arşiv sitesi.<br />
+                                                News, columns and file archive related with the popular game named Quake.<br />
                                                 <div class="xsubtext">
                                                     <div class="xsmalltag">Freelance</div>
                                                     <div class="xsmalltag">ASP</div>
@@ -622,7 +622,7 @@
                                     <div class="col-xs-10 xtext">
                                         <div class="p-item" rel="microsoft">
                                             <strong>Tasslehoff – 2013</strong><br />
-                                            Kendine verilmiş periyodik ve zamanlanmış işleri dağıtık bir iş modeliyle gerçekleştiren .NET projesi.<br />
+                                            .NET project that executes periodic and scheduled tasks on distributed architecture.<br />
                                             <a href="https://github.com/larukedi/tasslehoff">https://github.com/larukedi/tasslehoff</a><br />
                                             <div class="xsubtext">
                                                 <div class="xsmalltag">.NET</div>
@@ -637,7 +637,7 @@
 
                                         <div class="p-item" rel="freesoftware">
                                             <strong>laroux.js – 2012</strong><br />
-                                            Modern web browserların yetenekleri gözönünde bulundurularak geliştirilmiş bir jQuery alternatifi.<br />
+                                            An jQuery substitute designed for modern browsers.<br />
                                             <a href="https://github.com/larukedi/laroux.js">https://github.com/larukedi/laroux.js</a><br />
                                             <div class="xsubtext">
                                                 <div class="xsmalltag">JavaScript</div>
@@ -648,7 +648,7 @@
 
                                         <div class="p-item" rel="freesoftware">
                                             <strong>Survey-e-bot – 2012</strong><br />
-                                            Üniversite bitirme projesi olarak karşıma çıkan Scabbia ile geliştirdiğim SurveyMonkey benzeri online anket uygulaması.<br />
+                                            A graduation project creates online surveys and populates the results.<br />
                                             <a href="https://github.com/larukedi/survey">https://github.com/larukedi/survey</a><br />
                                             <div class="xsubtext">
                                                 <div class="xsmalltag">PHP</div>
@@ -662,7 +662,7 @@
 
                                         <div class="p-item" rel="freesoftware">
                                             <strong>Scabbia Framework – 2011</strong><br />
-                                            Uygun web geliştirme çatısı mimarisi araştırma – geliştirmesi esnasında her gün üzerine bir şeyler koyarak ilerlettiğim PHP projesi.<br />
+                                            PHP framework derived from set of libraries I mostly use. (see: Scabbia2)<br />
                                             <a href="https://github.com/larukedi/Scabbia-Framework">https://github.com/larukedi/Scabbia-Framework</a><br />
                                             <div class="xsubtext">
                                                 <div class="xsmalltag">PHP</div>
@@ -674,7 +674,7 @@
 
                                         <div class="p-item" rel="freesoftware">
                                             <strong>Quake 3 Blackmore Mod – 2006</strong><br />
-                                            Quake 3 motoru üzerine yazılmış oyun modifikasyon projesi.<br />
+                                            A FPS game modification runs on Quake 3 engine.<br />
                                             <div class="xsubtext">
                                                 <div class="xsmalltag">C</div>
                                                 <div class="xsmalltag">idTech 4</div>
@@ -693,7 +693,7 @@
                                     <div class="col-xs-10 xtext">
                                         <div class="p-item" rel="freesoftware">
                                             <strong>Scabbia2 PHP Framework – 2013</strong><br />
-                                            Temelini 2011 yılında 1.0 sürümüyle atmış olduğum Scabbia Framework’un permissive lisanslı, birden fazla katılımcılı yeni projesi.<br />
+                                            An open source PHP framework project which currently on planning stage.<br />
                                             <a href="https://github.com/scabbiafw/scabbia2">https://github.com/scabbiafw/scabbia2</a><br />
                                             <a href="http://scabbiafw.com/">http://scabbiafw.com/</a><br />
                                             <div class="xsubtext">
@@ -707,7 +707,7 @@
 
                                         <div class="p-item" rel="freesoftware">
                                             <strong>Muhafız – 2013</strong><br />
-                                            Git ve Subversion destekli, kod depolarına belirtilen kurallar dışında kodları engelleyen yazılım.<br />
+                                            Guards codebase from bad codes. Supports Git and Subversion.<br />
                                             <a href="http://sonsuzdongu.github.io/muhafiz/">http://sonsuzdongu.github.io/muhafiz/</a><br />
                                             <div class="xsubtext">
                                                 <div class="xsmalltag">PHP</div>
@@ -719,7 +719,7 @@
 
                                         <div class="p-item" rel="freesoftware">
                                             <strong>Trouble in Libreland – 2012</strong><br />
-                                            GGE üzerine yazılan Liberated Pixel Cup için hazırlanan RTS / RPG karışımı bir strateji oyunu.<br />
+                                            RTS / RPG blended strategy game runs on GGE.<br />
                                             <a href="http://sourceforge.net/projects/trinlibr/">http://sourceforge.net/projects/trinlibr/</a><br />
                                             <div class="xsubtext">
                                                 <div class="xsmalltag">C++</div>
@@ -728,7 +728,7 @@
 
                                         <div class="p-item" rel="freesoftware">
                                             <strong>Gorgon Game Engine – 2012</strong><br />
-                                            C++ üzerinde geliştirilen OpenGL, OpenAL kütüphaneleri destekli oyun geliştirme motoru ve çatısı.<br />
+                                            Multiplatform game development engine and framework uses OpenGL and OpenAL.<br />
                                             <a href="http://sourceforge.net/projects/gorgon-ge/">http://sourceforge.net/projects/gorgon-ge/</a><br />
                                             <div class="xsubtext">
                                                 <div class="xsmalltag">C++</div>
