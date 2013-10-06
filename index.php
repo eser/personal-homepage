@@ -25,12 +25,11 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand custom-navbar-brand xscroll-link" href="#">eser.ozvataf.com</a>
+                    <a class="navbar-brand custom-navbar-brand xscroll-link" href="#body">eser.ozvataf.com</a>
                 </div>
 
                 <div class="navbar-collapse collapse">
                     <ul class="nav navbar-nav">
-                        <li class="active"><a href="#body" class="xscroll-link">Frontpage</a></li>
                         <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">About <b class="caret"></b></a>
                             <ul class="dropdown-menu">
@@ -328,10 +327,10 @@
                         <div class="col-xs-12">
                             <div class="xheader">
                                 <div class="row">
-                                    <div class="col-xs-8">
+                                    <div class="col-xs-4">
                                         <h2><a href="#projects" class="xscroll-link">Projects</a></h2>
                                     </div>
-                                    <div id="p-filter" class="col-xs-4 text-right">
+                                    <div id="p-filter" class="col-xs-8 text-right">
                                         <a href="#projects" rel="all" class="btn btn-default btn-sm btn-act">All Projects</a>
                                         <a href="#projects" rel="freesoftware" class="btn btn-default btn-sm">Free Software</a>
                                         <a href="#projects" rel="microsoft" class="btn btn-default btn-sm">Microsoft</a>
@@ -747,13 +746,60 @@
             </div>
         </section>
 
-        <!--
         <section id="socialmedia" class="xanchor">
+            <div class="custom-section">
+                <div class="container">
+                    <div id="socialmedia-blogposts" class="row xanchor">
+                        <div class="col-xs-12">
+                            <div class="xheader">
+                                <div class="row">
+                                    <div class="col-xs-4">
+                                        <h2><a href="#socialmedia-blogposts" class="xscroll-link">Blog Posts</a></h2>
+                                    </div>
+                                    <div id="p-filter" class="col-xs-8 text-right">
+                                        <a href="#socialmedia-blogposts">RSS</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="text-center">
+                                Not yet
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="socialmedia-tweets" class="row xanchor">
+                        <div class="col-xs-12">
+                            <div class="xheader">
+                                <h2><a href="#socialmedia-tweets" class="xscroll-link">Latest Tweets</a></h2>
+                            </div>
+
+                            <div class="text-center">
+                                Not yet
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
 
-        <section id="contact" class="xanchor>
+        <section id="contact" class="xanchor">
+            <div class="custom-section custom-section-gray">
+                <div class="container">
+                    <div class="row xanchor">
+                        <div class="col-xs-12">
+                            <div class="xheader">
+                                <h2><a href="#contact" class="xscroll-link">Contact</a></h2>
+                            </div>
+
+                            <div class="text-center">
+                                Not yet
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
-        -->
 
         <footer class="custom-footer">
             <div class="container">

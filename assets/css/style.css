@@ -96,8 +96,11 @@ body {
     background-color: #F6F6FF;
 }
 
+body, h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    font-family: 'Lato', 'Helvetica', 'Arial', sans-serif !important;
+}
+
 .xheader {
-    font-family: 'Lato', 'Helvetica', 'Arial', sans-serif;
     border-bottom: 1px dotted #E4E9F0;
     margin: 40px 0px 20px 0px;
 }
@@ -112,10 +115,6 @@ body {
     display: inline-block;
     margin: 0 0 -2px 0;
     color: #585f69;
-}
-
-.xtitle {
-    font-family: 'Lato', 'Helvetica', 'Arial', sans-serif;
 }
 
 .xrow, .xtext, .xlist {
@@ -172,7 +171,7 @@ body {
 
 .p-item {
     margin: 0 0 10px 0;
-    padding: 10px 0 10px 20px;
+    padding: 10px 20px 10px 20px;
     border-left: 2px solid #428BCA;
     background: #FFFFFF;
 }
