@@ -79,22 +79,35 @@ body {
   border-color: #463265;
 }
 
+.custom-section {
+    padding: 10px 0 20px 0;
+}
+
 .xheader {
     font-family: 'Lato', 'Helvetica', 'Arial', sans-serif;
+    border-bottom: 1px dotted #E4E9F0;
+    margin: 40px 0px 20px 0px;
+}
+
+.xheader h2 {
+    border-bottom: 2px solid #428BCA;
+    display: inline-block;
+    margin: 0 0 -2px 0;
+    color: #585f69;
 }
 
 .xtitle {
     font-family: 'Lato', 'Helvetica', 'Arial', sans-serif;
 }
 
-.xrow, .xtext {
+.xrow, .xtext, .xlist {
     font-size: 14pt;
     font-family: 'Tinos', 'Georgia', times;
     line-height: 24pt;
     color: #808080;
 }
 
-.xrow strong, .xtext strong {
+.xrow strong, .xtext strong, .xlist strong {
     font-weight: normal;
     color: #000000;
 }
@@ -114,6 +127,14 @@ body {
 
 .xrow .xvalue {
     font-weight: normal;
+}
+
+.xlist .tag {
+    display: inline-block;
+    border: 1px solid gray;
+    padding: 0 10px 0 10px;
+    border-radius: 6px 0 6px 0;
+    margin: 0 10px 0 0;
 }
 
 .vertical-space {

@@ -16,57 +16,59 @@
 </head>
 <body>
 
-    <div class="navbar navbar-inverse navbar-fixed-top custom-navbar" role="banner">
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand custom-navbar-brand" href="#">eser.ozvataf.com</a>
-            </div>
+    <nav>
+        <div class="navbar navbar-inverse navbar-fixed-top custom-navbar" role="banner">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand custom-navbar-brand" href="#">eser.ozvataf.com</a>
+                </div>
 
-            <div class="navbar-collapse collapse">
-                <ul class="nav navbar-nav">
-                    <li class="active"><a href="#">Frontpage</a></li>
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">About <b class="caret"></b></a>
-                        <ul class="dropdown-menu">
-                            <li><a href="#about-general">General</a></li>
-                            <li class="divider"></li>
-                            <li class="dropdown-header">Background</li>
-                            <li><a href="#about-education">Education</a></li>
-                            <li><a href="#about-workexperience">Work Experience</a></li>
-                            <li><a href="#about-certificates">Certificates</a></li>
-                            <li class="divider"></li>
-                            <li><a href="#about-interests">Interests</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="#portfolio">Portfolio</a></li>
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Social Media <b class="caret"></b></a>
-                        <ul class="dropdown-menu">
-                            <li><a href="#socialmedia-blogposts">Blog Posts</a></li>
-                            <li><a href="#socialmedia-tweets">Latest Tweets</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-                
-                <div class="col-xs-3 navbar-right">
-                    <form id="search-form" action="#" method="GET" class="navbar-form" role="search">
-                        <div class="input-group">
-                            <input type="text" class="form-control" placeholder="Search" />
-                            <div class="input-group-btn">
-                                <button type="submit" class="btn btn-default custom-input-search-button"><i class="glyphicon glyphicon-search"></i></button>
+                <div class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="#">Frontpage</a></li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">About <b class="caret"></b></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#about-general">General</a></li>
+                                <li class="divider"></li>
+                                <li class="dropdown-header">Background</li>
+                                <li><a href="#about-education">Education</a></li>
+                                <li><a href="#about-workexperience">Work Experience</a></li>
+                                <li><a href="#about-certificates">Certificates</a></li>
+                                <li class="divider"></li>
+                                <li><a href="#about-interests">Interests</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Social Media <b class="caret"></b></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#socialmedia-blogposts">Blog Posts</a></li>
+                                <li><a href="#socialmedia-tweets">Latest Tweets</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+
+                    <div class="col-xs-3 navbar-right">
+                        <form id="search-form" action="#" method="GET" class="navbar-form" role="search">
+                            <div class="input-group">
+                                <input type="text" class="form-control" placeholder="Search" />
+                                <div class="input-group-btn">
+                                    <button type="submit" class="btn btn-default custom-input-search-button"><i class="glyphicon glyphicon-search"></i></button>
+                                </div>
                             </div>
-                        </div>
-                    </form>
+                        </form>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
+    </nav>
 
     <div id="page">
 
@@ -85,11 +87,13 @@
             </div>
         </header>
 
-        <section id="about">
+        <section id="about" class="custom-section">
             <div class="container">
                 <div id="about-general" class="row">
                     <div class="col-xs-12">
-                        <h2 class="xheader">General</h2>
+                        <div class="xheader">
+                            <h2>General</h2>
+                        </div>
 
                         <!-- General/Personal -->
                         <div class="row vertical-space">
@@ -171,7 +175,9 @@
 
                 <div id="about-education" class="row">
                     <div class="col-xs-12">
-                        <h2 class="xheader">Education</h2>
+                        <div class="xheader">
+                            <h2>Education</h2>
+                        </div>
 
                         <!-- Education/Graduate -->
                         <div class="row vertical-space">
@@ -179,7 +185,7 @@
                                 <h4 class="xtitle"><a id="about-education-graduate" href="#about-education-graduate">Graduate</a></h4>
                             </div>
                             <div class="col-xs-10 xtext">
-                                <strong>DOĞU AKDENİZ ÜNIVERSİTESİ FEDU INFORMATION AND COMMUNICATION TECHNOLOGY IN EDUCATION MSC (2013-)</strong><br />
+                                <strong>DOĞU AKDENİZ ÜNİVERSİTESİ FEDU INFORMATION AND COMMUNICATION TECHNOLOGY IN EDUCATION MSC (2013-)</strong><br />
                                 CGPA: -
                             </div>
                         </div>
@@ -190,11 +196,11 @@
                                 <h4 class="xtitle"><a id="about-education-undergraduate" href="#about-education-undergraduate">Undergraduate</a></h4>
                             </div>
                             <div class="col-xs-10 xtext">
-                                <strong>DOĞU AKDENİZ ÜNIVERSİTESİ SCT INFORMATION TECHNOLOGY BSC (2010 – 2012)</strong><br />
+                                <strong>DOĞU AKDENİZ ÜNİVERSİTESİ SCT INFORMATION TECHNOLOGY BSC (2010 – 2012)</strong><br />
                                 CGPA: 3.12/4.00<br />
                                 <br />
 
-                                <strong>CELAL BAYAR ÜNIVERSİTESİ KMYO BİLGİSAYAR PROGRAMCILIĞI AS (2002 – 2004)</strong><br />
+                                <strong>CELAL BAYAR ÜNİVERSİTESİ KMYO BİLGİSAYAR PROGRAMCILIĞI AS (2002 – 2004)</strong><br />
                                 CGPA: 78.77/100
                             </div>
                         </div>
@@ -203,7 +209,9 @@
 
                 <div id="about-workexperience" class="row">
                     <div class="col-xs-12">
-                        <h2 class="xheader">Work Experience</h2>
+                        <div class="xheader">
+                            <h2>Work Experience</h2>
+                        </div>
 
                         <!-- Work Experience/Senior -->
                         <div class="row vertical-space">
@@ -211,7 +219,7 @@
                                 <h4 class="xtitle"><a id="about-workexperience-senior" href="#about-workexperience-senior">Senior</a></h4>
                             </div>
                             <div class="col-xs-10 xtext">
-                                <strong>GOLDSOFT TRADING (JUNE 2012) – FRAMEWORK DEVELOPER – TEAM LEADER</strong><br />
+                                <strong>GOLDSOFT TRADING (JUNE 2012 - JULY 2013) – FRAMEWORK DEVELOPER – TEAM LEADER</strong><br />
                                 Online E-Commerce Systems, Facebook Applications on OpenGraph<br />
                                 <br />
                                 <strong>CMFNET (APRIL 2008 – FEBRUARY 2012) – PROJECT MANAGER – TEAM LEADER</strong><br />
@@ -228,7 +236,7 @@
                                 <strong>DEVBIZ (AUGUST 2006 – JANUARY 2007) – SOFTWARE DESIGN ENGINEER</strong><br />
                                 .NET Components, Continuous Integration Tools<br />
                                 <br />
-                                <strong>ISPRO (NOVEMBER 2004 – AUGUST 2006) – SENIOR DEVELOPER, SERVER ADMINISTRATOR</strong><br />
+                                <strong>ISPRO (NOVEMBER 2004 – AUGUST 2006) – APPLICATION DEVELOPER, SERVER ADMINISTRATOR</strong><br />
                                 Linux Server Administration, Windows Server Administration, Mail Server Management, Desktop Applications, ActiveDirectory, Internet Service Provider Services<br />
                                 <br />
                                 <strong>EGEBILGI (JUNE 2004 – NOVEMBER 2004) – WEB DEVELOPER</strong><br />
@@ -240,12 +248,14 @@
 
                 <div id="about-certificates" class="row">
                     <div class="col-xs-12">
-                        <h2 class="xheader">Certificates</h2>
+                        <div class="xheader">
+                            <h2>Certificates</h2>
+                        </div>
 
-                        <!-- Certificates/Senior -->
+                        <!-- Certificates/All -->
                         <div class="row vertical-space">
                             <div class="col-xs-2">
-                                
+                                <!-- <h4 class="xtitle"><a id="about-certificates-all" href="#about-certificates-all">*</a></h4> -->
                             </div>
                             <div class="col-xs-10 xtext">
                                 <strong>MICROSOFT CERTIFIED PROFESSIONAL</strong><br />
@@ -266,18 +276,42 @@
                         </div>
                     </div>
                 </div>
+
+                <div id="about-interests" class="row">
+                    <div class="col-xs-12">
+                        <div class="xheader">
+                            <h2>Interests</h2>
+                        </div>
+
+                        <!-- Interests/All -->
+                        <div class="row vertical-space">
+                            <div class="col-xs-2">
+                                <!-- <h4 class="xtitle"><a id="about-interests-all" href="#about-interests-all">*</a></h4> -->
+                            </div>
+                            <div class="col-xs-10 xlist">
+                                <span class="tag">Bicycle</span>
+                                <span class="tag">Comicbooks</span>
+                                <span class="tag">Science Fiction</span>
+                                <span class="tag">Coding</span>
+                                <span class="tag">Blues Rock</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
 
-        <section id="portfolio">
+        <!--
+        <section id="portfolio" class="custom-section">
         </section>
 
-        <section id="socialmedia">
+        <section id="socialmedia" class="custom-section">
         </section>
 
-        <section id="contact">
+        <section id="contact" class="custom-section">
         </section>
-        
+        -->
+
         <footer>
             <div class="container">
                 <div class="row custom-footer">
