@@ -6,10 +6,10 @@ html, body, #page {
 body {
     overflow-x: hidden;
     overflow-y: scroll;
+    padding-top: 51px;
 }
 
 #page {
-    margin-top: 50px;
 }
 
 #splash {
@@ -20,6 +20,11 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     height: 100%;
+}
+
+.xanchor {
+    padding-top: 51px;
+    margin-top: -51px;
 }
 
 .custom-jumbotron {
@@ -83,6 +88,10 @@ body {
     padding: 10px 0 20px 0;
 }
 
+.custom-section-inner {
+    padding: 0 0 60px 0;
+}
+
 .custom-section-gray {
     background-color: #F6F6FF;
 }
@@ -91,6 +100,11 @@ body {
     font-family: 'Lato', 'Helvetica', 'Arial', sans-serif;
     border-bottom: 1px dotted #E4E9F0;
     margin: 40px 0px 20px 0px;
+}
+
+.xheader a {
+    color: inherit;
+    text-decoration: none;
 }
 
 .xheader h2 {
@@ -163,11 +177,7 @@ body {
     background: #FFFFFF;
 }
 
-.vertical-space {
-    margin-bottom: 60px;
-}
-
-.custom-footer {
+.custom-footer-inner {
     margin: 10px 0 20px 0;
     padding-top: 10px;
     border-top: 1px solid #C0C0C0;
@@ -175,4 +185,8 @@ body {
 
 .more {
     display: none;
+}
+
+.btn-act {
+    font-weight: bold;
 }

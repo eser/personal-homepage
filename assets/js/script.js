@@ -3,11 +3,22 @@ $(function() {
         alert('It\'s currently disabled. Please try search on google instead.');
         return false;
     });
+    
+    $('.xscroll-link').click(function() {
+        var that = $(this);
+        
+        $('html, body').animate(
+            { scrollTop: $(this.hash).offset().top },
+            500
+        );
+        
+        // return false;
+    });
 
 	$('#p-filter a').click(function() {
         var that = $(this);
-		$('#p-filter a.act').removeClass('act');
-		that.addClass('act');
+		$('#p-filter a.btn-act').removeClass('btn-act');
+		that.addClass('btn-act');
 
 		var p_filter = that.attr('rel');
 
@@ -29,6 +40,8 @@ $(function() {
 				that2.removeClass('item-off');
 			}
 		});
+        
+        return false;
 	});
 
 	$('.showmore').click(function() {
