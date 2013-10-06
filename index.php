@@ -289,11 +289,429 @@
                                 <!-- <h4 class="xtitle"><a id="about-interests-all" href="#about-interests-all">*</a></h4> -->
                             </div>
                             <div class="col-xs-10 xlist">
-                                <span class="tag">Bicycle</span>
-                                <span class="tag">Comicbooks</span>
-                                <span class="tag">Science Fiction</span>
-                                <span class="tag">Coding</span>
-                                <span class="tag">Blues Rock</span>
+                                <span class="xtag">Bicycle</span>
+                                <span class="xtag">Comicbooks</span>
+                                <span class="xtag">Science Fiction</span>
+                                <span class="xtag">Coding</span>
+                                <span class="xtag">Blues Rock</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="portfolio" class="custom-section custom-section-gray">
+            <div class="container">
+                <div id="portfolio-projects" class="row">
+                    <div class="col-xs-12">
+                        <div class="xheader">
+                            <div class="row">
+                                <div class="col-xs-8">
+                                    <h2>Projects</h2>
+                                </div>
+                                <div id="p-filter" class="col-xs-4 text-right">
+                                    <a href="#portfolio-projects" rel="all" class="btn btn-default btn-sm act">All Projects</a>
+                                    <a href="#portfolio-projects" rel="freesoftware" class="btn btn-default btn-sm">Free Software</a>
+                                    <a href="#portfolio-projects" rel="microsoft" class="btn btn-default btn-sm">Microsoft</a>
+                                    <a href="#portfolio-projects" rel="others" class="btn btn-default btn-sm">Others</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Projects/Tailor Made -->
+                        <div class="row vertical-space">
+                            <div class="col-xs-2">
+                                <h4 class="xtitle"><a id="portfolio-projects-tailormade" href="#portfolio-projects-tailormade">Tailor Made</a></h4>
+                            </div>
+                            <div class="col-xs-10 xtext">
+                                <div class="p-item" rel="freesoftware">
+                                    <strong>Hasan Sungur Şirketler Grubu – 2013</strong><br />
+                                    Şirketler grubunun ve yine bu grubun bünyesinde bulunan Beylerbeyi Emlak’ın web siteleri.<br />
+                                    <div class="xsubtext">
+                                        <div class="xsmalltag">Freelance</div>
+                                        <div class="xsmalltag">PHP</div>
+                                        <div class="xsmalltag">MySQL</div>
+                                        <div class="xsmalltag">HTML5</div>
+                                        <div class="xsmalltag">CSS3</div>
+                                        <div class="xsmalltag">JavaScript</div>
+                                        <div class="xsmalltag">Bootstrap</div>
+                                        <div class="xsmalltag">Git</div>
+                                    </div>
+                                </div>
+
+                                <div class="p-item" rel="freesoftware">
+                                    <strong>(Gizli) – 2013</strong><br />
+                                    Eğitim alanında öğrencilere ait performans ölçümü yapan bir web uygulaması.<br />
+                                    <div class="xsubtext">
+                                        <div class="xsmalltag">Freelance</div>
+                                        <div class="xsmalltag">PHP</div>
+                                        <div class="xsmalltag">CodeIgniter</div>
+                                        <div class="xsmalltag">MySQL</div>
+                                        <div class="xsmalltag">JavaScript</div>
+                                        <div class="xsmalltag">Bootstrap</div>
+                                        <div class="xsmalltag">Git</div>
+                                    </div>
+                                </div>
+
+                                <div class="p-item" rel="freesoftware">
+                                    <strong>Interesd – 2013</strong><br />
+                                    Şu anda yapım aşamasında bulunan sosyal aggregator projesi.<br />
+                                    <div class="xsubtext">
+                                        <div class="xsmalltag">Goldsoft</div>
+                                        <div class="xsmalltag">.NET</div>
+                                        <div class="xsmalltag">C#</div>
+                                        <div class="xsmalltag">PHP</div>
+                                        <div class="xsmalltag">Memcache</div>
+                                        <div class="xsmalltag">RabbitMQ</div>
+                                        <div class="xsmalltag">PostgreSQL</div>
+                                        <div class="xsmalltag">HTML5</div>
+                                        <div class="xsmalltag">CSS3</div>
+                                        <div class="xsmalltag">LESS</div>
+                                        <div class="xsmalltag">JavaScript</div>
+                                        <div class="xsmalltag">jQuery</div>
+                                        <div class="xsmalltag">Subversion</div>
+                                    </div>
+                                </div>
+
+                                <div class="p-item" rel="freesoftware">
+                                    <strong>Kıbrıssipariş – 2012</strong><br />
+                                    Kıbrıs genelinde online sipariş sitesi.<br />
+                                    <div class="xsubtext">
+                                        <div class="xsmalltag">Goldsoft</div>
+                                        <div class="xsmalltag">PHP</div>
+                                        <div class="xsmalltag">Memcache</div>
+                                        <div class="xsmalltag">PostgreSQL</div>
+                                        <div class="xsmalltag">HTML5</div>
+                                        <div class="xsmalltag">CSS3</div>
+                                        <div class="xsmalltag">JavaScript</div>
+                                        <div class="xsmalltag">jQuery</div>
+                                        <div class="xsmalltag">Subversion</div>
+                                    </div>
+                                </div>
+
+                                <div class="p-item" rel="freesoftware">
+                                    <strong>Turkiyemdesaglik.com – 2011</strong><br />
+                                    Türkiyedeki klinikleri içeren dizin / rehber hizmeti.<br />
+                                    <div class="xsubtext">
+                                        <div class="xsmalltag">Freelance</div>
+                                        <div class="xsmalltag">PHP</div>
+                                        <div class="xsmalltag">MySQL</div>
+                                    </div>
+                                </div>
+
+                                <div class="p-item" rel="microsoft">
+                                    <strong>Atlasjet InHouse SMS Hizmeti – 2011</strong><br />
+                                    Atlasjet’in kendi datacenter’ında yer alan SMS gateway yazılımı ve aynı network üzerinden SMS hizmetlerini kullandıran yazılımlar.<br />
+                                    <div class="xsubtext">
+                                        <div class="xsmalltag">CMFNET</div>
+                                        <div class="xsmalltag">.NET</div>
+                                        <div class="xsmalltag">C#</div>
+                                        <div class="xsmalltag">Windows Server</div>
+                                        <div class="xsmalltag">SQL Server</div>
+                                        <div class="xsmalltag">SOAP</div>
+                                    </div>
+                                </div>
+
+                                <div class="p-item" rel="microsoft">
+                                    <strong>DYO Loyalty Projesi – 2010</strong><br />
+                                    DYO ürünlerinin satışı üzerinden SMS aktivasyonuyla puan biriktirilmesini sağlayan yazılım.<br />
+                                    <div class="xsubtext">
+                                        <div class="xsmalltag">CMFNET</div>
+                                        <div class="xsmalltag">.NET</div>
+                                        <div class="xsmalltag">C#</div>
+                                        <div class="xsmalltag">Windows Server</div>
+                                        <div class="xsmalltag">SQL Server</div>
+                                        <div class="xsmalltag">SOAP</div>
+                                    </div>
+                                </div>
+
+                                <div class="p-item" rel="microsoft">
+                                    <strong>Turkcell OMS – 2010</strong><br />
+                                    CMFCell’e outsource edilen Outlook Mobile Service hizmeti.<br />
+                                    <div class="xsubtext">
+                                        <div class="xsmalltag">CMFNET</div>
+                                        <div class="xsmalltag">.NET</div>
+                                        <div class="xsmalltag">C#</div>
+                                        <div class="xsmalltag">Windows Server</div>
+                                        <div class="xsmalltag">SQL Server</div>
+                                        <div class="xsmalltag">SOAP</div>
+                                        <div class="xsmalltag">TFS</div>
+                                        <div class="xsmalltag">NUnit</div>
+                                    </div>
+                                </div>
+
+                                <div class="p-item" rel="microsoft">
+                                    <strong>CMFCell SMS Gateway – 2009</strong><br />
+                                    Dağıtık mimaride çalışan Turkcell dahil uluslararası operatörlerle çalışan API desteği bulunan mesajlaşma gateway yazılımı.<br />
+                                    <div class="xsubtext">
+                                        <div class="xsmalltag">CMFNET</div>
+                                        <div class="xsmalltag">.NET</div>
+                                        <div class="xsmalltag">C#</div>
+                                        <div class="xsmalltag">Windows Server</div>
+                                        <div class="xsmalltag">TPL</div>
+                                        <div class="xsmalltag">WCF</div>
+                                        <div class="xsmalltag">TFS</div>
+                                        <div class="xsmalltag">NUnit</div>
+                                    </div>
+                                </div>
+
+                                <div class="text-center"><button class="showmore btn btn-default btn-sm" rel="more-pre2009">Show Projects Before 2009</button></div>
+
+                                <div class="more more-pre2009">
+                                    <div class="p-item" rel="microsoft">
+                                        <strong>CMFCell Desktop Suite – 2008</strong><br />
+                                        CMFCell Explorer desktop yazılımı yanısıra SMS, MMS, WapPush ve E-mail gönderimi sağlayan Word, Excel, Outlook ve ActiveDirectory add-inleri.<br />
+                                        <div class="xsubtext">
+                                            <div class="xsmalltag">CMFNET</div>
+                                            <div class="xsmalltag">.NET</div>
+                                            <div class="xsmalltag">C#</div>
+                                            <div class="xsmalltag">Windows Forms</div>
+                                            <div class="xsmalltag">VSTO</div>
+                                            <div class="xsmalltag">TFS</div>
+                                        </div>
+                                    </div>
+
+                                    <div class="p-item" rel="microsoft">
+                                        <strong>devMail.NET – 2006</strong><br />
+                                        Daha sonra Microsoft’un satın aldığı devBiz’in .NET e-mail bileşeni.<br />
+                                        <div class="xsubtext">
+                                            <div class="xsmalltag">devBiz</div>
+                                            <div class="xsmalltag">.NET</div>
+                                            <div class="xsmalltag">C#</div>
+                                            <div class="xsmalltag">SourceGear Vault</div>
+                                            <div class="xsmalltag">MSBuild</div>
+                                            <div class="xsmalltag">NUnit</div>
+                                        </div>
+                                    </div>
+
+                                    <div class="p-item" rel="microsoft">
+                                        <strong>Fatih Koleji Eğitim Programı – 2005</strong><br />
+                                        Doğanata Eğitim Kurumları bünyesinde geliştirilen okul sistemi yazılımı.<br />
+                                        <div class="xsubtext">
+                                            <div class="xsmalltag">ISPro</div>
+                                            <div class="xsmalltag">Visual Basic</div>
+                                            <div class="xsmalltag">SourceSafe</div>
+                                        </div>
+                                    </div>
+
+                                    <div class="p-item" rel="others">
+                                        <strong>Dentek İş Takip – 2005</strong><br />
+                                        Diş protezi imalatı esnasındaki iş akışlarını sağlayan yazılım.<br />
+                                        <div class="xsubtext">
+                                            <div class="xsmalltag">ISPro</div>
+                                            <div class="xsmalltag">Delphi</div>
+                                            <div class="xsmalltag">Paradox</div>
+                                        </div>
+                                    </div>
+
+                                    <div class="p-item" rel="microsoft">
+                                        <strong>Ispro Mail Configurator – 2005</strong><br />
+                                        ISP müşterileri için Outlook ve Outlook Express konfigurasyon aracı.<br />
+                                        <div class="xsubtext">
+                                            <div class="xsmalltag">ISPro</div>
+                                            <div class="xsmalltag">.NET</div>
+                                            <div class="xsmalltag">C#</div>
+                                            <div class="xsmalltag">Windows Forms</div>
+                                        </div>
+                                    </div>
+
+                                    <div class="p-item" rel="freesoftware">
+                                        <strong>Oruçoğlu Otel – 2004</strong><br />
+                                        Otel sitesi için online rezervasyon sistemi ve içerik yönetim sistemi.<br />
+                                        <div class="xsubtext">
+                                            <div class="xsmalltag">ISPro</div>
+                                            <div class="xsmalltag">PHP</div>
+                                            <div class="xsmalltag">MySQL</div>
+                                        </div>
+                                    </div>
+
+                                    <div class="p-item" rel="freesoftware">
+                                        <strong>Boomerang – 2004</strong><br />
+                                        Hem ASP hem de PHP üzerinde çalışan içerik yönetim sistemi.<br />
+                                        <div class="xsubtext">
+                                            <div class="xsmalltag">Egebilgi</div>
+                                            <div class="xsmalltag">ASP</div>
+                                            <div class="xsmalltag">PHP</div>
+                                            <div class="xsmalltag">MySQL</div>
+                                        </div>
+                                    </div>
+
+                                    <div class="p-item" rel="freesoftware">
+                                        <strong>Egebilgi.net – 2004</strong><br />
+                                        Kosgeb tarafından onay almış kobi portalı ve e-ticaret projesi.<br />
+                                        <div class="xsubtext">
+                                            <div class="xsmalltag">Egebilgi</div>
+                                            <div class="xsmalltag">PHP</div>
+                                            <div class="xsmalltag">MySQL</div>
+                                        </div>
+                                    </div>
+
+                                    <div class="p-item" rel="freesoftware">
+                                        <strong>dsoc – 2002</strong><br />
+                                        Çoklu kullanıcı desteği bulunan blog altyapısı.<br />
+                                        <div class="xsubtext">
+                                            <div class="xsmalltag">Freelance</div>
+                                            <div class="xsmalltag">PHP</div>
+                                            <div class="xsmalltag">MySQL</div>
+                                            <div class="xsmalltag">XSLT</div>
+                                        </div>
+                                    </div>
+
+                                    <div class="p-item" rel="freesoftware">
+                                        <strong>Gozcard – 2000</strong><br />
+                                        Göztepe Spor Kulübü’ne ait sanal post destekli online alışveriş ve loyalty kart projesi.<br />
+                                        <div class="xsubtext">
+                                            <div class="xsmalltag">Freelance</div>
+                                            <div class="xsmalltag">PHP</div>
+                                            <div class="xsmalltag">MySQL</div>
+                                        </div>
+                                    </div>
+
+                                    <div class="p-item" rel="freesoftware">
+                                        <strong>Otolab – 2000</strong><br />
+                                        Araç servisi için online rezervasyon sistemi.<br />
+                                        <div class="xsubtext">
+                                            <div class="xsmalltag">Freelance</div>
+                                            <div class="xsmalltag">PHP</div>
+                                            <div class="xsmalltag">MySQL</div>
+                                        </div>
+                                    </div>
+
+                                    <div class="p-item" rel="microsoft">
+                                        <strong>Turkish Quake Fortress – 1998</strong><br />
+                                        Quake hakkında haber, köşe yazısı ve dosya arşiv sitesi.<br />
+                                        <div class="xsubtext">
+                                            <div class="xsmalltag">Freelance</div>
+                                            <div class="xsmalltag">ASP</div>
+                                            <div class="xsmalltag">Access</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Projects/My Own -->
+                        <div class="row vertical-space">
+                            <div class="col-xs-2">
+                                <h4 class="xtitle"><a id="portfolio-projects-myown" href="#portfolio-projects-myown">My Own</a></h4>
+                            </div>
+                            <div class="col-xs-10 xtext">
+                                <div class="p-item" rel="microsoft">
+                                    <strong>Tasslehoff – 2013</strong><br />
+                                    Kendine verilmiş periyodik ve zamanlanmış işleri dağıtık bir iş modeliyle gerçekleştiren .NET projesi.<br />
+                                    <a href="https://github.com/larukedi/tasslehoff">https://github.com/larukedi/tasslehoff</a><br />
+                                    <div class="xsubtext">
+                                        <div class="xsmalltag">.NET</div>
+                                        <div class="xsmalltag">C#</div>
+                                        <div class="xsmalltag">RabbitMQ</div>
+                                        <div class="xsmalltag">Memcache</div>
+                                        <div class="xsmalltag">WCF</div>
+                                        <div class="xsmalltag">REST</div>
+                                        <div class="xsmalltag">Git</div>
+                                    </div>
+                                </div>
+
+                                <div class="p-item" rel="freesoftware">
+                                    <strong>laroux.js – 2012</strong><br />
+                                    Modern web browserların yetenekleri gözönünde bulundurularak geliştirilmiş bir jQuery alternatifi.<br />
+                                    <a href="https://github.com/larukedi/laroux.js">https://github.com/larukedi/laroux.js</a><br />
+                                    <div class="xsubtext">
+                                        <div class="xsmalltag">JavaScript</div>
+                                        <div class="xsmalltag">DOM</div>
+                                        <div class="xsmalltag">Git</div>
+                                    </div>
+                                </div>
+
+                                <div class="p-item" rel="freesoftware">
+                                    <strong>Survey-e-bot – 2012</strong><br />
+                                    Üniversite bitirme projesi olarak karşıma çıkan Scabbia ile geliştirdiğim SurveyMonkey benzeri online anket uygulaması.<br />
+                                    <a href="https://github.com/larukedi/survey">https://github.com/larukedi/survey</a><br />
+                                    <div class="xsubtext">
+                                        <div class="xsmalltag">PHP</div>
+                                        <div class="xsmalltag">PostgreSQL</div>
+                                        <div class="xsmalltag">HTML5</div>
+                                        <div class="xsmalltag">CSS3</div>
+                                        <div class="xsmalltag">JavaScript</div>
+                                        <div class="xsmalltag">Git</div>
+                                    </div>
+                                </div>
+
+                                <div class="p-item" rel="freesoftware">
+                                    <strong>Scabbia Framework – 2011</strong><br />
+                                    Uygun web geliştirme çatısı mimarisi araştırma – geliştirmesi esnasında her gün üzerine bir şeyler koyarak ilerlettiğim PHP projesi.<br />
+                                    <a href="https://github.com/larukedi/Scabbia-Framework">https://github.com/larukedi/Scabbia-Framework</a><br />
+                                    <div class="xsubtext">
+                                        <div class="xsmalltag">PHP</div>
+                                        <div class="xsmalltag">PDO</div>
+                                        <div class="xsmalltag">Git</div>
+                                        <div class="xsmalltag">PHP CodeSniffer</div>
+                                    </div>
+                                </div>
+
+                                <div class="p-item" rel="freesoftware">
+                                    <strong>Quake 3 Blackmore Mod – 2006</strong><br />
+                                    Quake 3 motoru üzerine yazılmış oyun modifikasyon projesi.<br />
+                                    <div class="xsubtext">
+                                        <div class="xsmalltag">C</div>
+                                        <div class="xsmalltag">idTech 4</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Projects/Contributing -->
+                        <div class="row vertical-space">
+                            <div class="col-xs-2">
+                                <h4 class="xtitle"><a id="portfolio-projects-contributing" href="#portfolio-projects-contributing">Contributing</a></h4>
+                            </div>
+                            <div class="col-xs-10 xtext">
+                                <div class="p-item" rel="freesoftware">
+                                    <strong>Scabbia2 PHP Framework – 2013</strong><br />
+                                    Temelini 2011 yılında 1.0 sürümüyle atmış olduğum Scabbia Framework’un permissive lisanslı, birden fazla katılımcılı yeni projesi.<br />
+                                    <a href="https://github.com/scabbiafw/scabbia2">https://github.com/scabbiafw/scabbia2</a><br />
+                                    <a href="http://scabbiafw.com/">http://scabbiafw.com/</a><br />
+                                    <div class="xsubtext">
+                                        <div class="xsmalltag">PHP</div>
+                                        <div class="xsmalltag">Git</div>
+                                        <div class="xsmalltag">Travis CI</div>
+                                        <div class="xsmalltag">PHP CodeSniffer</div>
+                                        <div class="xsmalltag">Symfony Components</div>
+                                    </div>
+                                </div>
+
+                                <div class="p-item" rel="freesoftware">
+                                    <strong>Muhafız – 2013</strong><br />
+                                    Git ve Subversion destekli, kod depolarına belirtilen kurallar dışında kodları engelleyen yazılım.<br />
+                                    <a href="http://sonsuzdongu.github.io/muhafiz/">http://sonsuzdongu.github.io/muhafiz/</a><br />
+                                    <div class="xsubtext">
+                                        <div class="xsmalltag">PHP</div>
+                                        <div class="xsmalltag">Subversion</div>
+                                        <div class="xsmalltag">Git</div>
+                                        <div class="xsmalltag">PHP CodeSniffer</div>
+                                    </div>
+                                </div>
+
+                                <div class="p-item" rel="freesoftware">
+                                    <strong>Trouble in Libreland – 2012</strong><br />
+                                    GGE üzerine yazılan Liberated Pixel Cup için hazırlanan RTS / RPG karışımı bir strateji oyunu.<br />
+                                    <a href="http://sourceforge.net/projects/trinlibr/">http://sourceforge.net/projects/trinlibr/</a><br />
+                                    <div class="xsubtext">
+                                        <div class="xsmalltag">C++</div>
+                                    </div>
+                                </div>
+
+                                <div class="p-item" rel="freesoftware">
+                                    <strong>Gorgon Game Engine – 2012</strong><br />
+                                    C++ üzerinde geliştirilen OpenGL, OpenAL kütüphaneleri destekli oyun geliştirme motoru ve çatısı.<br />
+                                    <a href="http://sourceforge.net/projects/gorgon-ge/">http://sourceforge.net/projects/gorgon-ge/</a><br />
+                                    <div class="xsubtext">
+                                        <div class="xsmalltag">C++</div>
+                                        <div class="xsmalltag">OpenGL</div>
+                                        <div class="xsmalltag">OpenAL</div>
+                                        <div class="xsmalltag">Theora</div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -302,9 +720,6 @@
         </section>
 
         <!--
-        <section id="portfolio" class="custom-section">
-        </section>
-
         <section id="socialmedia" class="custom-section">
         </section>
 

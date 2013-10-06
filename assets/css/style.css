@@ -83,6 +83,10 @@ body {
     padding: 10px 0 20px 0;
 }
 
+.custom-section-gray {
+    background-color: #F6F6FF;
+}
+
 .xheader {
     font-family: 'Lato', 'Helvetica', 'Arial', sans-serif;
     border-bottom: 1px dotted #E4E9F0;
@@ -103,8 +107,8 @@ body {
 .xrow, .xtext, .xlist {
     font-size: 14pt;
     font-family: 'Tinos', 'Georgia', times;
-    line-height: 24pt;
     color: #808080;
+    line-height: 150%;
 }
 
 .xrow strong, .xtext strong, .xlist strong {
@@ -113,7 +117,7 @@ body {
 }
 
 .xrow {
-    border-bottom: 1px solid #C0C0C0;
+    border-bottom: 1px solid #E4E9F0;
 }
 
 .xrow:last-child {
@@ -129,12 +133,34 @@ body {
     font-weight: normal;
 }
 
-.xlist .tag {
+.xtag, .xsmalltag {
     display: inline-block;
     border: 1px solid gray;
-    padding: 0 10px 0 10px;
+}
+
+.xtag {
     border-radius: 6px 0 6px 0;
+    padding: 0 10px 0 10px;
     margin: 0 10px 0 0;
+}
+
+.xsmalltag {
+    border-radius: 4px 0 4px 0;
+    padding: 0 6px 0 6px;
+    margin: 0 4px 0 0;
+}
+
+.xsubtext {
+    font-size: 10pt;
+    line-height: 125%;
+    margin: 5px 0 5px 0;
+}
+
+.p-item {
+    margin: 0 0 10px 0;
+    padding: 10px 0 10px 20px;
+    border-left: 2px solid #428BCA;
+    background: #FFFFFF;
 }
 
 .vertical-space {
@@ -142,7 +168,11 @@ body {
 }
 
 .custom-footer {
-    margin-bottom: 20px;
+    margin: 10px 0 20px 0;
     padding-top: 10px;
     border-top: 1px solid #C0C0C0;
+}
+
+.more {
+    display: none;
 }
