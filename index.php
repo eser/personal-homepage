@@ -1,3 +1,9 @@
+<?php
+
+    require(__DIR__ . '/includes/FileCache.php');
+    require(__DIR__ . '/includes/BlogFeed.php');
+
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -101,12 +107,12 @@
                             <div id="about-general-personal" class="xanchor">
                                 <div class="row custom-section-inner">
                                     <div class="col-xs-2">
-                                        <h4 class="xtitle"><a href="#about-general-personal" class="xscroll-link">Personal</a></h4>
+                                        <h3 class="xtitle"><a href="#about-general-personal" class="xscroll-link">Personal</a></h3>
                                     </div>
                                     <div class="col-xs-10">
                                         <div class="row xrow">
                                             <div class="col-xs-4 xlabel">Work Experience:</div>
-                                            <div class="col-xs-8 xvalue">10 Years</div>
+                                            <div class="col-xs-8 xvalue">13 Years (Since 2000)</div>
                                         </div>
                                         <div class="row xrow">
                                             <div class="col-xs-4 xlabel">Birth Place/Year:</div>
@@ -128,7 +134,7 @@
                             <div id="about-general-profiles" class="xanchor">
                                 <div class="row custom-section-inner">
                                     <div class="col-xs-2">
-                                        <h4 class="xtitle"><a href="#about-general-profiles" class="xscroll-link">Profiles</a></h4>
+                                        <h3 class="xtitle"><a href="#about-general-profiles" class="xscroll-link">Profiles</a></h3>
                                     </div>
                                     <div class="col-xs-10">
                                         <div class="row xrow">
@@ -151,7 +157,7 @@
                             <div id="about-general-skills" class="xanchor">
                                 <div class="row custom-section-inner">
                                     <div class="col-xs-2">
-                                        <h4 class="xtitle"><a href="#about-general-skills" class="xscroll-link">Skills</a></h4>
+                                        <h3 class="xtitle"><a href="#about-general-skills" class="xscroll-link">Skills</a></h3>
                                     </div>
                                     <div class="col-xs-10 xtext">
                                         Development Team Leadership, Project Process Management, Research
@@ -163,7 +169,7 @@
                             <div id="about-general-knowledge" class="xanchor">
                                 <div class="row custom-section-inner">
                                     <div class="col-xs-2">
-                                        <h4 class="xtitle"><a href="#about-general-knowledge" class="xscroll-link">Knowledge</a></h4>
+                                        <h3 class="xtitle"><a href="#about-general-knowledge" class="xscroll-link">Knowledge</a></h3>
                                     </div>
                                     <div class="col-xs-10 xtext">
                                         Disciplines of Software Engineering,
@@ -189,10 +195,10 @@
                             <div id="about-education-graduate" class="xanchor">
                                 <div class="row custom-section-inner">
                                     <div class="col-xs-2">
-                                        <h4 class="xtitle"><a href="#about-education-graduate" class="xscroll-link">Graduate</a></h4>
+                                        <h3 class="xtitle"><a href="#about-education-graduate" class="xscroll-link">Graduate</a></h3>
                                     </div>
                                     <div class="col-xs-10 xtext">
-                                        <strong>DOĞU AKDENİZ ÜNİVERSİTESİ FEDU INFORMATION AND COMMUNICATION TECHNOLOGY IN EDUCATION MSC (2013-)</strong><br />
+                                        <h5>DOĞU AKDENİZ ÜNİVERSİTESİ FEDU INFORMATION AND COMMUNICATION TECHNOLOGY IN EDUCATION MSC (2013-)</h5>
                                         CGPA: -
                                     </div>
                                 </div>
@@ -202,14 +208,14 @@
                             <div id="about-education-undergraduate" class="xanchor">
                                 <div class="row custom-section-inner">
                                     <div class="col-xs-2">
-                                        <h4 class="xtitle"><a href="#about-education-undergraduate" class="xscroll-link">Undergraduate</a></h4>
+                                        <h3 class="xtitle"><a href="#about-education-undergraduate" class="xscroll-link">Undergraduate</a></h3>
                                     </div>
                                     <div class="col-xs-10 xtext">
-                                        <strong>DOĞU AKDENİZ ÜNİVERSİTESİ SCT INFORMATION TECHNOLOGY BSC (2010 – 2012)</strong><br />
+                                        <h5>DOĞU AKDENİZ ÜNİVERSİTESİ SCT INFORMATION TECHNOLOGY BSC (2010 – 2012)</h5>
                                         CGPA: 3.12/4.00<br />
                                         <br />
 
-                                        <strong>CELAL BAYAR ÜNİVERSİTESİ KMYO BİLGİSAYAR PROGRAMCILIĞI AS (2002 – 2004)</strong><br />
+                                        <h5>CELAL BAYAR ÜNİVERSİTESİ KMYO BİLGİSAYAR PROGRAMCILIĞI AS (2002 – 2004)</h5>
                                         CGPA: 78.77/100
                                     </div>
                                 </div>
@@ -227,13 +233,13 @@
                             <div id="about-workexperience-senior" class="xanchor">
                                 <div class="row custom-section-inner">
                                     <div class="col-xs-2">
-                                        <h4 class="xtitle"><a href="#about-workexperience-senior" class="xscroll-link">Senior</a></h4>
+                                        <h3 class="xtitle"><a href="#about-workexperience-senior" class="xscroll-link">Senior</a></h3>
                                     </div>
                                     <div class="col-xs-10 xtext">
-                                        <strong>GOLDSOFT TRADING (JUNE 2012 - JULY 2013) – FRAMEWORK DEVELOPER – TEAM LEADER</strong><br />
+                                        <h5>GOLDSOFT TRADING (JUNE 2012 - JULY 2013) – FRAMEWORK DEVELOPER – TEAM LEADER</h5>
                                         Online E-Commerce Systems, Facebook Applications on OpenGraph<br />
                                         <br />
-                                        <strong>CMFNET (APRIL 2008 – FEBRUARY 2012) – PROJECT MANAGER – TEAM LEADER</strong><br />
+                                        <h5>CMFNET (APRIL 2008 – FEBRUARY 2012) – PROJECT MANAGER – TEAM LEADER</h5>
                                         Desktop Applications, Web Applications, Microsoft Office Addİns, ActiveDirectory Tools, SMS Services and Protocols, Distributed Applications, 3. Party Tools for APIs
                                     </div>
                                 </div>
@@ -243,16 +249,16 @@
                             <div id="about-workexperience-medior" class="xanchor">
                                 <div class="row custom-section-inner">
                                     <div class="col-xs-2">
-                                        <h4 class="xtitle"><a href="#about-workexperience-medior" class="xscroll-link">Medior</a></h4>
+                                        <h3 class="xtitle"><a href="#about-workexperience-medior" class="xscroll-link">Medior</a></h3>
                                     </div>
                                     <div class="col-xs-10 xtext">
-                                        <strong>DEVBIZ (AUGUST 2006 – JANUARY 2007) – SOFTWARE DESIGN ENGINEER</strong><br />
+                                        <h5>DEVBIZ (AUGUST 2006 – JANUARY 2007) – SOFTWARE DESIGN ENGINEER</h5>
                                         .NET Components, Continuous Integration Tools<br />
                                         <br />
-                                        <strong>ISPRO (NOVEMBER 2004 – AUGUST 2006) – APPLICATION DEVELOPER, SERVER ADMINISTRATOR</strong><br />
+                                        <h5>ISPRO (NOVEMBER 2004 – AUGUST 2006) – APPLICATION DEVELOPER, SERVER ADMINISTRATOR</h5>
                                         Linux Server Administration, Windows Server Administration, Mail Server Management, Desktop Applications, ActiveDirectory, Internet Service Provider Services<br />
                                         <br />
-                                        <strong>EGEBILGI (JUNE 2004 – NOVEMBER 2004) – WEB DEVELOPER</strong><br />
+                                        <h5>EGEBILGI (JUNE 2004 – NOVEMBER 2004) – WEB DEVELOPER</h5>
                                         E-Commerce Platforms, Content Management Systems, Web Applications
                                     </div>
                                 </div>
@@ -270,21 +276,21 @@
                             <div id="about-certificates-all" class="xanchor">
                                 <div class="row custom-section-inner">
                                     <div class="col-xs-2">
-                                        <!-- <h4 class="xtitle"><a href="#about-certificates-all" class="xscroll-link">*</a></h4> -->
+                                        <!-- <h3 class="xtitle"><a href="#about-certificates-all" class="xscroll-link">*</a></h3> -->
                                     </div>
                                     <div class="col-xs-10 xtext">
-                                        <strong>MICROSOFT CERTIFIED PROFESSIONAL</strong><br />
+                                        <h5>MICROSOFT CERTIFIED PROFESSIONAL</h5>
                                         Technology Specialist: Microsoft Windows Mobile Application Development<br />
                                         Technology Specialist: Microsoft Windows Mobile Designing, Implementing and Managing<br />
                                         <br />
-                                        <strong>UKLA ACEDEMY</strong><br />
+                                        <h5>UKLA ACEDEMY</h5>
                                         General English (EFL): Upper-Intermediate (Council of Europe B2)<br />
                                         <br />
-                                        <strong>MIT (THE MASSACHUSETTS INSTITUTE OF TECHNOLOGY) THROUGH EDX</strong><br />
+                                        <h5>MIT (THE MASSACHUSETTS INSTITUTE OF TECHNOLOGY) THROUGH EDX</h5>
                                         6.00x: Introduction to Computer Science and Programming<br />
                                         <a href="https://verify.edx.org/cert/4b90bae7e00a4d94b9793c93339334ba">https://verify.edx.org/cert/4b90bae7e00a4d94b9793c93339334ba</a><br />
                                         <br />
-                                        <strong>BERKELEY (UNIVERSITY OF CALIFORNIA) THROUGH EDX</strong><br />
+                                        <h5>BERKELEY (UNIVERSITY OF CALIFORNIA) THROUGH EDX</h5>
                                         CS-169.1x: Software as a Service<br />
                                         <a href="https://verify.edx.org/cert/da723362e8b74500992fc4bc84e5324c">https://verify.edx.org/cert/da723362e8b74500992fc4bc84e5324c</a>
                                     </div>
@@ -303,14 +309,14 @@
                             <div id="about-interests-all" class="xanchor">
                                 <div class="row custom-section-inner">
                                     <div class="col-xs-2">
-                                        <!-- <h4 class="xtitle"><a href="#about-interests-all" class="xscroll-link">*</a></h4> -->
+                                        <!-- <h3 class="xtitle"><a href="#about-interests-all" class="xscroll-link">*</a></h3> -->
                                     </div>
                                     <div class="col-xs-10 xlist">
-                                        <span class="xtag">Bicycle</span>
-                                        <span class="xtag">Comicbooks</span>
-                                        <span class="xtag">Science Fiction</span>
-                                        <span class="xtag">Coding</span>
-                                        <span class="xtag">Blues Rock</span>
+                                        <span class="xtag"><em>Bicycle</em></span>
+                                        <span class="xtag"><em>Comicbooks</em></span>
+                                        <span class="xtag"><em>Science Fiction</em></span>
+                                        <span class="xtag"><em>Coding</em></span>
+                                        <span class="xtag"><em>Blues Rock</em></span>
                                     </div>
                                 </div>
                             </div>
@@ -343,137 +349,157 @@
                             <div id="projects-tailormade" class="xanchor">
                                 <div class="row custom-section-inner">
                                     <div class="col-xs-2">
-                                        <h4 class="xtitle"><a href="#projects-tailormade" class="xscroll-link">Tailor Made</a></h4>
+                                        <h3 class="xtitle"><a href="#projects-tailormade" class="xscroll-link">Tailor Made</a></h3>
                                     </div>
                                     <div class="col-xs-10 xtext">
+                                        <div class="p-item" rel="microsoft">
+                                            <h5>EasyWords – 2013</h5>
+                                            Software helps you memorize words very easily while learning a new language.<br />
+                                            <div class="xsubtext">
+                                                <div class="xsmalltag"><em>Freelance</em></div>
+                                                <div class="xsmalltag"><em>.NET</em></div>
+                                                <div class="xsmalltag"><em>Cordova Framework</em></div>
+                                                <div class="xsmalltag"><em>WCF</em></div>
+                                                <div class="xsmalltag"><em>ADT</em></div>
+                                                <div class="xsmalltag"><em>SQL Server</em></div>
+                                                <div class="xsmalltag"><em>ASP.NET</em></div>
+                                                <div class="xsmalltag"><em>HTML5</em></div>
+                                                <div class="xsmalltag"><em>CSS3</em></div>
+                                                <div class="xsmalltag"><em>JavaScript</em></div>
+                                                <div class="xsmalltag"><em>Bootstrap</em></div>
+                                                <div class="xsmalltag"><em>Git</em></div>
+                                                <div class="xsmalltag"><em>Visualstudio.com</em></div>
+                                            </div>
+                                        </div>
+
                                         <div class="p-item" rel="freesoftware">
-                                            <strong>Hasan Sungur Group of Companies – 2013</strong><br />
+                                            <h5>UZE – 2013</h5>
+                                            An online testing system to valuate IQ levels of gifted children.<br />
+                                            <div class="xsubtext">
+                                                <div class="xsmalltag"><em>Freelance</em></div>
+                                                <div class="xsmalltag"><em>PHP</em></div>
+                                                <div class="xsmalltag"><em>MySQL</em></div>
+                                                <div class="xsmalltag"><em>CodeIgniter</em></div>
+                                                <div class="xsmalltag"><em>JavaScript</em></div>
+                                                <div class="xsmalltag"><em>Bootstrap</em></div>
+                                                <div class="xsmalltag"><em>Git</em></div>
+                                            </div>
+                                        </div>
+
+                                        <div class="p-item" rel="freesoftware">
+                                            <h5>Hasan Sungur Group of Companies – 2013</h5>
                                             Web site development of the group of companies and Beylerbeyi Estate.<br />
                                             <div class="xsubtext">
-                                                <div class="xsmalltag">Freelance</div>
-                                                <div class="xsmalltag">PHP</div>
-                                                <div class="xsmalltag">MySQL</div>
-                                                <div class="xsmalltag">HTML5</div>
-                                                <div class="xsmalltag">CSS3</div>
-                                                <div class="xsmalltag">JavaScript</div>
-                                                <div class="xsmalltag">Bootstrap</div>
-                                                <div class="xsmalltag">Git</div>
+                                                <div class="xsmalltag"><em>Freelance</em></div>
+                                                <div class="xsmalltag"><em>PHP</em></div>
+                                                <div class="xsmalltag"><em>MySQL</em></div>
+                                                <div class="xsmalltag"><em>HTML5</em></div>
+                                                <div class="xsmalltag"><em>CSS3</em></div>
+                                                <div class="xsmalltag"><em>JavaScript</em></div>
+                                                <div class="xsmalltag"><em>Bootstrap</em></div>
+                                                <div class="xsmalltag"><em>Git</em></div>
                                             </div>
                                         </div>
 
                                         <div class="p-item" rel="freesoftware">
-                                            <strong>(Gizli) – 2013</strong><br />
-                                            A web application evaluates student performance in education industry.<br />
-                                            <div class="xsubtext">
-                                                <div class="xsmalltag">Freelance</div>
-                                                <div class="xsmalltag">PHP</div>
-                                                <div class="xsmalltag">CodeIgniter</div>
-                                                <div class="xsmalltag">MySQL</div>
-                                                <div class="xsmalltag">JavaScript</div>
-                                                <div class="xsmalltag">Bootstrap</div>
-                                                <div class="xsmalltag">Git</div>
-                                            </div>
-                                        </div>
-
-                                        <div class="p-item" rel="freesoftware">
-                                            <strong>Interesd – 2013</strong><br />
+                                            <h5>Interesd – 2013</h5>
                                             Social aggregator project which is currently in development.<br />
                                             <div class="xsubtext">
-                                                <div class="xsmalltag">Goldsoft</div>
-                                                <div class="xsmalltag">.NET</div>
-                                                <div class="xsmalltag">C#</div>
-                                                <div class="xsmalltag">PHP</div>
-                                                <div class="xsmalltag">Memcache</div>
-                                                <div class="xsmalltag">RabbitMQ</div>
-                                                <div class="xsmalltag">PostgreSQL</div>
-                                                <div class="xsmalltag">HTML5</div>
-                                                <div class="xsmalltag">CSS3</div>
-                                                <div class="xsmalltag">LESS</div>
-                                                <div class="xsmalltag">JavaScript</div>
-                                                <div class="xsmalltag">jQuery</div>
-                                                <div class="xsmalltag">Subversion</div>
+                                                <div class="xsmalltag"><em>Goldsoft</em></div>
+                                                <div class="xsmalltag"><em>.NET</em></div>
+                                                <div class="xsmalltag"><em>C#</em></div>
+                                                <div class="xsmalltag"><em>PHP</em></div>
+                                                <div class="xsmalltag"><em>Memcache</em></div>
+                                                <div class="xsmalltag"><em>RabbitMQ</em></div>
+                                                <div class="xsmalltag"><em>PostgreSQL</em></div>
+                                                <div class="xsmalltag"><em>HTML5</em></div>
+                                                <div class="xsmalltag"><em>CSS3</em></div>
+                                                <div class="xsmalltag"><em>LESS</em></div>
+                                                <div class="xsmalltag"><em>JavaScript</em></div>
+                                                <div class="xsmalltag"><em>jQuery</em></div>
+                                                <div class="xsmalltag"><em>Subversion</em></div>
                                             </div>
                                         </div>
 
                                         <div class="p-item" rel="freesoftware">
-                                            <strong>Kıbrıssipariş – 2012</strong><br />
+                                            <h5>Kıbrıssipariş – 2012</h5>
                                             Cyprus-wide online food delivery service.<br />
                                             <div class="xsubtext">
-                                                <div class="xsmalltag">Goldsoft</div>
-                                                <div class="xsmalltag">PHP</div>
-                                                <div class="xsmalltag">Memcache</div>
-                                                <div class="xsmalltag">PostgreSQL</div>
-                                                <div class="xsmalltag">HTML5</div>
-                                                <div class="xsmalltag">CSS3</div>
-                                                <div class="xsmalltag">JavaScript</div>
-                                                <div class="xsmalltag">jQuery</div>
-                                                <div class="xsmalltag">Subversion</div>
+                                                <div class="xsmalltag"><em>Goldsoft</em></div>
+                                                <div class="xsmalltag"><em>PHP</em></div>
+                                                <div class="xsmalltag"><em>Memcache</em></div>
+                                                <div class="xsmalltag"><em>PostgreSQL</em></div>
+                                                <div class="xsmalltag"><em>HTML5</em></div>
+                                                <div class="xsmalltag"><em>CSS3</em></div>
+                                                <div class="xsmalltag"><em>JavaScript</em></div>
+                                                <div class="xsmalltag"><em>jQuery</em></div>
+                                                <div class="xsmalltag"><em>Subversion</em></div>
                                             </div>
                                         </div>
 
                                         <div class="p-item" rel="freesoftware">
-                                            <strong>Turkiyemdesaglik.com – 2011</strong><br />
+                                            <h5>Turkiyemdesaglik.com – 2011</h5>
                                             Dictionary service lists all medical clinics in Turkey.<br />
                                             <div class="xsubtext">
-                                                <div class="xsmalltag">Freelance</div>
-                                                <div class="xsmalltag">PHP</div>
-                                                <div class="xsmalltag">MySQL</div>
+                                                <div class="xsmalltag"><em>Freelance</em></div>
+                                                <div class="xsmalltag"><em>PHP</em></div>
+                                                <div class="xsmalltag"><em>MySQL</em></div>
                                             </div>
                                         </div>
 
                                         <div class="p-item" rel="microsoft">
-                                            <strong>Atlasjet InHouse SMS Service – 2011</strong><br />
+                                            <h5>Atlasjet InHouse SMS Service – 2011</h5>
                                             SMS Gateway and connection tools which is located in Atlasjet's own datacenter.<br />
                                             <div class="xsubtext">
-                                                <div class="xsmalltag">CMFNET</div>
-                                                <div class="xsmalltag">.NET</div>
-                                                <div class="xsmalltag">C#</div>
-                                                <div class="xsmalltag">Windows Server</div>
-                                                <div class="xsmalltag">SQL Server</div>
-                                                <div class="xsmalltag">SOAP</div>
+                                                <div class="xsmalltag"><em>CMFNET</em></div>
+                                                <div class="xsmalltag"><em>.NET</em></div>
+                                                <div class="xsmalltag"><em>C#</em></div>
+                                                <div class="xsmalltag"><em>Windows Server</em></div>
+                                                <div class="xsmalltag"><em>SQL Server</em></div>
+                                                <div class="xsmalltag"><em>SOAP</em></div>
                                             </div>
                                         </div>
 
                                         <div class="p-item" rel="microsoft">
-                                            <strong>DYO Loyalty Project – 2010</strong><br />
+                                            <h5>DYO Loyalty Project – 2010</h5>
                                             Software project allows earning points from DYO product sales via SMS activation.<br />
                                             <div class="xsubtext">
-                                                <div class="xsmalltag">CMFNET</div>
-                                                <div class="xsmalltag">.NET</div>
-                                                <div class="xsmalltag">C#</div>
-                                                <div class="xsmalltag">Windows Server</div>
-                                                <div class="xsmalltag">SQL Server</div>
-                                                <div class="xsmalltag">SOAP</div>
+                                                <div class="xsmalltag"><em>CMFNET</em></div>
+                                                <div class="xsmalltag"><em>.NET</em></div>
+                                                <div class="xsmalltag"><em>C#</em></div>
+                                                <div class="xsmalltag"><em>Windows Server</em></div>
+                                                <div class="xsmalltag"><em>SQL Server</em></div>
+                                                <div class="xsmalltag"><em>SOAP</em></div>
                                             </div>
                                         </div>
 
                                         <div class="p-item" rel="microsoft">
-                                            <strong>Turkcell OMS – 2010</strong><br />
+                                            <h5>Turkcell OMS – 2010</h5>
                                             Turkcell's Outlook Mobile Service outsourced to CMFCell.<br />
                                             <div class="xsubtext">
-                                                <div class="xsmalltag">CMFNET</div>
-                                                <div class="xsmalltag">.NET</div>
-                                                <div class="xsmalltag">C#</div>
-                                                <div class="xsmalltag">Windows Server</div>
-                                                <div class="xsmalltag">SQL Server</div>
-                                                <div class="xsmalltag">SOAP</div>
-                                                <div class="xsmalltag">TFS</div>
-                                                <div class="xsmalltag">NUnit</div>
+                                                <div class="xsmalltag"><em>CMFNET</em></div>
+                                                <div class="xsmalltag"><em>.NET</em></div>
+                                                <div class="xsmalltag"><em>C#</em></div>
+                                                <div class="xsmalltag"><em>Windows Server</em></div>
+                                                <div class="xsmalltag"><em>SQL Server</em></div>
+                                                <div class="xsmalltag"><em>SOAP</em></div>
+                                                <div class="xsmalltag"><em>TFS</em></div>
+                                                <div class="xsmalltag"><em>NUnit</em></div>
                                             </div>
                                         </div>
 
                                         <div class="p-item" rel="microsoft">
-                                            <strong>CMFCell SMS Gateway – 2009</strong><br />
+                                            <h5>CMFCell SMS Gateway – 2009</h5>
                                             API-enabled message gateway software with distributed architecture which interoperates with international operators including Turkcell.<br />
                                             <div class="xsubtext">
-                                                <div class="xsmalltag">CMFNET</div>
-                                                <div class="xsmalltag">.NET</div>
-                                                <div class="xsmalltag">C#</div>
-                                                <div class="xsmalltag">Windows Server</div>
-                                                <div class="xsmalltag">TPL</div>
-                                                <div class="xsmalltag">WCF</div>
-                                                <div class="xsmalltag">TFS</div>
-                                                <div class="xsmalltag">NUnit</div>
+                                                <div class="xsmalltag"><em>CMFNET</em></div>
+                                                <div class="xsmalltag"><em>.NET</em></div>
+                                                <div class="xsmalltag"><em>C#</em></div>
+                                                <div class="xsmalltag"><em>Windows Server</em></div>
+                                                <div class="xsmalltag"><em>TPL</em></div>
+                                                <div class="xsmalltag"><em>WCF</em></div>
+                                                <div class="xsmalltag"><em>TFS</em></div>
+                                                <div class="xsmalltag"><em>NUnit</em></div>
                                             </div>
                                         </div>
 
@@ -481,131 +507,131 @@
 
                                         <div class="more more-pre2009">
                                             <div class="p-item" rel="microsoft">
-                                                <strong>CMFCell Desktop Suite – 2008</strong><br />
+                                                <h5>CMFCell Desktop Suite – 2008</h5>
                                                 CMFCell Explorer desktop software supports SMS, MMS, WapPush and E-mail sending. Word, Excel, Outlook, ActiveDirectory add-ins and internal addressbook were the essential parts of this software.<br />
                                                 <div class="xsubtext">
-                                                    <div class="xsmalltag">CMFNET</div>
-                                                    <div class="xsmalltag">.NET</div>
-                                                    <div class="xsmalltag">C#</div>
-                                                    <div class="xsmalltag">Windows Forms</div>
-                                                    <div class="xsmalltag">VSTO</div>
-                                                    <div class="xsmalltag">TFS</div>
+                                                    <div class="xsmalltag"><em>CMFNET</em></div>
+                                                    <div class="xsmalltag"><em>.NET</em></div>
+                                                    <div class="xsmalltag"><em>C#</em></div>
+                                                    <div class="xsmalltag"><em>Windows Forms</em></div>
+                                                    <div class="xsmalltag"><em>VSTO</em></div>
+                                                    <div class="xsmalltag"><em>TFS</em></div>
                                                 </div>
                                             </div>
 
                                             <div class="p-item" rel="microsoft">
-                                                <strong>devMail.NET – 2006</strong><br />
+                                                <h5>devMail.NET – 2006</h5>
                                                 .NET e-mail component by devBiz which is acquired by Microsoft later.<br />
                                                 <div class="xsubtext">
-                                                    <div class="xsmalltag">devBiz</div>
-                                                    <div class="xsmalltag">.NET</div>
-                                                    <div class="xsmalltag">C#</div>
-                                                    <div class="xsmalltag">SourceGear Vault</div>
-                                                    <div class="xsmalltag">MSBuild</div>
-                                                    <div class="xsmalltag">NUnit</div>
+                                                    <div class="xsmalltag"><em>devBiz</em></div>
+                                                    <div class="xsmalltag"><em>.NET</em></div>
+                                                    <div class="xsmalltag"><em>C#</em></div>
+                                                    <div class="xsmalltag"><em>SourceGear Vault</em></div>
+                                                    <div class="xsmalltag"><em>MSBuild</em></div>
+                                                    <div class="xsmalltag"><em>NUnit</em></div>
                                                 </div>
                                             </div>
 
                                             <div class="p-item" rel="microsoft">
-                                                <strong>Fatih Koleji School Automation – 2005</strong><br />
+                                                <h5>Fatih Koleji School Automation – 2005</h5>
                                                 School automation which is developed under the roof of Doğanata Eğitim Kurumları.<br />
                                                 <div class="xsubtext">
-                                                    <div class="xsmalltag">ISPro</div>
-                                                    <div class="xsmalltag">Visual Basic</div>
-                                                    <div class="xsmalltag">SourceSafe</div>
+                                                    <div class="xsmalltag"><em>ISPro</em></div>
+                                                    <div class="xsmalltag"><em>Visual Basic</em></div>
+                                                    <div class="xsmalltag"><em>SourceSafe</em></div>
                                                 </div>
                                             </div>
 
                                             <div class="p-item" rel="others">
-                                                <strong>Dentek Issue Tracker – 2005</strong><br />
+                                                <h5>Dentek Issue Tracker – 2005</h5>
                                                 The software organizes issue tracking during the production of tooth protheses.<br />
                                                 <div class="xsubtext">
-                                                    <div class="xsmalltag">ISPro</div>
-                                                    <div class="xsmalltag">Delphi</div>
-                                                    <div class="xsmalltag">Paradox</div>
+                                                    <div class="xsmalltag"><em>ISPro</em></div>
+                                                    <div class="xsmalltag"><em>Delphi</em></div>
+                                                    <div class="xsmalltag"><em>Paradox</em></div>
                                                 </div>
                                             </div>
 
                                             <div class="p-item" rel="microsoft">
-                                                <strong>Ispro Mail Configurator – 2005</strong><br />
+                                                <h5>Ispro Mail Configurator – 2005</h5>
                                                 Outlook and Outlook Express configuration tool for ISP customers.<br />
                                                 <div class="xsubtext">
-                                                    <div class="xsmalltag">ISPro</div>
-                                                    <div class="xsmalltag">.NET</div>
-                                                    <div class="xsmalltag">C#</div>
-                                                    <div class="xsmalltag">Windows Forms</div>
+                                                    <div class="xsmalltag"><em>ISPro</em></div>
+                                                    <div class="xsmalltag"><em>.NET</em></div>
+                                                    <div class="xsmalltag"><em>C#</em></div>
+                                                    <div class="xsmalltag"><em>Windows Forms</em></div>
                                                 </div>
                                             </div>
 
                                             <div class="p-item" rel="freesoftware">
-                                                <strong>Oruçoğlu Otel – 2004</strong><br />
+                                                <h5>Oruçoğlu Otel – 2004</h5>
                                                 Online booking and content management system for Oruçoğlu Otel.<br />
                                                 <div class="xsubtext">
-                                                    <div class="xsmalltag">ISPro</div>
-                                                    <div class="xsmalltag">PHP</div>
-                                                    <div class="xsmalltag">MySQL</div>
+                                                    <div class="xsmalltag"><em>ISPro</em></div>
+                                                    <div class="xsmalltag"><em>PHP</em></div>
+                                                    <div class="xsmalltag"><em>MySQL</em></div>
                                                 </div>
                                             </div>
 
                                             <div class="p-item" rel="freesoftware">
-                                                <strong>Boomerang – 2004</strong><br />
+                                                <h5>Boomerang – 2004</h5>
                                                 Content management back-end which designed for both ASP and PHP.<br />
                                                 <div class="xsubtext">
-                                                    <div class="xsmalltag">Egebilgi</div>
-                                                    <div class="xsmalltag">ASP</div>
-                                                    <div class="xsmalltag">PHP</div>
-                                                    <div class="xsmalltag">MySQL</div>
+                                                    <div class="xsmalltag"><em>Egebilgi</em></div>
+                                                    <div class="xsmalltag"><em>ASP</em></div>
+                                                    <div class="xsmalltag"><em>PHP</em></div>
+                                                    <div class="xsmalltag"><em>MySQL</em></div>
                                                 </div>
                                             </div>
 
                                             <div class="p-item" rel="freesoftware">
-                                                <strong>Egebilgi.net – 2004</strong><br />
+                                                <h5>Egebilgi.net – 2004</h5>
                                                 SME portal and e-trade project which is approved and supported by Kosgeb.<br />
                                                 <div class="xsubtext">
-                                                    <div class="xsmalltag">Egebilgi</div>
-                                                    <div class="xsmalltag">PHP</div>
-                                                    <div class="xsmalltag">MySQL</div>
+                                                    <div class="xsmalltag"><em>Egebilgi</em></div>
+                                                    <div class="xsmalltag"><em>PHP</em></div>
+                                                    <div class="xsmalltag"><em>MySQL</em></div>
                                                 </div>
                                             </div>
 
                                             <div class="p-item" rel="freesoftware">
-                                                <strong>dsoc – 2002</strong><br />
+                                                <h5>dsoc – 2002</h5>
                                                 Multi-user blogging back-end.<br />
                                                 <div class="xsubtext">
-                                                    <div class="xsmalltag">Freelance</div>
-                                                    <div class="xsmalltag">PHP</div>
-                                                    <div class="xsmalltag">MySQL</div>
-                                                    <div class="xsmalltag">XSLT</div>
+                                                    <div class="xsmalltag"><em>Freelance</em></div>
+                                                    <div class="xsmalltag"><em>PHP</em></div>
+                                                    <div class="xsmalltag"><em>MySQL</em></div>
+                                                    <div class="xsmalltag"><em>XSLT</em></div>
                                                 </div>
                                             </div>
 
                                             <div class="p-item" rel="freesoftware">
-                                                <strong>Gozcard – 2000</strong><br />
+                                                <h5>Gozcard – 2000</h5>
                                                 Online shopping and Loyalty card project for Göztepe Sport Club.<br />
                                                 <div class="xsubtext">
-                                                    <div class="xsmalltag">Freelance</div>
-                                                    <div class="xsmalltag">PHP</div>
-                                                    <div class="xsmalltag">MySQL</div>
+                                                    <div class="xsmalltag"><em>Freelance</em></div>
+                                                    <div class="xsmalltag"><em>PHP</em></div>
+                                                    <div class="xsmalltag"><em>MySQL</em></div>
                                                 </div>
                                             </div>
 
                                             <div class="p-item" rel="freesoftware">
-                                                <strong>Otolab – 2000</strong><br />
+                                                <h5>Otolab – 2000</h5>
                                                 Online reservation system for car maintenance.<br />
                                                 <div class="xsubtext">
-                                                    <div class="xsmalltag">Freelance</div>
-                                                    <div class="xsmalltag">PHP</div>
-                                                    <div class="xsmalltag">MySQL</div>
+                                                    <div class="xsmalltag"><em>Freelance</em></div>
+                                                    <div class="xsmalltag"><em>PHP</em></div>
+                                                    <div class="xsmalltag"><em>MySQL</em></div>
                                                 </div>
                                             </div>
 
                                             <div class="p-item" rel="microsoft">
-                                                <strong>Turkish Quake Fortress – 1998</strong><br />
+                                                <h5>Turkish Quake Fortress – 1998</h5>
                                                 News, columns and file archive related with the popular game named Quake.<br />
                                                 <div class="xsubtext">
-                                                    <div class="xsmalltag">Freelance</div>
-                                                    <div class="xsmalltag">ASP</div>
-                                                    <div class="xsmalltag">Access</div>
+                                                    <div class="xsmalltag"><em>Freelance</em></div>
+                                                    <div class="xsmalltag"><em>ASP</em></div>
+                                                    <div class="xsmalltag"><em>Access</em></div>
                                                 </div>
                                             </div>
                                         </div>
@@ -617,67 +643,91 @@
                             <div id="projects-myown" class="xanchor">
                                 <div class="row custom-section-inner">
                                     <div class="col-xs-2">
-                                        <h4 class="xtitle"><a href="#projects-myown" class="xscroll-link">My Own</a></h4>
+                                        <h3 class="xtitle"><a href="#projects-myown" class="xscroll-link">My Own</a></h3>
                                     </div>
                                     <div class="col-xs-10 xtext">
+                                        <div class="p-item" rel="freesoftware">
+                                            <h5>PM – 2013</h5>
+                                            A web-based project management tool.<br />
+                                            <a href="https://github.com/larukedi/pm">https://github.com/larukedi/pm</a><br />
+                                            <div class="xsubtext">
+                                                <div class="xsmalltag"><em>PHP</em></div>
+                                                <div class="xsmalltag"><em>MySQL</em></div>
+                                                <div class="xsmalltag"><em>HTML5</em></div>
+                                                <div class="xsmalltag"><em>CSS3</em></div>
+                                                <div class="xsmalltag"><em>Javascript</em></div>
+                                                <div class="xsmalltag"><em>Git</em></div>
+                                            </div>
+                                        </div>
+
+                                        <div class="p-item" rel="freesoftware">
+                                            <h5>DeductionCpp – 2013</h5>
+                                            A logic language parser, simplifier and evaluator which is designed to solve gentzen system propositions.<br />
+                                            <a href="https://github.com/larukedi/cmpe534/tree/master/DeductionCpp">https://github.com/larukedi/cmpe534/tree/master/DeductionCpp</a><br />
+                                            <div class="xsubtext">
+                                                <div class="xsmalltag"><em>C++11</em></div>
+                                                <div class="xsmalltag"><em>C++ Standard library</em></div>
+                                            </div>
+                                        </div>
+
                                         <div class="p-item" rel="microsoft">
-                                            <strong>Tasslehoff – 2013</strong><br />
+                                            <h5>Tasslehoff – 2013</h5>
                                             .NET project that executes periodic and scheduled tasks on distributed architecture.<br />
                                             <a href="https://github.com/larukedi/tasslehoff">https://github.com/larukedi/tasslehoff</a><br />
                                             <div class="xsubtext">
-                                                <div class="xsmalltag">.NET</div>
-                                                <div class="xsmalltag">C#</div>
-                                                <div class="xsmalltag">RabbitMQ</div>
-                                                <div class="xsmalltag">Memcache</div>
-                                                <div class="xsmalltag">WCF</div>
-                                                <div class="xsmalltag">REST</div>
-                                                <div class="xsmalltag">Git</div>
+                                                <div class="xsmalltag"><em>.NET</em></div>
+                                                <div class="xsmalltag"><em>C#</em></div>
+                                                <div class="xsmalltag"><em>RabbitMQ</em></div>
+                                                <div class="xsmalltag"><em>Memcache</em></div>
+                                                <div class="xsmalltag"><em>WCF</em></div>
+                                                <div class="xsmalltag"><em>REST</em></div>
+                                                <div class="xsmalltag"><em>Git</em></div>
                                             </div>
                                         </div>
 
                                         <div class="p-item" rel="freesoftware">
-                                            <strong>laroux.js – 2012</strong><br />
+                                            <h5>laroux.js – 2012</h5>
                                             An jQuery substitute designed for modern browsers.<br />
                                             <a href="https://github.com/larukedi/laroux.js">https://github.com/larukedi/laroux.js</a><br />
                                             <div class="xsubtext">
-                                                <div class="xsmalltag">JavaScript</div>
-                                                <div class="xsmalltag">DOM</div>
-                                                <div class="xsmalltag">Git</div>
+                                                <div class="xsmalltag"><em>JavaScript</em></div>
+                                                <div class="xsmalltag"><em>DOM</em></div>
+                                                <div class="xsmalltag"><em>Git</em></div>
                                             </div>
                                         </div>
 
                                         <div class="p-item" rel="freesoftware">
-                                            <strong>Survey-e-bot – 2012</strong><br />
+                                            <h5>Survey-e-bot – 2012</h5>
                                             A graduation project creates online surveys and populates the results.<br />
                                             <a href="https://github.com/larukedi/survey">https://github.com/larukedi/survey</a><br />
                                             <div class="xsubtext">
-                                                <div class="xsmalltag">PHP</div>
-                                                <div class="xsmalltag">PostgreSQL</div>
-                                                <div class="xsmalltag">HTML5</div>
-                                                <div class="xsmalltag">CSS3</div>
-                                                <div class="xsmalltag">JavaScript</div>
-                                                <div class="xsmalltag">Git</div>
+                                                <div class="xsmalltag"><em>PHP</em></div>
+                                                <div class="xsmalltag"><em>PostgreSQL</em></div>
+                                                <div class="xsmalltag"><em>HTML5</em></div>
+                                                <div class="xsmalltag"><em>CSS3</em></div>
+                                                <div class="xsmalltag"><em>JavaScript</em></div>
+                                                <div class="xsmalltag"><em>Git</em></div>
                                             </div>
                                         </div>
 
                                         <div class="p-item" rel="freesoftware">
-                                            <strong>Scabbia Framework – 2011</strong><br />
+                                            <h5>Scabbia Framework – 2011</h5>
                                             PHP framework derived from set of libraries I mostly use. (see: Scabbia2)<br />
                                             <a href="https://github.com/larukedi/Scabbia-Framework">https://github.com/larukedi/Scabbia-Framework</a><br />
                                             <div class="xsubtext">
-                                                <div class="xsmalltag">PHP</div>
-                                                <div class="xsmalltag">PDO</div>
-                                                <div class="xsmalltag">Git</div>
-                                                <div class="xsmalltag">PHP CodeSniffer</div>
+                                                <div class="xsmalltag"><em>PHP</em></div>
+                                                <div class="xsmalltag"><em>PDO</em></div>
+                                                <div class="xsmalltag"><em>Git</em></div>
+                                                <div class="xsmalltag"><em>PHP CodeSniffer</em></div>
                                             </div>
                                         </div>
 
                                         <div class="p-item" rel="freesoftware">
-                                            <strong>Quake 3 Blackmore Mod – 2006</strong><br />
+                                            <h5>Quake 3 Blackmore Mod – 2006</h5>
                                             A FPS game modification runs on Quake 3 engine.<br />
                                             <div class="xsubtext">
-                                                <div class="xsmalltag">C</div>
-                                                <div class="xsmalltag">idTech 4</div>
+                                                <div class="xsmalltag"><em>C</em></div>
+                                                <div class="xsmalltag"><em>idTech 4</em></div>
                                             </div>
                                         </div>
                                     </div>
@@ -688,53 +738,53 @@
                             <div id="projects-contributing" class="xanchor">
                                 <div class="row custom-section-inner">
                                     <div class="col-xs-2">
-                                        <h4 class="xtitle"><a href="#projects-contributing" class="xscroll-link">Contributing</a></h4>
+                                        <h3 class="xtitle"><a href="#projects-contributing" class="xscroll-link">Contributing</a></h3>
                                     </div>
                                     <div class="col-xs-10 xtext">
                                         <div class="p-item" rel="freesoftware">
-                                            <strong>Scabbia2 PHP Framework – 2013</strong><br />
+                                            <h5>Scabbia2 PHP Framework – 2013</h5>
                                             An open source PHP framework project which currently on planning stage.<br />
                                             <a href="https://github.com/scabbiafw/scabbia2">https://github.com/scabbiafw/scabbia2</a><br />
                                             <a href="http://scabbiafw.com/">http://scabbiafw.com/</a><br />
                                             <div class="xsubtext">
-                                                <div class="xsmalltag">PHP</div>
-                                                <div class="xsmalltag">Git</div>
-                                                <div class="xsmalltag">Travis CI</div>
-                                                <div class="xsmalltag">PHP CodeSniffer</div>
-                                                <div class="xsmalltag">Symfony Components</div>
+                                                <div class="xsmalltag"><em>PHP</em></div>
+                                                <div class="xsmalltag"><em>Git</em></div>
+                                                <div class="xsmalltag"><em>Travis CI</em></div>
+                                                <div class="xsmalltag"><em>PHP CodeSniffer</em></div>
+                                                <div class="xsmalltag"><em>Symfony Components</em></div>
                                             </div>
                                         </div>
 
                                         <div class="p-item" rel="freesoftware">
-                                            <strong>Muhafız – 2013</strong><br />
+                                            <h5>Muhafız – 2013</h5>
                                             Guards codebase from bad codes. Supports Git and Subversion.<br />
                                             <a href="http://sonsuzdongu.github.io/muhafiz/">http://sonsuzdongu.github.io/muhafiz/</a><br />
                                             <div class="xsubtext">
-                                                <div class="xsmalltag">PHP</div>
-                                                <div class="xsmalltag">Subversion</div>
-                                                <div class="xsmalltag">Git</div>
-                                                <div class="xsmalltag">PHP CodeSniffer</div>
+                                                <div class="xsmalltag"><em>PHP</em></div>
+                                                <div class="xsmalltag"><em>Subversion</em></div>
+                                                <div class="xsmalltag"><em>Git</em></div>
+                                                <div class="xsmalltag"><em>PHP CodeSniffer</em></div>
                                             </div>
                                         </div>
 
                                         <div class="p-item" rel="freesoftware">
-                                            <strong>Trouble in Libreland – 2012</strong><br />
+                                            <h5>Trouble in Libreland – 2012</h5>
                                             RTS / RPG blended strategy game runs on GGE.<br />
                                             <a href="http://sourceforge.net/projects/trinlibr/">http://sourceforge.net/projects/trinlibr/</a><br />
                                             <div class="xsubtext">
-                                                <div class="xsmalltag">C++</div>
+                                                <div class="xsmalltag"><em>C++</em></div>
                                             </div>
                                         </div>
 
                                         <div class="p-item" rel="freesoftware">
-                                            <strong>Gorgon Game Engine – 2012</strong><br />
+                                            <h5>Gorgon Game Engine – 2012</h5>
                                             Multiplatform game development engine and framework uses OpenGL and OpenAL.<br />
                                             <a href="http://sourceforge.net/projects/gorgon-ge/">http://sourceforge.net/projects/gorgon-ge/</a><br />
                                             <div class="xsubtext">
-                                                <div class="xsmalltag">C++</div>
-                                                <div class="xsmalltag">OpenGL</div>
-                                                <div class="xsmalltag">OpenAL</div>
-                                                <div class="xsmalltag">Theora</div>
+                                                <div class="xsmalltag"><em>C++</em></div>
+                                                <div class="xsmalltag"><em>OpenGL</em></div>
+                                                <div class="xsmalltag"><em>OpenAL</em></div>
+                                                <div class="xsmalltag"><em>Theora</em></div>
                                             </div>
                                         </div>
                                     </div>
@@ -746,6 +796,10 @@
             </div>
         </section>
 
+        <?php
+            $file = FileCache::get('http://eserozvataf.wordpress.com/feed/');
+            $blogposts = BlogFeed::get($file);
+        ?>
         <section id="socialmedia" class="xanchor">
             <div class="custom-section">
                 <div class="container">
@@ -757,13 +811,29 @@
                                         <h2><a href="#socialmedia-blogposts" class="xscroll-link">Blog Posts</a></h2>
                                     </div>
                                     <div id="p-filter" class="col-xs-8 text-right">
-                                        <a href="#socialmedia-blogposts">RSS</a>
+                                        <a href="http://eserozvataf.wordpress.com/">Visit</a>
+                                        ·
+                                        <a href="http://eserozvataf.wordpress.com/feed/">RSS</a>
                                     </div>
                                 </div>
                             </div>
 
-                            <div class="text-center">
-                                Not yet
+                            <div id="socialmedia-blogposts-feed" class="xanchor">
+                                <div class="row custom-section-inner">
+                                    <div class="col-xs-2">
+                                        <h3 class="xtitle"><a href="#socialmedia-blogposts-feed" class="xscroll-link">Feed</a></h3>
+                                    </div>
+                                    <div class="col-xs-10 xtext">
+                                    <?php foreach ($blogposts as $post) { ?>
+                                        <!-- Blog Post -->
+                                        <h5><a href="<?php echo $post['link']; ?>"><?php echo $post['title']; ?></a><span class="timestamp"> – <?php echo date('Y-m-d', $post['ts']); ?></span></h5>
+                                        <?php echo $post['summary']; ?>
+                                        <a href="<?php echo $post['link']; ?>" class="nowrap">read more</a>
+                                        <br />
+                                        <br />
+                                    <?php } ?>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -793,7 +863,7 @@
                             </div>
 
                             <div class="text-center">
-                                Not yet
+                                <h4>e<span class="hide">x</span>ser@o<span class="hide">x</span>zvataf<span class="hide">x</span>.<span class="hide">x</span>com</h4>
                             </div>
                         </div>
                     </div>
