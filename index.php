@@ -693,6 +693,8 @@
                                                 <div class="xsmalltag"><em>JavaScript</em></div>
                                                 <div class="xsmalltag"><em>DOM</em></div>
                                                 <div class="xsmalltag"><em>Git</em></div>
+                                                <div class="xsmalltag"><em>Gruntjs</em></div>
+                                                <div class="xsmalltag"><em>NPM</em></div>
                                             </div>
                                         </div>
 

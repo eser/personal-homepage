@@ -10,7 +10,7 @@ class FileCache
         $file = $cachePath . $hash;
 
         // if exists and not expired.
-        if (file_exists($file) && filemtime($file) < time() + $duration) {
+        if (file_exists($file) && filemtime($file) + $duration >= time()) {
             return $file;
         }
 
