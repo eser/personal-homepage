@@ -1,5 +1,6 @@
 <?php
 
+    date_default_timezone_set('Pacific/Easter');
     mb_internal_encoding('utf-8');
 
     require(__DIR__ . '/includes/FileCache.php');
