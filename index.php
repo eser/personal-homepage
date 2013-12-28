@@ -695,6 +695,8 @@
                                                 <div class="xsmalltag"><em>Git</em></div>
                                                 <div class="xsmalltag"><em>Gruntjs</em></div>
                                                 <div class="xsmalltag"><em>NPM</em></div>
+                                                <div class="xsmalltag"><em>Travis CI</em></div>
+                                                <div class="xsmalltag"><em>Scrutinizer CI</em></div>
                                             </div>
                                         </div>
 
@@ -752,6 +754,7 @@
                                                 <div class="xsmalltag"><em>PHP</em></div>
                                                 <div class="xsmalltag"><em>Git</em></div>
                                                 <div class="xsmalltag"><em>Travis CI</em></div>
+                                                <div class="xsmalltag"><em>Scrutinizer CI</em></div>
                                                 <div class="xsmalltag"><em>PHP CodeSniffer</em></div>
                                                 <div class="xsmalltag"><em>Symfony Components</em></div>
                                             </div>
