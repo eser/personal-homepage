@@ -1,7 +1,20 @@
 <?php
 
+    mb_internal_encoding('utf-8');
+
     require(__DIR__ . '/includes/FileCache.php');
     require(__DIR__ . '/includes/BlogFeed.php');
+
+    function getTweets() {
+        require(__DIR__ . '/includes/TwitterAPIExchange.php');
+
+        $tTwitterSettings = include 'twitterauth.php';
+        $tTwitterClient = new TwitterAPIExchange($tTwitterSettings);
+
+        return $tTwitterClient->setGetfield('?include_entities=true&include_rts=true&screen_name=larukedi&count=20')
+                            ->buildOauth('http://api.twitter.com/1.1/statuses/user_timeline.json', 'GET')
+                            ->performRequest();
+    }
 
 ?>
 <!DOCTYPE html>
@@ -801,13 +814,13 @@
             </div>
         </section>
 
-        <?php
-            $file = FileCache::get('http://eserozvataf.wordpress.com/feed/');
-            $blogposts = BlogFeed::get($file);
-        ?>
         <section id="socialmedia" class="xanchor">
             <div class="custom-section">
                 <div class="container">
+                    <?php
+                        $file = FileCache::get('http://eserozvataf.wordpress.com/feed/');
+                        $blogposts = BlogFeed::get($file);
+                    ?>
                     <div id="socialmedia-blogposts" class="row xanchor">
                         <div class="col-xs-12">
                             <div class="xheader">
@@ -815,7 +828,7 @@
                                     <div class="col-xs-4">
                                         <h2><a href="#socialmedia-blogposts" class="xscroll-link">Blog Posts</a></h2>
                                     </div>
-                                    <div id="p-filter" class="col-xs-8 text-right">
+                                    <div class="col-xs-8 text-right">
                                         <a href="http://eserozvataf.wordpress.com/">Visit</a>
                                         ·
                                         <a href="http://eserozvataf.wordpress.com/feed/">RSS</a>
@@ -834,8 +847,7 @@
                                         <h5><a href="<?php echo $post['link']; ?>"><?php echo $post['title']; ?></a><span class="timestamp"> – <?php echo date('Y-m-d', $post['ts']); ?></span></h5>
                                         <?php echo $post['summary']; ?>
                                         <a href="<?php echo $post['link']; ?>" class="nowrap">read more</a>
-                                        <br />
-                                        <br />
+                                        <div class="line"></div>
                                     <?php } ?>
                                     </div>
                                 </div>
@@ -843,14 +855,61 @@
                         </div>
                     </div>
 
+                    <?php
+                        $file2 = FileCache::get('tweets', 'getTweets');
+                        $tweets = json_decode(file_get_contents($file2), true);
+                    ?>
                     <div id="socialmedia-tweets" class="row xanchor">
                         <div class="col-xs-12">
                             <div class="xheader">
-                                <h2><a href="#socialmedia-tweets" class="xscroll-link">Latest Tweets</a></h2>
+                                <div class="row">
+                                    <div class="col-xs-4">
+                                        <h2><a href="#socialmedia-tweets" class="xscroll-link">Latest Tweets</a></h2>
+                                    </div>
+                                    <div class="col-xs-8 text-right">
+                                        <a href="https://twitter.com/larukedi">Twitter Profile</a>
+                                    </div>
+                                </div>
                             </div>
 
-                            <div class="text-center">
-                                Not yet
+                            <div id="socialmedia-tweets-feed" class="xanchor">
+                                <div class="row custom-section-inner">
+                                    <div class="col-xs-2">
+                                        <h3 class="xtitle"><a href="#socialmedia-tweets-feed" class="xscroll-link">Tweets</a></h3>
+                                    </div>
+                                    <div class="col-xs-10 xtext">
+                                    <?php foreach ($tweets as $tweet) { ?>
+                                        <!-- Tweet -->
+                                        <?php
+                                            $tweetText = $tweet['text'];
+
+                                            foreach ($tweet['entities']['hashtags'] as $tweetEntity) {
+                                                $tweetEntityText = mb_substr($tweet['text'], $tweetEntity['indices'][0], $tweetEntity['indices'][1] - $tweetEntity['indices'][0]);
+                                                $tweetText = str_replace($tweetEntityText, '<a>' . $tweetEntityText . '</a>', $tweetText);
+                                            }
+
+                                            foreach ($tweet['entities']['symbols'] as $tweetEntity) {
+                                                $tweetEntityText = mb_substr($tweet['text'], $tweetEntity['indices'][0], $tweetEntity['indices'][1] - $tweetEntity['indices'][0]);
+                                                $tweetText = str_replace($tweetEntityText, '<a>' . $tweetEntityText . '</a>', $tweetText);
+                                            }
+
+                                            foreach ($tweet['entities']['urls'] as $tweetEntity) {
+                                                $tweetEntityText = mb_substr($tweet['text'], $tweetEntity['indices'][0], $tweetEntity['indices'][1] - $tweetEntity['indices'][0]);
+                                                $tweetText = str_replace($tweetEntityText, '<a href="' . $tweetEntity['expanded_url'] . '">' . $tweetEntity['display_url'] . '</a>', $tweetText);
+                                            }
+
+                                            foreach ($tweet['entities']['user_mentions'] as $tweetEntity) {
+                                                $tweetEntityText = mb_substr($tweet['text'], $tweetEntity['indices'][0], $tweetEntity['indices'][1] - $tweetEntity['indices'][0]);
+                                                $tweetText = str_replace($tweetEntityText, '<a title="' . quotemeta($tweetEntity['name']) . '">' . $tweetEntityText . '</a>', $tweetText);
+                                            }
+
+                                            echo $tweetText;
+                                        ?>
+                                        <span class="timestamp"> – <?php echo date('Y-m-d', strtotime($tweet['created_at'])); ?></span>
+                                        <div class="line"></div>
+                                    <?php } ?>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
