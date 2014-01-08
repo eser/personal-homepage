@@ -45,9 +45,9 @@
     <meta name="keywords" content="" />
 
     <link href="assets/favicon.ico" rel="icon" type="image/x-icon" />
-    <link href="assets/css/bootstrap.min.css" rel="stylesheet" media="screen" />
-    <link href="assets/css/fonts.css" rel="stylesheet" media="screen" />
-    <link href="assets/css/style.css" rel="stylesheet" media="screen" />
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet" media="all" />
+    <link href="assets/css/fonts.css" rel="stylesheet" media="all" />
+    <link href="assets/css/style.css" rel="stylesheet" media="all" />
 </head>
 <body id="body">
 

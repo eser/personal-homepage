@@ -182,13 +182,11 @@ h4, h5, h6, .h4, .h5, .h6 {
 }
 
 .xtag em {
-    border-radius: 6px 0 6px 0;
     padding: 0 10px 0 10px;
     margin: 0 10px 0 0;
 }
 
 .xsmalltag em {
-    border-radius: 4px 0 4px 0;
     padding: 0 6px 0 6px;
     margin: 0 4px 0 0;
 }
@@ -212,10 +210,6 @@ h4, h5, h6, .h4, .h5, .h6 {
     border-top: 1px solid #C0C0C0;
 }
 
-.more {
-    display: none;
-}
-
 .btn-act {
     font-weight: bold;
 }
@@ -224,4 +218,24 @@ h4, h5, h6, .h4, .h5, .h6 {
     border-top: 1px dashed #E0E0E0;
     margin-top: 10px;
     margin-bottom: 10px;
+}
+
+@media print {
+    .print-hidden {
+        display: none;
+    }
+}
+
+@media screen {
+    .xtag em {
+        border-radius: 6px 0 6px 0;
+    }
+
+    .xsmalltag em {
+        border-radius: 4px 0 4px 0;
+    }
+
+    .more {
+        display: none;
+    }
 }

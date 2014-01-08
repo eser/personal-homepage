@@ -1,4 +1,4 @@
-    <div class="navbar navbar-inverse navbar-fixed-top custom-navbar" role="banner">
+    <div class="navbar navbar-inverse navbar-fixed-top custom-navbar print-hidden" role="banner">
         <div class="container">
             <nav>
                 <div class="navbar-header">
@@ -67,7 +67,7 @@
                     <h1>Eser Özvataf</h1>
                     <p>I'm a software design engineer and an MSc student in ICT who lives in Northern Cyprus. This page helps you to access the content I published on web by categorizing them.</p>
                     <p>
-                        <a class="btn btn-lg btn-primary" href="http://eserozvataf.wordpress.com/">Visit my blog &raquo;</a>
+                        <a class="btn btn-lg btn-primary print-hidden" href="http://eserozvataf.wordpress.com/">Visit my blog &raquo;</a>
                     </p>
                 </div>
 
@@ -316,7 +316,7 @@
                                     <div class="col-xs-4">
                                         <h2><a href="#projects" class="xscroll-link">Projects</a></h2>
                                     </div>
-                                    <div id="p-filter" class="col-xs-8 text-right">
+                                    <div id="p-filter" class="col-xs-8 text-right print-hidden">
                                         <a href="#projects" rel="all" class="btn btn-default btn-sm btn-act">All Projects</a>
                                         <a href="#projects" rel="freesoftware" class="btn btn-default btn-sm">Free Software</a>
                                         <a href="#projects" rel="microsoft" class="btn btn-default btn-sm">Microsoft</a>
@@ -483,7 +483,7 @@
                                             </div>
                                         </div>
 
-                                        <div class="text-center"><button class="showmore btn btn-default btn-sm" rel="more-pre2009">Show Projects Before 2009</button></div>
+                                        <div class="text-center print-hidden"><button class="showmore btn btn-default btn-sm" rel="more-pre2009">Show Projects Before 2009</button></div>
 
                                         <div class="more more-pre2009">
                                             <div class="p-item" rel="microsoft">
@@ -781,7 +781,7 @@
             </div>
         </section>
 
-        <section id="socialmedia" class="xanchor">
+        <section id="socialmedia" class="xanchor print-hidden">
             <div class="custom-section">
                 <div class="container">
                     <div id="socialmedia-blogposts" class="row xanchor">
@@ -894,7 +894,7 @@
             </div>
         </section>
 
-        <footer class="custom-footer">
+        <footer class="custom-footer print-hidden">
             <div class="container">
                 <div class="row custom-footer-inner">
                     <div class="col-xs-8 text-muted">
