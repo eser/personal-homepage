@@ -62,12 +62,32 @@
         <header id="splash">
             <div class="container">
 
+                <!--
+                <div class="custom-boxrow">
+                    <div class="custom-box custom-box-trans">
+                        &nbsp;
+                    </div>
+                    <a href="#about" class="custom-box custom-box-darkest xscroll-link">
+                        PROFILE
+                    </a>
+                    <a href="http://eserozvataf.wordpress.com/" class="custom-box custom-box-darker">
+                        BLOG
+                    </a>
+                    <a href="http://github.com/larukedi/" class="custom-box custom-box-dark">
+                        GITHUB
+                    </a>
+
+                    <div class="clearfix"></div>
+                </div>
+                -->
+
                 <!-- Main component for a primary marketing message or call to action -->
                 <div class="jumbotron custom-jumbotron">
                     <h1>Eser Özvataf</h1>
-                    <p>I'm a software design engineer and an MSc student in ICT who lives in Northern Cyprus. This page helps you to access the content I published on web by categorizing them.</p>
+                    <p>I'm an IT consultant, a software architect and an ICT in Education MSc student who lives in Northern Cyprus. This page helps you to access the content I published on web by categorizing them.</p>
                     <p>
                         <a class="btn btn-lg btn-primary print-hidden" href="http://eserozvataf.wordpress.com/">Visit my blog &raquo;</a>
+                        <a class="btn btn-lg btn-primary print-hidden" href="https://github.com/larukedi/">Github profile &raquo;</a>
                     </p>
                 </div>
 

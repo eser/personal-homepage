@@ -43,8 +43,8 @@ body {
 
 .custom-navbar {
   text-shadow: 0 -1px 0 rgba(0,0,0,.15);
-  background-color: #3D4F7C;
-  border-color: #463265;
+  background-color: #135C9B;
+  border-color: #024B8A;
   box-shadow: 0 1px 0 rgba(255,255,255,.1);
 }
 
@@ -94,6 +94,39 @@ body {
 
 .custom-section-gray {
     background-color: #F6F6FF;
+}
+
+.custom-boxrow {
+    margin: 50px 0px 0px 0px;
+}
+
+.custom-boxrow a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.custom-box-trans {
+    background-color: rgba(238, 238, 238, 0.4);
+}
+
+.custom-box-darkest {
+    background-color: #357EBD;
+}
+
+.custom-box-darker {
+    background-color: #428BCA;
+}
+
+.custom-box-dark {
+    background-color: #52A1E0;
+}
+
+.custom-box {
+    padding: 40px 50px 40px 50px;
+    float: left;
+    display: block;
+    font-size: 14pt;
+    font-weight: bold;
 }
 
 body, h1, h2, h3, .h1, .h2, .h3 {
