@@ -12,7 +12,7 @@
 
                 <div class="navbar-collapse collapse">
                     <ul class="nav navbar-nav">
-                        <li><a href="#body" class="xscroll-link">İletişim</a></li>
+                        <li><a href="#body" class="xscroll-link">Ana Sayfa</a></li>
                         <li><a href="#blogposts" class="xscroll-link">Blog Yazıları</a></li>
                         <li><a href="#contact" class="xscroll-link">İletişim</a></li>
                     </ul>
