@@ -32,6 +32,7 @@
 
     <link href="assets/favicon.ico" rel="icon" type="image/x-icon" />
     <link href="assets/css/bootstrap.min.css" rel="stylesheet" media="all" />
+    <link href="assets/css/font-awesome.min.css" rel="stylesheet" media="all" />
     <link href="assets/css/fonts.css" rel="stylesheet" media="all" />
     <link href="assets/css/style.css" rel="stylesheet" media="all" />
 </head>

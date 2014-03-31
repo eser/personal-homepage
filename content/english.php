@@ -45,16 +45,19 @@
 
                 <div class="custom-boxrow">
                     <div class="custom-box custom-box-trans">
-                        &nbsp;
+                        <img src="https://secure.gravatar.com/avatar/f29fecb1c77c3c07c5b7fe1d6d2ec3e1/?s=85&amp;d=404" alt="Gravatar Profile Image" />
                     </div>
                     <a href="https://larukedi.github.io/" class="custom-box custom-box-darkest xscroll-link">
-                        BACKGROUND
+                        <i class="fa fa-info"></i> &nbsp; BACKGROUND
                     </a>
-                    <a href="http://eserozvataf.wordpress.com/" class="custom-box custom-box-darker">
-                        BLOG
+                    <a href="https://eserozvataf.wordpress.com/" class="custom-box custom-box-darker">
+                        <i class="fa fa-pencil"></i> &nbsp; BLOG
                     </a>
-                    <a href="http://github.com/larukedi/" class="custom-box custom-box-dark">
-                        GITHUB
+                    <a href="https://github.com/larukedi/" class="custom-box custom-box-dark">
+                        <i class="fa fa-github"></i> &nbsp; GITHUB
+                    </a>
+                    <a href="https://www.linkedin.com/in/larukedi" class="custom-box custom-box-light">
+                        <i class="fa fa-linkedin"></i> &nbsp; LINKEDIN
                     </a>
 
                     <div class="clearfix"></div>
@@ -80,12 +83,12 @@
                                 </div>
                             </div>
 
-                            <div id="socialmedia-blogposts-feed" class="xanchor">
+                            <div id="blogposts-recent-feed" class="xanchor">
                                 <div class="row custom-section-inner">
-                                    <div class="col-xs-2">
-                                        <h3 class="xtitle"><a href="#socialmedia-blogposts-feed" class="xscroll-link">Feed</a></h3>
+                                    <div class="col-xs-12 col-md-2">
+                                        <h3 class="xtitle"><a href="#blogposts-recent-feed" class="xscroll-link">Feed</a></h3>
                                     </div>
-                                    <div class="col-xs-10 xtext">
+                                    <div class="col-xs-12 col-md-10 xtext">
                                     <?php foreach ($blogposts as $post) { ?>
                                         <!-- Blog Post -->
                                         <h5><a href="<?php echo $post['link']; ?>"><?php echo $post['title']; ?></a><span class="timestamp"> – <?php echo date('Y-m-d', $post['ts']); ?></span></h5>

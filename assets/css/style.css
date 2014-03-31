@@ -107,6 +107,7 @@ body {
 
 .custom-box-trans {
     background-color: rgba(238, 238, 238, 0.4);
+    padding: 11px !important;
 }
 
 .custom-box-darkest {
@@ -119,6 +120,10 @@ body {
 
 .custom-box-dark {
     background-color: #52A1E0;
+}
+
+.custom-box-light {
+    background-color: #62C1F0;
 }
 
 .custom-box {
