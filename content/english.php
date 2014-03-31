@@ -48,7 +48,7 @@
                         <img src="https://secure.gravatar.com/avatar/f29fecb1c77c3c07c5b7fe1d6d2ec3e1/?s=85&amp;d=404" alt="Gravatar Profile Image" />
                     </div>
                     <a href="https://larukedi.github.io/" class="custom-box custom-box-darkest xscroll-link">
-                        <i class="fa fa-info"></i> &nbsp; BACKGROUND
+                        <i class="fa fa-info"></i> &nbsp; ABOUT
                     </a>
                     <a href="https://eserozvataf.wordpress.com/" class="custom-box custom-box-darker">
                         <i class="fa fa-pencil"></i> &nbsp; BLOG
@@ -73,7 +73,7 @@
                             <div class="xheader">
                                 <div class="row">
                                     <div class="col-xs-4">
-                                        <h2><a href="#blogposts-recent" class="xscroll-link">Recent</a></h2>
+                                        <h2><a href="#blogposts-recent" class="xscroll-link">Blog Posts</a></h2>
                                     </div>
                                     <div class="col-xs-8 text-right">
                                         <a href="http://eserozvataf.wordpress.com/">Visit</a>
