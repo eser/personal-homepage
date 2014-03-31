@@ -6,22 +6,8 @@
     require(__DIR__ . '/includes/FileCache.php');
     require(__DIR__ . '/includes/BlogFeed.php');
 
-    function getTweets() {
-        require(__DIR__ . '/includes/TwitterAPIExchange.php');
-
-        $tTwitterSettings = include 'twitterauth.php';
-        $tTwitterClient = new TwitterAPIExchange($tTwitterSettings);
-
-        return $tTwitterClient->setGetfield('?include_entities=true&include_rts=true&screen_name=larukedi&count=20')
-                            ->buildOauth('http://api.twitter.com/1.1/statuses/user_timeline.json', 'GET')
-                            ->performRequest();
-    }
-
     $file = FileCache::get('http://eserozvataf.wordpress.com/feed/');
     $blogposts = BlogFeed::get($file);
-
-    $file2 = FileCache::get('tweets', 'getTweets');
-    $tweets = json_decode(file_get_contents($file2), true);
 
     $languages = array('turkish', 'english');
 
