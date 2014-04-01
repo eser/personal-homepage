@@ -13,6 +13,7 @@
                 <div class="navbar-collapse collapse">
                     <ul class="nav navbar-nav">
                         <li><a href="#body" class="xscroll-link">Home</a></li>
+                        <li><a href="#links" class="xscroll-link">Links</a></li>
                         <li><a href="#blogposts" class="xscroll-link">Blog Posts</a></li>
                         <li><a href="#contact" class="xscroll-link">Contact</a></li>
                     </ul>
@@ -48,22 +49,102 @@
                         <img src="https://secure.gravatar.com/avatar/f29fecb1c77c3c07c5b7fe1d6d2ec3e1/?s=85&amp;d=404" alt="Gravatar Profile Image" />
                     </div>
                     <a href="https://larukedi.github.io/" class="custom-box custom-box-darkest xscroll-link">
-                        <i class="fa fa-info"></i> &nbsp; ABOUT
+                        <i class="fa fa-info"></i> &nbsp; <span>ABOUT</span>
                     </a>
                     <a href="https://eserozvataf.wordpress.com/" class="custom-box custom-box-darker">
-                        <i class="fa fa-pencil"></i> &nbsp; BLOG
+                        <i class="fa fa-pencil"></i> &nbsp; <span>BLOG</span>
                     </a>
                     <a href="https://github.com/larukedi/" class="custom-box custom-box-dark">
-                        <i class="fa fa-github"></i> &nbsp; GITHUB
+                        <i class="fa fa-github"></i> &nbsp; <span>GITHUB</span>
                     </a>
                     <a href="https://www.linkedin.com/in/larukedi" class="custom-box custom-box-light">
-                        <i class="fa fa-linkedin"></i> &nbsp; LINKEDIN
+                        <i class="fa fa-linkedin"></i> &nbsp; <span>LINKEDIN</span>
                     </a>
 
                     <div class="clearfix"></div>
                 </div>
             </div>
         </header>
+
+        <section id="links" class="xanchor">
+            <div class="custom-section">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <div class="xheader">
+                                <h2><a href="#links" class="xscroll-link">Links</a></h2>
+                            </div>
+
+                            <!-- Links/Profiles -->
+                            <div id="links-profiles" class="xanchor">
+                                <div class="row custom-section-inner">
+                                    <div class="col-xs-12 col-md-2">
+                                        <h3 class="xtitle"><a href="#links-profiles" class="xscroll-link">Profiles</a></h3>
+                                    </div>
+                                    <div class="col-xs-12 col-md-10">
+                                        <div class="row xrow">
+                                            <div class="col-xs-12 col-sm-4 xlabel">Web Site:</div>
+                                            <div class="col-xs-12 col-sm-8 xvalue"><a href="http://eser.ozvataf.com/">http://eser.ozvataf.com/</a></div>
+                                        </div>
+                                        <div class="row xrow">
+                                            <div class="col-xs-12 col-sm-4 xlabel">Blog:</div>
+                                            <div class="col-xs-12 col-sm-8 xvalue"><a href="https://eserozvataf.wordpress.com/">https://eserozvataf.wordpress.com/</a></div>
+                                        </div>
+                                        <div class="row xrow">
+                                            <div class="col-xs-12 col-sm-4 xlabel">LinkedIn:</div>
+                                            <div class="col-xs-12 col-sm-8 xvalue"><a href="https://www.linkedin.com/in/larukedi">https://www.linkedin.com/in/larukedi</a></div>
+                                        </div>
+                                        <div class="row xrow">
+                                            <div class="col-xs-12 col-sm-4 xlabel">Github:</div>
+                                            <div class="col-xs-12 col-sm-8 xvalue"><a href="https://github.com/larukedi">https://github.com/larukedi</a></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Links/Neighbors -->
+                            <div id="links-neighbors" class="xanchor">
+                                <div class="row custom-section-inner">
+                                    <div class="col-xs-12 col-md-2">
+                                        <h3 class="xtitle"><a href="#links-neighbors" class="xscroll-link">Neighbors</a></h3>
+                                    </div>
+                                    <div class="col-xs-12 col-md-10">
+                                        <div class="row xrow">
+                                            <div class="col-xs-12 col-sm-4 xlabel">Alper Konuralp</div>
+                                            <div class="col-xs-12 col-sm-8 xvalue"><a href="http://alper.konuralp.gen.tr/">http://alper.konuralp.gen.tr/</a></div>
+                                        </div>
+                                        <div class="row xrow">
+                                            <div class="col-xs-12 col-sm-4 xlabel">Çağhan Emirzade</div>
+                                            <div class="col-xs-12 col-sm-8 xvalue"><a href="http://www.caghanemirzade.com/">http://www.caghanemirzade.com/</a></div>
+                                        </div>
+                                        <div class="row xrow">
+                                            <div class="col-xs-12 col-sm-4 xlabel">Mert Kuyumcu</div>
+                                            <div class="col-xs-12 col-sm-8 xvalue"><a href="http://mertkuyumcu.blogspot.com/">http://mertkuyumcu.blogspot.com/</a></div>
+                                        </div>
+                                        <div class="row xrow">
+                                            <div class="col-xs-12 col-sm-4 xlabel">Opera Türkiye</div>
+                                            <div class="col-xs-12 col-sm-8 xvalue"><a href="http://operaturkiye.net/">http://operaturkiye.net/</a></div>
+                                        </div>
+                                        <div class="row xrow">
+                                            <div class="col-xs-12 col-sm-4 xlabel">Osman Yüksel</div>
+                                            <div class="col-xs-12 col-sm-8 xvalue"><a href="http://yuxel.net/">http://yuxel.net/</a></div>
+                                        </div>
+                                        <div class="row xrow">
+                                            <div class="col-xs-12 col-sm-4 xlabel">Volkan Özdamar</div>
+                                            <div class="col-xs-12 col-sm-8 xvalue"><a href="http://volkanozdamar.com/blog/">http://volkanozdamar.com/blog/</a></div>
+                                        </div>
+                                        <div class="row xrow">
+                                            <div class="col-xs-12 col-sm-4 xlabel">Şeyma Kaçar</div>
+                                            <div class="col-xs-12 col-sm-8 xvalue"><a href="http://seymakacar.com/">http://seymakacar.com/</a></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
         <section id="blogposts" class="xanchor print-hidden">
             <div class="custom-section">

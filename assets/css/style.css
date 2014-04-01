@@ -114,16 +114,32 @@ body {
     background-color: #357EBD;
 }
 
+.custom-box-darkest:hover {
+    background-color: #458ECD;
+}
+
 .custom-box-darker {
     background-color: #428BCA;
+}
+
+.custom-box-darker:hover {
+    background-color: #529BDA;
 }
 
 .custom-box-dark {
     background-color: #52A1E0;
 }
 
+.custom-box-dark:hover {
+    background-color: #62B1F0;
+}
+
 .custom-box-light {
     background-color: #62C1F0;
+}
+
+.custom-box-light:hover {
+    background-color: #72D1FF;
 }
 
 .custom-box {
@@ -132,6 +148,10 @@ body {
     display: block;
     font-size: 14pt;
     font-weight: bold;
+}
+
+.custom-box:hover span {
+    text-decoration: underline;
 }
 
 body, h1, h2, h3, .h1, .h2, .h3 {
