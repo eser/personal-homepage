@@ -49,16 +49,16 @@
                         <img src="https://secure.gravatar.com/avatar/f29fecb1c77c3c07c5b7fe1d6d2ec3e1/?s=85&amp;d=404" alt="Gravatar Profile Image" />
                     </div>
                     <a href="https://larukedi.github.io/index.tr.html" class="custom-box custom-box-darkest xscroll-link">
-                        <i class="fa fa-info"></i> &nbsp; <span>HAKKIMDA</span>
+                        <i class="fa fa-info"></i> <span>HAKKIMDA</span>
                     </a>
                     <a href="https://eserozvataf.wordpress.com/" class="custom-box custom-box-darker">
-                        <i class="fa fa-pencil"></i> &nbsp; <span>BLOG</span>
+                        <i class="fa fa-pencil"></i> <span>BLOG</span>
                     </a>
                     <a href="https://github.com/larukedi/" class="custom-box custom-box-dark">
-                        <i class="fa fa-github"></i> &nbsp; <span>GITHUB</span>
+                        <i class="fa fa-github"></i> <span>GITHUB</span>
                     </a>
                     <a href="https://www.linkedin.com/in/larukedi" class="custom-box custom-box-light">
-                        <i class="fa fa-linkedin"></i> &nbsp; <span>LINKEDIN</span>
+                        <i class="fa fa-linkedin"></i> <span>LINKEDIN</span>
                     </a>
 
                     <div class="clearfix"></div>
@@ -147,7 +147,7 @@
         </section>
 
         <section id="blogposts" class="xanchor print-hidden">
-            <div class="custom-section">
+            <div class="custom-section custom-section-gray">
                 <div class="container">
                     <div id="blogposts-recent" class="row xanchor">
                         <div class="col-xs-12">
@@ -187,7 +187,7 @@
         </section>
 
         <section id="contact" class="xanchor">
-            <div class="custom-section custom-section-gray">
+            <div class="custom-section">
                 <div class="container">
                     <div class="row xanchor">
                         <div class="col-xs-12">

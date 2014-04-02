@@ -150,6 +150,10 @@ body {
     font-weight: bold;
 }
 
+.custom-box span {
+    margin-left: 10px;
+}
+
 .custom-box:hover span {
     text-decoration: underline;
 }
