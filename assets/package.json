@@ -1,0 +1,44 @@
+{
+    "name": "eser-ozvataf-com",
+    "version": "1.0.0",
+    "description": "eser.ozvataf.com Assets",
+    "keywords": "larukedi",
+    "homepage": "http://eser.ozvataf.com/",
+    "bugs": {
+        "url": "https://github.com/larukedi/personal-homepage/issues",
+        "email": "eser@sent.com"
+    },
+    "licenses": [
+        {
+            "type": "Apache-2.0",
+            "url": "https://github.com/larukedi/personal-homepage/blob/master/LICENSE"
+        }
+    ],
+    "contributors": [
+        {
+            "name": "Eser 'Laroux' Ozvataf",
+            "email": "eser@sent.com",
+            "url": "http://eser.ozvataf.com/"
+        }
+    ],
+    "main": "eser-ozvataf-com",
+    "repository": {
+        "type": "local",
+        "url": ""
+    },
+    "devDependencies": {
+        "grunt-contrib-uglify": "~0.2.7",
+        "grunt-contrib-jshint": "~0.6.3",
+        "grunt-contrib-watch": "~0.5.3",
+        "grunt-contrib-concat": "~0.3.0",
+        "grunt-contrib-clean": "~0.5.0",
+        "grunt-contrib-cssmin": "~0.9.0",
+        "grunt-cli": "~0.1",
+        "grunt": "~0.4.1"
+    },
+    "dependencies": {
+    },
+    "scripts": {
+        "test": "grunt test --verbose --force"
+    }
+}

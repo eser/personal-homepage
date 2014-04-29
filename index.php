@@ -15,8 +15,14 @@
     $language = trim($queryString);
 
     if (!in_array($language, $languages, true)) {
-    	$language = 'english'; // by default
+        $language = 'english'; // by default
     }
+
+    ob_start();
+    ob_implicit_flush(false);
+    include(__DIR__ . '/content/' . $language . '.php');
+    $contents = ob_get_contents();
+    ob_end_clean();
 
 ?>
 <!DOCTYPE html>
@@ -26,24 +32,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no" />
 
-    <title>Eser 'Laroux' Özvataf - eser.ozvataf.com</title>
-    <meta name="description" content="Eser 'Laroux' Özvataf Personal Homepage" />
-    <meta name="keywords" content="" />
+    <title><?= $title ?></title>
+    <meta name="description" content="<?= $description ?>" />
+    <meta name="keywords" content="<?= $keywords ?>" />
 
     <link href="assets/favicon.ico" rel="icon" type="image/x-icon" />
-    <link href="assets/css/bootstrap.min.css" rel="stylesheet" media="all" />
-    <link href="assets/css/font-awesome.min.css" rel="stylesheet" media="all" />
-    <link href="assets/css/fonts.css" rel="stylesheet" media="all" />
-    <link href="assets/css/style.css" rel="stylesheet" media="all" />
+    <link href="assets/css/eser-ozvataf-com.min.css" rel="stylesheet" media="all" />
 </head>
 <body id="body">
 
-	<?php
-		include(__DIR__ . '/content/' . $language . '.php');
-	?>
+    <?= $contents ?>
 
-    <script type="text/javascript" src="assets/js/jquery-2.0.3.min.js"></script>
-    <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="assets/js/script.js"></script>
+    <script src="assets/js/eser-ozvataf-com.min.js"></script>
+
 </body>
 </html>

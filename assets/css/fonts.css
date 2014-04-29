@@ -2,19 +2,33 @@
   font-family: 'Tinos';
   font-style: normal;
   font-weight: 400;
-  src: local('Tinos'), url(../fonts/tinos.ttf) format('truetype');
+  src: local('Tinos'), url('../fonts/tinos.ttf') format('truetype');
 }
 
 @font-face {
   font-family: 'Lato';
   font-style: normal;
   font-weight: 400;
-  src: local('Lato Regular'), local('Lato-Regular'), url(../fonts/lato-regular.ttf) format('truetype');
+  src: local('Lato Regular'), local('Lato-Regular'), url('../fonts/lato-regular.ttf') format('truetype');
 }
 
 @font-face {
   font-family: 'Lato';
   font-style: normal;
   font-weight: 700;
-  src: local('Lato Bold'), local('Lato-Bold'), url(../fonts/lato-bold.ttf) format('truetype');
+  src: local('Lato Bold'), local('Lato-Bold'), url('../fonts/lato-bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Josefin Slab Light';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Josefin Slab Light'), local('Josefin-Slab-Light'), url('../fonts/josefinslab-light.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Josefin Slab Bold';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Josefin Slab Bold'), local('Josefin-Slab-Bold'), url('../fonts/josefinslab-bold.ttf') format('truetype');
 }

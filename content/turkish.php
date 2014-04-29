@@ -1,3 +1,8 @@
+<?php
+    $title = 'Eser \'Laroux\' Özvataf - eser.ozvataf.com - Kişisel Web Sayfası';
+    $description = 'Eser \'Laroux\' Özvataf Kişisel Web Sayfası';
+    $keywords = 'eser laroux ozvataf larukedi yazılım mimar geliştirici programcı yazılımcı kod takım lideri uzman php js javascript classic c# asp asp.net microsoft .net grunt npm node continuous integration devops';
+?>
     <div class="navbar navbar-inverse navbar-fixed-top custom-navbar print-hidden" role="banner">
         <div class="container">
             <nav>
@@ -13,8 +18,8 @@
                 <div class="navbar-collapse collapse">
                     <ul class="nav navbar-nav">
                         <li><a href="#body" class="xscroll-link">Ana Sayfa</a></li>
-                        <li><a href="#links" class="xscroll-link">Linkler</a></li>
                         <li><a href="#blogposts" class="xscroll-link">Blog Yazıları</a></li>
+                        <li><a href="#links" class="xscroll-link">Linkler</a></li>
                         <li><a href="#contact" class="xscroll-link">İletişim</a></li>
                     </ul>
 
@@ -66,13 +71,53 @@
             </div>
         </header>
 
+        <section id="blogposts" class="xanchor">
+            <div class="custom-section custom-section-gray">
+                <div class="container">
+                    <div id="blogposts-recent" class="row xanchor">
+                        <div class="col-xs-12">
+                            <div class="xheader">
+                                <div class="row">
+                                    <div class="col-xs-4">
+                                        <h1><a href="#blogposts-recent" class="xscroll-link">Blog Yazıları</a></h1>
+                                    </div>
+                                    <div class="col-xs-8 text-right">
+                                        <a href="http://eserozvataf.wordpress.com/">Ziyaret Et</a>
+                                        ·
+                                        <a href="http://eserozvataf.wordpress.com/feed/">RSS</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div id="blogposts-recent-feed" class="xanchor">
+                                <div class="row custom-section-inner">
+                                    <div class="col-xs-12 col-md-2">
+                                        <h3 class="xtitle"><a href="#blogposts-recent-feed" class="xscroll-link">Akış</a></h3>
+                                    </div>
+                                    <div class="col-xs-12 col-md-10 xtext">
+                                    <?php foreach ($blogposts as $post) { ?>
+                                        <!-- Blog Post -->
+                                        <h5><a href="<?php echo $post['link']; ?>"><?php echo $post['title']; ?></a><span class="timestamp"> – <?php echo date('Y-m-d', $post['ts']); ?></span></h5>
+                                        <?php echo $post['summary']; ?>
+                                        <a href="<?php echo $post['link']; ?>" class="nowrap">devamını oku</a>
+                                        <div class="line"></div>
+                                    <?php } ?>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
         <section id="links" class="xanchor">
             <div class="custom-section">
                 <div class="container">
                     <div class="row">
                         <div class="col-xs-12">
                             <div class="xheader">
-                                <h2><a href="#links" class="xscroll-link">Linkler</a></h2>
+                                <h1><a href="#links" class="xscroll-link">Linkler</a></h1>
                             </div>
 
                             <!-- Links/Profiles -->
@@ -146,53 +191,13 @@
             </div>
         </section>
 
-        <section id="blogposts" class="xanchor print-hidden">
-            <div class="custom-section custom-section-gray">
-                <div class="container">
-                    <div id="blogposts-recent" class="row xanchor">
-                        <div class="col-xs-12">
-                            <div class="xheader">
-                                <div class="row">
-                                    <div class="col-xs-4">
-                                        <h2><a href="#blogposts-recent" class="xscroll-link">Blog Yazıları</a></h2>
-                                    </div>
-                                    <div class="col-xs-8 text-right">
-                                        <a href="http://eserozvataf.wordpress.com/">Ziyaret Et</a>
-                                        ·
-                                        <a href="http://eserozvataf.wordpress.com/feed/">RSS</a>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div id="blogposts-recent-feed" class="xanchor">
-                                <div class="row custom-section-inner">
-                                    <div class="col-xs-12 col-md-2">
-                                        <h3 class="xtitle"><a href="#blogposts-recent-feed" class="xscroll-link">Akış</a></h3>
-                                    </div>
-                                    <div class="col-xs-12 col-md-10 xtext">
-                                    <?php foreach ($blogposts as $post) { ?>
-                                        <!-- Blog Post -->
-                                        <h5><a href="<?php echo $post['link']; ?>"><?php echo $post['title']; ?></a><span class="timestamp"> – <?php echo date('Y-m-d', $post['ts']); ?></span></h5>
-                                        <?php echo $post['summary']; ?>
-                                        <a href="<?php echo $post['link']; ?>" class="nowrap">devamını oku</a>
-                                        <div class="line"></div>
-                                    <?php } ?>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
         <section id="contact" class="xanchor">
             <div class="custom-section">
                 <div class="container">
                     <div class="row xanchor">
                         <div class="col-xs-12">
                             <div class="xheader">
-                                <h2><a href="#contact" class="xscroll-link">İletişim</a></h2>
+                                <h1><a href="#contact" class="xscroll-link">İletişim</a></h1>
                             </div>
 
                             <div class="text-center">
