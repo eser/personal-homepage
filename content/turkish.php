@@ -64,16 +64,16 @@
 
                                 <h1 class="title">ESER OZVATAF</h1>
                                 <h2>IT Danışmanı &amp; Yazılım Mimarı</h2>
-                                <p>
-                                    I'm an IT consultant, a software architect and an ICT in Education MSc student who lives in Northern Cyprus.
-                                    This page helps you to get detailed information on my interests and work area.
+                                <p class="lead margin-top-30px">
+                                    Kuzey Kıbrıs'da yaşayan bir IT danışmanı, yazılım mimarı ve Eğitimde ICT yüksek lisans programı öğrencisiyim.
+                                    Bu sayfa ilgi ve çalışma alanlarım hakkında bilgi sahibi olmanıza yardımcı olacaktır.
                                 </p>
                                 
                                 <div class="buttons pull-right">
-                                    <a href="https://larukedi.github.io/index.tr.html" class="btn btn-default"><i class="fa fa-info margin-right-10px"></i>Özgeçmişim</a>
-                                    <a href="https://eserozvataf.wordpress.com/" class="btn btn-default"><i class="fa fa-pencil margin-right-10px"></i>Blog</a>
-                                    <a href="https://www.linkedin.com/in/larukedi" class="btn btn-default"><i class="fa fa-linkedin margin-right-10px"></i>Linked In</a>
-                                    <a href="https://github.com/larukedi/" class="btn btn-default"><i class="fa fa-github margin-right-10px"></i>Github</a>
+                                    <a href="https://larukedi.github.io/index.tr.html" class="btn btn-lg btn-default"><i class="fa fa-info margin-right-10px"></i>Özgeçmişim</a>
+                                    <a href="https://eserozvataf.wordpress.com/" class="btn btn-lg btn-default"><i class="fa fa-pencil margin-right-10px"></i>Blog</a>
+                                    <a href="https://www.linkedin.com/in/larukedi" class="btn btn-lg btn-default"><i class="fa fa-linkedin margin-right-10px"></i>Linked In</a>
+                                    <a href="https://github.com/larukedi/" class="btn btn-lg btn-default"><i class="fa fa-github margin-right-10px"></i>Github</a>
                                 </div>
 
                                 <div class="clearfix"></div>
@@ -103,25 +103,25 @@
                         </div>
                     </div>
 
-                    <p>Monotonectally conceptualize go forward relationships and effective paradigms. Uniquely build team building convergence rather than progressive manufactured products. Quickly build professional web services through cross functional vortals. Synergistically transform functionalized e-markets through performance based human capital. Energistically engage global core competencies vis-a-vis superior architectures.</p>
-                    <p>Holisticly foster process-centric core competencies whereas impactful meta-services. Seamlessly evisculate accurate leadership vis-a-vis highly efficient users. Authoritatively grow multifunctional action items and competitive processes. Collaboratively maximize resource sucking.</p>
+                    <p class="xtext">Monotonectally conceptualize go forward relationships and effective paradigms. Uniquely build team building convergence rather than progressive manufactured products. Quickly build professional web services through cross functional vortals. Synergistically transform functionalized e-markets through performance based human capital. Energistically engage global core competencies vis-a-vis superior architectures.</p>
+                    <p class="xtext">Holisticly foster process-centric core competencies whereas impactful meta-services. Seamlessly evisculate accurate leadership vis-a-vis highly efficient users. Authoritatively grow multifunctional action items and competitive processes. Collaboratively maximize resource sucking.</p>
 
                     <div class="row interest margin-top-30px">
                         <div class="col-md-3">
-                            <h3 class="sub-heading"><i class="fa fa-code margin-right-10px"></i>Yazılım Geliştirme</h3>
-                            <p>Efficiently revolutionize one-to-one potentialities before B2B models. Continually leverage other's resource-leveling niche markets whereas focused processes. Distinctively transition high standards in total linkage.</p>
+                            <h2 class="sub-heading"><i class="fa fa-code margin-right-10px"></i>Yazılım Geliştirme</h2>
+                            <p class="xtext">Efficiently revolutionize one-to-one potentialities before B2B models. Continually leverage other's resource-leveling niche markets whereas focused processes. Distinctively transition high standards in total linkage.</p>
                         </div>
                         <div class="col-md-3">
-                            <h3 class="sub-heading"><i class="fa fa-tasks margin-right-10px"></i>Proje Yönetimi</h3>
-                            <p>Holisticly pursue pandemic services before distributed experiences. Collaboratively envisioneer just in time niches before ubiquitous e-services. Appropriately enable scalable e-business with leveraged opportunities.</p>
+                            <h2 class="sub-heading"><i class="fa fa-tasks margin-right-10px"></i>Proje Yönetimi</h2>
+                            <p class="xtext">Holisticly pursue pandemic services before distributed experiences. Collaboratively envisioneer just in time niches before ubiquitous e-services. Appropriately enable scalable e-business with leveraged opportunities.</p>
                         </div>
                         <div class="col-md-3">
-                            <h3 class="sub-heading"><i class="fa fa-globe margin-right-10px"></i>Sosyal Medya</h3>
-                            <p>Authoritatively transition global web services vis-a-vis user-centric content. Rapidiously innovate principle-centered resources via intuitive models. Monotonectally integrate collaborative core competencies before best-of-breed potentialities.</p>
+                            <h2 class="sub-heading"><i class="fa fa-globe margin-right-10px"></i>Sosyal Medya</h2>
+                            <p class="xtext">Authoritatively transition global web services vis-a-vis user-centric content. Rapidiously innovate principle-centered resources via intuitive models. Monotonectally integrate collaborative core competencies before best-of-breed potentialities.</p>
                         </div>
                         <div class="col-md-3">
-                            <h3 class="sub-heading"><i class="fa fa-link margin-right-10px"></i>SEO</h3>
-                            <p>Holisticly restore resource-leveling methodologies rather than distinctive e-services. Seamlessly whiteboard unique quality vectors via functionalized catalysts for change. Enthusiastically embrace proactive outsourcing through.</p>
+                            <h2 class="sub-heading"><i class="fa fa-link margin-right-10px"></i>SEO</h2>
+                            <p class="xtext">Holisticly restore resource-leveling methodologies rather than distinctive e-services. Seamlessly whiteboard unique quality vectors via functionalized catalysts for change. Enthusiastically embrace proactive outsourcing through.</p>
                         </div>
                     </div>
 
@@ -155,28 +155,28 @@
                         -->
 
                         <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 f-item">
-                            <h3><a href="https://larukedi.github.io/index.tr.html"><i class="fa fa-location-arrow margin-right-10px"></i>Özgeçmişim</a></h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum, maiores sint possimus distinctio tenetur in magni animi pariatur sed.</p>
+                            <h2 class="sub-heading"><a href="https://larukedi.github.io/index.tr.html"><i class="fa fa-location-arrow margin-right-10px"></i>Özgeçmişim</a></h2>
+                            <p class="xtext">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum, maiores sint possimus distinctio tenetur in magni animi pariatur sed.</p>
                         </div>
 
                         <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 f-item">
-                            <h3><a href="https://eserozvataf.wordpress.com/"><i class="fa fa-inbox margin-right-10px"></i>Blog</a></h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum, maiores sint possimus distinctio tenetur in magni animi pariatur sed.</p>
+                            <h2 class="sub-heading"><a href="https://eserozvataf.wordpress.com/"><i class="fa fa-inbox margin-right-10px"></i>Blog</a></h2>
+                            <p class="xtext">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum, maiores sint possimus distinctio tenetur in magni animi pariatur sed.</p>
                         </div>
 
                         <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 f-item">
-                            <h3><a href="https://www.linkedin.com/in/larukedi"><i class="fa fa-cloud-download margin-right-10px"></i>Linked In</a></h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum, maiores sint possimus distinctio tenetur in magni animi pariatur sed.</p>
+                            <h2 class="sub-heading"><a href="https://www.linkedin.com/in/larukedi"><i class="fa fa-cloud-download margin-right-10px"></i>Linked In</a></h2>
+                            <p class="xtext">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum, maiores sint possimus distinctio tenetur in magni animi pariatur sed.</p>
                         </div>
 
                         <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 f-item">
-                            <h3><a href="https://github.com/larukedi/"><i class="fa fa-github margin-right-10px"></i>Github Profili</a></h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum, maiores sint possimus distinctio tenetur in magni animi pariatur sed.</p>
+                            <h2 class="sub-heading"><a href="https://github.com/larukedi/"><i class="fa fa-github margin-right-10px"></i>Github Profili</a></h2>
+                            <p class="xtext">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum, maiores sint possimus distinctio tenetur in magni animi pariatur sed.</p>
                         </div>
 
                         <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 f-item">
-                            <h3><a href="http://devopskibris.com/"><i class="fa fa-volume-up margin-right-10px"></i>Devops Kıbrıs</a></h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum, maiores sint possimus distinctio tenetur in magni animi pariatur sed.</p>
+                            <h2 class="sub-heading"><a href="http://devopskibris.com/"><i class="fa fa-volume-up margin-right-10px"></i>Devops Kıbrıs</a></h2>
+                            <p class="xtext">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum, maiores sint possimus distinctio tenetur in magni animi pariatur sed.</p>
                         </div>
 
                     </div>
@@ -203,23 +203,23 @@
                         -->
 
                         <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 f-item">
-                            <h3><a href="http://scabbiafw.com/"><i class="fa fa-rocket margin-right-10px"></i>Scabbia Framework</a></h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum, maiores sint possimus distinctio tenetur in magni animi pariatur sed.</p>
+                            <h2 class="sub-heading"><a href="http://scabbiafw.com/"><i class="fa fa-rocket margin-right-10px"></i>Scabbia Framework</a></h2>
+                            <p class="xtext">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum, maiores sint possimus distinctio tenetur in magni animi pariatur sed.</p>
                         </div>
 
                         <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 f-item">
-                            <h3><a href="https://github.com/larukedi/thesis"><i class="fa fa-rocket margin-right-10px"></i>Portable Online ID</a></h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum, maiores sint possimus distinctio tenetur in magni animi pariatur sed.</p>
+                            <h2 class="sub-heading"><a href="https://github.com/larukedi/thesis"><i class="fa fa-rocket margin-right-10px"></i>Portable Online ID</a></h2>
+                            <p class="xtext">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum, maiores sint possimus distinctio tenetur in magni animi pariatur sed.</p>
                         </div>
 
                         <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 f-item">
-                            <h3><a href="https://github.com/larukedi/pm"><i class="fa fa-rocket margin-right-10px"></i>PM Tool</a></h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum, maiores sint possimus distinctio tenetur in magni animi pariatur sed.</p>
+                            <h2 class="sub-heading"><a href="https://github.com/larukedi/pm"><i class="fa fa-rocket margin-right-10px"></i>PM Tool</a></h2>
+                            <p class="xtext">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum, maiores sint possimus distinctio tenetur in magni animi pariatur sed.</p>
                         </div>
 
                         <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 f-item">
-                            <h3><a href="https://github.com/larukedi/survey"><i class="fa fa-rocket margin-right-10px"></i>Survey Tool</a></h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum, maiores sint possimus distinctio tenetur in magni animi pariatur sed.</p>
+                            <h2 class="sub-heading"><a href="https://github.com/larukedi/survey"><i class="fa fa-rocket margin-right-10px"></i>Survey Tool</a></h2>
+                            <p class="xtext">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum, maiores sint possimus distinctio tenetur in magni animi pariatur sed.</p>
                         </div>
 
                     </div>
@@ -247,13 +247,10 @@
 
                             <div id="blogposts-recent-feed" class="xanchor">
                                 <div class="row custom-section-inner">
-                                    <div class="col-xs-12 col-md-2">
-                                        <h3 class="xtitle"><a href="#blogposts-recent-feed" class="xscroll-link">Yayın</a></h3>
-                                    </div>
-                                    <div class="col-xs-12 col-md-10 xtext">
+                                    <div class="col-xs-12 col-md-12 xtext">
                                     <?php foreach ($blogposts as $post) { ?>
                                         <!-- Blog Post -->
-                                        <h5><a href="<?php echo $post['link']; ?>"><?php echo $post['title']; ?></a><span class="timestamp"> – <?php echo date('Y-m-d', $post['ts']); ?></span></h5>
+                                        <h2><a href="<?php echo $post['link']; ?>"><?php echo $post['title']; ?></a><span class="timestamp"> – <?php echo date('Y-m-d', $post['ts']); ?></span></h2>
                                         <?php echo $post['summary']; ?>
                                         <a href="<?php echo $post['link']; ?>" class="nowrap">devamını oku</a>
                                         <div class="line"></div>

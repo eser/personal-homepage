@@ -8193,16 +8193,17 @@ body {
 }
 
 #page {
+    line-height: 170%;
 }
 
 #splash {
-    overflow: hidden;
     height: auto;
     background-image: url('../images/background.png');
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
     height: 100%;
+    min-height: 600px;
     color: hsla(0, 0%, 100%, 1);
 }
 
@@ -8347,19 +8348,12 @@ body, h1, h2, h3, .h1, .h2, .h3 {
     /* font-family: 'Tinos', 'Georgia', times !important; */
 }
 
-h3, .h3 {
-    margin: 0px;
-    padding: 0px;
-    font-size: 20px;
+h4, h5, h6, .h4, .h5, .h6 {
+    color: hsla(0, 0%, 13%, 1);
 }
 
-h4, h5, h6, .h4, .h5, .h6 {
-    margin: 0px;
-    padding: 0px;
-    font-family: inherit !important;
-    font-weight: inherit;
-    font-size: inherit;
-    color: hsla(0, 0%, 13%, 1);
+.h2, h2 {
+    font-size: 22px;
 }
 
 a {
@@ -8374,6 +8368,10 @@ a {
     display: inline-block;
     vertical-align: middle;
     float: none;
+}
+
+.justified {
+    text-align: justify;
 }
 
 .margin-top-30px {
@@ -8408,15 +8406,12 @@ a {
 }
 
 .xrow, .xtext, .xlist {
-    font-size: 14pt;
-    font-family: 'Tinos', 'Georgia', times;
-    color: hsla(0, 0%, 50%, 1);
-    line-height: 150%;
+    color: hsla(0, 0%, 30%, 1);
 }
 
 .xrow strong, .xtext strong, .xlist strong {
     font-weight: normal;
-    color: hsla(0, 0%, 19%, 1);
+    color: hsla(0, 0%, 10%, 1);
 }
 
 .xrow {
