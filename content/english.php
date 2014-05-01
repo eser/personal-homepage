@@ -64,7 +64,7 @@
 
                                 <h1 class="title">ESER OZVATAF</h1>
                                 <h2>IT Consultant &amp; Software Architect</h2>
-                                <p class="lead margin-top-30px">
+                                <p class="lead">
                                     I'm an IT consultant, a software architect and an ICT in Education MSc student who lives in Northern Cyprus.
                                     This page helps you to get detailed information on my interests and work area.
                                 </p>
@@ -156,27 +156,27 @@
 
                         <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 f-item">
                             <h2 class="sub-heading"><a href="https://larukedi.github.io/"><i class="fa fa-location-arrow margin-right-10px"></i>My Resume</a></h2>
-                            <p class="xtext justified">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum, maiores sint possimus distinctio tenetur in magni animi pariatur sed.</p>
+                            <p class="xtext text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum, maiores sint possimus distinctio tenetur in magni animi pariatur sed.</p>
                         </div>
 
                         <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 f-item">
                             <h2 class="sub-heading"><a href="https://eserozvataf.wordpress.com/"><i class="fa fa-inbox margin-right-10px"></i>My Blog</a></h2>
-                            <p class="xtext justified">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum, maiores sint possimus distinctio tenetur in magni animi pariatur sed.</p>
+                            <p class="xtext text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum, maiores sint possimus distinctio tenetur in magni animi pariatur sed.</p>
                         </div>
 
                         <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 f-item">
                             <h2 class="sub-heading"><a href="https://www.linkedin.com/in/larukedi"><i class="fa fa-cloud-download margin-right-10px"></i>Linked In</a></h2>
-                            <p class="xtext justified">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum, maiores sint possimus distinctio tenetur in magni animi pariatur sed.</p>
+                            <p class="xtext text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum, maiores sint possimus distinctio tenetur in magni animi pariatur sed.</p>
                         </div>
 
                         <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 f-item">
                             <h2 class="sub-heading"><a href="https://github.com/larukedi/"><i class="fa fa-github margin-right-10px"></i>Github Profile</a></h2>
-                            <p class="xtext justified">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum, maiores sint possimus distinctio tenetur in magni animi pariatur sed.</p>
+                            <p class="xtext text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum, maiores sint possimus distinctio tenetur in magni animi pariatur sed.</p>
                         </div>
 
                         <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 f-item">
                             <h2 class="sub-heading"><a href="http://devopscyprus.com/"><i class="fa fa-volume-up margin-right-10px"></i>Devops Cyprus</a></h2>
-                            <p class="xtext justified">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum, maiores sint possimus distinctio tenetur in magni animi pariatur sed.</p>
+                            <p class="xtext text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum, maiores sint possimus distinctio tenetur in magni animi pariatur sed.</p>
                         </div>
 
                     </div>
@@ -204,22 +204,22 @@
 
                         <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 f-item">
                             <h2 class="sub-heading"><a href="http://scabbiafw.com/"><i class="fa fa-rocket margin-right-10px"></i>Scabbia Framework</a></h2>
-                            <p class="xtext justified">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum, maiores sint possimus distinctio tenetur in magni animi pariatur sed.</p>
+                            <p class="xtext text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum, maiores sint possimus distinctio tenetur in magni animi pariatur sed.</p>
                         </div>
 
                         <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 f-item">
                             <h2 class="sub-heading"><a href="https://github.com/larukedi/thesis"><i class="fa fa-rocket margin-right-10px"></i>Portable Online ID</a></h2>
-                            <p class="xtext justified">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum, maiores sint possimus distinctio tenetur in magni animi pariatur sed.</p>
+                            <p class="xtext text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum, maiores sint possimus distinctio tenetur in magni animi pariatur sed.</p>
                         </div>
 
                         <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 f-item">
                             <h2 class="sub-heading"><a href="https://github.com/larukedi/pm"><i class="fa fa-rocket margin-right-10px"></i>PM Tool</a></h2>
-                            <p class="xtext justified">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum, maiores sint possimus distinctio tenetur in magni animi pariatur sed.</p>
+                            <p class="xtext text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum, maiores sint possimus distinctio tenetur in magni animi pariatur sed.</p>
                         </div>
 
                         <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 f-item">
                             <h2 class="sub-heading"><a href="https://github.com/larukedi/survey"><i class="fa fa-rocket margin-right-10px"></i>Survey Tool</a></h2>
-                            <p class="xtext justified">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum, maiores sint possimus distinctio tenetur in magni animi pariatur sed.</p>
+                            <p class="xtext text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum, maiores sint possimus distinctio tenetur in magni animi pariatur sed.</p>
                         </div>
 
                     </div>

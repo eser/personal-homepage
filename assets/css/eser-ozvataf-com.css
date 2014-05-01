@@ -8356,6 +8356,10 @@ h4, h5, h6, .h4, .h5, .h6 {
     font-size: 22px;
 }
 
+.lead {
+    font-size: 16px;
+}
+
 a {
     color: hsla(208, 28%, 34%, 1);
 }
@@ -8368,10 +8372,6 @@ a {
     display: inline-block;
     vertical-align: middle;
     float: none;
-}
-
-.justified {
-    text-align: justify;
 }
 
 .margin-top-30px {
