@@ -1,7 +1,7 @@
 <?php
     $title = 'Eser \'Laroux\' Özvataf - eser.ozvataf.com - Personal Homepage';
     $description = 'Eser \'Laroux\' Özvataf Personal Homepage';
-    $keywords = 'eser laroux ozvataf larukedi software architect developer programmer coder team leader senior php js javascript classic c# asp asp.net microsoft .net grunt npm node continuous integration devops';
+    $keywords = 'eser laroux ozvataf larukedi software architect developer programmer coder team leader senior php js javascript classic c# asp asp.net microsoft .net grunt npm node continuous integration seo search engine optimization social media devops';
 ?>
     <div class="navbar navbar-inverse navbar-fixed-top custom-navbar print-hidden" role="banner">
         <div class="container">
@@ -64,13 +64,16 @@
 
                                 <h1 class="title">ESER OZVATAF</h1>
                                 <h2>IT Consultant &amp; Software Architect</h2>
-                                <p>Showcase your hard work with our HTML5 app landing page. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum, maiores sint possimus distinctio tenetur in magni animi pariatur sed.</p>
+                                <p>
+                                    I'm an IT consultant, a software architect and an ICT in Education MSc student who lives in Northern Cyprus.
+                                    This page helps you to get detailed information on my interests and work area.
+                                </p>
                                 
                                 <div class="buttons pull-right">
-                                    <a href="https://larukedi.github.io/" class="btn btn-default"><i class="fa fa-info"></i> My Resume</a>
-                                    <a href="https://eserozvataf.wordpress.com/" class="btn btn-default"><i class="fa fa-pencil"></i> My Blog</a>
-                                    <a href="https://www.linkedin.com/in/larukedi" class="btn btn-default"><i class="fa fa-linkedin"></i> Linked In</a>
-                                    <a href="https://github.com/larukedi/" class="btn btn-default"><i class="fa fa-github"></i> Github</a>
+                                    <a href="https://larukedi.github.io/" class="btn btn-default"><i class="fa fa-info margin-right-10px"></i>My Resume</a>
+                                    <a href="https://eserozvataf.wordpress.com/" class="btn btn-default"><i class="fa fa-pencil margin-right-10px"></i>My Blog</a>
+                                    <a href="https://www.linkedin.com/in/larukedi" class="btn btn-default"><i class="fa fa-linkedin margin-right-10px"></i>Linked In</a>
+                                    <a href="https://github.com/larukedi/" class="btn btn-default"><i class="fa fa-github margin-right-10px"></i>Github</a>
                                 </div>
 
                                 <div class="clearfix"></div>
@@ -103,29 +106,30 @@
                     <p>Monotonectally conceptualize go forward relationships and effective paradigms. Uniquely build team building convergence rather than progressive manufactured products. Quickly build professional web services through cross functional vortals. Synergistically transform functionalized e-markets through performance based human capital. Energistically engage global core competencies vis-a-vis superior architectures.</p>
                     <p>Holisticly foster process-centric core competencies whereas impactful meta-services. Seamlessly evisculate accurate leadership vis-a-vis highly efficient users. Authoritatively grow multifunctional action items and competitive processes. Collaboratively maximize resource sucking.</p>
 
-                    <div class="row interest">
+                    <div class="row interest margin-top-30px">
                         <div class="col-md-3">
-                            <h3 class="sub-heading"><i class="fa fa-headphones"></i> Music</h3>
+                            <h3 class="sub-heading"><i class="fa fa-code margin-right-10px"></i>Software Development</h3>
                             <p>Efficiently revolutionize one-to-one potentialities before B2B models. Continually leverage other's resource-leveling niche markets whereas focused processes. Distinctively transition high standards in total linkage.</p>
                         </div>
                         <div class="col-md-3">
-                            <h3 class="sub-heading"><i class="fa fa-film"></i> Movies</h3>
+                            <h3 class="sub-heading"><i class="fa fa-tasks margin-right-10px"></i>Project Management</h3>
                             <p>Holisticly pursue pandemic services before distributed experiences. Collaboratively envisioneer just in time niches before ubiquitous e-services. Appropriately enable scalable e-business with leveraged opportunities.</p>
                         </div>
                         <div class="col-md-3">
-                            <h3 class="sub-heading"><i class="fa fa-suitcase"></i> Traveling</h3>
+                            <h3 class="sub-heading"><i class="fa fa-globe margin-right-10px"></i>Social Media</h3>
                             <p>Authoritatively transition global web services vis-a-vis user-centric content. Rapidiously innovate principle-centered resources via intuitive models. Monotonectally integrate collaborative core competencies before best-of-breed potentialities.</p>
                         </div>
                         <div class="col-md-3">
-                            <h3 class="sub-heading"><i class="fa fa-book"></i> Books</h3>
+                            <h3 class="sub-heading"><i class="fa fa-link margin-right-10px"></i>SEO</h3>
                             <p>Holisticly restore resource-leveling methodologies rather than distinctive e-services. Seamlessly whiteboard unique quality vectors via functionalized catalysts for change. Enthusiastically embrace proactive outsourcing through.</p>
                         </div>
                     </div>
-                    <div class="social h3">
+
+                    <div class="social h3 margin-top-30px">
                         Follow me on:
                         <ul class="social-icons">
-                            <li><a href="#"><i class="fa fa-linkedin"></i> LinkedIn</a></li>
-                            <li><a href="#"><i class="fa fa-github"></i> Github</a></li>
+                            <li><a href="#"><i class="fa fa-linkedin margin-right-10px"></i>LinkedIn</a></li>
+                            <li><a href="#"><i class="fa fa-github margin-right-10px"></i>Github</a></li>
                         </ul>
                     </div>
                 </div>
@@ -144,32 +148,34 @@
                     </div>
 
                     <div class="row">
-                        <div class="col-lg-12" style="margin-bottom:30px;">
+                        <!--
+                        <div class="col-lg-12">
                             <h2>Every Feature Implemented With Care</h2>
                         </div>
+                        -->
 
                         <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 f-item">
-                            <h3><i class="fa fa-location-arrow"></i> My Resume</h3>
+                            <h3><a href="https://larukedi.github.io/"><i class="fa fa-location-arrow margin-right-10px"></i>My Resume</a></h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum, maiores sint possimus distinctio tenetur in magni animi pariatur sed.</p>
                         </div>
 
                         <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 f-item">
-                            <h3><i class="fa fa-inbox"></i> My Blog</h3>
+                            <h3><a href="https://eserozvataf.wordpress.com/"><i class="fa fa-inbox margin-right-10px"></i>My Blog</a></h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum, maiores sint possimus distinctio tenetur in magni animi pariatur sed.</p>
                         </div>
 
                         <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 f-item">
-                            <h3><i class="fa fa-cloud-download"></i> Linked In</h3>
+                            <h3><a href="https://www.linkedin.com/in/larukedi"><i class="fa fa-cloud-download margin-right-10px"></i>Linked In</a></h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum, maiores sint possimus distinctio tenetur in magni animi pariatur sed.</p>
                         </div>
 
                         <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 f-item">
-                            <h3><i class="fa fa-github"></i> Github Profile</h3>
+                            <h3><a href="https://github.com/larukedi/"><i class="fa fa-github margin-right-10px"></i>Github Profile</a></h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum, maiores sint possimus distinctio tenetur in magni animi pariatur sed.</p>
                         </div>
 
                         <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 f-item">
-                            <h3><i class="fa fa-volume-up"></i> Devops Cyprus</h3>
+                            <h3><a href="http://devopscyprus.com/"><i class="fa fa-volume-up margin-right-10px"></i>Devops Cyprus</a></h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum, maiores sint possimus distinctio tenetur in magni animi pariatur sed.</p>
                         </div>
 
@@ -190,27 +196,29 @@
                     </div>
 
                     <div class="row">
-                        <div class="col-lg-12" style="margin-bottom:30px;">
+                        <!--
+                        <div class="col-lg-12">
                             <h2>Every Feature Implemented With Care</h2>
                         </div>
+                        -->
 
                         <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 f-item">
-                            <h3><i class="fa fa-rocket"></i> Scabbia Framework</h3>
+                            <h3><a href="http://scabbiafw.com/"><i class="fa fa-rocket margin-right-10px"></i>Scabbia Framework</a></h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum, maiores sint possimus distinctio tenetur in magni animi pariatur sed.</p>
                         </div>
 
                         <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 f-item">
-                            <h3><i class="fa fa-rocket"></i> Portable Online ID</h3>
+                            <h3><a href="https://github.com/larukedi/thesis"><i class="fa fa-rocket margin-right-10px"></i>Portable Online ID</a></h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum, maiores sint possimus distinctio tenetur in magni animi pariatur sed.</p>
                         </div>
 
                         <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 f-item">
-                            <h3><i class="fa fa-rocket"></i> PM Tool</h3>
+                            <h3><a href="https://github.com/larukedi/pm"><i class="fa fa-rocket margin-right-10px"></i>PM Tool</a></h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum, maiores sint possimus distinctio tenetur in magni animi pariatur sed.</p>
                         </div>
 
                         <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 f-item">
-                            <h3><i class="fa fa-rocket"></i> Survey Tool</h3>
+                            <h3><a href="https://github.com/larukedi/survey"><i class="fa fa-rocket margin-right-10px"></i>Survey Tool</a></h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum, maiores sint possimus distinctio tenetur in magni animi pariatur sed.</p>
                         </div>
 
@@ -281,7 +289,7 @@
             <div class="container">
                 <div class="row custom-footer-inner">
                     <div class="col-xs-8 text-muted">
-                        Copyright &copy; 2013 Eser 'Laroux' Özvataf. &nbsp; All Rights Reserved.<br />
+                        Copyright &copy; 2014 Eser 'Laroux' Özvataf. &nbsp; All Rights Reserved.<br />
                         <em>Some parts of the page may not function since it's still under development.</em>
                     </div>
                     <div class="col-xs-4 text-right">
