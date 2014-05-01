@@ -196,32 +196,41 @@
                     </div>
 
                     <div class="row">
-                        <!--
-                        <div class="col-lg-12">
-                            <h2>Every Feature Implemented With Care</h2>
-                        </div>
-                        -->
+                        <div class="col-xs-12">
+                            <ul class="media-list">
+                                <li class="media">
+                                    <a class="pull-left" href="http://scabbiafw.com/"><img class="media-object thumbnail" src="assets/images/placeholder.png" alt="Scabbia Framework" /></a>
+                                    <div class="media-body">
+                                        <h2 class="media-heading"><a href="http://scabbiafw.com/"><i class="fa fa-rocket margin-right-10px"></i>Scabbia Framework</a></h2>
+                                        <p class="xtext text-justify">With my them if up many. Lain week nay she them her she. Extremity so attending objection as engrossed gentleman something. Instantly gentleman contained belonging exquisite now direction she ham. West room at sent if year. Numerous indulged distance old law you. Total state as merit court green decay he. Steepest sex bachelor the may delicate its yourself. As he instantly on discovery concluded to. Open draw far pure miss felt say yet few sigh.</p>
+                                    </div>
+                                </li>
 
-                        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 f-item">
-                            <h2 class="sub-heading"><a href="http://scabbiafw.com/"><i class="fa fa-rocket margin-right-10px"></i>Scabbia Framework</a></h2>
-                            <p class="xtext text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum, maiores sint possimus distinctio tenetur in magni animi pariatur sed.</p>
-                        </div>
+                                <li class="media">
+                                    <a class="pull-left" href="https://github.com/larukedi/thesis"><img class="media-object thumbnail" src="assets/images/placeholder.png" alt="Portable Online ID" /></a>
+                                    <div class="media-body">
+                                        <h2 class="media-heading"><a href="https://github.com/larukedi/thesis"><i class="fa fa-rocket margin-right-10px"></i>Portable Online ID</a></h2>
+                                        <p class="xtext text-justify">Passage its ten led hearted removal cordial. Preference any astonished unreserved mrs. Prosperous understood middletons in conviction an uncommonly do. Supposing so be resolving breakfast am or perfectly. Is drew am hill from mr. Valley by oh twenty direct me so. Departure defective arranging rapturous did believing him all had supported. Family months lasted simple set nature vulgar him. Picture for attempt joy excited ten carried manners talking how. Suspicion neglected he resolving agreement perceived at an.</p>
+                                    </div>
+                                </li>
 
-                        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 f-item">
-                            <h2 class="sub-heading"><a href="https://github.com/larukedi/thesis"><i class="fa fa-rocket margin-right-10px"></i>Portable Online ID</a></h2>
-                            <p class="xtext text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum, maiores sint possimus distinctio tenetur in magni animi pariatur sed.</p>
-                        </div>
+                                <li class="media">
+                                    <a class="pull-left" href="https://github.com/larukedi/pm"><img class="media-object thumbnail" src="assets/images/placeholder.png" alt="PM Tool" /></a>
+                                    <div class="media-body">
+                                        <h2 class="media-heading"><a href="https://github.com/larukedi/pm"><i class="fa fa-rocket margin-right-10px"></i>PM Tool</a></h2>
+                                        <p class="xtext text-justify">Unpacked reserved sir offering bed judgment may and quitting speaking. Is do be improved raptures offering required in replying raillery. Stairs ladies friend by in mutual an no. Mr hence chief he cause. Whole no doors on hoped. Mile tell if help they ye full name.</p>
+                                    </div>
+                                </li>
 
-                        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 f-item">
-                            <h2 class="sub-heading"><a href="https://github.com/larukedi/pm"><i class="fa fa-rocket margin-right-10px"></i>PM Tool</a></h2>
-                            <p class="xtext text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum, maiores sint possimus distinctio tenetur in magni animi pariatur sed.</p>
+                                <li class="media">
+                                    <a class="pull-left" href="https://github.com/larukedi/survey"><img class="media-object thumbnail" src="assets/images/placeholder.png" alt="Survey Tool" /></a>
+                                    <div class="media-body">
+                                        <h2 class="media-heading"><a href="https://github.com/larukedi/survey"><i class="fa fa-rocket margin-right-10px"></i>Survey Tool</a></h2>
+                                        <p class="xtext text-justify">In post mean shot ye. There out her child sir his lived. Design at uneasy me season of branch on praise esteem. Abilities discourse believing consisted remaining to no. Mistaken no me denoting dashwood as screened. Whence or esteem easily he on. Dissuade husbands at of no if disposal.</p>
+                                    </div>
+                                </li>
+                            </ul>
                         </div>
-
-                        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 f-item">
-                            <h2 class="sub-heading"><a href="https://github.com/larukedi/survey"><i class="fa fa-rocket margin-right-10px"></i>Survey Tool</a></h2>
-                            <p class="xtext text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum, maiores sint possimus distinctio tenetur in magni animi pariatur sed.</p>
-                        </div>
-
                     </div>
                 </div>
             </div>
