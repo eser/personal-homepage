@@ -1,10 +1,18 @@
 @font-face {
-  font-family: 'Tinos';
+  font-family: 'Roboto Slab';
   font-style: normal;
   font-weight: 400;
-  src: local('Tinos'), url('../fonts/tinos.ttf') format('truetype');
+  src: local('Roboto Slab Regular'), local('RobotoSlab-Regular'), url('../fonts/roboto-slab-regular.ttf') format('truetype');
 }
 
+@font-face {
+  font-family: 'Roboto Slab';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Roboto Slab Bold'), local('RobotoSlab-Bold'), url('../fonts/roboto-slab-bold.ttf') format('truetype');
+}
+
+/*
 @font-face {
   font-family: 'Lato';
   font-style: normal;
@@ -20,6 +28,13 @@
 }
 
 @font-face {
+  font-family: 'Tinos';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Tinos'), url('../fonts/tinos.ttf') format('truetype');
+}
+
+@font-face {
   font-family: 'Josefin Slab Light';
   font-style: normal;
   font-weight: 400;
@@ -32,3 +47,4 @@
   font-weight: 700;
   src: local('Josefin Slab Bold'), local('Josefin-Slab-Bold'), url('../fonts/josefinslab-bold.ttf') format('truetype');
 }
+*/

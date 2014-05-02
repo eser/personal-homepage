@@ -164,17 +164,21 @@ body {
     text-decoration: underline;
 }
 
-body, h1, h2, h3, .h1, .h2, .h3 {
-    font-family: 'Lato', 'Helvetica', 'Arial', sans-serif !important;
-    /* font-family: 'Tinos', 'Georgia', times !important; */
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    font-family: 'Roboto Slab', 'Helvetica', 'Arial', sans-serif;
 }
+
+body {
+    font-family: 'Roboto Slab', 'Helvetica', 'Arial', sans-serif;
+}
+
 
 h4, h5, h6, .h4, .h5, .h6 {
     color: hsla(0, 0%, 13%, 1);
 }
 
 .h2, h2 {
-    font-size: 22px;
+    font-size: 20px;
 }
 
 .lead {
@@ -207,6 +211,11 @@ a {
     color: hsla(0, 0%, 63%, 1);
     font-size: 13px;
     font-style: italic;
+}
+
+.btn-splash, .btn-splash:hover {
+    color: hsla(0, 0%, 100%, 1);
+    background-color: hsla(208, 28%, 34%, 0.5);
 }
 
 .xheader {

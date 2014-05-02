@@ -8143,12 +8143,20 @@ td.visible-print {
 }
 
 @font-face {
-  font-family: 'Tinos';
+  font-family: 'Roboto Slab';
   font-style: normal;
   font-weight: 400;
-  src: local('Tinos'), url('../fonts/tinos.ttf') format('truetype');
+  src: local('Roboto Slab Regular'), local('RobotoSlab-Regular'), url('../fonts/roboto-slab-regular.ttf') format('truetype');
 }
 
+@font-face {
+  font-family: 'Roboto Slab';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Roboto Slab Bold'), local('RobotoSlab-Bold'), url('../fonts/roboto-slab-bold.ttf') format('truetype');
+}
+
+/*
 @font-face {
   font-family: 'Lato';
   font-style: normal;
@@ -8164,6 +8172,13 @@ td.visible-print {
 }
 
 @font-face {
+  font-family: 'Tinos';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Tinos'), url('../fonts/tinos.ttf') format('truetype');
+}
+
+@font-face {
   font-family: 'Josefin Slab Light';
   font-style: normal;
   font-weight: 400;
@@ -8176,6 +8191,7 @@ td.visible-print {
   font-weight: 700;
   src: local('Josefin Slab Bold'), local('Josefin-Slab-Bold'), url('../fonts/josefinslab-bold.ttf') format('truetype');
 }
+*/
 
 ::selection {
     background-color: hsla(0, 0%, 0%, 0.5);
@@ -8343,17 +8359,21 @@ body {
     text-decoration: underline;
 }
 
-body, h1, h2, h3, .h1, .h2, .h3 {
-    font-family: 'Lato', 'Helvetica', 'Arial', sans-serif !important;
-    /* font-family: 'Tinos', 'Georgia', times !important; */
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    font-family: 'Roboto Slab', 'Helvetica', 'Arial', sans-serif;
 }
+
+body {
+    font-family: 'Roboto Slab', 'Helvetica', 'Arial', sans-serif;
+}
+
 
 h4, h5, h6, .h4, .h5, .h6 {
     color: hsla(0, 0%, 13%, 1);
 }
 
 .h2, h2 {
-    font-size: 22px;
+    font-size: 20px;
 }
 
 .lead {
@@ -8386,6 +8406,11 @@ a {
     color: hsla(0, 0%, 63%, 1);
     font-size: 13px;
     font-style: italic;
+}
+
+.btn-splash, .btn-splash:hover {
+    color: hsla(0, 0%, 100%, 1);
+    background-color: hsla(208, 28%, 34%, 0.5);
 }
 
 .xheader {

@@ -70,10 +70,10 @@
                                 </p>
                                 
                                 <div class="buttons pull-right">
-                                    <a href="https://larukedi.github.io/index.tr.html" class="btn btn-default"><i class="fa fa-info margin-right-10px"></i>Özgeçmişim</a>
-                                    <a href="https://eserozvataf.wordpress.com/" class="btn btn-default"><i class="fa fa-pencil margin-right-10px"></i>Blog</a>
-                                    <a href="https://www.linkedin.com/in/larukedi" class="btn btn-default"><i class="fa fa-linkedin margin-right-10px"></i>Linked In</a>
-                                    <a href="https://github.com/larukedi/" class="btn btn-default"><i class="fa fa-github margin-right-10px"></i>Github</a>
+                                    <a href="https://larukedi.github.io/index.tr.html" class="btn btn-splash"><i class="fa fa-info margin-right-10px"></i>Özgeçmişim</a>
+                                    <a href="https://eserozvataf.wordpress.com/" class="btn btn-splash"><i class="fa fa-pencil margin-right-10px"></i>Blog</a>
+                                    <a href="https://www.linkedin.com/in/larukedi" class="btn btn-splash"><i class="fa fa-linkedin margin-right-10px"></i>Linked In</a>
+                                    <a href="https://github.com/larukedi/" class="btn btn-splash"><i class="fa fa-github margin-right-10px"></i>Github</a>
                                 </div>
 
                                 <div class="clearfix"></div>
