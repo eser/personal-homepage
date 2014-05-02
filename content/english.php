@@ -70,8 +70,8 @@
                                 </p>
                                 
                                 <div class="buttons pull-right">
-                                    <a href="https://larukedi.github.io/" class="btn btn-splash"><i class="fa fa-info margin-right-10px"></i>My Resume</a>
-                                    <a href="https://eserozvataf.wordpress.com/" class="btn btn-splash"><i class="fa fa-pencil margin-right-10px"></i>My Blog</a>
+                                    <a href="https://larukedi.github.io/" class="btn btn-splash"><i class="fa fa-clipboard margin-right-10px"></i>My Resume</a>
+                                    <a href="https://eserozvataf.wordpress.com/" class="btn btn-splash"><i class="fa fa-rss margin-right-10px"></i>My Blog</a>
                                     <a href="https://www.linkedin.com/in/larukedi" class="btn btn-splash"><i class="fa fa-linkedin margin-right-10px"></i>Linked In</a>
                                     <a href="https://github.com/larukedi/" class="btn btn-splash"><i class="fa fa-github margin-right-10px"></i>Github</a>
                                 </div>
@@ -155,12 +155,12 @@
                         -->
 
                         <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 f-item">
-                            <h2 class="sub-heading"><a href="https://larukedi.github.io/"><i class="fa fa-info margin-right-10px"></i>My Resume</a></h2>
+                            <h2 class="sub-heading"><a href="https://larukedi.github.io/"><i class="fa fa-clipboard margin-right-10px"></i>My Resume</a></h2>
                             <p class="xtext text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum, maiores sint possimus distinctio tenetur in magni animi pariatur sed.</p>
                         </div>
 
                         <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 f-item">
-                            <h2 class="sub-heading"><a href="https://eserozvataf.wordpress.com/"><i class="fa fa-pencil margin-right-10px"></i>My Blog</a></h2>
+                            <h2 class="sub-heading"><a href="https://eserozvataf.wordpress.com/"><i class="fa fa-rss margin-right-10px"></i>My Blog</a></h2>
                             <p class="xtext text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum, maiores sint possimus distinctio tenetur in magni animi pariatur sed.</p>
                         </div>
 
@@ -202,6 +202,14 @@
                                     <a class="pull-left" href="http://scabbiafw.com/"><img class="media-object thumbnail" src="assets/images/placeholder.png" alt="Scabbia Framework" /></a>
                                     <div class="media-body">
                                         <h2 class="media-heading"><a href="http://scabbiafw.com/">Scabbia Framework</a></h2>
+                                        <p class="xtext text-justify">With my them if up many. Lain week nay she them her she. Extremity so attending objection as engrossed gentleman something. Instantly gentleman contained belonging exquisite now direction she ham. West room at sent if year. Numerous indulged distance old law you. Total state as merit court green decay he. Steepest sex bachelor the may delicate its yourself. As he instantly on discovery concluded to. Open draw far pure miss felt say yet few sigh.</p>
+                                    </div>
+                                </li>
+
+                                <li class="media">
+                                    <a class="pull-left" href="https://github.com/larukedi/laroux.js"><img class="media-object thumbnail" src="assets/images/placeholder.png" alt="laroux.js" /></a>
+                                    <div class="media-body">
+                                        <h2 class="media-heading"><a href="https://github.com/larukedi/laroux.js">laroux.js</a></h2>
                                         <p class="xtext text-justify">With my them if up many. Lain week nay she them her she. Extremity so attending objection as engrossed gentleman something. Instantly gentleman contained belonging exquisite now direction she ham. West room at sent if year. Numerous indulged distance old law you. Total state as merit court green decay he. Steepest sex bachelor the may delicate its yourself. As he instantly on discovery concluded to. Open draw far pure miss felt say yet few sigh.</p>
                                     </div>
                                 </li>
