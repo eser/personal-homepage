@@ -72,7 +72,7 @@
                                 <div class="buttons pull-right">
                                     <a href="https://larukedi.github.io/index.tr.html" class="btn btn-splash"><i class="fa fa-clipboard margin-right-10px"></i>Özgeçmişim</a>
                                     <a href="https://eserozvataf.wordpress.com/" class="btn btn-splash"><i class="fa fa-rss margin-right-10px"></i>Blog</a>
-                                    <a href="https://www.linkedin.com/in/larukedi" class="btn btn-splash"><i class="fa fa-linkedin margin-right-10px"></i>Linked In</a>
+                                    <a href="https://www.linkedin.com/in/eserozvataf" class="btn btn-splash"><i class="fa fa-linkedin margin-right-10px"></i>Linked In</a>
                                     <a href="https://github.com/larukedi/" class="btn btn-splash"><i class="fa fa-github margin-right-10px"></i>Github</a>
                                 </div>
 
@@ -165,7 +165,7 @@
                         </div>
 
                         <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 f-item">
-                            <h2 class="sub-heading"><a href="https://www.linkedin.com/in/larukedi"><i class="fa fa-linkedin margin-right-10px"></i>Linked In</a></h2>
+                            <h2 class="sub-heading"><a href="https://www.linkedin.com/in/eserozvataf"><i class="fa fa-linkedin margin-right-10px"></i>Linked In</a></h2>
                             <p class="xtext text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum, maiores sint possimus distinctio tenetur in magni animi pariatur sed.</p>
                         </div>
 
