@@ -73,7 +73,7 @@
                                     <a href="https://larukedi.github.io/index.tr.html" class="btn btn-splash"><i class="fa fa-clipboard margin-right-10px"></i>Özgeçmişim</a>
                                     <a href="https://eserozvataf.wordpress.com/" class="btn btn-splash"><i class="fa fa-rss margin-right-10px"></i>Blog</a>
                                     <a href="https://www.linkedin.com/in/eserozvataf" class="btn btn-splash"><i class="fa fa-linkedin margin-right-10px"></i>Linked In</a>
-                                    <a href="https://github.com/larukedi/" class="btn btn-splash"><i class="fa fa-github margin-right-10px"></i>Github</a>
+                                    <a href="https://github.com/larukedi" class="btn btn-splash"><i class="fa fa-github margin-right-10px"></i>Github</a>
                                 </div>
 
                                 <div class="clearfix"></div>
@@ -128,8 +128,9 @@
                     <div class="social h3 margin-top-30px">
                         Beni takip edin:
                         <ul class="social-icons">
-                            <li><a href="#"><i class="fa fa-linkedin margin-right-10px"></i>LinkedIn</a></li>
-                            <li><a href="#"><i class="fa fa-github margin-right-10px"></i>Github</a></li>
+                            <li><a href="https://www.linkedin.com/in/eserozvataf"><i class="fa fa-linkedin margin-right-10px"></i>LinkedIn</a></li>
+                            <li><a href="https://github.com/larukedi"><i class="fa fa-github margin-right-10px"></i>Github</a></li>
+                            <li><a href="https://twitter.com/eserozvataf"><i class="fa fa-twitter margin-right-10px"></i>Twitter</a></li>
                         </ul>
                     </div>
                 </div>
