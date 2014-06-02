@@ -61,11 +61,11 @@
                             </div>
                             <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8 right">
 
-                                <h1 class="title">Merhaba. Ben <span>Eser Ozvataf</span>.</h1>
+                                <h1 class="title">Merhaba. Ben <span>Eser Özvataf</span>.</h1>
                                 <h2>IT Danışmanı &amp; Yazılım Mimarı</h2>
                                 <p class="lead">
-                                    Kuzey Kıbrıs'da yaşayan bir IT danışmanı, yazılım mimarı ve Eğitimde ICT yüksek lisans programı öğrencisiyim.
-                                    Bu sayfa ilgi ve çalışma alanlarım hakkında bilgi sahibi olmanıza yardımcı olacaktır.
+                                    Ve bu da ilgi alanlarım, çalışmalarım ve iş alanlarım ile ilgili detaylı bilgi sahibi
+                                    olabilmeniz için tasarlanmış kişisel web sitem.
                                 </p>
                                 
                                 <div class="buttons">
@@ -99,8 +99,15 @@
                         </div>
                     </div>
 
-                    <p class="xtext">Monotonectally conceptualize go forward relationships and effective paradigms. Uniquely build team building convergence rather than progressive manufactured products. Quickly build professional web services through cross functional vortals. Synergistically transform functionalized e-markets through performance based human capital. Energistically engage global core competencies vis-a-vis superior architectures.</p>
-                    <p class="xtext">Holisticly foster process-centric core competencies whereas impactful meta-services. Seamlessly evisculate accurate leadership vis-a-vis highly efficient users. Authoritatively grow multifunctional action items and competitive processes. Collaboratively maximize resource sucking.</p>
+                    <p class="xtext">
+                        2004'de Celal Bayar Üniversitesi Bilgisayar Programcılığı bölümünden mezun olduktan sonra İzmir'de sırasıyla Egebilgi, Ispro ve devBiz firmalarında yazılım uzmanı olarak çalıştım.
+                        Askerlik görevimi tamamladıktan 2008'de Turkcell Çözüm Ortakları arasında bulunan CMFNET/Mobilpark firmasında deneyimli yazılım uzmanı ve takım liderliği görevini üstlendim.
+                        2011 yılı itibariyle tekrar akademi'ye dönerek Doğu Akdeniz Üniversitesi çatısı altında önce Information Technology lisansı, ardından Information and Communications in Education
+                        yüksek lisansı programlarını tamamladım.
+                    </p>
+                    <p class="xtext">
+                        <a href="https://larukedi.github.io">14 yıl profesyonel iş ve proje deneyimi</a>min yanı sıra açık kaynaklı projelerin oluşturulmasına ve geliştirilmesine destek olmaktayım.
+                    </p>
 
                     <div class="row interest margin-top-30px">
                         <div class="col-md-3">
@@ -286,7 +293,7 @@
                             </div>
 
                             <div class="text-center">
-                                <h4>e<span class="hide">x</span>ser@o<span class="hide">x</span>zvataf<span class="hide">x</span>.<span class="hide">x</span>com</h4>
+                                <h4>e<span class="hide">x</span>ser@s<span class="hide">e</span>ent<span class="hide">x</span>.<span class="hide">x</span>com</h4>
                             </div>
                         </div>
                     </div>
