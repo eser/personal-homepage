@@ -8143,55 +8143,18 @@ td.visible-print {
 }
 
 @font-face {
-  font-family: 'Roboto Slab';
+  font-family: 'Open Sans';
   font-style: normal;
   font-weight: 400;
-  src: local('Roboto Slab Regular'), local('RobotoSlab-Regular'), url('../fonts/roboto-slab-regular.ttf') format('truetype');
+  src: local('Open Sans'), local('OpenSans'), url('../fonts/opensans-regular.ttf') format('truetype');
 }
 
 @font-face {
-  font-family: 'Roboto Slab';
+  font-family: 'Open Sans';
   font-style: normal;
   font-weight: 700;
-  src: local('Roboto Slab Bold'), local('RobotoSlab-Bold'), url('../fonts/roboto-slab-bold.ttf') format('truetype');
+  src: local('Open Sans Bold'), local('OpenSans-Bold'), url('../fonts/opensans-bold.ttf') format('truetype');
 }
-
-/*
-@font-face {
-  font-family: 'Lato';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Lato Regular'), local('Lato-Regular'), url('../fonts/lato-regular.ttf') format('truetype');
-}
-
-@font-face {
-  font-family: 'Lato';
-  font-style: normal;
-  font-weight: 700;
-  src: local('Lato Bold'), local('Lato-Bold'), url('../fonts/lato-bold.ttf') format('truetype');
-}
-
-@font-face {
-  font-family: 'Tinos';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Tinos'), url('../fonts/tinos.ttf') format('truetype');
-}
-
-@font-face {
-  font-family: 'Josefin Slab Light';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Josefin Slab Light'), local('Josefin-Slab-Light'), url('../fonts/josefinslab-light.ttf') format('truetype');
-}
-
-@font-face {
-  font-family: 'Josefin Slab Bold';
-  font-style: normal;
-  font-weight: 700;
-  src: local('Josefin Slab Bold'), local('Josefin-Slab-Bold'), url('../fonts/josefinslab-bold.ttf') format('truetype');
-}
-*/
 
 ::selection {
     background-color: hsla(0, 0%, 0%, 0.5);
@@ -8292,11 +8255,11 @@ body {
 }
 
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
-    font-family: 'Roboto Slab', 'Helvetica', 'Arial', sans-serif;
+    font-family: 'Open Sans', 'Helvetica', 'Arial', sans-serif;
 }
 
 body {
-    font-family: 'Roboto Slab', 'Helvetica', 'Arial', sans-serif;
+    font-family: 'Open Sans', 'Helvetica', 'Arial', sans-serif;
 }
 
 
@@ -8304,12 +8267,13 @@ h4, h5, h6, .h4, .h5, .h6 {
     color: hsla(0, 0%, 13%, 1);
 }
 
-.h2, h2 {
+.media-heading, .sub-heading {
     font-size: 20px;
 }
 
 .lead {
     font-size: 14px;
+    line-height: 200%;
 }
 
 a {
@@ -8372,6 +8336,7 @@ a {
     border-top: 1px dashed hsla(0, 0%, 88%, 1);
     margin-top: 10px;
     margin-bottom: 10px;
+    clear: both;
 }
 
 #carousel-main, #carousel-main .carousel-inner, #carousel-main .carousel-inner .item, #carousel-main .carousel-inner .active {
@@ -8384,15 +8349,20 @@ a {
 }
 
 #carousel-main .title {
-    font-size: 42pt;
+    font-size: 50px;
+    font-weight: normal;
+}
+
+#carousel-main .title span {
+    font-weight: bold;
+}
+
+#carousel-main .title h2 {
+    font-size: 40px;
 }
 
 #carousel-main .buttons {
     margin-top: 30px;
-}
-
-#carousel-main .buttons a {
-    margin-left: 5px;
 }
 
 .social {

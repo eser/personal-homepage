@@ -17,7 +17,6 @@
 
                 <div class="navbar-collapse collapse">
                     <ul class="nav navbar-nav">
-                        <li><a href="#body" class="xscroll-link">Home</a></li>
                         <li><a href="#aboutme" class="xscroll-link">About Me</a></li>
                         <li><a href="#connections" class="xscroll-link">Connections</a></li>
                         <li><a href="#projects" class="xscroll-link">Projects</a></li>
@@ -62,18 +61,15 @@
                             </div>
                             <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8 right">
 
-                                <h1 class="title">ESER OZVATAF</h1>
+                                <h1 class="title">Hi. I'm <span>Eser Ozvataf</span>.</h1>
                                 <h2>IT Consultant &amp; Software Architect</h2>
                                 <p class="lead">
                                     I'm an IT consultant, a software architect and an ICT in Education MSc student who lives in Northern Cyprus.
                                     This page helps you to get detailed information on my interests and work area.
                                 </p>
                                 
-                                <div class="buttons pull-right">
-                                    <a href="https://larukedi.github.io/" class="btn btn-splash"><i class="fa fa-clipboard margin-right-10px"></i>My Resume</a>
-                                    <a href="https://eserozvataf.wordpress.com/" class="btn btn-splash"><i class="fa fa-rss margin-right-10px"></i>My Blog</a>
-                                    <a href="https://www.linkedin.com/in/eserozvataf" class="btn btn-splash"><i class="fa fa-linkedin margin-right-10px"></i>Linked In</a>
-                                    <a href="https://github.com/larukedi/" class="btn btn-splash"><i class="fa fa-github margin-right-10px"></i>Github</a>
+                                <div class="buttons">
+                                    <a href="#aboutme" class="btn btn-lg btn-splash xscroll-link">What I am interested in?</a>
                                 </div>
 
                                 <div class="clearfix"></div>
@@ -124,15 +120,6 @@
                             <p class="xtext">Holisticly restore resource-leveling methodologies rather than distinctive e-services. Seamlessly whiteboard unique quality vectors via functionalized catalysts for change. Enthusiastically embrace proactive outsourcing through.</p>
                         </div>
                     </div>
-
-                    <div class="social h3 margin-top-30px">
-                        Follow me on:
-                        <ul class="social-icons">
-                            <li><a href="https://www.linkedin.com/in/eserozvataf"><i class="fa fa-linkedin margin-right-10px"></i>LinkedIn</a></li>
-                            <li><a href="https://github.com/larukedi"><i class="fa fa-github margin-right-10px"></i>Github</a></li>
-                            <li><a href="https://twitter.com/eserozvataf"><i class="fa fa-twitter margin-right-10px"></i>Twitter</a></li>
-                        </ul>
-                    </div>
                 </div>
             </div>
         </section>
@@ -161,12 +148,12 @@
                         </div>
 
                         <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 f-item">
-                            <h2 class="sub-heading"><a href="https://eserozvataf.wordpress.com/"><i class="fa fa-rss margin-right-10px"></i>My Blog</a></h2>
+                            <h2 class="sub-heading"><a href="https://eserozvataf.wordpress.com/"><i class="fa fa-rss margin-right-10px"></i>My Blog (Turkish)</a></h2>
                             <p class="xtext text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum, maiores sint possimus distinctio tenetur in magni animi pariatur sed.</p>
                         </div>
 
                         <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 f-item">
-                            <h2 class="sub-heading"><a href="https://www.linkedin.com/in/eserozvataf"><i class="fa fa-linkedin margin-right-10px"></i>Linked In</a></h2>
+                            <h2 class="sub-heading"><a href="http://devopscyprus.com/"><i class="fa fa-cloud-download margin-right-10px"></i>Devops Cyprus</a></h2>
                             <p class="xtext text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum, maiores sint possimus distinctio tenetur in magni animi pariatur sed.</p>
                         </div>
 
@@ -176,7 +163,12 @@
                         </div>
 
                         <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 f-item">
-                            <h2 class="sub-heading"><a href="http://devopscyprus.com/"><i class="fa fa-cloud-download margin-right-10px"></i>Devops Cyprus</a></h2>
+                            <h2 class="sub-heading"><a href="https://www.linkedin.com/in/eserozvataf"><i class="fa fa-linkedin margin-right-10px"></i>LinkedIn</a></h2>
+                            <p class="xtext text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum, maiores sint possimus distinctio tenetur in magni animi pariatur sed.</p>
+                        </div>
+
+                        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 f-item">
+                            <h2 class="sub-heading"><a href="https://twitter.com/eserozvataf"><i class="fa fa-twitter margin-right-10px"></i>Twitter Profili</a></h2>
                             <p class="xtext text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum, maiores sint possimus distinctio tenetur in magni animi pariatur sed.</p>
                         </div>
 
@@ -268,9 +260,11 @@
                                     <div class="col-xs-12 col-md-12 xtext">
                                     <?php foreach ($blogposts as $post) { ?>
                                         <!-- Blog Post -->
-                                        <h2><a href="<?php echo $post['link']; ?>"><?php echo $post['title']; ?></a><span class="timestamp"> – <?php echo date('Y-m-d', $post['ts']); ?></span></h2>
-                                        <?php echo $post['summary']; ?>
-                                        <a href="<?php echo $post['link']; ?>" class="nowrap">read more</a>
+                                        <h2 class="sub-heading"><a href="<?php echo $post['link']; ?>"><?php echo $post['title']; ?></a><span class="timestamp"> – <?php echo date('Y-m-d', $post['ts']); ?></span></h2>
+                                        <p class="lead">
+                                            <?php echo $post['summary']; ?>
+                                            <a href="<?php echo $post['link']; ?>" class="nowrap">read more</a>
+                                        </p>
                                         <div class="line"></div>
                                     <?php } ?>
                                     </div>

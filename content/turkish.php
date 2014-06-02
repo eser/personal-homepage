@@ -17,7 +17,6 @@
 
                 <div class="navbar-collapse collapse">
                     <ul class="nav navbar-nav">
-                        <li><a href="#body" class="xscroll-link">Ana Sayfa</a></li>
                         <li><a href="#aboutme" class="xscroll-link">Hakkımda</a></li>
                         <li><a href="#connections" class="xscroll-link">Bağlantılar</a></li>
                         <li><a href="#projects" class="xscroll-link">Projeler</a></li>
@@ -62,18 +61,15 @@
                             </div>
                             <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8 right">
 
-                                <h1 class="title">ESER OZVATAF</h1>
+                                <h1 class="title">Merhaba. Ben <span>Eser Ozvataf</span>.</h1>
                                 <h2>IT Danışmanı &amp; Yazılım Mimarı</h2>
                                 <p class="lead">
                                     Kuzey Kıbrıs'da yaşayan bir IT danışmanı, yazılım mimarı ve Eğitimde ICT yüksek lisans programı öğrencisiyim.
                                     Bu sayfa ilgi ve çalışma alanlarım hakkında bilgi sahibi olmanıza yardımcı olacaktır.
                                 </p>
                                 
-                                <div class="buttons pull-right">
-                                    <a href="https://larukedi.github.io/index.tr.html" class="btn btn-splash"><i class="fa fa-clipboard margin-right-10px"></i>Özgeçmişim</a>
-                                    <a href="https://eserozvataf.wordpress.com/" class="btn btn-splash"><i class="fa fa-rss margin-right-10px"></i>Blog</a>
-                                    <a href="https://www.linkedin.com/in/eserozvataf" class="btn btn-splash"><i class="fa fa-linkedin margin-right-10px"></i>Linked In</a>
-                                    <a href="https://github.com/larukedi" class="btn btn-splash"><i class="fa fa-github margin-right-10px"></i>Github</a>
+                                <div class="buttons">
+                                    <a href="#aboutme" class="btn btn-lg btn-splash xscroll-link">Nelerle ilgileniyorum?</a>
                                 </div>
 
                                 <div class="clearfix"></div>
@@ -124,15 +120,6 @@
                             <p class="xtext">Holisticly restore resource-leveling methodologies rather than distinctive e-services. Seamlessly whiteboard unique quality vectors via functionalized catalysts for change. Enthusiastically embrace proactive outsourcing through.</p>
                         </div>
                     </div>
-
-                    <div class="social h3 margin-top-30px">
-                        Beni takip edin:
-                        <ul class="social-icons">
-                            <li><a href="https://www.linkedin.com/in/eserozvataf"><i class="fa fa-linkedin margin-right-10px"></i>LinkedIn</a></li>
-                            <li><a href="https://github.com/larukedi"><i class="fa fa-github margin-right-10px"></i>Github</a></li>
-                            <li><a href="https://twitter.com/eserozvataf"><i class="fa fa-twitter margin-right-10px"></i>Twitter</a></li>
-                        </ul>
-                    </div>
                 </div>
             </div>
         </section>
@@ -166,7 +153,7 @@
                         </div>
 
                         <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 f-item">
-                            <h2 class="sub-heading"><a href="https://www.linkedin.com/in/eserozvataf"><i class="fa fa-linkedin margin-right-10px"></i>Linked In</a></h2>
+                            <h2 class="sub-heading"><a href="http://devopskibris.com/"><i class="fa fa-cloud-download margin-right-10px"></i>Devops Kıbrıs</a></h2>
                             <p class="xtext text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum, maiores sint possimus distinctio tenetur in magni animi pariatur sed.</p>
                         </div>
 
@@ -176,7 +163,12 @@
                         </div>
 
                         <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 f-item">
-                            <h2 class="sub-heading"><a href="http://devopskibris.com/"><i class="fa fa-cloud-download margin-right-10px"></i>Devops Kıbrıs</a></h2>
+                            <h2 class="sub-heading"><a href="https://www.linkedin.com/in/eserozvataf"><i class="fa fa-linkedin margin-right-10px"></i>LinkedIn</a></h2>
+                            <p class="xtext text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum, maiores sint possimus distinctio tenetur in magni animi pariatur sed.</p>
+                        </div>
+
+                        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 f-item">
+                            <h2 class="sub-heading"><a href="https://twitter.com/eserozvataf"><i class="fa fa-twitter margin-right-10px"></i>Twitter Profili</a></h2>
                             <p class="xtext text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum, maiores sint possimus distinctio tenetur in magni animi pariatur sed.</p>
                         </div>
 
@@ -268,9 +260,11 @@
                                     <div class="col-xs-12 col-md-12 xtext">
                                     <?php foreach ($blogposts as $post) { ?>
                                         <!-- Blog Post -->
-                                        <h2><a href="<?php echo $post['link']; ?>"><?php echo $post['title']; ?></a><span class="timestamp"> – <?php echo date('Y-m-d', $post['ts']); ?></span></h2>
-                                        <?php echo $post['summary']; ?>
-                                        <a href="<?php echo $post['link']; ?>" class="nowrap">devamını oku</a>
+                                        <h2 class="sub-heading"><a href="<?php echo $post['link']; ?>"><?php echo $post['title']; ?></a><span class="timestamp"> – <?php echo date('Y-m-d', $post['ts']); ?></span></h2>
+                                        <p class="lead">
+                                            <?php echo $post['summary']; ?>
+                                            <a href="<?php echo $post['link']; ?>" class="nowrap">devamını oku</a>
+                                        </p>
                                         <div class="line"></div>
                                     <?php } ?>
                                     </div>
