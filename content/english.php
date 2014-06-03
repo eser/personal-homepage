@@ -100,13 +100,13 @@
                     </div>
 
                     <p class="xtext">
-                        2004'de Celal Bayar Üniversitesi Bilgisayar Programcılığı bölümünden mezun olduktan sonra İzmir'de sırasıyla Egebilgi, Ispro ve devBiz firmalarında yazılım uzmanı olarak çalıştım.
-                        Askerlik görevimi tamamladıktan 2008'de Turkcell Çözüm Ortakları arasında bulunan CMFNET/Mobilpark firmasında deneyimli yazılım uzmanı ve takım liderliği görevini üstlendim.
-                        2011 yılı itibariyle tekrar akademi'ye dönerek Doğu Akdeniz Üniversitesi çatısı altında önce Information Technology lisansı, ardından Information and Communications in Education
-                        yüksek lisansı programlarını tamamladım.
+                        After I graduated from Celal Bayar University Computer Programming department at 2004, I worked in Egebilgi, Ispro and devBiz firms as a software specialist.
+                        Then I completed my army service at 2008, and started to work CMFNet/Mobilpark, which is a solution partner of Turkcell, as a software architect and team leader.
+                        At 2011, I returned back to academia under the hood of Eastern Mediterranean University and graduated from Bachelor in Information Technology and Master in Information
+                        and Communications in Education progremmes.
                     </p>
                     <p class="xtext">
-                        <a href="https://larukedi.github.io">14 yıl profesyonel iş ve proje deneyimi</a>min yanı sıra açık kaynaklı projelerin oluşturulmasına ve geliştirilmesine destek olmaktayım.
+                        Besides having <a href="https://larukedi.github.io">14 years of professional work and project experience</a>, I also support and contribute to some open source projects.
                     </p>
 
                     <div class="row interest margin-top-30px">
