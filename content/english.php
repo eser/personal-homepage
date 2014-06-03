@@ -100,10 +100,10 @@
                     </div>
 
                     <p class="xtext">
-                        After I graduated from Celal Bayar University Computer Programming department at 2004, I worked in Egebilgi, Ispro and devBiz firms as a software specialist.
-                        Then I completed my army service at 2008, and started to work CMFNet/Mobilpark, which is a solution partner of Turkcell, as a software architect and team leader.
-                        At 2011, I returned back to academia under the hood of Eastern Mediterranean University and graduated from Bachelor in Information Technology and Master in Information
-                        and Communications in Education progremmes.
+                        After graduating in 2004 from Celal Bayar University Computer Programming department, I worked in Egebilgi, Ispro and devBiz firms as a software specialist.
+                        I completed my army service in 2008, and commenced work at CMFNet/Mobilpark, which is a solution partner of Turkcell, as a software architect and a team leader.
+                        In 2011, I returned to academia and continued my studies at Eastern Mediterranean University where I received my Bachelors degree in Information Technology and my Master
+                        in Information and Communications in the Education Field.
                     </p>
                     <p class="xtext">
                         Besides having <a href="https://larukedi.github.io">14 years of professional work and project experience</a>, I also support and contribute to some open source projects.
