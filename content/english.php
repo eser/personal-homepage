@@ -112,19 +112,19 @@
                     <div class="row interest margin-top-30px">
                         <div class="col-md-3">
                             <h2 class="sub-heading"><i class="fa fa-code margin-right-10px"></i>Software Development</h2>
-                            <p class="xtext">Efficiently revolutionize one-to-one potentialities before B2B models. Continually leverage other's resource-leveling niche markets whereas focused processes. Distinctively transition high standards in total linkage.</p>
+                            <p class="xtext">Starting from an amateur experience, I've experienced in development by working for companies. Since then, I became familiar with tons of software development principles and different aspects of programming.</p>
                         </div>
                         <div class="col-md-3">
-                            <h2 class="sub-heading"><i class="fa fa-tasks margin-right-10px"></i>Project Management</h2>
-                            <p class="xtext">Holisticly pursue pandemic services before distributed experiences. Collaboratively envisioneer just in time niches before ubiquitous e-services. Appropriately enable scalable e-business with leveraged opportunities.</p>
+                            <h2 class="sub-heading"><i class="fa fa-tasks margin-right-10px"></i>IT Project Management</h2>
+                            <p class="xtext">After 2006, I've been a follower of agile manifesto and specialized on Issue Tracking, Continuous Integration, Quality Assurance, Testing and such tools. My focus is combining these technical skills with business, leadership and management skills and experience.</p>
                         </div>
                         <div class="col-md-3">
                             <h2 class="sub-heading"><i class="fa fa-globe margin-right-10px"></i>Social Media</h2>
-                            <p class="xtext">Authoritatively transition global web services vis-a-vis user-centric content. Rapidiously innovate principle-centered resources via intuitive models. Monotonectally integrate collaborative core competencies before best-of-breed potentialities.</p>
+                            <p class="xtext">With the popularity of social networks, I've met various social media platforms and using their advertising, management, development and instruction channels for campaigning a brand.</p>
                         </div>
                         <div class="col-md-3">
                             <h2 class="sub-heading"><i class="fa fa-link margin-right-10px"></i>SEO</h2>
-                            <p class="xtext">Holisticly restore resource-leveling methodologies rather than distinctive e-services. Seamlessly whiteboard unique quality vectors via functionalized catalysts for change. Enthusiastically embrace proactive outsourcing through.</p>
+                            <p class="xtext">While internet users demand more accurate search results, search engines offer some guidelines to provide it. I follow these optimization tricks and examine the analytics data in order to maximize search visibility.</p>
                         </div>
                     </div>
                 </div>
@@ -151,32 +151,32 @@
 
                         <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 f-item">
                             <h2 class="sub-heading"><a href="https://larukedi.github.io/"><i class="fa fa-clipboard margin-right-10px"></i>My Resume</a></h2>
-                            <p class="xtext text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum, maiores sint possimus distinctio tenetur in magni animi pariatur sed.</p>
+                            <p class="xtext text-justify">My personal information, skills, knowledge, past education and work experience, certificates and projects.</p>
                         </div>
 
                         <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 f-item">
                             <h2 class="sub-heading"><a href="https://eserozvataf.wordpress.com/"><i class="fa fa-rss margin-right-10px"></i>My Blog (Turkish)</a></h2>
-                            <p class="xtext text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum, maiores sint possimus distinctio tenetur in magni animi pariatur sed.</p>
+                            <p class="xtext text-justify">A blog about recent IT developments and topics which make me get excited.</p>
                         </div>
 
                         <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 f-item">
                             <h2 class="sub-heading"><a href="http://devopscyprus.com/"><i class="fa fa-cloud-download margin-right-10px"></i>Devops Cyprus</a></h2>
-                            <p class="xtext text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum, maiores sint possimus distinctio tenetur in magni animi pariatur sed.</p>
+                            <p class="xtext text-justify">My humble IT consulting and software project management initiative.</p>
                         </div>
 
                         <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 f-item">
                             <h2 class="sub-heading"><a href="https://github.com/larukedi/"><i class="fa fa-github margin-right-10px"></i>Github Profile</a></h2>
-                            <p class="xtext text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum, maiores sint possimus distinctio tenetur in magni animi pariatur sed.</p>
+                            <p class="xtext text-justify">My Github profile which lists my open source projects that I contributed and started.</p>
                         </div>
 
                         <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 f-item">
-                            <h2 class="sub-heading"><a href="https://www.linkedin.com/in/eserozvataf"><i class="fa fa-linkedin margin-right-10px"></i>LinkedIn</a></h2>
-                            <p class="xtext text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum, maiores sint possimus distinctio tenetur in magni animi pariatur sed.</p>
+                            <h2 class="sub-heading"><a href="https://www.linkedin.com/in/eserozvataf"><i class="fa fa-linkedin margin-right-10px"></i>LinkedIn Profile</a></h2>
+                            <p class="xtext text-justify">My professional network in LinkedIn and previous work experience.</p>
                         </div>
 
                         <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 f-item">
-                            <h2 class="sub-heading"><a href="https://twitter.com/eserozvataf"><i class="fa fa-twitter margin-right-10px"></i>Twitter Profili</a></h2>
-                            <p class="xtext text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum, maiores sint possimus distinctio tenetur in magni animi pariatur sed.</p>
+                            <h2 class="sub-heading"><a href="https://twitter.com/eserozvataf"><i class="fa fa-twitter margin-right-10px"></i>Twitter Profile</a></h2>
+                            <p class="xtext text-justify">My tweets mostly about technology and development.</p>
                         </div>
 
                     </div>
@@ -202,7 +202,7 @@
                                     <a class="pull-left" href="http://scabbiafw.com/"><img class="media-object thumbnail" src="assets/images/placeholder.png" alt="Scabbia Framework" /></a>
                                     <div class="media-body">
                                         <h2 class="media-heading"><a href="http://scabbiafw.com/">Scabbia Framework</a></h2>
-                                        <p class="xtext text-justify">With my them if up many. Lain week nay she them her she. Extremity so attending objection as engrossed gentleman something. Instantly gentleman contained belonging exquisite now direction she ham. West room at sent if year. Numerous indulged distance old law you. Total state as merit court green decay he. Steepest sex bachelor the may delicate its yourself. As he instantly on discovery concluded to. Open draw far pure miss felt say yet few sigh.</p>
+                                        <p class="xtext text-justify">...</p>
                                     </div>
                                 </li>
 
@@ -210,7 +210,7 @@
                                     <a class="pull-left" href="https://github.com/larukedi/laroux.js"><img class="media-object thumbnail" src="assets/images/placeholder.png" alt="laroux.js" /></a>
                                     <div class="media-body">
                                         <h2 class="media-heading"><a href="https://github.com/larukedi/laroux.js">laroux.js</a></h2>
-                                        <p class="xtext text-justify">With my them if up many. Lain week nay she them her she. Extremity so attending objection as engrossed gentleman something. Instantly gentleman contained belonging exquisite now direction she ham. West room at sent if year. Numerous indulged distance old law you. Total state as merit court green decay he. Steepest sex bachelor the may delicate its yourself. As he instantly on discovery concluded to. Open draw far pure miss felt say yet few sigh.</p>
+                                        <p class="xtext text-justify">...</p>
                                     </div>
                                 </li>
 
@@ -218,7 +218,7 @@
                                     <a class="pull-left" href="https://github.com/larukedi/thesis"><img class="media-object thumbnail" src="assets/images/placeholder.png" alt="Portable Online ID" /></a>
                                     <div class="media-body">
                                         <h2 class="media-heading"><a href="https://github.com/larukedi/thesis">Portable Online ID</a></h2>
-                                        <p class="xtext text-justify">Passage its ten led hearted removal cordial. Preference any astonished unreserved mrs. Prosperous understood middletons in conviction an uncommonly do. Supposing so be resolving breakfast am or perfectly. Is drew am hill from mr. Valley by oh twenty direct me so. Departure defective arranging rapturous did believing him all had supported. Family months lasted simple set nature vulgar him. Picture for attempt joy excited ten carried manners talking how. Suspicion neglected he resolving agreement perceived at an.</p>
+                                        <p class="xtext text-justify">...</p>
                                     </div>
                                 </li>
 
@@ -226,7 +226,7 @@
                                     <a class="pull-left" href="https://github.com/larukedi/pm"><img class="media-object thumbnail" src="assets/images/placeholder.png" alt="PM Tool" /></a>
                                     <div class="media-body">
                                         <h2 class="media-heading"><a href="https://github.com/larukedi/pm">PM Tool</a></h2>
-                                        <p class="xtext text-justify">Unpacked reserved sir offering bed judgment may and quitting speaking. Is do be improved raptures offering required in replying raillery. Stairs ladies friend by in mutual an no. Mr hence chief he cause. Whole no doors on hoped. Mile tell if help they ye full name.</p>
+                                        <p class="xtext text-justify">...</p>
                                     </div>
                                 </li>
 
@@ -234,7 +234,7 @@
                                     <a class="pull-left" href="https://github.com/larukedi/survey"><img class="media-object thumbnail" src="assets/images/placeholder.png" alt="Survey Tool" /></a>
                                     <div class="media-body">
                                         <h2 class="media-heading"><a href="https://github.com/larukedi/survey">Survey Tool</a></h2>
-                                        <p class="xtext text-justify">In post mean shot ye. There out her child sir his lived. Design at uneasy me season of branch on praise esteem. Abilities discourse believing consisted remaining to no. Mistaken no me denoting dashwood as screened. Whence or esteem easily he on. Dissuade husbands at of no if disposal.</p>
+                                        <p class="xtext text-justify">...</p>
                                     </div>
                                 </li>
                             </ul>
