@@ -30,9 +30,9 @@ $l.ready(function() {
             var targetElement = $l(elem.getAttribute('href'));
 
             var targetPosition = targetElement.getBoundingClientRect().top + document.body.scrollTop;
-            if (targetPosition > 500 && lastHeaderState === 0) {
-                targetPosition -= 51;
-            }
+            // if (targetPosition > 500 && lastHeaderState === 0) {
+            //     targetPosition -= 51;
+            // }
 
             bodyJqueryWrapper.animate(
                 { scrollTop: targetPosition },

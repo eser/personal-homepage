@@ -190,7 +190,7 @@
                     <div class="row">
                         <div class="col-xs-12">
                             <div class="xheader">
-                                <h1><a href="#projects" class="xscroll-link">Projeler</a></h1>
+                                <h1><a href="#projects" class="xscroll-link">Açık Kaynak Projeler</a></h1>
                             </div>
                         </div>
                     </div>
@@ -342,7 +342,7 @@
                             </div>
 
                             <div class="text-center">
-                                <h4>e<span class="hide">x</span>ser@s<span class="hide">e</span>ent<span class="hide">x</span>.<span class="hide">x</span>com</h4>
+                                <h4>e<span class="hide">x</span>ser@o<span class="hide">e</span>zvata<span class="hide">x</span>f.<span class="hide">x</span>com</h4>
                             </div>
                         </div>
                     </div>
