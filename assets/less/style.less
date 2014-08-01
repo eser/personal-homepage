@@ -1,0 +1,244 @@
+::selection {
+    background-color: hsla(0, 0%, 0%, 0.5);
+}
+
+html, body, #page {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+body.floating {
+}
+
+#page, .lead {
+    line-height: 180%;
+}
+
+#splash {
+    height: auto;
+    background-image: url('../images/background.png');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    min-height: 600px;
+    color: hsla(0, 0%, 100%, 1);
+}
+
+.xanchor {
+    padding-top: 51px;
+    margin-top: -51px;
+}
+
+.custom-navbar-brand  {
+    padding-right: 20px;
+}
+
+.custom-input-search-button {
+    border-left: 0;
+}
+
+.custom-navbar {
+  text-shadow: 0 -1px 0 hsla(0, 0%, 0%, .15);
+  background-color: hsla(208, 28%, 34%, 1);
+  border-color: hsla(208, 47%, 27%, 1);
+  box-shadow: 0 1px 0 hsla(0, 0%, 100%, .1);
+  margin-bottom: 0;
+}
+
+.custom-navbar .navbar-collapse {
+  border-color: hsla(264, 34%, 30%, 1);
+}
+
+.custom-navbar .navbar-brand {
+  color: hsla(0, 0%, 100%, 1);
+}
+
+.custom-navbar .navbar-nav > li > a {
+  color: hsla(228, 39%, 82%, 1);
+}
+.custom-navbar .navbar-nav > li > a:hover {
+  color: hsla(0, 0%, 100%, 1);
+}
+
+.custom-navbar .navbar-nav > .active > a,
+.custom-navbar .navbar-nav > .active > a:hover {
+  color: hsla(0, 0%, 100%, 1);
+  background-color: hsla(235, 34%, 30%, 1);
+}
+
+.custom-navbar .navbar-nav > .open > a,
+.custom-navbar .navbar-nav > .open > a:hover {
+  color: hsla(0, 0%, 100%, 1);
+  background: none !important;
+}
+
+.custom-navbar .navbar-toggle {
+  border-color: hsla(264, 34%, 36%, 1);
+}
+
+.custom-navbar .navbar-toggle:hover {
+  background-color: hsla(264, 34%, 30%, 1);
+  border-color: hsla(264, 34%, 30%, 1);
+}
+
+.custom-section {
+    padding: 10px 0 20px 0;
+}
+
+.custom-section-inner {
+    padding: 0 0 60px 0;
+}
+
+.custom-section-gray {
+    background-color: hsla(240, 100%, 98%, 1);
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    font-family: 'Open Sans', 'Helvetica', 'Arial', sans-serif;
+}
+
+h4, h5, h6, .h4, .h5, .h6 {
+    color: hsla(0, 0%, 13%, 1);
+}
+
+.media-heading, .sub-heading {
+    font-size: 20px;
+}
+
+.lead {
+    font-size: 14px;
+}
+
+a {
+    color: hsla(208, 28%, 34%, 1);
+}
+
+.nowrap {
+    white-space: nowrap;
+}
+
+.vcenter {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+}
+
+.margin-top-30px {
+    margin-top: 30px;
+}
+
+.margin-right-10px {
+    margin-right: 10px;
+}
+
+.timestamp {
+    color: hsla(0, 0%, 63%, 1);
+    font-size: 13px;
+    font-style: italic;
+}
+
+.btn-splash, .btn-splash:hover {
+    color: hsla(0, 0%, 100%, 1);
+    background-color: hsla(208, 28%, 34%, 0.5);
+}
+
+.xheader {
+    border-bottom: 1px dotted hsla(215, 29%, 92%, 1);
+    margin: 40px 0 20px 0;
+}
+
+.xheader a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.xheader h1 {
+    border-bottom: 2px solid hsla(208, 16%, 53%, 1);
+    display: inline-block;
+    margin: 0 0 -2px 0;
+    color: hsla(215, 9%, 38%, 1);
+}
+
+.custom-footer-inner {
+    margin: 10px 0 20px 0;
+    padding-top: 10px;
+    border-top: 1px solid hsla(0, 0%, 75%, 1);
+}
+
+.line {
+    border-top: 1px dashed hsla(0, 0%, 88%, 1);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    clear: both;
+}
+
+#carousel-main, #carousel-main .carousel-inner, #carousel-main .carousel-inner .item, #carousel-main .carousel-inner .active {
+    height: 100%;
+}
+
+#carousel-main .carousel-inner .item, #carousel-main .carousel-inner .active {
+    padding-top: 125px;
+    padding-bottom: 100px;
+}
+
+#carousel-main .title {
+    font-size: 50px;
+    font-weight: normal;
+}
+
+#carousel-main .title span {
+    font-weight: bold;
+}
+
+#carousel-main .title h2 {
+    font-size: 40px;
+}
+
+#carousel-main .buttons {
+    margin-top: 30px;
+}
+
+.social {
+    
+}
+
+.social .social-icons {
+    position: relative;
+    list-style-type: none;
+}
+
+.social .social-icons, .social .social-icons li {
+    margin: 0 0 0 15px;
+    padding: 0;
+    display: inline;
+}
+
+@media print {
+    body {
+        zoom: 70% !important;
+    }
+
+    .print-hidden {
+        display: none;
+    }
+}
+
+@media screen {
+    .xtag em {
+        border-radius: 6px 0 6px 0;
+    }
+
+    .xsmalltag em {
+        border-radius: 4px 0 4px 0;
+    }
+
+    .more {
+        display: none;
+    }
+}

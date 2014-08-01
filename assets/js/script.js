@@ -1,53 +1,45 @@
-$(function() {
-    $('#search-form').submit(function() {
-        alert('It\'s currently disabled. Please try search on google instead.');
-        return false;
-    });
-    
-    $('.xscroll-link').click(function() {
-        var that = $(this);
-        
-        $('html, body').animate(
-            { scrollTop: $(this.hash).offset().top },
-            500
-        );
-        
-        // return false;
-    });
+$l.ready(function() {
+    var bodyJqueryWrapper = $(document.body);
+    var navHeader = $l('#nav-header');
+    var lastHeaderState = 0;
 
-    $('#p-filter a').click(function() {
-        var that = $(this);
-        $('#p-filter a.btn-act').removeClass('btn-act');
-        that.addClass('btn-act');
-
-        var p_filter = that.attr('rel');
-
-        $('.p-item').each(function() {
-            var that2 = $(this);
-
-            var p_property = that2.attr('rel');
-            if (p_property == p_filter && p_filter != 'all') {
-                that2.fadeTo(300, 1);
-                $('img', this).fadeTo(300, 1);
-                that2.removeClass('item-off');
-            } else if (p_filter != 'all') {
-                that2.fadeTo(300, 0.3);
-                $('img', this).fadeTo(300, 0.2);
-                that2.addClass('item-off');
-            } else {
-                that2.fadeTo(300, 1);
-                $('img', this).fadeTo(300, 1);
-                that2.removeClass('item-off');
+    $l.dom.setEvent(
+        window,
+        'scroll',
+        function() {
+            if (document.body.scrollTop > 500) {
+                if (lastHeaderState === 0) {
+                    $l.css.addClass(document.body, 'floating');
+                    $l.css.addClass(navHeader, 'navbar-fixed-top');
+                    $l.css.removeClass(navHeader, 'navbar-static-top');
+                    lastHeaderState = 1;
+                }
+            } else if (lastHeaderState === 1) {
+                $l.css.removeClass(document.body, 'floating');
+                $l.css.removeClass(navHeader, 'navbar-fixed-top');
+                $l.css.addClass(navHeader, 'navbar-static-top');
+                lastHeaderState = 0;
             }
-        });
-        
-        return false;
-    });
+        }
+    );
 
-    $('.showmore').click(function() {
-        var that = $(this);
-        
-        $('.' + that.attr('rel')).fadeIn();
-        that.parent().remove();
-    });
+    $l.dom.setEvent(
+        $l(['.xscroll-link']),
+        'click',
+        function(ev, elem) {
+            var targetElement = $l(elem.getAttribute('href'));
+
+            var targetPosition = targetElement.getBoundingClientRect().top + document.body.scrollTop;
+            if (targetPosition > 500 && lastHeaderState === 0) {
+                targetPosition -= 51;
+            }
+
+            bodyJqueryWrapper.animate(
+                { scrollTop: targetPosition },
+                500
+            );
+
+            return false;
+        }
+    );
 });
