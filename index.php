@@ -43,7 +43,7 @@
 
     <?= $contents ?>
 
-    <script src="assets/js/eser-ozvataf-com.min.js"></script>
+    <script data-cfasync="false" src="assets/js/eser-ozvataf-com.min.js"></script>
 
 </body>
 </html>
