@@ -1,5 +1,4 @@
 $l.ready(function() {
-    var bodyJqueryWrapper = $(document.body);
     var navHeader = $l('#nav-header');
     var lastHeaderState = 0;
 
@@ -34,10 +33,12 @@ $l.ready(function() {
             //     targetPosition -= 51;
             // }
 
-            bodyJqueryWrapper.animate(
-                { scrollTop: targetPosition },
-                500
-            );
+            $l.anim.set({
+                object:   document.body,
+                property: 'scrollTop',
+                to:       targetPosition,
+                step:     10
+            });
 
             return false;
         }
