@@ -62,14 +62,18 @@
                             <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8 right">
 
                                 <h1 class="title">Merhaba. Ben <span>Eser Özvataf</span>.</h1>
-                                <h2>IT Danışmanı &amp; Yazılım Mimarı</h2>
+                                <h2>Yazılım Mimarı ve Danışmanı</h2>
                                 <p class="lead">
-                                    Ve bu da ilgi alanlarım, çalışmalarım ve iş alanlarım ile ilgili detaylı bilgi sahibi
-                                    olabilmeniz amacıyla tasarlanmış bir web sayfası.
+                                    Modern yazılım mühendisliği ve IT projelerine odaklı çalışıyorum. Şu anda büyük bir
+                                    firmada e-ticaret çözümleri sağlamamın yanı sıra internet üzerindeki açık kaynaklı
+                                    yazılımlara katkıda bulunmak için uğraşıyorum.
+                                    <br /><br />
+                                    İlgili olduğum profesyonel alanlar, çalışmalarım ve sürmekte olan projelerim hakkında
+                                    detaylı bilgi almak için sayfayı biraz aşağı kaydırabilirsiniz.
                                 </p>
                                 
                                 <div class="buttons">
-                                    <a href="#aboutme" class="btn btn-lg btn-splash xscroll-link">Detaylar için aşağı kaydırın</a>
+                                    <a href="#aboutme" class="btn btn-lg btn-splash xscroll-link">Detaylar</a>
                                 </div>
 
                                 <div class="clearfix"></div>
@@ -155,7 +159,7 @@
                         </div>
 
                         <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 f-item">
-                            <h2 class="sub-heading"><a href="https://eserozvataf.wordpress.com/"><i class="fa fa-rss margin-right-10px"></i>Blog</a></h2>
+                            <h2 class="sub-heading"><a href="/blog/"><i class="fa fa-rss margin-right-10px"></i>Blog</a></h2>
                             <p class="xtext text-justify">Bilişimdeki son gelişmeler ve bana heyecan veren bilişim konuları hakkında bir blog.</p>
                         </div>
 
@@ -304,9 +308,9 @@
                                         <h1><a href="#blogposts-recent" class="xscroll-link">Blog Yazıları</a></h1>
                                     </div>
                                     <div class="col-xs-8 text-right">
-                                        <a href="http://eserozvataf.wordpress.com/">Ziyaret Et</a>
+                                        <a href="/blog/">Ziyaret Et</a>
                                         ·
-                                        <a href="http://eserozvataf.wordpress.com/feed/">RSS</a>
+                                        <a href="/blog/feed/">RSS</a>
                                     </div>
                                 </div>
                             </div>

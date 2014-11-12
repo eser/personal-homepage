@@ -32,7 +32,7 @@ class BlogFeed
 
     private static function summarizeText($summary, $maxLen = 250)
     {
-        $summary = strip_tags($summary);
+        $summary = html_entity_decode(strip_tags($summary), ENT_QUOTES|ENT_HTML5, 'UTF-8');
 
         // Truncate summary line to n characters
         if (mb_strlen($summary) > $maxLen) {

@@ -6,7 +6,7 @@
     require(__DIR__ . '/includes/FileCache.php');
     require(__DIR__ . '/includes/BlogFeed.php');
 
-    $file = FileCache::get('http://eserozvataf.wordpress.com/feed/');
+    $file = FileCache::get('http://eser.ozvataf.com/blog/feed/');
     $blogposts = BlogFeed::get($file);
 
     $languages = array('turkish', 'english');

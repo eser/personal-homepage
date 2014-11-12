@@ -62,14 +62,18 @@
                             <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8 right">
 
                                 <h1 class="title">Hi. I'm <span>Eser Ozvataf</span>.</h1>
-                                <h2>IT Consultant &amp; Software Architect</h2>
+                                <h2>Software Architect and Consultant</h2>
                                 <p class="lead">
-                                    And this is a web page which is designed to help you to get detailed information on
-                                    my interests, studies and work area.
+                                    who focuses on modern software engineering and IT projects. Besides I am currently
+                                    working for a large company to provide e-commerce solutions, looking to contribute
+                                    open source projects on the net.
+                                    <br /><br />
+                                    To get detailed information on my professional interests, studies and ongoing projects,
+                                    scroll down a bit.
                                 </p>
                                 
                                 <div class="buttons">
-                                    <a href="#aboutme" class="btn btn-lg btn-splash xscroll-link">Scroll down for details</a>
+                                    <a href="#aboutme" class="btn btn-lg btn-splash xscroll-link">Details</a>
                                 </div>
 
                                 <div class="clearfix"></div>
@@ -155,7 +159,7 @@
                         </div>
 
                         <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 f-item">
-                            <h2 class="sub-heading"><a href="https://eserozvataf.wordpress.com/"><i class="fa fa-rss margin-right-10px"></i>My Blog (Turkish)</a></h2>
+                            <h2 class="sub-heading"><a href="/blog/"><i class="fa fa-rss margin-right-10px"></i>My Blog (Turkish)</a></h2>
                             <p class="xtext text-justify">A blog about recent IT developments and topics which make me get excited.</p>
                         </div>
 
@@ -304,9 +308,9 @@
                                         <h1><a href="#blogposts-recent" class="xscroll-link">Blog Posts</a></h1>
                                     </div>
                                     <div class="col-xs-8 text-right">
-                                        <a href="http://eserozvataf.wordpress.com/">Visit</a>
+                                        <a href="/blog/">Visit</a>
                                         ·
-                                        <a href="http://eserozvataf.wordpress.com/feed/">RSS</a>
+                                        <a href="/blog/feed/">RSS</a>
                                     </div>
                                 </div>
                             </div>

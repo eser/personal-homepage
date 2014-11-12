@@ -1,12 +1,13 @@
 $l.ready(function() {
     var navHeader = $l('#nav-header');
     var lastHeaderState = 0;
+    var scrollRootElement = document.body;
 
     $l.dom.setEvent(
         window,
         'scroll',
         function() {
-            if (document.body.scrollTop > 500) {
+            if (scrollRootElement.scrollTop > 500) {
                 if (lastHeaderState === 0) {
                     $l.css.addClass(document.body, 'floating');
                     $l.css.addClass(navHeader, 'navbar-fixed-top');
@@ -28,16 +29,16 @@ $l.ready(function() {
         function(ev, elem) {
             var targetElement = $l(elem.getAttribute('href'));
 
-            var targetPosition = targetElement.getBoundingClientRect().top + document.body.scrollTop;
+            var targetPosition = targetElement.getBoundingClientRect().top + scrollRootElement.scrollTop;
             // if (targetPosition > 500 && lastHeaderState === 0) {
             //     targetPosition -= 51;
             // }
 
             $l.anim.set({
-                object:   document.body,
+                object:   scrollRootElement,
                 property: 'scrollTop',
                 to:       targetPosition,
-                step:     10
+                time:     1200
             });
 
             return false;
