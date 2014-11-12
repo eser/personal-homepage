@@ -17,8 +17,8 @@
 
                 <div class="navbar-collapse collapse">
                     <ul class="nav navbar-nav">
-                        <li><a href="#aboutme" class="xscroll-link">Hakkımda</a></li>
                         <li><a href="#connections" class="xscroll-link">Bağlantılar</a></li>
+                        <li><a href="#aboutme" class="xscroll-link">Hakkımda</a></li>
                         <li><a href="#projects" class="xscroll-link">Projeler</a></li>
                         <li><a href="#blogposts" class="xscroll-link">Blog Yazıları</a></li>
                         <li><a href="#contact" class="xscroll-link">İletişim</a></li>
@@ -48,92 +48,32 @@
     <div id="page">
 
         <header id="splash">
-            <div id="carousel-main" class="carousel slide">
-                <ol class="carousel-indicators">
-                    <li data-target="#carousel-main" data-slide-to="0" class="active"></li>
-                </ol>
-                
-                <div class="carousel-inner">
-                    <div class="item active">
-                        <div class="container">
-                            <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 left">
-                                <img src="assets/images/eser-ozvataf.png" class="img-thumbnail" alt="" />
-                            </div>
-                            <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8 right">
-
-                                <h1 class="title">Merhaba. Ben <span>Eser Özvataf</span>.</h1>
-                                <h2>Yazılım Mimarı ve Danışmanı</h2>
-                                <p class="lead">
-                                    Modern yazılım mühendisliği ve IT projelerine odaklı çalışıyorum. Şu anda büyük bir
-                                    firmada e-ticaret çözümleri sağlamamın yanı sıra internet üzerindeki açık kaynaklı
-                                    yazılımlara katkıda bulunmak için uğraşıyorum.
-                                    <br /><br />
-                                    İlgili olduğum profesyonel alanlar, çalışmalarım ve sürmekte olan projelerim hakkında
-                                    detaylı bilgi almak için sayfayı biraz aşağı kaydırabilirsiniz.
-                                </p>
-                                
-                                <div class="buttons">
-                                    <a href="#aboutme" class="btn btn-lg btn-splash xscroll-link">Detaylar</a>
-                                </div>
-
-                                <div class="clearfix"></div>
-
-                            </div>
-                        </div>
-                    </div>
+            <div class="container intro">
+                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 left">
+                    <img src="assets/images/eser-ozvataf.png" class="img-thumbnail" alt="" />
                 </div>
-    
-                <a class="left carousel-control" href="#carousel-main" data-slide="prev">
-                    <span class="glyphicon glyphicon-chevron-left"></span>
-                </a>
-                <a class="right carousel-control" href="#carousel-main" data-slide="next">
-                    <span class="glyphicon glyphicon-chevron-right"></span>
-                </a>
+                <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8 right">
+
+                    <h1 class="title">Merhaba. Ben <span>Eser Özvataf</span>.</h1>
+                    <h2>Yazılım Mimarı ve Danışmanı</h2>
+                    <p class="lead">
+                        Modern yazılım mühendisliği ve IT projelerine odaklı çalışıyorum. Şu anda büyük bir
+                        firmada e-ticaret çözümleri sağlamamın yanı sıra internet üzerindeki açık kaynaklı
+                        yazılımlara katkıda bulunmak için uğraşıyorum.
+                        <br /><br />
+                        İlgili olduğum profesyonel alanlar, çalışmalarım ve sürmekte olan projelerim hakkında
+                        detaylı bilgi almak için sayfayı biraz aşağı kaydırabilirsiniz.
+                    </p>
+                    
+                    <div class="buttons">
+                        <a href="#connections" class="btn btn-lg btn-splash xscroll-link">Detaylar</a>
+                    </div>
+
+                    <div class="clearfix"></div>
+
+                </div>
             </div>
         </header>
-
-        <section id="aboutme" class="xanchor">
-            <div class="custom-section">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-xs-12">
-                            <div class="xheader">
-                                <h1><a href="#aboutme" class="xscroll-link">Hakkımda</a></h1>
-                            </div>
-                        </div>
-                    </div>
-
-                    <p class="xtext">
-                        2004'de Celal Bayar Üniversitesi Bilgisayar Programcılığı bölümünden mezun olduktan sonra İzmir'de sırasıyla Egebilgi, Ispro ve devBiz firmalarında Uzman Yazılım Geliştirici olarak çalıştım.
-                        Askerlik görevimi tamamladıktan 2008'de Turkcell Çözüm Ortakları arasında bulunan CMFNET/Mobilpark firmasında deneyimli Full Stack (Tam Donanımlı) Yazılım Geliştirici ve Takım Liderliği görevini üstlendim.
-                        2011 yılı itibariyle tekrar akademi'ye dönerek Doğu Akdeniz Üniversitesi çatısı altında önce Information Technology lisansı, ardından Information and Communications in Education
-                        yüksek lisansı programlarını tamamladım.
-                    </p>
-                    <p class="xtext">
-                        <a href="https://larukedi.github.io">12 yıl profesyonel iş ve proje deneyimi</a>min yanı sıra açık kaynaklı projelerin oluşturulmasına ve geliştirilmesine destek olmaktayım.
-                    </p>
-
-                    <div class="row interest margin-top-30px">
-                        <div class="col-md-3">
-                            <h2 class="sub-heading"><i class="fa fa-code margin-right-10px"></i>Yazılım Geliştirme</h2>
-                            <p class="xtext">Amatör olarak başlayarak özel sektördeki çalışma deneyimim ile devam eden yazılım geliştirme, zaman içerisinde bir çok geliştirme prensibi ve programlamanın farklı yönlerine aşina olan tam donanımlı bir yazılımcı olmamı sağladı.</p>
-                        </div>
-                        <div class="col-md-3">
-                            <h2 class="sub-heading"><i class="fa fa-tasks margin-right-10px"></i>Proje Yönetimi</h2>
-                            <p class="xtext">Bir agile manifesto'nun takipçisi olarak iş takibi, kod gözetimi, sürekli entegrasyon, kalite yönetimi, testler ve benzer araçlarda deneyim kazandım. Hedefim teknik yeteneklerle iş, liderlik ve yönetim beceri ve deneyimlerini birlikte kullanmak.</p>
-                        </div>
-                        <div class="col-md-3">
-                            <h2 class="sub-heading"><i class="fa fa-globe margin-right-10px"></i>Sosyal Medya</h2>
-                            <p class="xtext">Sosyal ağların popülerliği ile bir çok sosyal medya platformu ve bunların reklam, yönetim, geliştirme, eğitim kanalları üzerinden marka tanıtımının nasıl yapılabileceği üzerine deneyimlerim oldu.</p>
-                        </div>
-                        <div class="col-md-3">
-                            <h2 class="sub-heading"><i class="fa fa-link margin-right-10px"></i>SEO</h2>
-                            <p class="xtext">Internet kullanıcıları daha kesin arama sonuçları beklerken, arama motorları bunu sağlamak için geliştiricilere imkanlar sağlamaya çalışıyor. Bu iyileştirmeleri analitik verileri inceleyerek ve arama görünürlülüğünün maksimizasyonunu sağlayarak uyguluyorum.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
 
         <section id="connections" class="xanchor">
             <div class="custom-section custom-section-gray">
@@ -183,6 +123,49 @@
                             <p class="xtext text-justify">Çoğunlukla teknoloji ve yazılım geliştirme üzerine olan tweetlerim.</p>
                         </div>
 
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="aboutme" class="xanchor">
+            <div class="custom-section">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <div class="xheader">
+                                <h1><a href="#aboutme" class="xscroll-link">Hakkımda</a></h1>
+                            </div>
+                        </div>
+                    </div>
+
+                    <p class="xtext">
+                        2004'de Celal Bayar Üniversitesi Bilgisayar Programcılığı bölümünden mezun olduktan sonra İzmir'de sırasıyla Egebilgi, Ispro ve devBiz firmalarında Uzman Yazılım Geliştirici olarak çalıştım.
+                        Askerlik görevimi tamamladıktan 2008'de Turkcell Çözüm Ortakları arasında bulunan CMFNET/Mobilpark firmasında deneyimli Full Stack (Tam Donanımlı) Yazılım Geliştirici ve Takım Liderliği görevini üstlendim.
+                        2011 yılı itibariyle tekrar akademi'ye dönerek Doğu Akdeniz Üniversitesi çatısı altında önce Information Technology lisansı, ardından Information and Communications in Education
+                        yüksek lisansı programlarını tamamladım.
+                    </p>
+                    <p class="xtext">
+                        <a href="https://larukedi.github.io">12 yıl profesyonel iş ve proje deneyimi</a>min yanı sıra açık kaynaklı projelerin oluşturulmasına ve geliştirilmesine destek olmaktayım.
+                    </p>
+
+                    <div class="row interest margin-top-30px">
+                        <div class="col-md-3">
+                            <h2 class="sub-heading"><i class="fa fa-code margin-right-10px"></i>Yazılım Geliştirme</h2>
+                            <p class="xtext">Amatör olarak başlayarak özel sektördeki çalışma deneyimim ile devam eden yazılım geliştirme, zaman içerisinde bir çok geliştirme prensibi ve programlamanın farklı yönlerine aşina olan tam donanımlı bir yazılımcı olmamı sağladı.</p>
+                        </div>
+                        <div class="col-md-3">
+                            <h2 class="sub-heading"><i class="fa fa-tasks margin-right-10px"></i>Proje Yönetimi</h2>
+                            <p class="xtext">Bir agile manifesto'nun takipçisi olarak iş takibi, kod gözetimi, sürekli entegrasyon, kalite yönetimi, testler ve benzer araçlarda deneyim kazandım. Hedefim teknik yeteneklerle iş, liderlik ve yönetim beceri ve deneyimlerini birlikte kullanmak.</p>
+                        </div>
+                        <div class="col-md-3">
+                            <h2 class="sub-heading"><i class="fa fa-globe margin-right-10px"></i>Sosyal Medya</h2>
+                            <p class="xtext">Sosyal ağların popülerliği ile bir çok sosyal medya platformu ve bunların reklam, yönetim, geliştirme, eğitim kanalları üzerinden marka tanıtımının nasıl yapılabileceği üzerine deneyimlerim oldu.</p>
+                        </div>
+                        <div class="col-md-3">
+                            <h2 class="sub-heading"><i class="fa fa-link margin-right-10px"></i>SEO</h2>
+                            <p class="xtext">Internet kullanıcıları daha kesin arama sonuçları beklerken, arama motorları bunu sağlamak için geliştiricilere imkanlar sağlamaya çalışıyor. Bu iyileştirmeleri analitik verileri inceleyerek ve arama görünürlülüğünün maksimizasyonunu sağlayarak uyguluyorum.</p>
+                        </div>
                     </div>
                 </div>
             </div>

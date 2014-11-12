@@ -17,8 +17,8 @@
 
                 <div class="navbar-collapse collapse">
                     <ul class="nav navbar-nav">
-                        <li><a href="#aboutme" class="xscroll-link">About Me</a></li>
                         <li><a href="#connections" class="xscroll-link">Connections</a></li>
+                        <li><a href="#aboutme" class="xscroll-link">About Me</a></li>
                         <li><a href="#projects" class="xscroll-link">Projects</a></li>
                         <li><a href="#blogposts" class="xscroll-link">Blog Posts</a></li>
                         <li><a href="#contact" class="xscroll-link">Contact</a></li>
@@ -48,92 +48,32 @@
     <div id="page">
 
         <header id="splash">
-            <div id="carousel-main" class="carousel slide">
-                <ol class="carousel-indicators">
-                    <li data-target="#carousel-main" data-slide-to="0" class="active"></li>
-                </ol>
-                
-                <div class="carousel-inner">
-                    <div class="item active">
-                        <div class="container">
-                            <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 left">
-                                <img src="assets/images/eser-ozvataf.png" class="img-thumbnail" alt="" />
-                            </div>
-                            <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8 right">
-
-                                <h1 class="title">Hi. I'm <span>Eser Ozvataf</span>.</h1>
-                                <h2>Software Architect and Consultant</h2>
-                                <p class="lead">
-                                    who focuses on modern software engineering and IT projects. Besides I am currently
-                                    working for a large company to provide e-commerce solutions, looking to contribute
-                                    open source projects on the net.
-                                    <br /><br />
-                                    To get detailed information on my professional interests, studies and ongoing projects,
-                                    scroll down a bit.
-                                </p>
-                                
-                                <div class="buttons">
-                                    <a href="#aboutme" class="btn btn-lg btn-splash xscroll-link">Details</a>
-                                </div>
-
-                                <div class="clearfix"></div>
-
-                            </div>
-                        </div>
-                    </div>
+            <div class="container intro">
+                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 left">
+                    <img src="assets/images/eser-ozvataf.png" class="img-thumbnail" alt="" />
                 </div>
-    
-                <a class="left carousel-control" href="#carousel-main" data-slide="prev">
-                    <span class="glyphicon glyphicon-chevron-left"></span>
-                </a>
-                <a class="right carousel-control" href="#carousel-main" data-slide="next">
-                    <span class="glyphicon glyphicon-chevron-right"></span>
-                </a>
+                <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8 right">
+
+                    <h1 class="title">Hi. I'm <span>Eser Ozvataf</span>.</h1>
+                    <h2>Software Architect and Consultant</h2>
+                    <p class="lead">
+                        who focuses on modern software engineering and IT projects. Besides I am currently
+                        working for a large company to provide e-commerce solutions, looking to contribute
+                        open source projects on the net.
+                        <br /><br />
+                        To get detailed information on my professional interests, studies and ongoing projects,
+                        scroll down a bit.
+                    </p>
+                    
+                    <div class="buttons">
+                        <a href="#connections" class="btn btn-lg btn-splash xscroll-link">Details</a>
+                    </div>
+
+                    <div class="clearfix"></div>
+
+                </div>
             </div>
         </header>
-
-        <section id="aboutme" class="xanchor">
-            <div class="custom-section">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-xs-12">
-                            <div class="xheader">
-                                <h1><a href="#aboutme" class="xscroll-link">About Me</a></h1>
-                            </div>
-                        </div>
-                    </div>
-
-                    <p class="xtext">
-                        After graduating in 2004 from Celal Bayar University Computer Programming department, I worked in Egebilgi, Ispro and devBiz firms as a Medior/Senior Developer.
-                        I completed my army service in 2008, and commenced work at CMFNet/Mobilpark, which is a solution partner of Turkcell, as a Full Stack Developer and a Team Leader.
-                        In 2011, I returned to academia and continued my studies at Eastern Mediterranean University where I received my Bachelors degree in Information Technology and my Master
-                        in Information and Communications in the Education Field.
-                    </p>
-                    <p class="xtext">
-                        Besides having <a href="https://larukedi.github.io">12 years of professional work and project experience</a>, I also support and contribute to some open source projects.
-                    </p>
-
-                    <div class="row interest margin-top-30px">
-                        <div class="col-md-3">
-                            <h2 class="sub-heading"><i class="fa fa-code margin-right-10px"></i>Software Development</h2>
-                            <p class="xtext">Starting from an amateur experience, I've experienced in development by working for companies. Since then, I became a full-stack developer which is familiar with tons of software development principles and different aspects of programming.</p>
-                        </div>
-                        <div class="col-md-3">
-                            <h2 class="sub-heading"><i class="fa fa-tasks margin-right-10px"></i>IT Project Management</h2>
-                            <p class="xtext">I've been a follower of agile manifesto and specialized on Issue Tracking, Code Review, Continuous Integration, Quality Assurance, Testing and such tools. My focus is combining these technical skills with business, leadership and management skills and experience.</p>
-                        </div>
-                        <div class="col-md-3">
-                            <h2 class="sub-heading"><i class="fa fa-globe margin-right-10px"></i>Social Media</h2>
-                            <p class="xtext">With the popularity of social networks, I've met various social media platforms and using their advertising, management, development and instruction channels for campaigning a brand.</p>
-                        </div>
-                        <div class="col-md-3">
-                            <h2 class="sub-heading"><i class="fa fa-link margin-right-10px"></i>SEO</h2>
-                            <p class="xtext">While internet users demand more accurate search results, search engines offer some guidelines to provide it. I follow these optimization tricks and examine the analytics data in order to maximize search visibility.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
 
         <section id="connections" class="xanchor">
             <div class="custom-section custom-section-gray">
@@ -183,6 +123,49 @@
                             <p class="xtext text-justify">My tweets mostly about technology and development.</p>
                         </div>
 
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="aboutme" class="xanchor">
+            <div class="custom-section">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <div class="xheader">
+                                <h1><a href="#aboutme" class="xscroll-link">About Me</a></h1>
+                            </div>
+                        </div>
+                    </div>
+
+                    <p class="xtext">
+                        After graduating in 2004 from Celal Bayar University Computer Programming department, I worked in Egebilgi, Ispro and devBiz firms as a Medior/Senior Developer.
+                        I completed my army service in 2008, and commenced work at CMFNet/Mobilpark, which is a solution partner of Turkcell, as a Full Stack Developer and a Team Leader.
+                        In 2011, I returned to academia and continued my studies at Eastern Mediterranean University where I received my Bachelors degree in Information Technology and my Master
+                        in Information and Communications in the Education Field.
+                    </p>
+                    <p class="xtext">
+                        Besides having <a href="https://larukedi.github.io">12 years of professional work and project experience</a>, I also support and contribute to some open source projects.
+                    </p>
+
+                    <div class="row interest margin-top-30px">
+                        <div class="col-md-3">
+                            <h2 class="sub-heading"><i class="fa fa-code margin-right-10px"></i>Software Development</h2>
+                            <p class="xtext">Starting from an amateur experience, I've experienced in development by working for companies. Since then, I became a full-stack developer which is familiar with tons of software development principles and different aspects of programming.</p>
+                        </div>
+                        <div class="col-md-3">
+                            <h2 class="sub-heading"><i class="fa fa-tasks margin-right-10px"></i>IT Project Management</h2>
+                            <p class="xtext">I've been a follower of agile manifesto and specialized on Issue Tracking, Code Review, Continuous Integration, Quality Assurance, Testing and such tools. My focus is combining these technical skills with business, leadership and management skills and experience.</p>
+                        </div>
+                        <div class="col-md-3">
+                            <h2 class="sub-heading"><i class="fa fa-globe margin-right-10px"></i>Social Media</h2>
+                            <p class="xtext">With the popularity of social networks, I've met various social media platforms and using their advertising, management, development and instruction channels for campaigning a brand.</p>
+                        </div>
+                        <div class="col-md-3">
+                            <h2 class="sub-heading"><i class="fa fa-link margin-right-10px"></i>SEO</h2>
+                            <p class="xtext">While internet users demand more accurate search results, search engines offer some guidelines to provide it. I follow these optimization tricks and examine the analytics data in order to maximize search visibility.</p>
+                        </div>
                     </div>
                 </div>
             </div>
