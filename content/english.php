@@ -94,13 +94,13 @@
                         -->
 
                         <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 f-item">
-                            <h2 class="sub-heading"><a href="https://larukedi.github.io/"><i class="fa fa-clipboard margin-right-10px"></i>My Resume</a></h2>
-                            <p class="xtext text-justify">My personal information, skills, knowledge, past education and work experience, certificates and projects.</p>
+                            <h2 class="sub-heading"><a href="/blog/"><i class="fa fa-rss margin-right-10px"></i>My Blog (Turkish)</a></h2>
+                            <p class="xtext text-justify">A blog about recent IT developments and topics which make me get excited.</p>
                         </div>
 
                         <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 f-item">
-                            <h2 class="sub-heading"><a href="/blog/"><i class="fa fa-rss margin-right-10px"></i>My Blog (Turkish)</a></h2>
-                            <p class="xtext text-justify">A blog about recent IT developments and topics which make me get excited.</p>
+                            <h2 class="sub-heading"><a href="https://larukedi.github.io/"><i class="fa fa-clipboard margin-right-10px"></i>My Resume</a></h2>
+                            <p class="xtext text-justify">My personal information, skills, knowledge, past education and work experience, certificates and projects.</p>
                         </div>
 
                         <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 f-item">
@@ -133,7 +133,7 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-xs-12">
-                            <div class="xheader">
+                            <div class="xheader margin-bottom-20px">
                                 <h1><a href="#aboutme" class="xscroll-link">About Me</a></h1>
                             </div>
                         </div>
@@ -149,22 +149,38 @@
                         Besides having <a href="https://larukedi.github.io">12 years of professional work and project experience</a>, I also support and contribute to some open source projects.
                     </p>
 
-                    <div class="row interest margin-top-30px">
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <div class="xheader">
+                                <h2>I'm interested in:</h1>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row interest">
                         <div class="col-md-3">
-                            <h2 class="sub-heading"><i class="fa fa-code margin-right-10px"></i>Software Development</h2>
-                            <p class="xtext">Starting from an amateur experience, I've experienced in development by working for companies. Since then, I became a full-stack developer which is familiar with tons of software development principles and different aspects of programming.</p>
+                            <h3 class="sub-heading"><i class="fa fa-code width-25px margin-right-10px"></i>Software Development</h3>
                         </div>
                         <div class="col-md-3">
-                            <h2 class="sub-heading"><i class="fa fa-tasks margin-right-10px"></i>IT Project Management</h2>
-                            <p class="xtext">I've been a follower of agile manifesto and specialized on Issue Tracking, Code Review, Continuous Integration, Quality Assurance, Testing and such tools. My focus is combining these technical skills with business, leadership and management skills and experience.</p>
+                            <h3 class="sub-heading"><i class="fa fa-tasks width-25px margin-right-10px"></i>IT Project Management</h3>
                         </div>
                         <div class="col-md-3">
-                            <h2 class="sub-heading"><i class="fa fa-globe margin-right-10px"></i>Social Media</h2>
-                            <p class="xtext">With the popularity of social networks, I've met various social media platforms and using their advertising, management, development and instruction channels for campaigning a brand.</p>
+                            <h3 class="sub-heading"><i class="fa fa-question-circle width-25px margin-right-10px"></i>IT Consulting</h3>
                         </div>
                         <div class="col-md-3">
-                            <h2 class="sub-heading"><i class="fa fa-link margin-right-10px"></i>SEO</h2>
-                            <p class="xtext">While internet users demand more accurate search results, search engines offer some guidelines to provide it. I follow these optimization tricks and examine the analytics data in order to maximize search visibility.</p>
+                            <h3 class="sub-heading"><i class="fa fa-cogs width-25px margin-right-10px"></i>DevOps</h3>
+                        </div>
+                        <div class="col-md-3">
+                            <h3 class="sub-heading"><i class="fa fa-code-fork width-25px margin-right-10px"></i>Open Source</h3>
+                        </div>
+                        <div class="col-md-3">
+                            <h3 class="sub-heading"><i class="fa fa-user width-25px margin-right-10px"></i>User Experience</h3>
+                        </div>
+                        <div class="col-md-3">
+                            <h3 class="sub-heading"><i class="fa fa-globe width-25px margin-right-10px"></i>Social Media</h3>
+                        </div>
+                        <div class="col-md-3">
+                            <h3 class="sub-heading"><i class="fa fa-link width-25px margin-right-10px"></i>SEO</h3>
                         </div>
                     </div>
                 </div>
@@ -176,7 +192,7 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-xs-12">
-                            <div class="xheader">
+                            <div class="xheader margin-bottom-20px">
                                 <h1><a href="#projects" class="xscroll-link">Open Source Projects</a></h1>
                             </div>
                         </div>
@@ -186,7 +202,7 @@
                         <div class="col-xs-12">
                             <ul class="media-list">
                                 <li class="media">
-                                    <a class="pull-left" href="http://scabbiafw.com/"><img class="media-object thumbnail" src="assets/images/placeholder.png" alt="Scabbia Framework" /></a>
+                                    <a class="pull-left" href="http://scabbiafw.com/"><img class="media-object thumbnail" src="assets/images/proj-scabbia-framework.png" alt="Scabbia Framework" /></a>
                                     <div class="media-body">
                                         <h2 class="media-heading"><a href="http://scabbiafw.com/">Scabbia Framework</a></h2>
                                         <p class="xtext text-justify">
@@ -197,9 +213,9 @@
                                 </li>
 
                                 <li class="media">
-                                    <a class="pull-left" href="https://github.com/larukedi/laroux.js"><img class="media-object thumbnail" src="assets/images/placeholder.png" alt="laroux.js" /></a>
+                                    <a class="pull-left" href="https://larukedi.github.io/laroux.js"><img class="media-object thumbnail" src="assets/images/proj-laroux-js.png" alt="laroux.js" /></a>
                                     <div class="media-body">
-                                        <h2 class="media-heading"><a href="https://github.com/larukedi/laroux.js">laroux.js</a></h2>
+                                        <h2 class="media-heading"><a href="https://larukedi.github.io/laroux.js">laroux.js</a></h2>
                                         <p class="xtext text-justify">
                                             Before jQuery 2.0, I was looking for the lightweight version of jQuery features without legacy codes since I targeted modern web and mobile browsers only.
                                             Alternatives like jquery-in-parts, only mimics jquery functionality and wraps all dom elements into own context instances. I started a new "javascript library"

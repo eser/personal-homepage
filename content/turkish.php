@@ -94,13 +94,13 @@
                         -->
 
                         <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 f-item">
-                            <h2 class="sub-heading"><a href="https://larukedi.github.io/index.tr.html"><i class="fa fa-clipboard margin-right-10px"></i>Özgeçmişim</a></h2>
-                            <p class="xtext text-justify">Kişisel bilgi, yetenek, geçmiş eğitim ve iş deneyimlerimi, sertifika ve projelerim hakkında bilgiler.</p>
+                            <h2 class="sub-heading"><a href="/blog/"><i class="fa fa-rss margin-right-10px"></i>Blog</a></h2>
+                            <p class="xtext text-justify">Bilişimdeki son gelişmeler ve bana heyecan veren bilişim konuları hakkında bir blog.</p>
                         </div>
 
                         <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 f-item">
-                            <h2 class="sub-heading"><a href="/blog/"><i class="fa fa-rss margin-right-10px"></i>Blog</a></h2>
-                            <p class="xtext text-justify">Bilişimdeki son gelişmeler ve bana heyecan veren bilişim konuları hakkında bir blog.</p>
+                            <h2 class="sub-heading"><a href="https://larukedi.github.io/index.tr.html"><i class="fa fa-clipboard margin-right-10px"></i>Özgeçmişim</a></h2>
+                            <p class="xtext text-justify">Kişisel bilgi, yetenek, geçmiş eğitim ve iş deneyimlerimi, sertifika ve projelerim hakkında bilgiler.</p>
                         </div>
 
                         <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 f-item">
@@ -133,7 +133,7 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-xs-12">
-                            <div class="xheader">
+                            <div class="xheader margin-bottom-20px">
                                 <h1><a href="#aboutme" class="xscroll-link">Hakkımda</a></h1>
                             </div>
                         </div>
@@ -149,22 +149,38 @@
                         <a href="https://larukedi.github.io">12 yıl profesyonel iş ve proje deneyimi</a>min yanı sıra açık kaynaklı projelerin oluşturulmasına ve geliştirilmesine destek olmaktayım.
                     </p>
 
-                    <div class="row interest margin-top-30px">
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <div class="xheader">
+                                <h2>İlgi duyduklarım:</h1>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row interest">
                         <div class="col-md-3">
-                            <h2 class="sub-heading"><i class="fa fa-code margin-right-10px"></i>Yazılım Geliştirme</h2>
-                            <p class="xtext">Amatör olarak başlayarak özel sektördeki çalışma deneyimim ile devam eden yazılım geliştirme, zaman içerisinde bir çok geliştirme prensibi ve programlamanın farklı yönlerine aşina olan tam donanımlı bir yazılımcı olmamı sağladı.</p>
+                            <h2 class="sub-heading"><i class="fa fa-code width-25px margin-right-10px"></i>Yazılım Geliştirme</h2>
                         </div>
                         <div class="col-md-3">
-                            <h2 class="sub-heading"><i class="fa fa-tasks margin-right-10px"></i>Proje Yönetimi</h2>
-                            <p class="xtext">Bir agile manifesto'nun takipçisi olarak iş takibi, kod gözetimi, sürekli entegrasyon, kalite yönetimi, testler ve benzer araçlarda deneyim kazandım. Hedefim teknik yeteneklerle iş, liderlik ve yönetim beceri ve deneyimlerini birlikte kullanmak.</p>
+                            <h2 class="sub-heading"><i class="fa fa-tasks width-25px margin-right-10px"></i>BT Proje Yönetimi</h2>
                         </div>
                         <div class="col-md-3">
-                            <h2 class="sub-heading"><i class="fa fa-globe margin-right-10px"></i>Sosyal Medya</h2>
-                            <p class="xtext">Sosyal ağların popülerliği ile bir çok sosyal medya platformu ve bunların reklam, yönetim, geliştirme, eğitim kanalları üzerinden marka tanıtımının nasıl yapılabileceği üzerine deneyimlerim oldu.</p>
+                            <h2 class="sub-heading"><i class="fa fa-question-circle width-25px margin-right-10px"></i>BT Danışmanlığı</h2>
                         </div>
                         <div class="col-md-3">
-                            <h2 class="sub-heading"><i class="fa fa-link margin-right-10px"></i>SEO</h2>
-                            <p class="xtext">Internet kullanıcıları daha kesin arama sonuçları beklerken, arama motorları bunu sağlamak için geliştiricilere imkanlar sağlamaya çalışıyor. Bu iyileştirmeleri analitik verileri inceleyerek ve arama görünürlülüğünün maksimizasyonunu sağlayarak uyguluyorum.</p>
+                            <h3 class="sub-heading"><i class="fa fa-cogs width-25px margin-right-10px"></i>DevOps</h3>
+                        </div>
+                        <div class="col-md-3">
+                            <h3 class="sub-heading"><i class="fa fa-code-fork width-25px margin-right-10px"></i>Açık Kaynak</h3>
+                        </div>
+                        <div class="col-md-3">
+                            <h3 class="sub-heading"><i class="fa fa-user width-25px margin-right-10px"></i>Kullanıcı Deneyimi</h3>
+                        </div>
+                        <div class="col-md-3">
+                            <h2 class="sub-heading"><i class="fa fa-globe width-25px margin-right-10px"></i>Sosyal Medya</h2>
+                        </div>
+                        <div class="col-md-3">
+                            <h2 class="sub-heading"><i class="fa fa-link width-25px margin-right-10px"></i>SEO</h2>
                         </div>
                     </div>
                 </div>
@@ -176,7 +192,7 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-xs-12">
-                            <div class="xheader">
+                            <div class="xheader margin-bottom-20px">
                                 <h1><a href="#projects" class="xscroll-link">Açık Kaynak Projeler</a></h1>
                             </div>
                         </div>
@@ -186,7 +202,7 @@
                         <div class="col-xs-12">
                             <ul class="media-list">
                                 <li class="media">
-                                    <a class="pull-left" href="http://scabbiafw.com/"><img class="media-object thumbnail" src="assets/images/placeholder.png" alt="Scabbia Framework" /></a>
+                                    <a class="pull-left" href="http://scabbiafw.com/"><img class="media-object thumbnail" src="assets/images/proj-scabbia-framework.png" alt="Scabbia Framework" /></a>
                                     <div class="media-body">
                                         <h2 class="media-heading"><a href="http://scabbiafw.com/">Scabbia Framework</a></h2>
                                         <p class="xtext text-justify">
@@ -197,9 +213,9 @@
                                 </li>
 
                                 <li class="media">
-                                    <a class="pull-left" href="https://github.com/larukedi/laroux.js"><img class="media-object thumbnail" src="assets/images/placeholder.png" alt="laroux.js" /></a>
+                                    <a class="pull-left" href="https://larukedi.github.io/laroux.js"><img class="media-object thumbnail" src="assets/images/proj-laroux-js.png" alt="laroux.js" /></a>
                                     <div class="media-body">
-                                        <h2 class="media-heading"><a href="https://github.com/larukedi/laroux.js">laroux.js</a></h2>
+                                        <h2 class="media-heading"><a href="https://larukedi.github.io/laroux.js">laroux.js</a></h2>
                                         <p class="xtext text-justify">
                                             Modern web ve mobil tarayıcıları hedeflediğimden, jQuery 2.0'dan önce jQuery özelliklerinin eskimiş kodlar olmaksızın hafif bir sürümünü arıyordum.
                                             jquery-in-parts gibi alternatifler ancak jquery fonksiyonlarını taklit ederek tüm dom elemanlarını kendi objelerine dönüştürüyordu. Yeni bir "javascript kütüphanesi"
