@@ -57,7 +57,7 @@
                     <h1 class="title">Merhaba. Ben <span>Eser Özvataf</span>.</h1>
                     <h2>Yazılım Mimarı ve Danışmanı</h2>
                     <p class="lead">
-                        Modern yazılım mühendisliği ve IT projelerine odaklı çalışıyorum. Şu anda büyük bir
+                        Modern yazılım mühendisliği ve IT projelerine odaklı çalışıyorum. Şu anda kurumsal bir
                         firmada e-ticaret çözümleri sağlamamın yanı sıra internet üzerindeki açık kaynaklı
                         yazılımlara katkıda bulunmak için uğraşıyorum.
                         <br /><br />
