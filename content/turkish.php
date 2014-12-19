@@ -3,7 +3,7 @@
     $description = 'Eser \'Laroux\' Özvataf Kişisel Web Sayfası';
     $keywords = 'eser laroux ozvataf larukedi yazılım mimar geliştirici programcı yazılımcı kod takım lideri tam donanımlı uzman php js javascript classic c# asp asp.net microsoft .net grunt npm node continuous integration seo arama motoru iyileştirmesi optimizasyonu sosyal medya devops';
 ?>
-    <div id="nav-header" class="navbar navbar-inverse navbar-static-top custom-navbar print-hidden" role="banner">
+    <div id="nav-header" class="navbar navbar-inverse navbar-fixed-top custom-navbar print-hidden" role="banner">
         <div class="container">
             <nav>
                 <div class="navbar-header">
@@ -202,7 +202,7 @@
                         <div class="col-xs-12">
                             <ul class="media-list">
                                 <li class="media">
-                                    <a class="pull-left" href="http://scabbiafw.com/"><img class="media-object thumbnail" src="assets/images/proj-scabbia-framework.png" alt="Scabbia Framework" /></a>
+                                    <a class="pull-left" href="http://scabbiafw.com/"><img class="media-object thumbnail" src="assets/images/projects/proj-scabbia-framework.png" alt="Scabbia Framework" /></a>
                                     <div class="media-body">
                                         <h2 class="media-heading"><a href="http://scabbiafw.com/">Scabbia Framework</a></h2>
                                         <p class="xtext text-justify">
@@ -213,7 +213,7 @@
                                 </li>
 
                                 <li class="media">
-                                    <a class="pull-left" href="https://larukedi.github.io/laroux.js"><img class="media-object thumbnail" src="assets/images/proj-laroux-js.png" alt="laroux.js" /></a>
+                                    <a class="pull-left" href="https://larukedi.github.io/laroux.js"><img class="media-object thumbnail" src="assets/images/projects/proj-laroux-js.png" alt="laroux.js" /></a>
                                     <div class="media-body">
                                         <h2 class="media-heading"><a href="https://larukedi.github.io/laroux.js">laroux.js</a></h2>
                                         <p class="xtext text-justify">
@@ -225,17 +225,7 @@
                                 </li>
 
                                 <li class="media">
-                                    <a class="pull-left" href="https://github.com/larukedi/thesis"><img class="media-object thumbnail" src="assets/images/placeholder.png" alt="Portable Online ID" /></a>
-                                    <div class="media-body">
-                                        <h2 class="media-heading"><a href="https://github.com/larukedi/thesis">Portable Online ID</a></h2>
-                                        <p class="xtext text-justify">
-                                            Henüz kamuya açmadığım, tezimle ilgili bir proje. Projenin akademik ayağını tamamlar tamamlamaz burada detaylar yer alacak.
-                                        </p>
-                                    </div>
-                                </li>
-
-                                <li class="media">
-                                    <a class="pull-left" href="https://github.com/larukedi/pm"><img class="media-object thumbnail" src="assets/images/placeholder.png" alt="PM Tool" /></a>
+                                    <a class="pull-left" href="https://github.com/larukedi/pm"><img class="media-object thumbnail" src="assets/images/projects/proj-pmtool.png" alt="PM Tool" /></a>
                                     <div class="media-body">
                                         <h2 class="media-heading"><a href="https://github.com/larukedi/pm">PM Tool</a></h2>
                                         <p class="xtext text-justify">
@@ -246,7 +236,7 @@
                                 </li>
 
                                 <li class="media">
-                                    <a class="pull-left" href="https://github.com/larukedi/survey"><img class="media-object thumbnail" src="assets/images/placeholder.png" alt="Survey Tool" /></a>
+                                    <a class="pull-left" href="https://github.com/larukedi/survey"><img class="media-object thumbnail" src="assets/images/projects/proj-survey.png" alt="Survey Tool" /></a>
                                     <div class="media-body">
                                         <h2 class="media-heading"><a href="https://github.com/larukedi/survey">Survey Tool</a></h2>
                                         <p class="xtext text-justify">
@@ -257,33 +247,11 @@
                                 </li>
 
                                 <li class="media">
-                                    <a class="pull-left" href="https://github.com/larukedi/tasslehoff"><img class="media-object thumbnail" src="assets/images/placeholder.png" alt="Tasslehoff" /></a>
-                                    <div class="media-body">
-                                        <h2 class="media-heading"><a href="https://github.com/larukedi/tasslehoff">Tasslehoff</a></h2>
-                                        <p class="xtext text-justify">
-                                            Tasslehoff zamanlanmış görevler kuyruğunu işletmek için C#'ın ve .NET Framework'ün Task Parallel Library'sinin gücünü kullanır. Özellikle mesajlaşma,
-                                            veri toplama çözümleri için proje omurgası olmaktadır.
-                                        </p>
-                                    </div>
-                                </li>
-
-                                <li class="media">
-                                    <a class="pull-left" href="https://github.com/larukedi/ioq3"><img class="media-object thumbnail" src="assets/images/placeholder.png" alt="q3now" /></a>
+                                    <a class="pull-left" href="https://github.com/larukedi/ioq3"><img class="media-object thumbnail" src="assets/images/projects/proj-q3now.png" alt="q3now" /></a>
                                     <div class="media-body">
                                         <h2 class="media-heading"><a href="https://github.com/larukedi/ioq3">q3now</a></h2>
                                         <p class="xtext text-justify">
                                             q3now pro mode fizikleri, yeni can ve zırh sistemi, yeni silah dengeleri, duvardan zıplamalar ve oyun modlarıyla açık kaynak Quake 3 Modifikasyon projesidir.
-                                        </p>
-                                    </div>
-                                </li>
-
-                                <li class="media">
-                                    <a class="pull-left" href="https://github.com/larukedi/pullyn"><img class="media-object thumbnail" src="assets/images/placeholder.png" alt="pullyn" /></a>
-                                    <div class="media-body">
-                                        <h2 class="media-heading"><a href="https://github.com/larukedi/pullyn">pullyn</a></h2>
-                                        <p class="xtext text-justify">
-                                            pullyn webroot'da yer alan tüm uygun klasörleri listeleyerek aralarından bir tanesini kaynak repositorylerden son sürümleri çekmeniz için size seçtirir.
-                                            Bir diğer değişle, üşengeç insanlara son değişiklikleri çekerek uzaktaki sisteme transfer etmeleri konusunda yardımcı olur.
                                         </p>
                                     </div>
                                 </li>
@@ -319,7 +287,7 @@
                                     <div class="col-xs-12 col-md-12 xtext">
                                     <?php foreach ($blogposts as $post) { ?>
                                         <!-- Blog Post -->
-                                        <h2 class="sub-heading"><a href="<?php echo $post['link']; ?>"><?php echo $post['title']; ?></a><span class="timestamp"> – <?php echo date('Y-m-d', $post['ts']); ?></span></h2>
+                                        <h2 class="sub-heading"><i class="fa fa-file-text-o"></i> <a href="<?php echo $post['link']; ?>"><?php echo $post['title']; ?></a><span class="timestamp"> – <?php echo date('Y-m-d', $post['ts']); ?></span></h2>
                                         <p class="lead">
                                             <?php echo $post['summary']; ?>
                                             <a href="<?php echo $post['link']; ?>" class="nowrap">devamını oku</a>
