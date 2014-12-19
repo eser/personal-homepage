@@ -7,11 +7,6 @@
         <div class="container">
             <nav>
                 <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
                     <a class="navbar-brand custom-navbar-brand xscroll-link" href="#body">eser.ozvataf.com</a>
                 </div>
 
@@ -24,8 +19,8 @@
                         <li><a href="#contact" class="xscroll-link">İletişim</a></li>
                     </ul>
 
-                    <div class="col-xs-3 navbar-right">
-                        <ul class="nav navbar-nav pull-right">
+                    <div class="navbar-right">
+                        <ul class="nav navbar-nav text-right">
                             <li><a href="./" class="xscroll-link">English</a></li>
                         </ul>
 
@@ -271,10 +266,10 @@
                         <div class="col-xs-12">
                             <div class="xheader">
                                 <div class="row">
-                                    <div class="col-xs-4">
+                                    <div class="col-xs-8">
                                         <h1><a href="#blogposts-recent" class="xscroll-link">Blog Yazıları</a></h1>
                                     </div>
-                                    <div class="col-xs-8 text-right">
+                                    <div class="col-xs-4 text-right">
                                         <a href="/blog/">Ziyaret Et</a>
                                         ·
                                         <a href="/blog/feed/">RSS</a>
@@ -324,11 +319,11 @@
         <footer class="custom-footer print-hidden">
             <div class="container">
                 <div class="row custom-footer-inner">
-                    <div class="col-xs-8 text-muted">
+                    <div class="col-xs-12 col-md-8 text-muted">
                         Copyright &copy; 2014 Eser 'Laroux' Özvataf. &nbsp; Tüm Hakları Saklıdır.<br />
                         <em>Sayfa halen geliştirme aşamasında olduğundan bazı bölümler çalışmıyor olabilir.</em>
                     </div>
-                    <div class="col-xs-4 text-right">
+                    <div class="col-xs-12 col-md-4 text-right">
                         <i class="glyphicon glyphicon-link"></i>
                         <a href="https://github.com/larukedi/personal-homepage">Sayfa Kaynağı Github Üzerinde</a>
                     </div>
