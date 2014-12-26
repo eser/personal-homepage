@@ -10,7 +10,7 @@ module.exports = function(grunt) {
                     optimization: 0
                 },
                 files: {
-                    'css/style.css': [ 'less/style.less' ]
+                    'assets/css/style.css': [ 'assets/less/style.less' ]
                 }
             }
         },
@@ -20,20 +20,20 @@ module.exports = function(grunt) {
                     separator: ';'
                 },
                 src: [
-                    'js/laroux.js',
-                    'js/script.js'
+                    'assets/js/laroux.js',
+                    'assets/js/script.js'
                 ],
-                dest: 'js/<%= pkg.name %>.js'
+                dest: 'assets/js/<%= pkg.name %>.js'
             },
             css: {
                 src: [
-                    'css/bootstrap.css',
-                    'css/font-awesome.css',
-                    'css/laroux.css',
-                    'css/fonts.css',
-                    'css/style.css'
+                    'assets/css/bootstrap.css',
+                    'assets/css/font-awesome.css',
+                    'assets/css/laroux.css',
+                    'assets/css/fonts.css',
+                    'assets/css/style.css'
                 ],
-                dest: 'css/<%= pkg.name %>.css'
+                dest: 'assets/css/<%= pkg.name %>.css'
             }
         },
         uglify: {
@@ -42,14 +42,14 @@ module.exports = function(grunt) {
             },
             js: {
                 files: {
-                    'js/<%= pkg.name %>.min.js': ['<%= concat.js.dest %>']
+                    'assets/js/<%= pkg.name %>.min.js': ['<%= concat.js.dest %>']
                 }
             }
         },
         cssmin: {
             css: {
-                src: 'css/<%= pkg.name %>.css',
-                dest: 'css/<%= pkg.name %>.min.css'
+                src: 'assets/css/<%= pkg.name %>.css',
+                dest: 'assets/css/<%= pkg.name %>.min.css'
             }
         },
         jshint: {
@@ -64,12 +64,12 @@ module.exports = function(grunt) {
             },
             files: [
                 'Gruntfile.js',
-                'js/script.js'
+                'assets/js/script.js'
             ]
         },
         watch: {
             less: {
-                files: ['less/**/*.less'],
+                files: ['assets/less/**/*.less'],
                 tasks: ['less:css'],
                 options: {
                     nospawn: true
@@ -87,10 +87,10 @@ module.exports = function(grunt) {
         clean: {
             all: {
                 src: [
-                    'js/<%= pkg.name %>.js',
-                    'js/<%= pkg.name %>.min.js',
-                    'css/<%= pkg.name %>.css',
-                    'css/<%= pkg.name %>.min.css'
+                    'assets/js/<%= pkg.name %>.js',
+                    'assets/js/<%= pkg.name %>.min.js',
+                    'assets/css/<%= pkg.name %>.css',
+                    'assets/css/<%= pkg.name %>.min.css'
                 ]
             }
         }

@@ -8716,8 +8716,10 @@ a {
 .social .social-icons {
   position: relative;
   list-style-type: none;
+  margin: 0 0 0 15px;
+  padding: 0;
+  display: inline;
 }
-.social .social-icons,
 .social .social-icons li {
   margin: 0 0 0 15px;
   padding: 0;
