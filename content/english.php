@@ -196,7 +196,7 @@
                     <div class="row">
                         <div class="col-xs-12">
                             <ul class="media-list">
-                                <li class="media">
+                                <li class="media clearfix">
                                     <a class="pull-left" href="http://scabbiafw.com/"><img class="media-object thumbnail" src="assets/images/projects/proj-scabbia-framework.png" alt="Scabbia Framework" /></a>
                                     <div class="media-body">
                                         <h2 class="media-heading"><a href="http://scabbiafw.com/">Scabbia Framework</a></h2>
@@ -207,7 +207,7 @@
                                     </div>
                                 </li>
 
-                                <li class="media">
+                                <li class="media clearfix">
                                     <a class="pull-left" href="https://larukedi.github.io/laroux.js"><img class="media-object thumbnail" src="assets/images/projects/proj-laroux-js.png" alt="laroux.js" /></a>
                                     <div class="media-body">
                                         <h2 class="media-heading"><a href="https://larukedi.github.io/laroux.js">laroux.js</a></h2>
@@ -219,7 +219,7 @@
                                     </div>
                                 </li>
 
-                                <li class="media">
+                                <li class="media clearfix">
                                     <a class="pull-left" href="https://github.com/larukedi/pm"><img class="media-object thumbnail" src="assets/images/projects/proj-pmtool.png" alt="PM Tool" /></a>
                                     <div class="media-body">
                                         <h2 class="media-heading"><a href="https://github.com/larukedi/pm">PM Tool</a></h2>
@@ -230,7 +230,7 @@
                                     </div>
                                 </li>
 
-                                <li class="media">
+                                <li class="media clearfix">
                                     <a class="pull-left" href="https://github.com/larukedi/survey"><img class="media-object thumbnail" src="assets/images/projects/proj-survey.png" alt="Survey Tool" /></a>
                                     <div class="media-body">
                                         <h2 class="media-heading"><a href="https://github.com/larukedi/survey">Survey Tool</a></h2>
@@ -241,12 +241,23 @@
                                     </div>
                                 </li>
 
-                                <li class="media">
+                                <li class="media clearfix">
                                     <a class="pull-left" href="https://github.com/larukedi/ioq3"><img class="media-object thumbnail" src="assets/images/projects/proj-q3now.png" alt="q3now" /></a>
                                     <div class="media-body">
                                         <h2 class="media-heading"><a href="https://github.com/larukedi/ioq3">q3now</a></h2>
                                         <p class="xtext text-justify">
                                             q3now is an open source Quake 3 Modification project which has pro mode physics, new health and armor system, new weapon balances, wall jumps and new game mods.
+                                        </p>
+                                    </div>
+                                </li>
+
+                                <li class="media clearfix">
+                                    <a class="pull-left" href="https://github.com/larukedi/html5-boilerplate"><img class="media-object thumbnail" src="assets/images/projects/proj-boilerplate.png" alt="HTML5 Boilerplate" /></a>
+                                    <div class="media-body">
+                                        <h2 class="media-heading"><a href="https://github.com/larukedi/html5-boilerplate">HTML5 Boilerplate</a></h2>
+                                        <p class="xtext text-justify">
+                                            HTML5 boilerplate is a professional front-end template for building fast, robust, and adaptable web apps or sites. I forked and modified the original project in order to support
+                                            custom Bootstrap building, Font-Awesome, laroux.js and some code-quality tools.
                                         </p>
                                     </div>
                                 </li>
