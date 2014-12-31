@@ -2,11 +2,11 @@
     "name": "eser-ozvataf-com",
     "version": "1.0.0",
     "description": "eser.ozvataf.com",
-    "keywords": "larukedi",
+    "keywords": [ "laroux", "larouxjs", "laroux.js", "eser", "ozvataf", "personal", "homepage" ],
     "homepage": "http://eser.ozvataf.com/",
     "bugs": {
         "url": "https://github.com/larukedi/personal-homepage/issues",
-        "email": "eser@sent.com"
+        "email": "eser@ozvataf.com"
     },
     "licenses": [
         {
@@ -17,27 +17,40 @@
     "contributors": [
         {
             "name": "Eser 'Laroux' Ozvataf",
-            "email": "eser@sent.com",
+            "email": "eser@ozvataf.com",
             "url": "http://eser.ozvataf.com/"
         }
     ],
     "main": "eser-ozvataf-com",
     "repository": {
-        "type": "local",
-        "url": ""
+        "type": "git",
+        "url": "https://github.com/larukedi/personal-homepage.git"
     },
     "devDependencies": {
-        "grunt-contrib-less": "~0.11.0",
-        "grunt-contrib-uglify": "~0.2.7",
-        "grunt-contrib-jshint": "~0.6.3",
+        "jasmine-core": "~2.1.3",
+        "coveralls": "~2.11.2",
+        "karma": "~0.12.0",
+        "karma-jasmine": "~0.2.0",
+        "karma-coverage": "~0.2.7",
+        "karma-phantomjs-launcher": "~0.1.4",
+        "grunt-contrib-clean": "~0.6.0",
+        "grunt-contrib-concat": "~0.5.0",
+        "grunt-contrib-csslint": "~0.3.1",
+        "grunt-contrib-cssmin": "~0.10.0",
+        "grunt-contrib-jshint": "~0.10.0",
+        "grunt-contrib-less": "~0.12.0",
+        "grunt-contrib-uglify": "~0.6.0",
         "grunt-contrib-watch": "~0.6.1",
-        "grunt-contrib-concat": "~0.3.0",
-        "grunt-contrib-clean": "~0.5.0",
-        "grunt-contrib-cssmin": "~0.9.0",
         "grunt-cli": "~0.1",
-        "grunt": "~0.4.1"
+        "grunt-csscomb": "~3.0.0",
+        "grunt-jscs": "~0.8.1",
+        "grunt-karma": "~0.9.0",
+        "grunt": "~0.4.5"
     },
     "dependencies": {
+    },
+    "engines": {
+        "node": "~0.10.1"
     },
     "scripts": {
         "test": "grunt test --verbose --force"

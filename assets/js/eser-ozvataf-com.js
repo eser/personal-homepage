@@ -3691,25 +3691,30 @@
     };
 
 })(this.laroux);
-;$l.ready(function() {
-    $l.dom.setEvent(
-        $l(['.xscroll-link']),
-        'click',
-        function(ev, elem) {
-            var targetElement = $l(elem.getAttribute('href'));
-            var targetPosition = $l.css.top(targetElement);
+;(function() {
+    'use strict';
 
-            $l.anim.set({
-                object:   document.body,
-                property: 'scrollTop',
-                from:     null,
-                to:       targetPosition,
-                time:     800,
-                unit:     '',
-                reset:    false
-            });
+    $l.ready(function() {
+        $l.dom.setEvent(
+            $l(['.xscroll-link']),
+            'click',
+            function(ev, elem) {
+                var targetElement = $l(elem.getAttribute('href'));
+                var targetPosition = $l.css.top(targetElement);
 
-            return false;
-        }
-    );
-});
+                $l.anim.set({
+                    object:   document.body,
+                    property: 'scrollTop',
+                    from:     null,
+                    to:       targetPosition,
+                    time:     800,
+                    unit:     '',
+                    reset:    false
+                });
+
+                return false;
+            }
+        );
+    });
+
+}());
