@@ -220,6 +220,17 @@
                                 </li>
 
                                 <li class="media clearfix">
+                                    <a class="pull-left" href="https://github.com/larukedi/tasslehoff"><img class="media-object thumbnail" src="assets/images/projects/proj-tasslehoff.png" alt="Tasslehoff" /></a>
+                                    <div class="media-body">
+                                        <h2 class="media-heading"><a href="https://github.com/larukedi/tasslehoff">Tasslehoff</a></h2>
+                                        <p class="xtext text-justify">
+                                            Tasslehoff is a hardworking task and schedule manager written in C#. It also helps you to construct a service tree which allows you to start and stop sub-parts of
+                                            your system.
+                                        </p>
+                                    </div>
+                                </li>
+
+                                <li class="media clearfix">
                                     <a class="pull-left" href="https://github.com/larukedi/pm"><img class="media-object thumbnail" src="assets/images/projects/proj-pmtool.png" alt="PM Tool" /></a>
                                     <div class="media-body">
                                         <h2 class="media-heading"><a href="https://github.com/larukedi/pm">PM Tool</a></h2>
