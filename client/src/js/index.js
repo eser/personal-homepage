@@ -18,7 +18,7 @@
                         object:   document.body,
                         property: 'scrollTop',
                         from:     null,
-                        to:       targetPosition,
+                        to:       targetPosition - 50,
                         time:     800,
                         unit:     '',
                         reset:    false

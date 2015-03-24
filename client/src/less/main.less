@@ -74,6 +74,8 @@ html, body, #page {
 }
 
 body {
+    font-family: 'Open Sans', 'Helvetica', 'Arial', sans-serif;
+
     overflow-x: hidden;
     overflow-y: scroll;
 }
@@ -109,13 +111,13 @@ textarea {
 
 .custom-navbar {
     text-shadow: 0 -1px 0 hsla(0, 0%, 0%, .15);
-    background-color: hsla(208, 28%, 34%, 1);
-    border-color: hsla(208, 47%, 27%, 1);
+    background-color: hsla(196, 15%, 29%, 1);
+    border-color: hsla(196, 51%, 22%, 1);
     box-shadow: 0 1px 0 hsla(0, 0%, 100%, .1);
     margin-bottom: 0;
 
     .navbar-collapse {
-        border-color: hsla(264, 34%, 30%, 1);
+        border-color: hsla(196, 51%, 22%, 1);
     }
 
     .navbar-brand {
@@ -123,7 +125,7 @@ textarea {
     }
 
     .navbar-nav > li > a {
-        color: hsla(228, 39%, 82%, 1);
+        color: hsla(180, 8%, 80%, 1);
 
         &:hover {
           color: hsla(0, 0%, 100%, 1);
@@ -152,20 +154,26 @@ textarea {
     }
 }
 
-.custom-section {
+section {
     padding: 10px 0 20px 0;
 }
 
-.custom-section-inner {
+footer {
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.footer-line {
+    border-top: 1px solid hsla(0, 0%, 75%, 1);
+    margin-bottom: 20px;
+}
+
+.blogpost-spacing {
     padding: 0 0 60px 0;
 }
 
-.custom-section-gray {
+.section-gray {
     background-color: hsla(240, 100%, 98%, 1);
-}
-
-.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
-    font-family: 'Open Sans', 'Helvetica', 'Arial', sans-serif;
 }
 
 h4, h5, h6, .h4, .h5, .h6 {
@@ -216,38 +224,23 @@ a {
     font-style: italic;
 }
 
-.btn-splash, .btn-splash:hover {
+.btn-splash, .btn-splash:hover, .btn-splash:focus {
     color: hsla(0, 0%, 100%, 1);
-    background-color: hsla(208, 28%, 34%, 0.5);
+    border-color: hsla(208, 28%, 34%, 0.5);
+    border-width: 3px;
+    padding: 8px 26px;
+    background: hsla(0, 1%, 1%, 0.1);
 }
 
 .xheader {
     border-bottom: 1px dotted hsla(215, 29%, 92%, 1);
-    margin-top: 40px;
+    margin: 40px 0 20px 0;
+    color: hsla(215, 9%, 38%, 1);
 
     a {
         color: inherit;
         text-decoration: none;
     }
-
-    h1 {
-        border-bottom: 2px solid hsla(208, 16%, 53%, 1);
-        display: inline-block;
-        margin: 0 0 -2px 0;
-        color: hsla(215, 9%, 38%, 1);
-    }
-
-    h2 {
-        display: inline-block;
-        margin: 0 0 -2px 0;
-        color: hsla(215, 9%, 38%, 1);
-    }
-}
-
-.custom-footer-inner {
-    margin: 10px 0 20px 0;
-    padding-top: 10px;
-    border-top: 1px solid hsla(0, 0%, 75%, 1);
 }
 
 .line {
@@ -263,18 +256,23 @@ a {
 }
 
 .intro {
-    .title {
-        font-size: 50px;
-        font-weight: normal;
-        margin-top: 0;
-        padding-top: 0;
+    h1 {
+        margin: 0;
+        padding: 0;
 
-        span {
-            font-weight: bold;
+        .name {
+            font-size: 50px;
+            font-weight: normal;
+            margin-bottom: 10px;
+
+            span {
+                font-weight: bold;
+            }
         }
 
-        h2 {
-            font-size: 40px;
+        .title {
+            margin-bottom: 5px;
+            font-size: 38px;
         }
     }
 
