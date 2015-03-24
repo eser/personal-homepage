@@ -78,32 +78,32 @@
 
                 <div class="row">
                     <div class="col-xs-12 col-sm-6 col-md-4">
-                        <h2 class="sub-heading"><a href="/blog/"><i class="fa fa-rss margin-right-10px"></i>My Blog (Turkish)</a></h2>
+                        <h3 class="sub-heading"><a href="/blog/"><i class="fa fa-rss margin-right-10px"></i>My Blog (Turkish)</a></h3>
                         <p class="text-justify">A blog about recent IT developments and topics which make me get excited.</p>
                     </div>
 
                     <div class="col-xs-12 col-sm-6 col-md-4">
-                        <h2 class="sub-heading"><a href="https://larukedi.github.io/"><i class="fa fa-clipboard margin-right-10px"></i>My Resume</a></h2>
+                        <h3 class="sub-heading"><a href="https://larukedi.github.io/"><i class="fa fa-clipboard margin-right-10px"></i>My Resume</a></h3>
                         <p class="text-justify">Information on my skills, knowledge, past education and work experience, certificates and projects.</p>
                     </div>
 
                     <div class="col-xs-12 col-sm-6 col-md-4">
-                        <h2 class="sub-heading"><a href="http://devopscyprus.com/"><i class="fa fa-cloud-download margin-right-10px"></i>Devops Cyprus</a></h2>
+                        <h3 class="sub-heading"><a href="http://devopscyprus.com/"><i class="fa fa-cloud-download margin-right-10px"></i>Devops Cyprus</a></h3>
                         <p class="text-justify">My humble IT consulting and software project management initiative.</p>
                     </div>
 
                     <div class="col-xs-12 col-sm-6 col-md-4">
-                        <h2 class="sub-heading"><a href="https://github.com/larukedi"><i class="fa fa-github margin-right-10px"></i>Github Profile</a></h2>
+                        <h3 class="sub-heading"><a href="https://github.com/larukedi"><i class="fa fa-github margin-right-10px"></i>Github Profile</a></h3>
                         <p class="text-justify">My Github profile which lists my open source projects that I contributed and started.</p>
                     </div>
 
                     <div class="col-xs-12 col-sm-6 col-md-4">
-                        <h2 class="sub-heading"><a href="https://www.linkedin.com/in/eserozvataf"><i class="fa fa-linkedin margin-right-10px"></i>LinkedIn Profile</a></h2>
+                        <h3 class="sub-heading"><a href="https://www.linkedin.com/in/eserozvataf"><i class="fa fa-linkedin margin-right-10px"></i>LinkedIn Profile</a></h3>
                         <p class="text-justify">My professional network in LinkedIn and previous work experience.</p>
                     </div>
 
                     <div class="col-xs-12 col-sm-6 col-md-4">
-                        <h2 class="sub-heading"><a href="https://twitter.com/eserozvataf"><i class="fa fa-twitter margin-right-10px"></i>Twitter Profile</a></h2>
+                        <h3 class="sub-heading"><a href="https://twitter.com/eserozvataf"><i class="fa fa-twitter margin-right-10px"></i>Twitter Profile</a></h3>
                         <p class="text-justify">My tweets mostly about technology and development.</p>
                     </div>
 
@@ -125,7 +125,7 @@
                     Besides having <a href="https://larukedi.github.io">12 years of professional work and project experience</a>, I also support and contribute to some open source projects.
                 </p>
 
-                <h3 class="xheader">I'm interested in:</h3>
+                <h2 class="xheader">I'm interested in:</h2>
 
                 <div class="row interest">
                     <div class="col-md-3">
@@ -166,7 +166,7 @@
                             <li class="media clearfix">
                                 <a class="pull-left" href="http://scabbiafw.com/"><img class="media-object thumbnail" src="assets/images/projects/proj-scabbia-framework.png" alt="Scabbia Framework" /></a>
                                 <div class="media-body">
-                                    <h2 class="media-heading"><a href="http://scabbiafw.com/">Scabbia Framework</a></h2>
+                                    <h3 class="media-heading"><a href="http://scabbiafw.com/">Scabbia Framework</a></h3>
                                     <p class="text-justify">
                                         Scabbia was initially a set of libraries to accomplish some tasks in php. It became a framework project when I bundled these libraries with a small piece of bootstrap.
                                         After years of experience and hosting some web projects as backbone, its new version currently on planning stage. See the <a href="https://github.com/scabbiafw/scabbia2-fw">Github repo</a> for the details.
@@ -177,7 +177,7 @@
                             <li class="media clearfix">
                                 <a class="pull-left" href="https://larukedi.github.io/laroux.js"><img class="media-object thumbnail" src="assets/images/projects/proj-laroux-js.png" alt="laroux.js" /></a>
                                 <div class="media-body">
-                                    <h2 class="media-heading"><a href="https://larukedi.github.io/laroux.js">laroux.js</a></h2>
+                                    <h3 class="media-heading"><a href="https://larukedi.github.io/laroux.js">laroux.js</a></h3>
                                     <p class="text-justify">
                                         Before jQuery 2.0, I was looking for the lightweight version of jQuery features without legacy codes since I targeted modern web and mobile browsers only.
                                         Alternatives like jquery-in-parts, only mimics jquery functionality and wraps all dom elements into own context instances. I started a new "javascript library"
@@ -189,7 +189,7 @@
                             <li class="media clearfix">
                                 <a class="pull-left" href="https://github.com/larukedi/tasslehoff"><img class="media-object thumbnail" src="assets/images/projects/proj-tasslehoff.png" alt="Tasslehoff" /></a>
                                 <div class="media-body">
-                                    <h2 class="media-heading"><a href="https://github.com/larukedi/tasslehoff">Tasslehoff</a></h2>
+                                    <h3 class="media-heading"><a href="https://github.com/larukedi/tasslehoff">Tasslehoff</a></h3>
                                     <p class="text-justify">
                                         Tasslehoff is a hardworking task and schedule manager written in C#. It also helps you to construct a service tree which allows you to start and stop sub-parts of
                                         your system.
@@ -200,7 +200,7 @@
                             <li class="media clearfix">
                                 <a class="pull-left" href="https://github.com/larukedi/pm"><img class="media-object thumbnail" src="assets/images/projects/proj-pmtool.png" alt="PM Tool" /></a>
                                 <div class="media-body">
-                                    <h2 class="media-heading"><a href="https://github.com/larukedi/pm">PM Tool</a></h2>
+                                    <h3 class="media-heading"><a href="https://github.com/larukedi/pm">PM Tool</a></h3>
                                     <p class="text-justify">
                                         Redmine, ChiliProject, JIRA, Trello, Asana and etc. All of them are powerful tools for project management. However I didn't find any alternative which
                                         is open source and coded in PHP. It consists users, groups, tasks, custom pages for now. I am looking forward to implement MVC frontend soon.
@@ -211,7 +211,7 @@
                             <li class="media clearfix">
                                 <a class="pull-left" href="https://github.com/larukedi/survey"><img class="media-object thumbnail" src="assets/images/projects/proj-survey.png" alt="Survey Tool" /></a>
                                 <div class="media-body">
-                                    <h2 class="media-heading"><a href="https://github.com/larukedi/survey">Survey Tool</a></h2>
+                                    <h3 class="media-heading"><a href="https://github.com/larukedi/survey">Survey Tool</a></h3>
                                     <p class="text-justify">
                                         That was my final project for my undergrade degree. It was designed to be a functional clone of surveymonkey-like sites. That means
                                         you can easily create surveys and distribute it online.
@@ -222,7 +222,7 @@
                             <li class="media clearfix">
                                 <a class="pull-left" href="https://github.com/larukedi/ioq3"><img class="media-object thumbnail" src="assets/images/projects/proj-q3now.png" alt="q3now" /></a>
                                 <div class="media-body">
-                                    <h2 class="media-heading"><a href="https://github.com/larukedi/ioq3">q3now</a></h2>
+                                    <h3 class="media-heading"><a href="https://github.com/larukedi/ioq3">q3now</a></h3>
                                     <p class="text-justify">
                                         q3now is an open source Quake 3 Modification project which has pro mode physics, new health and armor system, new weapon balances, wall jumps and new game mods.
                                     </p>
@@ -232,7 +232,7 @@
                             <li class="media clearfix">
                                 <a class="pull-left" href="https://github.com/larukedi/html5-boilerplate"><img class="media-object thumbnail" src="assets/images/projects/proj-boilerplate.png" alt="HTML5 Boilerplate" /></a>
                                 <div class="media-body">
-                                    <h2 class="media-heading"><a href="https://github.com/larukedi/html5-boilerplate">HTML5 Boilerplate</a></h2>
+                                    <h3 class="media-heading"><a href="https://github.com/larukedi/html5-boilerplate">HTML5 Boilerplate</a></h3>
                                     <p class="text-justify">
                                         HTML5 boilerplate is a professional front-end template for building fast, robust, and adaptable web apps or sites. I forked and modified the original project in order to support
                                         custom Bootstrap building, Font-Awesome, laroux.js and some code-quality tools.
@@ -257,7 +257,7 @@
                             <div class="col-xs-12 col-md-12">
                             <?php foreach ($blogposts as $post) { ?>
                                 <!-- Blog Post -->
-                                <h2 class="sub-heading"><i class="fa fa-file-text-o"></i> <a href="<?php echo $post['link']; ?>"><?php echo $post['title']; ?></a><span class="timestamp"> – <?php echo date('Y-m-d', $post['ts']); ?></span></h2>
+                                <h3 class="sub-heading"><i class="fa fa-file-text-o"></i> <a href="<?php echo $post['link']; ?>"><?php echo $post['title']; ?></a><span class="timestamp"> – <?php echo date('Y-m-d', $post['ts']); ?></span></h3>
                                 <p class="lead">
                                     <?php echo $post['summary']; ?>
                                     <a href="<?php echo $post['link']; ?>" class="nowrap">read more</a>
@@ -277,7 +277,7 @@
                     <h2 class="xheader"><a href="#contact" class="xscroll-link">Contact</a></h2>
 
                     <div class="text-center">
-                        <h4>e<span class="hide">x</span>ser@o<span class="hide">e</span>zvata<span class="hide">x</span>f.<span class="hide">x</span>com</h4>
+                        <h3>e<span class="hide">x</span>ser@o<span class="hide">e</span>zvata<span class="hide">x</span>f.<span class="hide">x</span>com</h3>
                     </div>
                 </div>
             </div>
