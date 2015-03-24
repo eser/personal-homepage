@@ -37,13 +37,13 @@
     <meta name="keywords" content="<?= $keywords ?>" />
 
     <link href="assets/favicon.ico" rel="icon" type="image/x-icon" />
-    <link href="assets/css/eser-ozvataf-com.min.css" rel="stylesheet" media="all" />
+    <link href="assets/styles/main.min.css" rel="stylesheet" media="all" />
 </head>
 <body id="body">
 
     <?= $contents ?>
 
-    <script data-cfasync="false" src="assets/js/eser-ozvataf-com.min.js"></script>
+    <script data-cfasync="false" src="assets/scripts/main.min.js"></script>
 
 </body>
 </html>
