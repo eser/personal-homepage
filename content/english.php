@@ -88,7 +88,7 @@
                     </div>
 
                     <div class="col-xs-12 col-sm-6 col-md-4">
-                        <h3 class="sub-heading"><a href="http://devopscyprus.com/"><i class="fa fa-cloud-download margin-right-10px"></i>Devops Cyprus</a></h3>
+                        <h3 class="sub-heading"><a href="http://devopsturkey.com/"><i class="fa fa-cloud-download margin-right-10px"></i>Devops Turkey</a></h3>
                         <p class="text-justify">My humble IT consulting and software project management initiative.</p>
                     </div>
 
@@ -119,7 +119,7 @@
                     After graduating in 2004 from Celal Bayar University Computer Programming department, I worked in Egebilgi, Ispro and devBiz firms as a Medior/Senior Developer.
                     I completed my army service in 2008, and commenced work at CMFNet/Mobilpark, which is a solution partner of Turkcell, as a Full Stack Developer and a Team Leader.
                     In 2011, I returned to academia and continued my studies at Eastern Mediterranean University where I received my Bachelors degree in Information Technology and my Master
-                    in Information and Communications in the Education Field.
+                    in Information and Communications in the Education Field. Lately, I've been working on several web-based e-commerce projects for Zaimoğlu Holding.
                 </p>
                 <p>
                     Besides having <a href="https://larukedi.github.io">12 years of professional work and project experience</a>, I also support and contribute to some open source projects.
@@ -277,7 +277,8 @@
                     <h2 class="xheader"><a href="#contact" class="xscroll-link">Contact</a></h2>
 
                     <div class="text-center">
-                        <h3>e<span class="hide">x</span>ser@o<span class="hide">e</span>zvata<span class="hide">x</span>f.<span class="hide">x</span>com</h3>
+                        <h3>E-mail: e<span class="hide">x</span>ser@o<span class="hide">e</span>zvata<span class="hide">x</span>f.<span class="hide">x</span>com</h3>
+                        <h3>Telegram: <a href="http://telegram.me/eserozvataf">@eserozvataf</a></h3>
                     </div>
                 </div>
             </div>

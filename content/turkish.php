@@ -89,7 +89,7 @@
                     </div>
 
                     <div class="col-xs-12 col-sm-6 col-md-4">
-                        <h3 class="sub-heading"><a href="http://devopskibris.com/"><i class="fa fa-cloud-download margin-right-10px"></i>Devops Kıbrıs</a></h3>
+                        <h3 class="sub-heading"><a href="http://devopsturkiye.com/"><i class="fa fa-cloud-download margin-right-10px"></i>Devops Türkiye</a></h3>
                         <p class="text-justify">Naçizane bilişim teknolojileri danışmanlığı ve proje yönetim girişimim.</p>
                     </div>
 
@@ -120,7 +120,7 @@
                     2004'de Celal Bayar Üniversitesi Bilgisayar Programcılığı bölümünden mezun olduktan sonra İzmir'de sırasıyla Egebilgi, Ispro ve devBiz firmalarında Uzman Yazılım Geliştirici olarak çalıştım.
                     Askerlik görevimi tamamladıktan 2008'de Turkcell Çözüm Ortakları arasında bulunan CMFNET/Mobilpark firmasında deneyimli Full Stack (Tam Donanımlı) Yazılım Geliştirici ve Takım Liderliği görevini üstlendim.
                     2011 yılı itibariyle tekrar akademi'ye dönerek Doğu Akdeniz Üniversitesi çatısı altında önce Information Technology lisansı, ardından Information and Communications in Education
-                    yüksek lisansı programlarını tamamladım.
+                    yüksek lisansı programlarını tamamladım. Şu anda Zaimoğlu Holding çatısı altında web tabanlı e-ticaret projeleri geliştirmekteyim.
                 </p>
                 <p>
                     <a href="https://larukedi.github.io">12 yıl profesyonel iş ve proje deneyimi</a>min yanı sıra açık kaynaklı projelerin oluşturulmasına ve geliştirilmesine destek olmaktayım.
@@ -278,7 +278,8 @@
                     <h2 class="xheader"><a href="#contact" class="xscroll-link">İletişim</a></h2>
 
                     <div class="text-center">
-                        <h3>e<span class="hide">x</span>ser@o<span class="hide">e</span>zvata<span class="hide">x</span>f.<span class="hide">x</span>com</h3>
+                        <h3>E-Mail: e<span class="hide">x</span>ser@o<span class="hide">e</span>zvata<span class="hide">x</span>f.<span class="hide">x</span>com</h3>
+                        <h3>Telegram: <a href="http://telegram.me/eserozvataf">@eserozvataf</a></h3>
                     </div>
                 </div>
             </div>
