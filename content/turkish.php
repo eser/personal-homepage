@@ -44,31 +44,33 @@
 
         <header id="splash">
             <div class="container intro">
-                <div class="col-xs-4 col-sm-4 col-md-4 left">
-                    <img src="assets/images/eser-ozvataf.png" class="img-thumbnail" alt="" />
-                </div>
-                <div class="col-xs-8 col-sm-8 col-md-8 right">
+                <div class="row">
+                    <div class="col-xs-8 col-sm-8 col-md-8 left">
 
-                    <h1>
-                        <div class="name">Merhaba. Ben <span>Eser Özvataf</span>.</div>
-                        <div class="title">Yazılım Mimarı ve Danışmanı</div>
-                    </h1>
+                        <h1>
+                            <div class="name">Merhaba. Ben <span>Eser Özvataf</span>.</div>
+                            <div class="title">Yazılım Mimarı ve Danışmanı</div>
+                        </h1>
 
-                    <p class="lead">
-                        Modern yazılım mühendisliği ve IT projelerine odaklı çalışıyorum. Şu anda kurumsal bir
-                        firmada e-ticaret çözümleri sağlamamın yanı sıra internet üzerindeki açık kaynaklı
-                        yazılımlara katkıda bulunmak için uğraşıyorum.
-                        <br /><br />
-                        İlgili olduğum profesyonel alanlar, çalışmalarım ve sürmekte olan projelerim hakkında
-                        detaylı bilgi almak için sayfayı biraz aşağı kaydırabilirsiniz.
-                    </p>
-                    
-                    <div class="buttons">
-                        <a href="#connections" class="btn btn-lg btn-splash xscroll-link">Detaylar</a>
+                        <p class="lead">
+                            Modern yazılım mühendisliği ve IT projelerine odaklı çalışıyorum. Şu anda kurumsal bir
+                            firmada e-ticaret çözümleri sağlamamın yanı sıra internet üzerindeki açık kaynaklı
+                            yazılımlara katkıda bulunmak için uğraşıyorum.
+                            <br /><br />
+                            İlgili olduğum profesyonel alanlar, çalışmalarım ve sürmekte olan projelerim hakkında
+                            detaylı bilgi almak için sayfayı biraz aşağı kaydırabilirsiniz.
+                        </p>
+                        
+                        <div class="buttons">
+                            <a href="#connections" class="btn btn-lg btn-splash xscroll-link">Detaylar</a>
+                        </div>
+
+                        <div class="clearfix"></div>
+
                     </div>
-
-                    <div class="clearfix"></div>
-
+                    <div class="col-xs-4 col-sm-4 col-md-4 right text-right">
+                        <img src="assets/images/eser-ozvataf.png" class="img-thumbnail" alt="" />
+                    </div>
                 </div>
             </div>
         </header>
@@ -80,7 +82,7 @@
                 <div class="row">
                     <div class="col-xs-12 col-sm-6 col-md-4">
                         <h3 class="sub-heading"><a href="/blog/"><i class="fa fa-rss margin-right-10px"></i>Blog</a></h3>
-                        <p class="text-justify">Bilişimdeki son gelişmeler ve bana heyecan veren bilişim konuları hakkında bir blog.</p>
+                        <p class="text-justify">Bilişimdeki son gelişmeler ve bana heyecan veren bilişim konuları hakkında bir günlük.</p>
                     </div>
 
                     <div class="col-xs-12 col-sm-6 col-md-4">
@@ -120,7 +122,11 @@
                     2004'de Celal Bayar Üniversitesi Bilgisayar Programcılığı bölümünden mezun olduktan sonra İzmir'de sırasıyla Egebilgi, Ispro ve devBiz firmalarında Uzman Yazılım Geliştirici olarak çalıştım.
                     Askerlik görevimi tamamladıktan 2008'de Turkcell Çözüm Ortakları arasında bulunan CMFNET/Mobilpark firmasında deneyimli Full Stack (Tam Donanımlı) Yazılım Geliştirici ve Takım Liderliği görevini üstlendim.
                     2011 yılı itibariyle tekrar akademi'ye dönerek Doğu Akdeniz Üniversitesi çatısı altında önce Information Technology lisansı, ardından Information and Communications in Education
-                    yüksek lisansı programlarını tamamladım. Şu anda Zaimoğlu Holding çatısı altında web tabanlı e-ticaret projeleri geliştirmekteyim.
+                    yüksek lisansı programlarını tamamladım.
+                </p>
+                <p>
+                    Bu aralar zamanımı Zaimoğlu Holding için e-ticaret sistemlerinin bakım ve tasarımını yaparak harcıyorum. Yazılım geliştirmenin devops, takım yönetimi&amp;yol göstericilik, kalite yönetimi, kullanıcı deneyimi,
+                    mimari tasarım ve ar-ge gibi daha özel alanlarında uzmanlaşmak için kod yazmayı kenara bırakmış bulunuyorum.
                 </p>
                 <p>
                     <a href="https://larukedi.github.io">12 yıl profesyonel iş ve proje deneyimi</a>min yanı sıra açık kaynaklı projelerin oluşturulmasına ve geliştirilmesine destek olmaktayım.

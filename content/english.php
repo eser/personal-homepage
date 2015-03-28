@@ -44,30 +44,32 @@
 
         <header id="splash">
             <div class="container intro">
-                <div class="col-xs-4 col-sm-4 col-md-4 left">
-                    <img src="assets/images/eser-ozvataf.png" class="img-thumbnail" alt="" />
-                </div>
-                <div class="col-xs-8 col-sm-8 col-md-8 right">
+                <div class="row">
+                    <div class="col-xs-8 col-sm-8 col-md-8 left">
 
-                    <h1>
-                        <div class="name">Hi. I'm <span>Eser Ozvataf</span>.</div>
-                        <div class="title">Software Architect and Consultant</div>
-                    </h1>
-                    <p class="lead">
-                        who focuses on modern software engineering and IT projects. Besides I am currently
-                        working for a large company to provide e-commerce solutions, looking to contribute
-                        open source projects on the net.
-                        <br /><br />
-                        To get detailed information on my professional interests, studies and ongoing projects,
-                        scroll down a bit.
-                    </p>
-                    
-                    <div class="buttons">
-                        <a href="#connections" class="btn btn-lg btn-splash xscroll-link">Details</a>
+                        <h1>
+                            <div class="name">Hi. I'm <span>Eser Ozvataf</span>.</div>
+                            <div class="title">Software Architect and Consultant</div>
+                        </h1>
+                        <p class="lead">
+                            who focuses on modern software engineering and IT projects. Besides I am currently
+                            working for a large company to provide e-commerce solutions, looking to contribute
+                            open source projects on the net.
+                            <br /><br />
+                            To get detailed information on my professional interests, studies and ongoing projects,
+                            scroll down a bit.
+                        </p>
+                        
+                        <div class="buttons">
+                            <a href="#connections" class="btn btn-lg btn-splash xscroll-link">Details</a>
+                        </div>
+
+                        <div class="clearfix"></div>
+
                     </div>
-
-                    <div class="clearfix"></div>
-
+                    <div class="col-xs-4 col-sm-4 col-md-4 right text-right">
+                        <img src="assets/images/eser-ozvataf.png" class="img-thumbnail" alt="" />
+                    </div>
                 </div>
             </div>
         </header>
@@ -119,7 +121,11 @@
                     After graduating in 2004 from Celal Bayar University Computer Programming department, I worked in Egebilgi, Ispro and devBiz firms as a Medior/Senior Developer.
                     I completed my army service in 2008, and commenced work at CMFNet/Mobilpark, which is a solution partner of Turkcell, as a Full Stack Developer and a Team Leader.
                     In 2011, I returned to academia and continued my studies at Eastern Mediterranean University where I received my Bachelors degree in Information Technology and my Master
-                    in Information and Communications in the Education Field. Lately, I've been working on several web-based e-commerce projects for Zaimoğlu Holding.
+                    in Information and Communications in the Education Field.
+                </p>
+                <p>
+                    Nowadays, I spend my time with maintaining and designing e-commerce systems for Zaimoglu Holding. I nearly quit coding to concentrate on more specific duties of software
+                    development, such as devops, team management&amp;mentoring, quality assurance, user experience, architectural design and research&amp;development.
                 </p>
                 <p>
                     Besides having <a href="https://larukedi.github.io">12 years of professional work and project experience</a>, I also support and contribute to some open source projects.
