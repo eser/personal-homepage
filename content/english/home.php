@@ -49,7 +49,7 @@
                     </div>
 
                     <div class="col-xs-12 col-sm-6 col-md-4">
-                        <h3 class="sub-heading"><a href="https://larukedi.github.io/"><i class="fa fa-clipboard margin-right-10px"></i>My Resume</a></h3>
+                        <h3 class="sub-heading"><a href="./?english/resume"><i class="fa fa-clipboard margin-right-10px"></i>My Resume</a></h3>
                         <p class="text-justify">Information on my skills, knowledge, past education and work experience, certificates and projects.</p>
                     </div>
 

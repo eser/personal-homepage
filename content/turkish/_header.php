@@ -15,7 +15,7 @@
 
                     <div class="navbar-right">
                         <ul class="nav navbar-nav text-right">
-                            <li><a href="./?english" class="xscroll-link">English</a></li>
+                            <li><a href="./?english/<?= $page ?>" class="xscroll-link"><i class="fa fa-globe"></i> English</a></li>
                         </ul>
 
                         <!--

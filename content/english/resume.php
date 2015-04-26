@@ -53,10 +53,6 @@
                                     <div class="col-xs-12 col-sm-8 xvalue"><a href="http://eser.ozvataf.com/">http://eser.ozvataf.com/</a></div>
                                 </div>
                                 <div class="row xrow">
-                                    <div class="col-xs-12 col-sm-4 xlabel">Blog:</div>
-                                    <div class="col-xs-12 col-sm-8 xvalue"><a href="http://eser.ozvataf.com/blog/">http://eser.ozvataf.com/blog/</a></div>
-                                </div>
-                                <div class="row xrow">
                                     <div class="col-xs-12 col-sm-4 xlabel">LinkedIn:</div>
                                     <div class="col-xs-12 col-sm-8 xvalue"><a href="https://www.linkedin.com/in/eserozvataf">https://www.linkedin.com/in/eserozvataf</a></div>
                                 </div>
@@ -76,37 +72,48 @@
                         </div>
                     </div>
 
-                    <!-- General/Skills -->
-                    <div id="about-general-skills" class="xanchor">
+                    <!-- General/Highlights -->
+                    <div id="about-general-highlights" class="xanchor">
                         <div class="row section-inner">
                             <div class="col-xs-12 col-md-2">
-                                <h3 class="xtitle"><a href="#about-general-skills" class="xscroll-link">Skills</a></h3>
+                                <h3 class="xtitle"><a href="#about-general-highlights" class="xscroll-link">Highlights</a></h3>
                             </div>
                             <div class="col-xs-12 col-md-10 xtext">
-                                Development Team Leadership, Project Process Management, Research
+                                DevOps Engineering,
+                                Software Design &amp; Architecture,
+                                Frontend Development,
+                                Backend Development,
+                                System and Parallel Programming,
+                                Server Management,
+                                Team Leading and Project Management,
+                                Mentoring and Pair Programming,
+                                12 Years of International Working Experience
                             </div>
                         </div>
                     </div>
 
-                    <!-- General/Knowledge -->
-                    <div id="about-general-knowledge" class="xanchor">
+                    <!-- General/Technologies -->
+                    <div id="about-general-technologies" class="xanchor">
                         <div class="row section-inner">
                             <div class="col-xs-12 col-md-2">
-                                <h3 class="xtitle"><a href="#about-general-knowledge" class="xscroll-link">Knowledge</a></h3>
+                                <h3 class="xtitle"><a href="#about-general-technologies" class="xscroll-link">Technologies</a></h3>
                             </div>
                             <div class="col-xs-12 col-md-10 xtext">
-                                Disciplines of Software Engineering,
-                                System Programming,
-                                Service Development w/ SOA,
-                                Web Application Development,
-                                FrontEnd Development,
-                                Server Management,
-                                Development Tools and Processes,
-                                Social Media Development and Management,
-                                Search Engine Optimization,
-                                Instructional Design and Technologies,
-                                Mentoring,
-                                Pair Programming
+                                PHP,
+                                C#, .NET Framework, ASP.NET,
+                                Node.js, JavaScript,
+                                Postgres,
+                                Microsoft SQL Server,
+                                MySQL,
+                                ElasticSearch,
+                                Redis, Memcached,
+                                HTML5, CSS3,
+                                Bootstrap, jQuery, React,
+                                Gulp, Grunt, LESS,
+                                Composer, Yii2, Symfony2 Components,
+                                XAML, WPF, Windows Phone,
+                                Odata, JSON, XML, XSLT, XPath,
+                                VSTO
                             </div>
                         </div>
                     </div>
@@ -127,7 +134,7 @@
                             </div>
                             <div class="col-xs-12 col-md-10 xtext">
                                 <h5 class="xtitle">EASTERN MEDITERRANEAN UNIVERSITY FEDU INFORMATION AND COMMUNICATION TECHNOLOGY IN EDUCATION MSC (2013-)</h5>
-                                CGPA: 3.44/4.00
+                                CGPA: 3.44/4.00 (Study parallel to work, expected to finish in 2015)
                             </div>
                         </div>
                     </div>
@@ -164,6 +171,9 @@
                                 <h3 class="xtitle"><a href="#about-workexperience-fullstack" class="xscroll-link">Full-Stack</a></h3>
                             </div>
                             <div class="col-xs-12 col-md-10 xtext">
+                                <h5 class="xtitle">ZAIMOGLU HOLDING (SEPTEMBER 2014 - ) – SOFTWARE DESIGNER AND ARCHITECT</h5>
+                                Service Oriented Architecture, Open Schema Models, REST Services<br />
+                                <br />
                                 <h5 class="xtitle">GOLDSOFT TRADING (JUNE 2012 - JULY 2013) – FRAMEWORK DEVELOPER – TEAM LEADER</h5>
                                 Online E-Commerce Systems, Facebook Applications on OpenGraph<br />
                                 <br />
@@ -298,6 +308,24 @@
                                 <h3 class="xtitle"><a href="#projects-tailormade" class="xscroll-link">Tailor Made</a></h3>
                             </div>
                             <div class="col-xs-12 col-md-10 xtext">
+                                <div class="p-item" rel="freesoftware">
+                                    <h5 class="xtitle">Alanadlari.com – 2015</h5>
+                                    DevOps, C10K ve internationalization consulting for domain name auction platform Alanadlari.com.<br />
+                                    <div class="xsubtext">
+                                        <div class="xsmalltag"><em>Freelance</em></div>
+                                        <div class="xsmalltag"><em>PHP</em></div>
+                                        <div class="xsmalltag"><em>Yii</em></div>
+                                        <div class="xsmalltag"><em>Node.js</em></div>
+                                        <div class="xsmalltag"><em>JavaScript</em></div>
+                                        <div class="xsmalltag"><em>MySQL</em></div>
+                                        <div class="xsmalltag"><em>Gulp</em></div>
+                                        <div class="xsmalltag"><em>Browserify</em></div>
+                                        <div class="xsmalltag"><em>LESS</em></div>
+                                        <div class="xsmalltag"><em>ElasticSearch</em></div>
+                                        <div class="xsmalltag"><em>Git</em></div>
+                                    </div>
+                                </div>
+
                                 <div class="p-item" rel="others">
                                     <h5 class="xtitle">OrnekHolidays – 2014</h5>
                                     Search Engine Optimization and Web Improvements consulting for a travel/leisure web site.<br />
@@ -314,7 +342,7 @@
                                 </div>
 
                                 <div class="p-item" rel="microsoft">
-                                    <h5 class="xtitle">EasyWords – 2013</h5>
+                                    <h5 class="xtitle">EasyWords – 2014</h5>
                                     Software helps you memorize words very easily while learning a new language.<br />
                                     <div class="xsubtext">
                                         <div class="xsmalltag"><em>Freelance</em></div>
@@ -329,7 +357,6 @@
                                         <div class="xsmalltag"><em>JavaScript</em></div>
                                         <div class="xsmalltag"><em>Bootstrap</em></div>
                                         <div class="xsmalltag"><em>Git</em></div>
-                                        <div class="xsmalltag"><em>Visualstudio.com</em></div>
                                     </div>
                                 </div>
 

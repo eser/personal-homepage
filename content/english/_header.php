@@ -15,7 +15,7 @@
 
                     <div class="navbar-right">
                         <ul class="nav navbar-nav text-right">
-                            <li><a href="./?turkish" class="xscroll-link">Türkçe</a></li>
+                            <li><a href="./?turkish/<?= $page ?>" class="xscroll-link"><i class="fa fa-globe"></i> Türkçe</a></li>
                         </ul>
 
                         <!--

@@ -56,7 +56,7 @@
                     </div>
 
                     <div class="col-xs-12 col-sm-6 col-md-4">
-                        <h3 class="sub-heading"><a href="https://larukedi.github.io/index.tr.html"><i class="fa fa-clipboard margin-right-10px"></i>Özgeçmişim</a></h3>
+                        <h3 class="sub-heading"><a href="./?turkish/resume"><i class="fa fa-clipboard margin-right-10px"></i>Özgeçmişim</a></h3>
                         <p class="text-justify">Yeteneklerim, geçmiş eğitim ve iş deneyimlerim, sertifika ve projelerim hakkında bilgiler.</p>
                     </div>
 

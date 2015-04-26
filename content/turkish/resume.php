@@ -53,10 +53,6 @@
                                     <div class="col-xs-12 col-sm-8 xvalue"><a href="http://eser.ozvataf.com/?turkish">http://eser.ozvataf.com/</a></div>
                                 </div>
                                 <div class="row xrow">
-                                    <div class="col-xs-12 col-sm-4 xlabel">Blog:</div>
-                                    <div class="col-xs-12 col-sm-8 xvalue"><a href="http://eser.ozvataf.com/blog/">http://eser.ozvataf.com/blog/</a></div>
-                                </div>
-                                <div class="row xrow">
                                     <div class="col-xs-12 col-sm-4 xlabel">LinkedIn:</div>
                                     <div class="col-xs-12 col-sm-8 xvalue"><a href="https://www.linkedin.com/in/eserozvataf">https://www.linkedin.com/in/eserozvataf</a></div>
                                 </div>
@@ -76,37 +72,48 @@
                         </div>
                     </div>
 
-                    <!-- General/Skills -->
-                    <div id="about-general-skills" class="xanchor">
+                    <!-- General/Highlights -->
+                    <div id="about-general-highlights" class="xanchor">
                         <div class="row section-inner">
                             <div class="col-xs-12 col-md-2">
-                                <h3 class="xtitle"><a href="#about-general-skills" class="xscroll-link">Beceriler</a></h3>
+                                <h3 class="xtitle"><a href="#about-general-highlights" class="xscroll-link">Öne Çıkanlar</a></h3>
                             </div>
                             <div class="col-xs-12 col-md-10 xtext">
-                                Geliştirme Ekibi Liderliği, Proje Süreç Yönetimi, Araştırma
+                                DevOps Mühendisliği,
+                                Yazılım Tasarım &amp; Mimarisi,
+                                Frontend Geliştirme,
+                                Backend Geliştirme,
+                                Sistem ve Paralel Programlama,
+                                Sunucu Yönetimi,
+                                Ekip Liderliği ve Proje Yönetimi,
+                                Koçluk ve Eşli Programlama,
+                                12 Yıl Uluslararası Çalışma Deneyimi
                             </div>
                         </div>
                     </div>
 
-                    <!-- General/Knowledge -->
-                    <div id="about-general-knowledge" class="xanchor">
+                    <!-- General/Technologies -->
+                    <div id="about-general-technologies" class="xanchor">
                         <div class="row section-inner">
                             <div class="col-xs-12 col-md-2">
-                                <h3 class="xtitle"><a href="#about-general-knowledge" class="xscroll-link">Bilgi</a></h3>
+                                <h3 class="xtitle"><a href="#about-general-technologies" class="xscroll-link">Teknolojiler</a></h3>
                             </div>
                             <div class="col-xs-12 col-md-10 xtext">
-                                Yazılım Mühendisliği Disiplinleri,
-                                Sistem Programlama,
-                                SOA ile Servis Geliştirme,
-                                Web Uygulamaları Geliştirme,
-                                FrontEnd Geliştirme,
-                                Sunucu Yönetimi,
-                                Geliştirme Araçları ve Süreçleri,
-                                Sosyal Medya Geliştirme ve Yönetimi,
-                                Arama Motoru İyileştirmeleri,
-                                Eğitimsel Tasarım ve Teknolojileri,
-                                Koçluk,
-                                Eşli Programlama
+                                PHP,
+                                C#, .NET Framework, ASP.NET,
+                                Node.js, JavaScript,
+                                Postgres,
+                                Microsoft SQL Server,
+                                MySQL,
+                                ElasticSearch,
+                                Redis, Memcached,
+                                HTML5, CSS3,
+                                Bootstrap, jQuery, React,
+                                Gulp, Grunt, LESS,
+                                Composer, Yii2, Symfony2 Components,
+                                XAML, WPF, Windows Phone,
+                                Odata, JSON, XML, XSLT, XPath,
+                                VSTO
                             </div>
                         </div>
                     </div>
@@ -127,7 +134,7 @@
                             </div>
                             <div class="col-xs-12 col-md-10 xtext">
                                 <h5 class="xtitle">DOĞU AKDENİZ ÜNİVERSİTESİ FEDU INFORMATION AND COMMUNICATION TECHNOLOGY IN EDUCATION MSC (2013-)</h5>
-                                CGPA: 3.44/4.00
+                                CGPA: 3.44/4.00 (Çalışma ile birlikte sürmekte, 2015'de bitmesi bekleniyor)
                             </div>
                         </div>
                     </div>
@@ -164,8 +171,11 @@
                                 <h3 class="xtitle"><a href="#about-workexperience-fullstack" class="xscroll-link">Full-Stack</a></h3>
                             </div>
                             <div class="col-xs-12 col-md-10 xtext">
+                                <h5 class="xtitle">ZAIMOGLU HOLDING (EYLÜL 2014 - ) – YAZILIM TASARIMCISI VE MİMARI</h5>
+                                Servis Odaklı Mimari, Açık Şema Modelleri, REST Servisleri<br />
+                                <br />
                                 <h5 class="xtitle">GOLDSOFT TRADING (HAZİRAN 2012 - TEMMUZ 2013) – FRAMEWORK GELİŞTİRİCİSİ – TAKIM LİDERİ</h5>
-                                Online E-Ticaret Sistemleri, OpenGraph üzerine Facebook Uygulamaları<br />
+                                E-Ticaret Sistemleri, OpenGraph üzerine Facebook Uygulamaları<br />
                                 <br />
                                 <h5 class="xtitle">CMFNET (NİSAN 2008 – OCAK 2012) – PROJE YÖNETİCİSİ – TAKIM LİDERİ</h5>
                                 Masaüstü Uygulamaları, Web Uygulamaları, Microsoft Office Add-inleri, ActiveDirectory Araçları, SMS Servisleri ve Protokolleri, Dağıtık Uygulamalar, APIler için 3. Parti araçlar
@@ -298,6 +308,24 @@
                                 <h3 class="xtitle"><a href="#projects-tailormade" class="xscroll-link">Kuruma Özel</a></h3>
                             </div>
                             <div class="col-xs-12 col-md-10 xtext">
+                                <div class="p-item" rel="freesoftware">
+                                    <h5 class="xtitle">Alanadlari.com – 2015</h5>
+                                    Alanadlari.com domain açık arttırma platformu için DevOps, C10K ve uluslarasılaştırma danışmanlığı.<br />
+                                    <div class="xsubtext">
+                                        <div class="xsmalltag"><em>Freelance</em></div>
+                                        <div class="xsmalltag"><em>PHP</em></div>
+                                        <div class="xsmalltag"><em>Yii</em></div>
+                                        <div class="xsmalltag"><em>Node.js</em></div>
+                                        <div class="xsmalltag"><em>JavaScript</em></div>
+                                        <div class="xsmalltag"><em>MySQL</em></div>
+                                        <div class="xsmalltag"><em>Gulp</em></div>
+                                        <div class="xsmalltag"><em>Browserify</em></div>
+                                        <div class="xsmalltag"><em>LESS</em></div>
+                                        <div class="xsmalltag"><em>ElasticSearch</em></div>
+                                        <div class="xsmalltag"><em>Git</em></div>
+                                    </div>
+                                </div>
+
                                 <div class="p-item" rel="others">
                                     <h5 class="xtitle">OrnekHolidays – 2014</h5>
                                     Bir tatil web sitesi için arama Motoru Optimizasyonu ve Web İyileştirmeleri danışmanlığı.<br />
@@ -314,7 +342,7 @@
                                 </div>
 
                                 <div class="p-item" rel="microsoft">
-                                    <h5 class="xtitle">EasyWords – 2013</h5>
+                                    <h5 class="xtitle">EasyWords – 2014</h5>
                                     Yeni bir dil öğrenirken hatırlamanız gereken sözcükleri kolayca öğrenmenizi sağlayan bir yazılım.<br />
                                     <div class="xsubtext">
                                         <div class="xsmalltag"><em>Freelance</em></div>
@@ -329,7 +357,6 @@
                                         <div class="xsmalltag"><em>JavaScript</em></div>
                                         <div class="xsmalltag"><em>Bootstrap</em></div>
                                         <div class="xsmalltag"><em>Git</em></div>
-                                        <div class="xsmalltag"><em>Visualstudio.com</em></div>
                                     </div>
                                 </div>
 
