@@ -1,5 +1,7 @@
 <?php
 
+namespace PersonalHomepage;
+
 class BlogFeed
 {
     public static function get($url)

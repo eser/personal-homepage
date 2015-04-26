@@ -6878,6 +6878,10 @@ footer
 {
     padding: 0 0 60px 0;
 }
+.section-inner
+{
+    padding: 0 0 60px 0;
+}
 .section-gray
 {
     background-color: #f5f5ff;
@@ -6962,6 +6966,107 @@ a
 
     color: inherit;
 }
+.xheader h2
+{
+    display: inline-block;
+
+    margin: 0 0 -2px 0;
+
+    color: #585f6a;
+    border-bottom: 2px solid #448cca;
+}
+h3.xtitle
+{
+    font-size: 20px;
+
+    margin: 0;
+    padding: 0;
+}
+h4.xtitle,
+h5.xtitle,
+h6.xtitle
+{
+    font-family: inherit !important;
+    font-size: inherit;
+    font-weight: inherit;
+
+    margin: 0;
+    padding: 0;
+
+    color: #212121;
+}
+.xrow,
+.xtext,
+.xlist
+{
+    font-size: 14pt;
+    line-height: 150%;
+    /* font-family: 'Tinos', 'Georgia', times; */
+
+    color: #808080;
+}
+.xrow strong,
+.xtext strong,
+.xlist strong
+{
+    font-weight: normal;
+
+    color: #303030;
+}
+.xrow
+{
+    border-bottom: 1px solid #e5eaf1;
+}
+.xrow:last-child
+{
+    border-bottom: 0;
+}
+.xrow .xlabel
+{
+    text-transform: uppercase;
+    /* font-weight: bold; */
+}
+.xrow .xvalue
+{
+    font-weight: normal;
+}
+.xtag,
+.xsmalltag
+{
+    display: inline-block;
+}
+.xtag em,
+.xsmalltag em
+{
+    font-style: normal;
+
+    border: 1px solid gray;
+}
+.xtag em
+{
+    margin: 0 10px 0 0;
+    padding: 0 10px 0 10px;
+}
+.xsmalltag em
+{
+    margin: 0 4px 0 0;
+    padding: 0 6px 0 6px;
+}
+.xsubtext
+{
+    font-size: 10pt;
+    line-height: 175%;
+
+    margin: 5px 0 5px 0;
+}
+.p-item
+{
+    margin: 0 0 10px 0;
+    padding: 10px 20px 10px 20px;
+
+    border-left: 2px solid #448cca;
+    background: #fff;
+}
 .line
 {
     clear: both;
@@ -6975,6 +7080,10 @@ a
 {
     padding-top: 105px;
     padding-bottom: 60px;
+}
+.margined
+{
+    margin-top: 40px;
 }
 .intro h1
 {

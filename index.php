@@ -1,26 +1,39 @@
 <?php
 
-    date_default_timezone_set('Pacific/Easter');
-    mb_internal_encoding('utf-8');
-
-    require(__DIR__ . '/includes/FileCache.php');
-    require(__DIR__ . '/includes/BlogFeed.php');
-
-    $file = FileCache::get('http://eser.ozvataf.com/blog/feed/');
-    $blogposts = BlogFeed::get($file);
-
-    $languages = array('turkish', 'english');
+    require __DIR__ . '/local/bootstrap.php';
 
     $queryString = isset($_SERVER['QUERY_STRING']) ? $_SERVER['QUERY_STRING'] : '';
-    $language = trim($queryString);
+    $segments = explode('/', $queryString);
 
-    if (!in_array($language, $languages, true)) {
-        $language = 'english'; // by default
+    if (strncasecmp($_SERVER['HTTP_ACCEPT_LANGUAGE'], 'tr', 2) === 0) {
+        $defaultLanguage = 'turkish';
+    } else {
+        $defaultLanguage = 'english';
+    }
+
+    $languages = array('turkish', 'english');
+    if (isset($segments[0])) {
+        $language = trim($segments[0]);
+        if (!in_array($language, $languages, true)) { // failsafe
+            $language = $defaultLanguage;
+        }
+    } else { // by default
+        $language = $defaultLanguage;
+    }
+
+    $pages = array('home', 'resume', 'contact');
+    if (isset($segments[1])) {
+        $page = trim($segments[1]);
+        if (!in_array($page, $pages, true)) { // failsafe
+            $page = 'home';
+        }
+    } else { // by default
+        $page = 'home';
     }
 
     ob_start();
     ob_implicit_flush(false);
-    include(__DIR__ . '/content/' . $language . '.php');
+    include(BASE_DIR . 'content/' . $language . '/' . $page . '.php');
     $contents = ob_get_contents();
     ob_end_clean();
 

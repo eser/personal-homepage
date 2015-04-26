@@ -2,45 +2,9 @@
     $title = 'Eser \'Laroux\' Özvataf - eser.ozvataf.com - Personal Homepage';
     $description = 'Eser \'Laroux\' Özvataf Personal Homepage';
     $keywords = 'eser laroux ozvataf larukedi software architect developer programmer coder team leader full stack senior php js javascript classic c# asp asp.net microsoft .net grunt npm node continuous integration seo search engine optimization social media devops';
+
+    require '_header.php';
 ?>
-    <div id="nav-header" class="navbar navbar-inverse navbar-fixed-top custom-navbar print-hidden" role="banner">
-        <div class="container">
-            <nav>
-                <div class="navbar-header">
-                    <a class="navbar-brand custom-navbar-brand xscroll-link" href="#body">eser.ozvataf.com</a>
-                </div>
-
-                <div class="navbar-collapse collapse">
-                    <ul class="nav navbar-nav">
-                        <li><a href="#connections" class="xscroll-link">Connections</a></li>
-                        <li><a href="#aboutme" class="xscroll-link">About Me</a></li>
-                        <li><a href="#projects" class="xscroll-link">Projects</a></li>
-                        <li><a href="#blogposts" class="xscroll-link">Blog Posts</a></li>
-                        <li><a href="#contact" class="xscroll-link">Contact</a></li>
-                    </ul>
-
-                    <div class="navbar-right">
-                        <ul class="nav navbar-nav text-right">
-                            <li><a href="./?turkish" class="xscroll-link">Türkçe</a></li>
-                        </ul>
-
-                    <!--
-                        <form id="search-form" action="#" method="GET" class="navbar-form" role="search">
-                            <div class="input-group">
-                                <input type="text" class="form-control" placeholder="Search" />
-                                <div class="input-group-btn">
-                                    <button type="submit" class="btn btn-default custom-input-search-button"><i class="glyphicon glyphicon-search"></i></button>
-                                </div>
-                            </div>
-                        </form>
-                    -->
-                    </div>
-                </div>
-            </nav>
-        </div>
-    </div>
-
-    <div id="page">
 
         <header id="splash">
             <div class="container intro">
@@ -253,57 +217,6 @@
             </div>
         </section>
 
-        <section id="blogposts" class="section-gray">
-            <div class="container">
-                <div id="blogposts-recent" class="row">
-                    <h2 class="xheader"><a href="#blogposts-recent" class="xscroll-link">Blog Posts</a></h2>
-
-                    <div id="blogposts-recent-feed">
-                        <div class="row custom-section-inner">
-                            <div class="col-xs-12 col-md-12">
-                            <?php foreach ($blogposts as $post) { ?>
-                                <!-- Blog Post -->
-                                <h3 class="sub-heading"><i class="fa fa-file-text-o"></i> <a href="<?php echo $post['link']; ?>"><?php echo $post['title']; ?></a><span class="timestamp"> – <?php echo date('Y-m-d', $post['ts']); ?></span></h3>
-                                <p class="lead">
-                                    <?php echo $post['summary']; ?>
-                                    <a href="<?php echo $post['link']; ?>" class="nowrap">read more</a>
-                                </p>
-                                <div class="line"></div>
-                            <?php } ?>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section id="contact">
-            <div class="container">
-                <div class="row">
-                    <h2 class="xheader"><a href="#contact" class="xscroll-link">Contact</a></h2>
-
-                    <div class="text-center">
-                        <h3>E-mail: e<span class="hide">x</span>ser@o<span class="hide">e</span>zvata<span class="hide">x</span>f.<span class="hide">x</span>com</h3>
-                        <h3>Telegram: <a href="http://telegram.me/eserozvataf">@eserozvataf</a></h3>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <footer class="print-hidden">
-            <div class="container">
-                <div class="row">
-                    <div class="footer-line"></div>
-
-                    <div class="col-xs-12 col-md-8 text-muted">
-                        Copyright &copy; 2014 Eser 'Laroux' Özvataf. &nbsp; All Rights Reserved.<br />
-                        <em>Some parts of the page may not function since it's still under development.</em>
-                    </div>
-                    <div class="col-xs-12 col-md-4 text-right">
-                        <i class="glyphicon glyphicon-link"></i>
-                        <a href="https://github.com/larukedi/personal-homepage">Page Source on Github</a>
-                    </div>
-                </div>
-            </div>
-        </footer>
-    </div>
+<?php
+    require '_footer.php';
+?>

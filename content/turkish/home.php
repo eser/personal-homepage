@@ -1,46 +1,16 @@
 <?php
+    use PersonalHomepage\BlogFeed;
+    use PersonalHomepage\FileCache;
+
     $title = 'Eser \'Laroux\' Özvataf - eser.ozvataf.com - Kişisel Web Sayfası';
     $description = 'Eser \'Laroux\' Özvataf Kişisel Web Sayfası';
     $keywords = 'eser laroux ozvataf larukedi yazılım mimar geliştirici programcı yazılımcı kod takım lideri tam donanımlı uzman php js javascript classic c# asp asp.net microsoft .net grunt npm node continuous integration seo arama motoru iyileştirmesi optimizasyonu sosyal medya devops';
+
+    $file = FileCache::get('http://eser.ozvataf.com/blog/feed/');
+    $blogposts = BlogFeed::get($file);
+
+    require '_header.php';
 ?>
-    <div id="nav-header" class="navbar navbar-inverse navbar-fixed-top custom-navbar print-hidden" role="banner">
-        <div class="container">
-            <nav>
-                <div class="navbar-header">
-                    <a class="navbar-brand custom-navbar-brand xscroll-link" href="#body">eser.ozvataf.com</a>
-                </div>
-
-                <div class="navbar-collapse collapse">
-                    <ul class="nav navbar-nav">
-                        <li><a href="#connections" class="xscroll-link">Bağlantılar</a></li>
-                        <li><a href="#aboutme" class="xscroll-link">Hakkımda</a></li>
-                        <li><a href="#projects" class="xscroll-link">Projeler</a></li>
-                        <li><a href="#blogposts" class="xscroll-link">Blog Yazıları</a></li>
-                        <li><a href="#contact" class="xscroll-link">İletişim</a></li>
-                    </ul>
-
-                    <div class="navbar-right">
-                        <ul class="nav navbar-nav text-right">
-                            <li><a href="./" class="xscroll-link">English</a></li>
-                        </ul>
-
-                    <!--
-                        <form id="search-form" action="#" method="GET" class="navbar-form" role="search">
-                            <div class="input-group">
-                                <input type="text" class="form-control" placeholder="Search" />
-                                <div class="input-group-btn">
-                                    <button type="submit" class="btn btn-default custom-input-search-button"><i class="glyphicon glyphicon-search"></i></button>
-                                </div>
-                            </div>
-                        </form>
-                    -->
-                    </div>
-                </div>
-            </nav>
-        </div>
-    </div>
-
-    <div id="page">
 
         <header id="splash">
             <div class="container intro">
@@ -278,33 +248,6 @@
             </div>
         </section>
 
-        <section id="contact">
-            <div class="container">
-                <div class="row">
-                    <h2 class="xheader"><a href="#contact" class="xscroll-link">İletişim</a></h2>
-
-                    <div class="text-center">
-                        <h3>E-Mail: e<span class="hide">x</span>ser@o<span class="hide">e</span>zvata<span class="hide">x</span>f.<span class="hide">x</span>com</h3>
-                        <h3>Telegram: <a href="http://telegram.me/eserozvataf">@eserozvataf</a></h3>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <footer class="print-hidden">
-            <div class="container">
-                <div class="row">
-                    <div class="footer-line"></div>
-
-                    <div class="col-xs-12 col-md-8 text-muted">
-                        Copyright &copy; 2014 Eser 'Laroux' Özvataf. &nbsp; Tüm Hakları Saklıdır.<br />
-                        <em>Sayfa halen geliştirme aşamasında olduğundan bazı bölümler çalışmıyor olabilir.</em>
-                    </div>
-                    <div class="col-xs-12 col-md-4 text-right">
-                        <i class="glyphicon glyphicon-link"></i>
-                        <a href="https://github.com/larukedi/personal-homepage">Sayfa Kaynağı Github Üzerinde</a>
-                    </div>
-                </div>
-            </div>
-        </footer>
-    </div>
+<?php
+    require '_footer.php';
+?>

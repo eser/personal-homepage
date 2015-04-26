@@ -1,10 +1,12 @@
 <?php
 
+namespace PersonalHomepage;
+
 class FileCache
 {
     public static function getPath($url)
     {
-        $cachePath = __DIR__ . '/../cache/';
+        $cachePath = BASE_DIR . 'cache/';
         $hash = crc32($url);
 
         return $cachePath . $hash;
