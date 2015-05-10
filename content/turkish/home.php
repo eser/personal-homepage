@@ -33,6 +33,7 @@
                         
                         <div class="buttons">
                             <a href="#connections" class="btn btn-lg btn-splash xscroll-link">Detaylar</a>
+                            <a href="/downloads/laru-cv-tr.pdf" class="btn btn-lg btn-splash">Özgeçmişi İndir</a>
                         </div>
 
                         <div class="clearfix"></div>

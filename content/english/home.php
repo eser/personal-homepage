@@ -26,6 +26,7 @@
                         
                         <div class="buttons">
                             <a href="#connections" class="btn btn-lg btn-splash xscroll-link">Details</a>
+                            <a href="/downloads/laru-cv-en.pdf" class="btn btn-lg btn-splash">Download Resume</a>
                         </div>
 
                         <div class="clearfix"></div>
