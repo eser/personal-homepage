@@ -13,7 +13,7 @@
 
                     <div class="text-center">
                         <h3>E-mail: e<span class="hide">x</span>ser@o<span class="hide">e</span>zvata<span class="hide">x</span>f.<span class="hide">x</span>com</h3>
-                        <h3>Telegram: <a href="http://telegram.me/eserozvataf">@eserozvataf</a></h3>
+                        <h3>Telegram: <a href="http://telegram.me/esero">@esero</a></h3>
                     </div>
                 </div>
             </div>
