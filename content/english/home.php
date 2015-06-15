@@ -6,27 +6,30 @@
     require '_header.php';
 ?>
 
-        <header id="splash">
+        <header id="splash" class="splash">
             <div class="container intro">
                 <div class="row">
                     <div class="col-xs-8 col-sm-8 col-md-8 left">
 
-                        <h1>
-                            <div class="name">Hi. I'm <span>Eser Ozvataf</span>.</div>
-                            <div class="title">Software Architect and Consultant</div>
-                        </h1>
-                        <p class="lead">
-                            who focuses on modern software engineering and IT projects. Besides I am currently
-                            working for a large company to provide e-commerce solutions, looking to contribute
-                            open source projects on the net.
-                            <br /><br />
-                            To get detailed information on my professional interests, studies and ongoing projects,
-                            scroll down a bit.
-                        </p>
-                        
-                        <div class="buttons">
-                            <a href="#connections" class="btn btn-lg btn-splash xscroll-link">Details</a>
-                            <a href="/downloads/laru-cv-en.pdf" class="btn btn-lg btn-splash">Download Resume</a>
+                        <div id="sharp" class="sharp">#</div>
+                        <div class="rest">
+                            <h1>
+                                <div class="name">Hi. I'm <span>Eser Ozvataf</span>.</div>
+                                <div class="title">Software Architect and Consultant</div>
+                            </h1>
+                            <p class="lead">
+                                who focuses on modern software engineering and IT projects. Besides I am currently
+                                working for a large company to provide e-commerce solutions, looking to contribute
+                                open source projects on the net.
+                                <br /><br />
+                                To get detailed information on my professional interests, studies and ongoing projects,
+                                scroll down a bit.
+                            </p>
+
+                            <div class="buttons">
+                                <a href="#connections" class="btn btn-lg btn-splash xscroll-link">Details</a>
+                                <a href="/downloads/laru-cv-en.pdf" class="btn btn-lg btn-splash">Download Resume</a>
+                            </div>
                         </div>
 
                         <div class="clearfix"></div>
@@ -41,7 +44,9 @@
 
         <section id="connections" class="section-gray">
             <div class="container">
-                <h2 class="xheader"><a href="#connections" class="xscroll-link">Connections</a></h2>
+                <div class="xheader">
+                    <h2><a href="#connections" class="xscroll-link">Connections</a></h2>
+                </div>
 
                 <div class="row">
                     <div class="col-xs-12 col-sm-6 col-md-4">
@@ -80,7 +85,9 @@
 
         <section id="aboutme">
             <div class="container">
-                <h2 class="xheader"><a href="#aboutme" class="xscroll-link">About Me</a></h2>
+                <div class="xheader">
+                    <h2><a href="#aboutme" class="xscroll-link">About Me</a></h2>
+                </div>
 
                 <p>
                     After graduating in 2004 from Celal Bayar University Computer Programming department, I worked in Egebilgi, Ispro and devBiz firms as a Medior/Senior Developer.
@@ -96,7 +103,9 @@
                     Besides having <a href="https://larukedi.github.io">12 years of professional work and project experience</a>, I also support and contribute to some open source projects.
                 </p>
 
-                <h2 class="xheader">I'm interested in:</h2>
+                <div class="xheader">
+                    <h2>I'm interested in:</h2>
+                </div>
 
                 <div class="row interest">
                     <div class="col-md-3">
@@ -129,7 +138,9 @@
 
         <section id="projects">
             <div class="container">
-                <h2 class="xheader"><a href="#projects" class="xscroll-link">Open Source Projects</a></h2>
+                <div class="xheader">
+                    <h2><a href="#projects" class="xscroll-link">Open Source Projects</a></h2>
+                </div>
 
                 <div class="row">
                     <div class="col-xs-12">

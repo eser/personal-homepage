@@ -59,20 +59,36 @@
                 }
             );
 
-            $l.dom.setEvent(
-                $l('.showmore'),
-                'click',
-                function (ev, elem) {
-                    var target = $l.dom.selectByClass(elem.getAttribute('rel'));
-                    $l.css.removeClass(target, 'hide');
-                    // $l.css.addClass(target, 'in');
-                    $l.css.show(target);
+            var showmore = $l('.showmore');
+            if (showmore !== null) {
+                $l.dom.setEvent(
+                    $l('.showmore'),
+                    'click',
+                    function (ev, elem) {
+                        var target = $l.dom.selectByClass(elem.getAttribute('rel'));
+                        $l.css.removeClass(target, 'hide');
+                        // $l.css.addClass(target, 'in');
+                        $l.css.show(target);
 
-                    $l.dom.remove(elem.parentElement);
+                        $l.dom.remove(elem.parentElement);
 
-                    $l.ui.scrollView.reveal();
-                }
-            );
+                        $l.ui.scrollView.reveal();
+                    }
+                );
+            }
+
+            var sharp = $l.id('sharp'),
+                tick = 0,
+                states = ['#_', '#'];
+            if (sharp !== null) {
+                $l.timers.set({
+                    timeout: 500,
+                    reset: true,
+                    ontick: function () {
+                        sharp.textContent = states[tick++ % states.length];
+                    }
+                });
+            }
         }
     });
 
