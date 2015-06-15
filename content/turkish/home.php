@@ -15,9 +15,12 @@
         <header id="splash" class="splash">
             <div class="container intro">
                 <div class="row">
-                    <div class="col-xs-8 col-sm-8 col-md-8 left">
+                    <div class="col-xs-12 col-sm-4 col-md-4 pull-right text-center">
+                        <img src="assets/images/eser-ozvataf.png" class="img-thumbnail" alt="" />
+                    </div>
+                    <div class="col-xs-12 col-sm-8 col-md-8 pull-left">
 
-                        <div id="sharp" class="sharp">#</div>
+                        <div id="sharp" class="sharp hidden-xs">#</div>
                         <div class="rest">
                             <h1>
                                 <div class="name">Merhaba. Ben <span>Eser Özvataf</span>.</div>
@@ -35,15 +38,13 @@
 
                             <div class="buttons">
                                 <a href="#connections" class="btn btn-lg btn-splash xscroll-link">Detaylar</a>
+                                <a href="/blog/" class="btn btn-lg btn-splash">Blog</a>
                                 <a href="/downloads/laru-cv-tr.pdf" class="btn btn-lg btn-splash">Özgeçmişi İndir</a>
                             </div>
                         </div>
 
                         <div class="clearfix"></div>
 
-                    </div>
-                    <div class="col-xs-4 col-sm-4 col-md-4 right text-right">
-                        <img src="assets/images/eser-ozvataf.png" class="img-thumbnail" alt="" />
                     </div>
                 </div>
             </div>

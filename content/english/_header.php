@@ -8,7 +8,6 @@
                 <div class="navbar-collapse collapse">
                     <ul class="nav navbar-nav">
                         <li><a href="./?english/home" class="xscroll-link">About Me</a></li>
-                        <li><a href="./blog/" class="xscroll-link">Blog</a></li>
                         <li><a href="./?english/resume" class="xscroll-link">My Resume</a></li>
                         <li><a href="./?english/contact" class="xscroll-link">Contact</a></li>
                     </ul>

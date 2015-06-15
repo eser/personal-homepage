@@ -8,7 +8,6 @@
                 <div class="navbar-collapse collapse">
                     <ul class="nav navbar-nav">
                         <li><a href="./?turkish/home" class="xscroll-link">Hakkımda</a></li>
-                        <li><a href="./blog/" class="xscroll-link">Blog</a></li>
                         <li><a href="./?turkish/resume" class="xscroll-link">Özgeçmişim</a></li>
                         <li><a href="./?turkish/contact" class="xscroll-link">İletişim</a></li>
                     </ul>

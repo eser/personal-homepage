@@ -9,9 +9,12 @@
         <header id="splash" class="splash">
             <div class="container intro">
                 <div class="row">
-                    <div class="col-xs-8 col-sm-8 col-md-8 left">
+                    <div class="col-xs-12 col-sm-4 col-md-4 pull-right text-center">
+                        <img src="assets/images/eser-ozvataf.png" class="img-thumbnail" alt="" />
+                    </div>
+                    <div class="col-xs-12 col-sm-8 col-md-8 pull-left">
 
-                        <div id="sharp" class="sharp">#</div>
+                        <div id="sharp" class="sharp hidden-xs">#</div>
                         <div class="rest">
                             <h1>
                                 <div class="name">Hi. I'm <span>Eser Ozvataf</span>.</div>
@@ -34,9 +37,6 @@
 
                         <div class="clearfix"></div>
 
-                    </div>
-                    <div class="col-xs-4 col-sm-4 col-md-4 right text-right">
-                        <img src="assets/images/eser-ozvataf.png" class="img-thumbnail" alt="" />
                     </div>
                 </div>
             </div>
