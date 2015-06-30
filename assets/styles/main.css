@@ -4613,17 +4613,31 @@ button.close {
    ========================================================================== */
 @font-face {
     font-family: 'Open Sans';
-    font-weight: 400;
+    font-weight: normal;
     font-style: normal;
 
-    src: local('Open Sans'), local('OpenSans'), url('../fonts/opensans-regular.ttf') format('truetype');
+    src: local('Open Sans'), local('OpenSans'), url('../fonts/opensans/opensans-regular.ttf') format('truetype');
 }
 @font-face {
     font-family: 'Open Sans';
-    font-weight: 700;
+    font-weight: bold;
     font-style: normal;
 
-    src: local('Open Sans Bold'), local('OpenSans-Bold'), url('../fonts/opensans-bold.ttf') format('truetype');
+    src: local('Open Sans Bold'), local('OpenSans-Bold'), url('../fonts/opensans/opensans-bold.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'GeogrotesqueRegular';
+    font-weight: normal;
+    font-style: normal;
+
+    src: local('Geogrotesque Regular'), local('GeogrotesqueRegular'), url('../fonts/geogrotesque/geogrotesque-regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'GeogrotesqueThin';
+    font-weight: normal;
+    font-style: normal;
+
+    src: local('Geogrotesque Thin'), local('GeogrotesqueThin'), url('../fonts/geogrotesque/geogrotesque-thin.ttf') format('truetype');
 }
 /* ==========================================================================
    Main
@@ -4632,7 +4646,7 @@ button.close {
     background-color: rgba(0, 0, 0, 0.5);
     text-shadow: none;
 }
-html, body, #page {
+html, body, .page {
     width: 100%;
     height: 100%;
 }
@@ -4641,19 +4655,43 @@ body {
 
     overflow-x: hidden;
     overflow-y: scroll;
+
+    font-smoothing: antialiased;
+}
+h1, h2, .h1, .h2 {
+    font-family: 'GeogrotesqueThin';
+    font-weight: bold;
+
+    text-transform: uppercase;
 }
 textarea {
     resize: vertical;
 }
-#page, .lead {
+.page, .lead {
     line-height: 180%;
 }
-#splash {
+.splash {
     color: #FFFFFF;
     background-image: url('../images/background.png');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+}
+.splash .sharp {
+    font-size: 220px;
+    font-weight: bold;
+    font-style: italic;
+
+    position: relative;
+    z-index: 3;
+    top: 20px;
+    left: -50px;
+
+    color: #2E2E2E;
+}
+.splash .rest {
+    position: relative;
+    z-index: 5;
 }
 .xanchor {
     margin-top: -51px;
@@ -4666,39 +4704,16 @@ textarea {
     border-left: 0;
 }
 .custom-navbar {
-    margin-bottom: 0;
-
-    border-color: #1B4555;
-    background-color: #3F4F55;
+    /* text-shadow: 0 -1px 0 hsla(0, 0%, 0%, .15); */
     box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1);
-    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.15);
-}
-.custom-navbar .navbar-collapse {
-    border-color: #1B4555;
 }
 .custom-navbar .navbar-brand {
-    color: #FFFFFF;
+    font-weight: bold;
+
+    color: #3E586F;
 }
-.custom-navbar .navbar-nav > li > a {
-    color: #C8D0D0;
-}
-.custom-navbar .navbar-nav > li > a:hover {
-    color: #FFFFFF;
-}
-.custom-navbar .navbar-nav > .active > a, .custom-navbar .navbar-nav > .active > a:hover {
-    color: #FFFFFF;
-    background-color: #323767;
-}
-.custom-navbar .navbar-nav > .open > a, .custom-navbar .navbar-nav > .open > a:hover {
-    color: #FFFFFF;
-    background: none !important;
-}
-.custom-navbar .navbar-toggle {
-    border-color: #563D7B;
-}
-.custom-navbar .navbar-toggle:hover {
-    border-color: #473267;
-    background-color: #473267;
+.custom-navbar .navbar-brand:hover {
+    color: #3E586F;
 }
 section {
     padding: 10px 0 20px 0;
@@ -4719,7 +4734,7 @@ footer {
     padding: 0 0 60px 0;
 }
 .section-gray {
-    background-color: #F5F5FF;
+    background-color: #F7F7F7;
 }
 h4, h5, h6, .h4, .h5, .h6 {
     color: #212121;
@@ -4761,12 +4776,12 @@ a {
     color: #A1A1A1;
 }
 .btn-splash, .btn-splash:hover, .btn-splash:focus {
-    padding: 8px 26px;
+    padding: 10px 28px;
 
     color: #FFFFFF;
-    border-width: 3px;
-    border-color: rgba(62, 88, 111, 0.5);
-    background: rgba(3, 3, 3, 0.1);
+    border-width: 0;
+    border-radius: 0;
+    background: rgba(62, 88, 111, 0.5);
 }
 .xheader {
     margin: 40px 0 20px 0;
@@ -4785,7 +4800,7 @@ a {
     margin: 0 0 -2px 0;
 
     color: #585F6A;
-    border-bottom: 2px solid #448CCA;
+    border-bottom: 1px solid #3E586F;
 }
 h3.xtitle {
     font-size: 20px;
@@ -4854,7 +4869,7 @@ h4.xtitle, h5.xtitle, h6.xtitle {
     margin: 0 0 10px 0;
     padding: 10px 20px 10px 20px;
 
-    border-left: 2px solid #448CCA;
+    border-left: 1px solid #3E586F;
     background: #FFFFFF;
 }
 .line {

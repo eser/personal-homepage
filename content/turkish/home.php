@@ -12,34 +12,39 @@
     require '_header.php';
 ?>
 
-        <header id="splash">
+        <header id="splash" class="splash">
             <div class="container intro">
                 <div class="row">
-                    <div class="col-xs-8 col-sm-8 col-md-8 left">
+                    <div class="col-xs-12 col-sm-4 col-md-4 pull-right text-center">
+                        <img src="assets/images/eser-ozvataf.png" class="img-thumbnail" alt="" />
+                    </div>
+                    <div class="col-xs-12 col-sm-8 col-md-8 pull-left">
 
-                        <h1>
-                            <div class="name">Merhaba. Ben <span>Eser Özvataf</span>.</div>
-                            <div class="title">Yazılım Mimarı ve Danışmanı</div>
-                        </h1>
+                        <div id="sharp" class="sharp hidden-xs">#</div>
+                        <div class="rest">
+                            <h1>
+                                <div class="name">Merhaba. Ben <span>Eser Özvataf</span>.</div>
+                                <div class="title">Yazılım Mimarı ve Danışmanı</div>
+                            </h1>
 
-                        <p class="lead">
-                            Modern yazılım mühendisliği ve IT projelerine odaklı çalışıyorum. Şu anda kurumsal bir
-                            firmada e-ticaret çözümleri sağlamamın yanı sıra internet üzerindeki açık kaynaklı
-                            yazılımlara katkıda bulunmak için uğraşıyorum.
-                            <br /><br />
-                            İlgili olduğum profesyonel alanlar, çalışmalarım ve sürmekte olan projelerim hakkında
-                            detaylı bilgi almak için sayfayı biraz aşağı kaydırabilirsiniz.
-                        </p>
-                        
-                        <div class="buttons">
-                            <a href="#connections" class="btn btn-lg btn-splash xscroll-link">Detaylar</a>
+                            <p class="lead">
+                                Modern yazılım mühendisliği ve IT projelerine odaklı çalışıyorum. Şu anda kurumsal bir
+                                firmada e-ticaret çözümleri sağlamamın yanı sıra internet üzerindeki açık kaynaklı
+                                yazılımlara katkıda bulunmak için uğraşıyorum.
+                                <br /><br />
+                                İlgili olduğum profesyonel alanlar, çalışmalarım ve sürmekte olan projelerim hakkında
+                                detaylı bilgi almak için sayfayı biraz aşağı kaydırabilirsiniz.
+                            </p>
+
+                            <div class="buttons">
+                                <a href="#connections" class="btn btn-lg btn-splash xscroll-link">Detaylar</a>
+                                <a href="/blog/" class="btn btn-lg btn-splash">Blog</a>
+                                <a href="/downloads/laru-cv-tr.pdf" class="btn btn-lg btn-splash">Özgeçmişi İndir</a>
+                            </div>
                         </div>
 
                         <div class="clearfix"></div>
 
-                    </div>
-                    <div class="col-xs-4 col-sm-4 col-md-4 right text-right">
-                        <img src="assets/images/eser-ozvataf.png" class="img-thumbnail" alt="" />
                     </div>
                 </div>
             </div>
@@ -47,7 +52,9 @@
 
         <section id="connections" class="section-gray">
             <div class="container">
-                <h2 class="xheader"><a href="#connections" class="xscroll-link">Bağlantılar</a></h2>
+                <div class="xheader">
+                    <h2><a href="#connections" class="xscroll-link">Bağlantılar</a></h2>
+                </div>
 
                 <div class="row">
                     <div class="col-xs-12 col-sm-6 col-md-4">
@@ -86,7 +93,9 @@
 
         <section id="aboutme">
             <div class="container">
-                <h2 class="xheader"><a href="#aboutme" class="xscroll-link">Hakkımda</a></h2>
+                <div class="xheader">
+                    <h2><a href="#aboutme" class="xscroll-link">Hakkımda</a></h2>
+                </div>
 
                 <p>
                     2004'de Celal Bayar Üniversitesi Bilgisayar Programcılığı bölümünden mezun olduktan sonra İzmir'de sırasıyla Egebilgi, Ispro ve devBiz firmalarında Uzman Yazılım Geliştirici olarak çalıştım.
@@ -102,7 +111,9 @@
                     <a href="https://larukedi.github.io">12 yıl profesyonel iş ve proje deneyimi</a>min yanı sıra açık kaynaklı projelerin oluşturulmasına ve geliştirilmesine destek olmaktayım.
                 </p>
 
-                <h2 class="xheader">İlgi duyduklarım:</h3>
+                <div class="xheader">
+                    <h2>İlgi duyduklarım:</h3>
+                </h2>
 
                 <div class="row interest">
                     <div class="col-md-3">
@@ -135,7 +146,9 @@
 
         <section id="projects">
             <div class="container">
-                <h2 class="xheader"><a href="#projects" class="xscroll-link">Açık Kaynak Projeler</a></h2>
+                <div class="xheader">
+                    <h2><a href="#projects" class="xscroll-link">Açık Kaynak Projeler</a></h2>
+                </div>
 
                 <div class="row">
                     <div class="col-xs-12">
@@ -227,7 +240,9 @@
         <section id="blogposts" class="section-gray">
             <div class="container">
                 <div id="blogposts-recent" class="row">
-                    <h2 class="xheader"><a href="#blogposts-recent" class="xscroll-link">Blog Yazıları</a></h2>
+                    <div class="xheader">
+                        <h2><a href="#blogposts-recent" class="xscroll-link">Blog Yazıları</a></h2>
+                    </div>
 
                     <div id="blogposts-recent-feed">
                         <div class="row blogpost-spacing">
