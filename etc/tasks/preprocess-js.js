@@ -24,11 +24,7 @@
             return gulp.src(config.bundles[item].jsFiles)
                 .on('error', handleErrors)
                 .pipe(preprocess({
-                    context: {
-                        BUNDLE: item,
-                        ENV: item,
-                        COMPAT: false
-                    }
+                    context: config.bundles[item].jsPreprocessVars
                 }))
                 .pipe(gulp.dest(tempDir));
         });

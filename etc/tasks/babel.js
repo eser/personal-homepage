@@ -5,26 +5,26 @@
         config = require('../config/tasks.common'),
         handleErrors = require('../utils/handleErrors'),
         resolvePath = require('../utils/resolvePath'),
-        jshint = require('gulp-jshint'),
-        jscs = require('gulp-jscs'),
+        babel = require('gulp-babel'),
+        concat = require('gulp-concat'),
         taskList = [];
 
     Object.keys(config.bundles).forEach(function (item) {
         var bundle = config.bundles[item],
-            taskName = 'lint-js:' + item,
-            tempSources = resolvePath('~/' + item + '/js/**/*.js');
+            taskName = 'babel:' + item,
+            tempSources = resolvePath('~/' + item + '/js/**/*.js'),
+            tempDir = resolvePath('~/' + item + '/js');
 
-        gulp.task(taskName, ['eolfix-js'], function () {
+        gulp.task(taskName, ['lint-js'], function () {
             return gulp.src(tempSources)
                 .on('error', handleErrors)
-                .pipe(jshint('./etc/config/.jshintrc'))
-                .pipe(jshint.reporter('default', { verbose: true }))
-                .pipe(jscs('./etc/config/.jscsrc'));
+                .pipe(babel())
+                .pipe(gulp.dest(tempDir));
         });
 
         taskList.push(taskName);
     });
 
-    gulp.task('lint-js', taskList);
+    gulp.task('babel', taskList);
 
 }());

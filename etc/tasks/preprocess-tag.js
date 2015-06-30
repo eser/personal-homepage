@@ -21,7 +21,7 @@
         });
 
         gulp.task(taskName, [taskNameClean], function () {
-            return gulp.src(bundle.tagFiles)
+            return gulp.src(config.bundles[item].tagFiles)
                 .on('error', handleErrors)
                 .pipe(riot({
                     compact: false

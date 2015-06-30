@@ -5,26 +5,25 @@
         config = require('../config/tasks.common'),
         handleErrors = require('../utils/handleErrors'),
         resolvePath = require('../utils/resolvePath'),
-        jshint = require('gulp-jshint'),
-        jscs = require('gulp-jscs'),
+        eol = require('gulp-eol'),
         taskList = [];
 
     Object.keys(config.bundles).forEach(function (item) {
         var bundle = config.bundles[item],
-            taskName = 'lint-js:' + item,
-            tempSources = resolvePath('~/' + item + '/js/**/*.js');
+            taskName = 'eolfix-css:' + item,
+            tempDir = resolvePath('~/' + item + '/css'),
+            tempSources = tempDir + '/**/*.css';
 
-        gulp.task(taskName, ['eolfix-js'], function () {
+        gulp.task(taskName, ['preprocess-css'], function () {
             return gulp.src(tempSources)
                 .on('error', handleErrors)
-                .pipe(jshint('./etc/config/.jshintrc'))
-                .pipe(jshint.reporter('default', { verbose: true }))
-                .pipe(jscs('./etc/config/.jscsrc'));
+                .pipe(eol('\n', true))
+                .pipe(gulp.dest(tempDir));
         });
 
         taskList.push(taskName);
     });
 
-    gulp.task('lint-js', taskList);
+    gulp.task('eolfix-css', taskList);
 
 }());

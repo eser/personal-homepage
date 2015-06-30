@@ -17,6 +17,12 @@ module.exports = {
                 '!./client/src/js/lib/**/*.js'
             ],
 
+            jsPreprocessVars: {
+                BUNDLE: 'main',
+                ENV: 'main',
+                COMPAT: true
+            },
+
             jsBrowsifyEntryPoints: [
                 'index.js'
             ],
@@ -40,43 +46,34 @@ module.exports = {
                 './client/tests/**/*.js'
             ],
 
-            packs: {
-                './assets/scripts/main.js': {
+            packs: [
+                {
                     uglify: true,
                     minifyCSS: false,
                     csscomb: false,
                     header: true,
+                    concat: 'main.js',
+                    dest: './assets/scripts/',
                     files: [
-                        // './client/src/js/lib/jquery/jquery-2.1.3.js',
-                        // './client/src/js/lib/bootstrap/transition.js',
-                        // './client/src/js/lib/bootstrap/alert.js',
-                        // './client/src/js/lib/bootstrap/button.js',
-                        // './client/src/js/lib/bootstrap/carousel.js',
-                        // './client/src/js/lib/bootstrap/collapse.js',
-                        // './client/src/js/lib/bootstrap/dropdown.js',
-                        // './client/src/js/lib/bootstrap/modal.js',
-                        // './client/src/js/lib/bootstrap/tooltip.js',
-                        // './client/src/js/lib/bootstrap/popover.js',
-                        // './client/src/js/lib/bootstrap/scrollspy.js',
-                        // './client/src/js/lib/bootstrap/tab.js',
-                        // './client/src/js/lib/bootstrap/affix.js',
                         './client/src/js/lib/laroux.js/laroux.js',
                         '~/main/js/_browserified.js'
                     ]
                 },
 
-                './assets/styles/main.css': {
+                {
                     uglify: false,
                     minifyCSS: true,
                     csscomb: true,
                     header: true,
+                    concat: 'main.css',
+                    dest: './assets/styles/',
                     files: [
                         '~/main/css/**/*.css',
                         './client/src/css/lib/laroux.js/laroux.css',
                         './client/src/css/lib/font-awesome/font-awesome.css'
                     ]
                 }
-            }
+            ]
         }
     },
 
