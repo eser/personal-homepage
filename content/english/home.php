@@ -143,88 +143,117 @@
                 </div>
 
                 <div class="row">
-                    <div class="col-xs-12">
-                        <ul class="media-list">
-                            <li class="media clearfix">
-                                <a class="pull-left" href="http://scabbiafw.com/"><img class="media-object thumbnail" src="assets/images/projects/proj-scabbia-framework.png" alt="Scabbia Framework" /></a>
-                                <div class="media-body">
-                                    <h3 class="media-heading"><a href="http://scabbiafw.com/">Scabbia Framework</a></h3>
-                                    <p class="text-justify">
-                                        Scabbia was initially a set of libraries to accomplish some tasks in php. It became a framework project when I bundled these libraries with a small piece of bootstrap.
-                                        After years of experience and hosting some web projects as backbone, its new version currently on planning stage. See the <a href="https://github.com/scabbiafw/scabbia2-fw">Github repo</a> for the details.
-                                    </p>
+                    <div class="col-lg-12">
+                        <ul class="timeline">
+                            <li>
+                            <div class="timeline-image">
+                                <img src="assets/images/projects/proj-scabbia-framework.png" alt="Scabbia Framework"/>
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <a href="http://scabbiafw.com/">Scabbia Framework</a>
                                 </div>
+                                <div class="timeline-body text-muted">
+                                     Scabbia was initially a set of libraries to accomplish some tasks in php. It became a framework project when I bundled these libraries with a small piece of bootstrap. After years of experience and hosting some web projects as backbone, its new version currently on planning stage. See the <a href="https://github.com/scabbiafw/scabbia2-fw">Github repo</a> for the details.
+                                </div>
+                            </div>
+                            <div class="line">
+                            </div>
                             </li>
-
-                            <li class="media clearfix">
-                                <a class="pull-left" href="https://larukedi.github.io/laroux.js"><img class="media-object thumbnail" src="assets/images/projects/proj-laroux-js.png" alt="laroux.js" /></a>
-                                <div class="media-body">
-                                    <h3 class="media-heading"><a href="https://larukedi.github.io/laroux.js">laroux.js</a></h3>
-                                    <p class="text-justify">
-                                        Before jQuery 2.0, I was looking for the lightweight version of jQuery features without legacy codes since I targeted modern web and mobile browsers only.
-                                        Alternatives like jquery-in-parts, only mimics jquery functionality and wraps all dom elements into own context instances. I started a new "javascript library"
-                                        project to make people feel they are coding javascript and nothing magically happen.
-                                    </p>
+                            <li class="timeline-inverted">
+                            <div class="timeline-image">
+                                <img src="assets/images/projects/proj-laroux-js.png" alt="laroux.js"/>
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <a href="https://larukedi.github.io/laroux.js">laroux.js</a>
                                 </div>
+                                <div class="timeline-body text-muted">
+                                     Before jQuery 2.0, I was looking for the lightweight version of jQuery features without legacy codes since I targeted modern web and mobile browsers only. Alternatives like jquery-in-parts, only mimics jquery functionality and wraps all dom elements into own context instances. I started a new "javascript library" project to make people feel they are coding javascript and nothing magically happen.
+                                </div>
+                            </div>
+                            <div class="line">
+                            </div>
                             </li>
-
-                            <li class="media clearfix">
-                                <a class="pull-left" href="https://github.com/larukedi/tasslehoff"><img class="media-object thumbnail" src="assets/images/projects/proj-tasslehoff.png" alt="Tasslehoff" /></a>
-                                <div class="media-body">
-                                    <h3 class="media-heading"><a href="https://github.com/larukedi/tasslehoff">Tasslehoff</a></h3>
-                                    <p class="text-justify">
-                                        Tasslehoff is a hardworking task and schedule manager written in C#. It also helps you to construct a service tree which allows you to start and stop sub-parts of
-                                        your system.
-                                    </p>
+                            <li>
+                            <div class="timeline-image">
+                                <img src="assets/images/projects/proj-tasslehoff.png" alt="Tasslehoff"/>
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <a href="https://github.com/larukedi/tasslehoff">Tasslehoff</a>
                                 </div>
+                                <div class="timeline-body text-muted">
+                                     Tasslehoff is a hardworking task and schedule manager written in C#. It also helps you to construct a service tree which allows you to start and stop sub-parts of your system.
+                                </div>
+                            </div>
+                            <div class="line">
+                            </div>
                             </li>
-
-                            <li class="media clearfix">
-                                <a class="pull-left" href="https://github.com/larukedi/pm"><img class="media-object thumbnail" src="assets/images/projects/proj-pmtool.png" alt="PM Tool" /></a>
-                                <div class="media-body">
-                                    <h3 class="media-heading"><a href="https://github.com/larukedi/pm">PM Tool</a></h3>
-                                    <p class="text-justify">
-                                        Redmine, ChiliProject, JIRA, Trello, Asana and etc. All of them are powerful tools for project management. However I didn't find any alternative which
-                                        is open source and coded in PHP. It consists users, groups, tasks, custom pages for now. I am looking forward to implement MVC frontend soon.
-                                    </p>
+                            <li class="timeline-inverted">
+                            <div class="timeline-image">
+                                <img src="assets/images/projects/proj-pmtool.png" alt="PM Tool"/>
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <a href="https://github.com/larukedi/pm">PM Tool</a>
                                 </div>
+                                <div class="timeline-body text-muted">
+                                     Redmine, ChiliProject, JIRA, Trello, Asana and etc. All of them are powerful tools for project management. However I didn't find any alternative which is open source and coded in PHP. It consists users, groups, tasks, custom pages for now. I am looking forward to implement MVC frontend soon.
+                                </div>
+                            </div>
+                            <div class="line">
+                            </div>
                             </li>
-
-                            <li class="media clearfix">
-                                <a class="pull-left" href="https://github.com/larukedi/survey"><img class="media-object thumbnail" src="assets/images/projects/proj-survey.png" alt="Survey Tool" /></a>
-                                <div class="media-body">
-                                    <h3 class="media-heading"><a href="https://github.com/larukedi/survey">Survey Tool</a></h3>
-                                    <p class="text-justify">
-                                        That was my final project for my undergrade degree. It was designed to be a functional clone of surveymonkey-like sites. That means
-                                        you can easily create surveys and distribute it online.
-                                    </p>
+                            <li>
+                            <div class="timeline-image">
+                                <img src="assets/images/projects/proj-survey.png" alt="Survey Tool"/>
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <a href="https://github.com/larukedi/survey">Survey Tool</a>
                                 </div>
+                                <div class="timeline-body text-muted">
+                                     That was my final project for my undergrade degree. It was designed to be a functional clone of surveymonkey-like sites. That means you can easily create surveys and distribute it online.
+                                </div>
+                            </div>
+                            <div class="line">
+                            </div>
                             </li>
-
-                            <li class="media clearfix">
-                                <a class="pull-left" href="https://github.com/larukedi/ioq3"><img class="media-object thumbnail" src="assets/images/projects/proj-q3now.png" alt="q3now" /></a>
-                                <div class="media-body">
-                                    <h3 class="media-heading"><a href="https://github.com/larukedi/ioq3">q3now</a></h3>
-                                    <p class="text-justify">
-                                        q3now is an open source Quake 3 Modification project which has pro mode physics, new health and armor system, new weapon balances, wall jumps and new game mods.
-                                    </p>
+                            <li class="timeline-inverted">
+                            <div class="timeline-image">
+                                <img src="assets/images/projects/proj-q3now.png" alt="q3now"/>
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <a href="https://github.com/larukedi/ioq3">q3now</a>
                                 </div>
+                                <div class="timeline-body text-muted">
+                                     q3now is an open source Quake 3 Modification project which has pro mode physics, new health and armor system, new weapon balances, wall jumps and new game mods.
+                                </div>
+                            </div>
+                            <div class="line">
+                            </div>
                             </li>
-
-                            <li class="media clearfix">
-                                <a class="pull-left" href="https://github.com/larukedi/html5-boilerplate"><img class="media-object thumbnail" src="assets/images/projects/proj-boilerplate.png" alt="HTML5 Boilerplate" /></a>
-                                <div class="media-body">
-                                    <h3 class="media-heading"><a href="https://github.com/larukedi/html5-boilerplate">HTML5 Boilerplate</a></h3>
-                                    <p class="text-justify">
-                                        HTML5 boilerplate is a professional front-end template for building fast, robust, and adaptable web apps or sites. I forked and modified the original project in order to support
-                                        custom Bootstrap building, Font-Awesome, laroux.js and some code-quality tools.
-                                    </p>
+                            <li>
+                            <div class="timeline-image">
+                                <img src="assets/images/projects/proj-boilerplate.png" alt="HTML5 Boilerplate"/>
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <a href="https://github.com/larukedi/html5-boilerplate">HTML5 Boilerplate</a>
                                 </div>
+                                <div class="timeline-body text-muted">
+                                     HTML5 boilerplate is a professional front-end template for building fast, robust, and adaptable web apps or sites. I forked and modified the original project in order to support custom Bootstrap building, Font-Awesome, laroux.js and some code-quality tools.
+                                </div>
+                            </div>
                             </li>
                         </ul>
-
-                        Projects above are selected from open source projects I started. My contributions and other projects I started can be found at <a href="https://github.com/larukedi">my Github profile</a>.
                     </div>
+                </div>
+
+                <div class="text-muted margin-top-30px">
+                    Projects above are selected from open source projects I started. My contributions and other projects I started can be found at <a href="https://github.com/larukedi">my Github profile</a>.
                 </div>
             </div>
         </section>

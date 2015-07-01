@@ -151,88 +151,117 @@
                 </div>
 
                 <div class="row">
-                    <div class="col-xs-12">
-                        <ul class="media-list">
-                            <li class="media clearfix">
-                                <a class="pull-left" href="http://scabbiafw.com/"><img class="media-object thumbnail" src="assets/images/projects/proj-scabbia-framework.png" alt="Scabbia Framework" /></a>
-                                <div class="media-body">
-                                    <h3 class="media-heading"><a href="http://scabbiafw.com/">Scabbia Framework</a></h3>
-                                    <p class="text-justify">
-                                        Scabbia başlarda php'de bazı görevleri tamamlamak için tasarlanmış kütüphaneler bütünüydü. Bu kütüphaneleri ufak bir açılış/bootstrap koduyla birlikte kullanmaya başladığımda bir framework projesi haline geldi.
-                                        Yıllar süren deneyim ve projelerin omurgası olma görevini üstlendikten sonra, yeni sürüm şu anda planlama safhasında. Detaylar için <a href="https://github.com/scabbiafw/scabbia2-fw">Github repo</a>sunu inceleyebilirsiniz.
-                                    </p>
+                    <div class="col-lg-12">
+                        <ul class="timeline">
+                            <li>
+                            <div class="timeline-image">
+                                <img src="assets/images/projects/proj-scabbia-framework.png" alt="Scabbia Framework"/>
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <a href="http://scabbiafw.com/">Scabbia Framework</a>
                                 </div>
+                                <div class="timeline-body text-muted">
+                                     Scabbia başlarda php'de bazı görevleri tamamlamak için tasarlanmış kütüphaneler bütünüydü. Bu kütüphaneleri ufak bir açılış/bootstrap koduyla birlikte kullanmaya başladığımda bir framework projesi haline geldi. Yıllar süren deneyim ve projelerin omurgası olma görevini üstlendikten sonra, yeni sürüm şu anda planlama safhasında. Detaylar için <a href="https://github.com/scabbiafw/scabbia2-fw">Github repo</a>sunu inceleyebilirsiniz.
+                                </div>
+                            </div>
+                            <div class="line">
+                            </div>
                             </li>
-
-                            <li class="media clearfix">
-                                <a class="pull-left" href="https://larukedi.github.io/laroux.js"><img class="media-object thumbnail" src="assets/images/projects/proj-laroux-js.png" alt="laroux.js" /></a>
-                                <div class="media-body">
-                                    <h3 class="media-heading"><a href="https://larukedi.github.io/laroux.js">laroux.js</a></h3>
-                                    <p class="text-justify">
-                                        Modern web ve mobil tarayıcıları hedeflediğimden, jQuery 2.0'dan önce jQuery özelliklerinin eskimiş kodlar olmaksızın hafif bir sürümünü arıyordum.
-                                        jquery-in-parts gibi alternatifler ancak jquery fonksiyonlarını taklit ederek tüm dom elemanlarını kendi objelerine dönüştürüyordu. Yeni bir "javascript kütüphanesi"
-                                        projesi başlatarak insanların kendilerini sihirli işler olmaksızın javascript kodladığını hissetmesini hedefledim.
-                                    </p>
+                            <li class="timeline-inverted">
+                            <div class="timeline-image">
+                                <img src="assets/images/projects/proj-laroux-js.png" alt="laroux.js"/>
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <a href="https://larukedi.github.io/laroux.js">laroux.js</a>
                                 </div>
+                                <div class="timeline-body text-muted">
+                                     Modern web ve mobil tarayıcıları hedeflediğimden, jQuery 2.0'dan önce jQuery özelliklerinin eskimiş kodlar olmaksızın hafif bir sürümünü arıyordum. jquery-in-parts gibi alternatifler ancak jquery fonksiyonlarını taklit ederek tüm dom elemanlarını kendi objelerine dönüştürüyordu. Yeni bir "javascript kütüphanesi" projesi başlatarak insanların kendilerini sihirli işler olmaksızın javascript kodladığını hissetmesini hedefledim.
+                                </div>
+                            </div>
+                            <div class="line">
+                            </div>
                             </li>
-
-                            <li class="media clearfix">
-                                <a class="pull-left" href="https://github.com/larukedi/tasslehoff"><img class="media-object thumbnail" src="assets/images/projects/proj-tasslehoff.png" alt="Tasslehoff" /></a>
-                                <div class="media-body">
-                                    <h3 class="media-heading"><a href="https://github.com/larukedi/tasslehoff">Tasslehoff</a></h3>
-                                    <p class="text-justify">
-                                        Tasslehoff C#'da yazılan bir iş ve zamanlama yöneticisidir. Ayrıca size sisteminizin parçalarını başlatıp durdurabileceğiniz bir servis ağacı oluşturmakta yardımcı
-                                        olur.
-                                    </p>
+                            <li>
+                            <div class="timeline-image">
+                                <img src="assets/images/projects/proj-tasslehoff.png" alt="Tasslehoff"/>
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <a href="https://github.com/larukedi/tasslehoff">Tasslehoff</a>
                                 </div>
+                                <div class="timeline-body text-muted">
+                                     Tasslehoff C#'da yazılan bir iş ve zamanlama yöneticisidir. Ayrıca size sisteminizin parçalarını başlatıp durdurabileceğiniz bir servis ağacı oluşturmakta yardımcı olur.
+                                </div>
+                            </div>
+                            <div class="line">
+                            </div>
                             </li>
-
-                            <li class="media clearfix">
-                                <a class="pull-left" href="https://github.com/larukedi/pm"><img class="media-object thumbnail" src="assets/images/projects/proj-pmtool.png" alt="PM Tool" /></a>
-                                <div class="media-body">
-                                    <h3 class="media-heading"><a href="https://github.com/larukedi/pm">PM Tool</a></h3>
-                                    <p class="text-justify">
-                                        Redmine, ChiliProject, JIRA, Trello, Asana ve diğerleri. Tümü proje yönetimi için oldukça güçlü araçlar. Yine de açık kaynak ve PHP'de kodlanmış
-                                        herhangi bir alternatif bulamadım. Proje şimdilik kullanıcı, gruplar, işler, özel sayfalar içermekte. Yakında MVC frontend uygulamak için zaman kolluyorum.
-                                    </p>
+                            <li class="timeline-inverted">
+                            <div class="timeline-image">
+                                <img src="assets/images/projects/proj-pmtool.png" alt="PM Tool"/>
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <a href="https://github.com/larukedi/pm">PM Tool</a>
                                 </div>
+                                <div class="timeline-body text-muted">
+                                     Redmine, ChiliProject, JIRA, Trello, Asana ve diğerleri. Tümü proje yönetimi için oldukça güçlü araçlar. Yine de açık kaynak ve PHP'de kodlanmış herhangi bir alternatif bulamadım. Proje şimdilik kullanıcı, gruplar, işler, özel sayfalar içermekte. Yakında MVC frontend uygulamak için zaman kolluyorum.
+                                </div>
+                            </div>
+                            <div class="line">
+                            </div>
                             </li>
-
-                            <li class="media clearfix">
-                                <a class="pull-left" href="https://github.com/larukedi/survey"><img class="media-object thumbnail" src="assets/images/projects/proj-survey.png" alt="Survey Tool" /></a>
-                                <div class="media-body">
-                                    <h3 class="media-heading"><a href="https://github.com/larukedi/survey">Survey Tool</a></h3>
-                                    <p class="text-justify">
-                                        Bu proje lisans eğitimim için bitirme projemdi. Surveymonkey-gibi sitelerin fonksiyonel bir klonu olarak tasarlandı. Bu da bu projeyle kolayca anketler
-                                        oluşturabileceğiniz ve bunları online dağıtacağınız anlamına geliyor.
-                                    </p>
+                            <li>
+                            <div class="timeline-image">
+                                <img src="assets/images/projects/proj-survey.png" alt="Survey Tool"/>
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <a href="https://github.com/larukedi/survey">Survey Tool</a>
                                 </div>
+                                <div class="timeline-body text-muted">
+                                     Bu proje lisans eğitimim için bitirme projemdi. Surveymonkey-gibi sitelerin fonksiyonel bir klonu olarak tasarlandı. Bu da bu projeyle kolayca anketler oluşturabileceğiniz ve bunları online dağıtacağınız anlamına geliyor.
+                                </div>
+                            </div>
+                            <div class="line">
+                            </div>
                             </li>
-
-                            <li class="media clearfix">
-                                <a class="pull-left" href="https://github.com/larukedi/ioq3"><img class="media-object thumbnail" src="assets/images/projects/proj-q3now.png" alt="q3now" /></a>
-                                <div class="media-body">
-                                    <h3 class="media-heading"><a href="https://github.com/larukedi/ioq3">q3now</a></h3>
-                                    <p class="text-justify">
-                                        q3now pro mode fizikleri, yeni can ve zırh sistemi, yeni silah dengeleri, duvardan zıplamalar ve oyun modlarıyla açık kaynak Quake 3 Modifikasyon projesidir.
-                                    </p>
+                            <li class="timeline-inverted">
+                            <div class="timeline-image">
+                                <img src="assets/images/projects/proj-q3now.png" alt="q3now"/>
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <a href="https://github.com/larukedi/ioq3">q3now</a>
                                 </div>
+                                <div class="timeline-body text-muted">
+                                     q3now pro mode fizikleri, yeni can ve zırh sistemi, yeni silah dengeleri, duvardan zıplamalar ve oyun modlarıyla açık kaynak Quake 3 Modifikasyon projesidir.
+                                </div>
+                            </div>
+                            <div class="line">
+                            </div>
                             </li>
-
-                            <li class="media clearfix">
-                                <a class="pull-left" href="https://github.com/larukedi/html5-boilerplate"><img class="media-object thumbnail" src="assets/images/projects/proj-boilerplate.png" alt="HTML5 Boilerplate" /></a>
-                                <div class="media-body">
-                                    <h3 class="media-heading"><a href="https://github.com/larukedi/html5-boilerplate">HTML5 Boilerplate</a></h3>
-                                    <p class="text-justify">
-                                        HTML5 boilerplate hızlı, kuvvetli ve adapte olabilen web uygulamaları ve siteleri geliştirmek için profesyonel bir önyüz şablonudur. Orijinal projeyi özel Bootstrap oluşturma, Font-Awesome,
-                                        laroux.js ve bazı kod kalitesi araçlarını destekleyecek şekilde çatalladım (fork) ve değiştirdim.
-                                    </p>
+                            <li>
+                            <div class="timeline-image">
+                                <img src="assets/images/projects/proj-boilerplate.png" alt="HTML5 Boilerplate"/>
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <a href="https://github.com/larukedi/html5-boilerplate">HTML5 Boilerplate</a>
                                 </div>
+                                <div class="timeline-body text-muted">
+                                     HTML5 boilerplate hızlı, kuvvetli ve adapte olabilen web uygulamaları ve siteleri geliştirmek için profesyonel bir önyüz şablonudur. Orijinal projeyi özel Bootstrap oluşturma, Font-Awesome, laroux.js ve bazı kod kalitesi araçlarını destekleyecek şekilde çatalladım (fork) ve değiştirdim.
+                                </div>
+                            </div>
                             </li>
                         </ul>
-
-                        Yukarıdaki projeler başlatmış olduğum açık kaynak projeler arasından seçilmiştir. Katkıda bulunduğum ve diğer başlattığım projelerim <a href="https://github.com/larukedi">Github profilim</a>de bulunabilir.
                     </div>
+                </div>
+
+                <div class="text-muted margin-top-30px">
+                    Yukarıdaki projeler başlatmış olduğum açık kaynak projeler arasından seçilmiştir. Katkıda bulunduğum ve diğer başlattığım projelerim <a href="https://github.com/larukedi">Github profilim</a>de bulunabilir.
                 </div>
             </div>
         </section>
@@ -254,7 +283,7 @@
                                     <?php echo $post['summary']; ?>
                                     <a href="<?php echo $post['link']; ?>" class="nowrap">devamını oku</a>
                                 </p>
-                                <div class="line"></div>
+                                <div class="xline"></div>
                             <?php } ?>
                             </div>
                         </div>
